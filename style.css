@@ -1,0 +1,118 @@
+:root {
+  --bg: #faf8f4;
+  --surface: #ffffff;
+  --text: #1f2328;
+  --muted: #6b7280;
+  --line: #e5e1d8;
+  --accent: #1d4ed8;
+  --mark: #fff3bf;
+  --mark-line: #e0a800;
+  --lv-mid: #1d4ed8;
+  --lv-mid-bg: #e0e9ff;
+  --lv-high: #b45309;
+  --lv-high-bg: #fdecd2;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --surface: #1e2125;
+    --text: #e6e6e3;
+    --muted: #9aa0a6;
+    --line: #30343a;
+    --accent: #8ab4f8;
+    --mark: #4a3f12;
+    --mark-line: #d6a51c;
+    --lv-mid: #a9c4ff;
+    --lv-mid-bg: #1f2c4d;
+    --lv-high: #f5c07a;
+    --lv-high-bg: #45300f;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+
+.wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 64px; }
+
+.topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 14px; color: var(--muted); margin-bottom: 28px;
+}
+.topbar a { text-decoration: none; font-weight: 600; }
+
+.badge {
+  display: inline-block; padding: 2px 10px; border-radius: 999px;
+  font-size: 13px; font-weight: 600; white-space: nowrap;
+}
+.badge.mid { color: var(--lv-mid); background: var(--lv-mid-bg); }
+.badge.high { color: var(--lv-high); background: var(--lv-high-bg); }
+
+/* Article page */
+.meta { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; font-size: 14px; color: var(--muted); }
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px, 6vw, 36px); line-height: 1.25; margin: 14px 0 24px;
+  text-wrap: balance;
+}
+.body p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px; line-height: 1.8; margin: 0 0 1.2em;
+}
+.vw {
+  font: inherit; color: inherit; background: var(--mark);
+  border: 0; border-bottom: 2px solid var(--mark-line);
+  padding: 0 2px; margin: 0; border-radius: 3px 3px 0 0; cursor: pointer;
+}
+.vw:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hint { font-size: 14px; color: var(--muted); margin: -8px 0 24px; }
+
+.pop {
+  position: absolute; z-index: 10; max-width: min(300px, calc(100vw - 32px));
+  background: var(--text); color: var(--bg);
+  padding: 8px 12px; border-radius: 8px; font-size: 16px; line-height: 1.4;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.pop[hidden] { display: none; }
+.pop .w { font-weight: 700; }
+.pop .p { opacity: 0.7; font-size: 14px; margin-left: 4px; }
+.pop .z { display: block; margin-top: 2px; }
+
+.sources { font-size: 14px; color: var(--muted); margin: 28px 0; padding-top: 16px; border-top: 1px solid var(--line); }
+
+h2 { font-size: 20px; margin: 40px 0 12px; }
+.vocab { list-style: none; margin: 0; padding: 0; }
+.vocab li {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: 12px 14px; margin-bottom: 10px;
+}
+.vocab .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.vocab .w { font-size: 18px; font-weight: 700; }
+.vocab .p { color: var(--muted); font-size: 14px; }
+.vocab .z { font-size: 17px; }
+.vocab .e { margin: 6px 0 0; color: var(--muted); font-size: 15px; font-style: italic; }
+
+.pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 40px; font-size: 15px; }
+.pager a { text-decoration: none; font-weight: 600; }
+
+/* Home page */
+.site-title { font-family: Georgia, serif; font-size: 30px; margin: 0 0 4px; }
+.site-sub { color: var(--muted); margin: 0 0 32px; }
+.day { margin-bottom: 32px; }
+.day h2 { font-size: 15px; color: var(--muted); font-weight: 600; margin: 0 0 10px; letter-spacing: 0.02em; }
+.card {
+  display: block; text-decoration: none; color: var(--text);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 12px; padding: 14px 16px; margin-bottom: 10px;
+}
+.card:hover { border-color: var(--accent); }
+.card .t { display: block; font-family: Georgia, serif; font-size: 19px; line-height: 1.35; margin-top: 8px; }
+.card .c { font-size: 13px; color: var(--muted); margin-left: 8px; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
