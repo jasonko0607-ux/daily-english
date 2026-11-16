@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "date": "2026-11-17",
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "International",
+        "title": "Nvidia Chief Jensen Huang Resigns Amid Scandal"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Taiwan",
+        "title": "Taiwan's New Bullet Train Passes First Speed Test"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Business",
+        "title": "Taiwan's Investment Flows Hit Record Highs as Chipmakers Look Abroad"
+      }
+    ]
+  }
+]

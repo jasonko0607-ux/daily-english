@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-17",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "story_date": "2026-11-16",
+      "title": "Nvidia Chief Jensen Huang Resigns Amid Scandal",
+      "paragraphs": [
+        "Jensen Huang, who built Nvidia into one of the world's most valuable technology companies, resigned as its chief executive on November 12. He also left his jobs as president and as a member of the board. The company said its chief financial officer, Colette Kress, will serve as interim CEO while the board searches for a permanent leader.",
+        "The resignation followed reports that Mr. Huang had extramarital affairs. According to the reports, one of them involved a woman suspected of working for Chinese intelligence. The board announced an investigation into whether he had been targeted by a foreign spy effort. Mr. Huang has also been summoned to testify before a United States Senate committee in December, because lawmakers are worried about national security.",
+        "The news quickly reached markets around the world. On Monday, Taiwan's central bank governor, Yang Chin-long, told lawmakers that the departure would bring \"short-term turbulence\" to Taiwanese companies that supply AI equipment to Nvidia, AMD and Google. However, he said he was confident that Taiwan would keep its important place in the global AI supply chain. He added that uncertainty would continue until Nvidia names a new chief executive.",
+        "Not everyone accepted the change. A campaign called \"Stand with Jensen\" has asked the company to bring him back. Reports cited by the governor say it lists more than 5,600 current employees and more than 58,000 shareholders. Nvidia is also due to report its quarterly results on November 17, and investors will be watching for signs of how the company plans to move forward without its leader.",
+        "The case shows how closely technology, politics and security are now connected. When a company sits at the center of the AI industry, one person's private life can quickly become a matter for governments."
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/business/202611160007"
+        },
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/business/202611130013"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "resign",
+          "pos": "v.",
+          "zh": "辭職",
+          "match": "resigned",
+          "example": "Jensen Huang, who built Nvidia into one of the world's most valuable technology companies, resigned as its chief executive on November 12."
+        },
+        {
+          "word": "interim",
+          "pos": "adj.",
+          "zh": "臨時的；代理的",
+          "match": "interim",
+          "example": "The company said its chief financial officer, Colette Kress, will serve as interim CEO while the board searches for a permanent leader."
+        },
+        {
+          "word": "permanent",
+          "pos": "adj.",
+          "zh": "長期的；正式的",
+          "match": "permanent",
+          "example": "The company said its chief financial officer, Colette Kress, will serve as interim CEO while the board searches for a permanent leader."
+        },
+        {
+          "word": "extramarital",
+          "pos": "adj.",
+          "zh": "婚外的",
+          "match": "extramarital",
+          "example": "Huang had extramarital affairs."
+        },
+        {
+          "word": "suspected",
+          "pos": "adj.",
+          "zh": "涉嫌的",
+          "match": "suspected",
+          "example": "According to the reports, one of them involved a woman suspected of working for Chinese intelligence."
+        },
+        {
+          "word": "intelligence",
+          "pos": "n.",
+          "zh": "情報（機關）",
+          "match": "intelligence",
+          "example": "According to the reports, one of them involved a woman suspected of working for Chinese intelligence."
+        },
+        {
+          "word": "investigation",
+          "pos": "n.",
+          "zh": "調查",
+          "match": "investigation",
+          "example": "The board announced an investigation into whether he had been targeted by a foreign spy effort."
+        },
+        {
+          "word": "testify",
+          "pos": "v.",
+          "zh": "作證",
+          "match": "testify",
+          "example": "Huang has also been summoned to testify before a United States Senate committee in December, because lawmakers are worried about national security."
+        },
+        {
+          "word": "national security",
+          "pos": "phr.",
+          "zh": "國家安全",
+          "match": "national security",
+          "example": "Huang has also been summoned to testify before a United States Senate committee in December, because lawmakers are worried about national security."
+        },
+        {
+          "word": "turbulence",
+          "pos": "n.",
+          "zh": "動盪",
+          "match": "turbulence",
+          "example": "On Monday, Taiwan's central bank governor, Yang Chin-long, told lawmakers that the departure would bring \"short-term turbulence\" to Taiwanese companies that supply AI equipment to Nvidia, AMD and Google."
+        },
+        {
+          "word": "supply chain",
+          "pos": "phr.",
+          "zh": "供應鏈",
+          "match": "supply chain",
+          "example": "However, he said he was confident that Taiwan would keep its important place in the global AI supply chain."
+        },
+        {
+          "word": "uncertainty",
+          "pos": "n.",
+          "zh": "不確定性",
+          "match": "uncertainty",
+          "example": "He added that uncertainty would continue until Nvidia names a new chief executive."
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Taiwan",
+      "story_date": "2026-11-16",
+      "title": "Taiwan's New Bullet Train Passes First Speed Test",
+      "paragraphs": [
+        "Taiwan's high-speed rail company has taken an important step toward adding new trains. Early on Monday, its new N700ST train reached 170 kilometers per hour in the first test on the main line. The test ran between Zuoying and Chiayi stations in southern Taiwan. The company said the train met its testing target and that the project is still on schedule.",
+        "Taiwan High Speed Rail Corp. has ordered 12 N700ST trains from Japan. The first one arrived in Taiwan on August 15 and has been going through safety checks ever since. Before it can carry passengers, the train must pass 69 tests. These cover many systems, including the electrical equipment, brakes, doors, onboard computers, the automatic train control system and air conditioning.",
+        "The company has set a clear timetable for the new fleet. The first three trains are expected to start carrying passengers on July 1, 2027. All 12 trains should be in service by September 2028. When the work is finished, the company's fleet will grow to 46 trains.",
+        "The extra trains should make travel easier for many people. The company says that peak-hour capacity will rise by 25 percent. This matters because the high-speed line is crowded during holidays and rush hours, when many commuters and visitors travel between Taiwan's western cities.",
+        "For now, engineers will keep running tests at higher speeds and checking each system carefully. Passengers will have to wait until next summer, but the first test suggests the plan is moving in the right direction."
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/society/202611160015"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "high-speed rail",
+          "pos": "phr.",
+          "zh": "高速鐵路",
+          "match": "high-speed rail",
+          "example": "Taiwan's high-speed rail company has taken an important step toward adding new trains."
+        },
+        {
+          "word": "main line",
+          "pos": "phr.",
+          "zh": "幹線",
+          "match": "main line",
+          "example": "Early on Monday, its new N700ST train reached 170 kilometers per hour in the first test on the main line."
+        },
+        {
+          "word": "on schedule",
+          "pos": "phr.",
+          "zh": "按照時程",
+          "match": "on schedule",
+          "example": "The company said the train met its testing target and that the project is still on schedule."
+        },
+        {
+          "word": "fleet",
+          "pos": "n.",
+          "zh": "車隊；全部車輛",
+          "match": "fleet",
+          "example": "The company has set a clear timetable for the new fleet."
+        },
+        {
+          "word": "safety check",
+          "pos": "phr.",
+          "zh": "安全檢查",
+          "match": "safety checks",
+          "example": "The first one arrived in Taiwan on August 15 and has been going through safety checks ever since."
+        },
+        {
+          "word": "equipment",
+          "pos": "n.",
+          "zh": "設備",
+          "match": "equipment",
+          "example": "These cover many systems, including the electrical equipment, brakes, doors, onboard computers, the automatic train control system and air conditioning."
+        },
+        {
+          "word": "timetable",
+          "pos": "n.",
+          "zh": "時間表",
+          "match": "timetable",
+          "example": "The company has set a clear timetable for the new fleet."
+        },
+        {
+          "word": "in service",
+          "pos": "phr.",
+          "zh": "營運中；服役中",
+          "match": "in service",
+          "example": "All 12 trains should be in service by September 2028."
+        },
+        {
+          "word": "capacity",
+          "pos": "n.",
+          "zh": "運量；容納量",
+          "match": "capacity",
+          "example": "The company says that peak-hour capacity will rise by 25 percent."
+        },
+        {
+          "word": "commuter",
+          "pos": "n.",
+          "zh": "通勤者",
+          "match": "commuters",
+          "example": "This matters because the high-speed line is crowded during holidays and rush hours, when many commuters and visitors travel between Taiwan's western cities."
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Business",
+      "story_date": "2026-11-16",
+      "title": "Taiwan's Investment Flows Hit Record Highs as Chipmakers Look Abroad",
+      "paragraphs": [
+        "Taiwan's approved foreign direct investment has surpassed US$20 billion for the first time in a January-to-October period, according to the Ministry of Economic Affairs. The total reached US$20.899 billion across 1,878 applications, an increase of 127.5 percent from a year earlier. The ministry attributed much of the surge to a single, outsized approval: US$9.449 billion for Micron Technology's Taiwanese subsidiary.",
+        "Other sizeable commitments came from the energy sector, where Denmark's Orsted was cleared to put US$1.248 billion into its Greater Changhua holding company, and a Dutch-registered vehicle was approved to channel US$1.054 billion into green energy. Singapore was the largest source of inbound capital, accounting for 51.71 percent of the total, followed by the United Kingdom at 9.12 percent.",
+        "The outward flow was more striking still. Approved outbound investment more than doubled, to US$69.916 billion across 612 applications, a rise of 105.14 percent. TSMC was the principal driver, with US$30 billion earmarked for its global financial-investment arm and a further US$20 billion for TSMC Arizona, which operates its American wafer fabrication plants. Nanya Technology and GlobalWafers also secured approval for additional overseas funding.",
+        "Meanwhile, cross-strait capital continued to dwindle. Taiwanese investment in China fell 20.04 percent to US$786 million, with wholesale and retail and electronic components attracting the largest shares. Chinese investment in Taiwan plummeted 91.63 percent to a mere US$8.564 million, and no applications were approved in October.",
+        "Taken together, the figures paint a picture of an economy whose leading firms are expanding aggressively abroad while still drawing substantial capital at home. Whether that balance proves sustainable will depend on how well Taiwan keeps its manufacturing ecosystem competitive as its flagship companies spread their bets across continents."
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/business/202611160021"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "foreign direct investment",
+          "pos": "phr.",
+          "zh": "外國直接投資",
+          "match": "foreign direct investment",
+          "example": "Taiwan's approved foreign direct investment has surpassed US$20 billion for the first time in a January-to-October period, according to the Ministry of Economic Affairs."
+        },
+        {
+          "word": "surpass",
+          "pos": "v.",
+          "zh": "超越",
+          "match": "surpassed",
+          "example": "Taiwan's approved foreign direct investment has surpassed US$20 billion for the first time in a January-to-October period, according to the Ministry of Economic Affairs."
+        },
+        {
+          "word": "attribute to",
+          "pos": "phr.",
+          "zh": "歸因於",
+          "match": "attributed",
+          "example": "The ministry attributed much of the surge to a single, outsized approval: US$9.449 billion for Micron Technology's Taiwanese subsidiary."
+        },
+        {
+          "word": "outsized",
+          "pos": "adj.",
+          "zh": "超大的；異常大的",
+          "match": "outsized",
+          "example": "The ministry attributed much of the surge to a single, outsized approval: US$9.449 billion for Micron Technology's Taiwanese subsidiary."
+        },
+        {
+          "word": "sizeable",
+          "pos": "adj.",
+          "zh": "相當大的",
+          "match": "sizeable",
+          "example": "Other sizeable commitments came from the energy sector, where Denmark's Orsted was cleared to put US$1.248 billion into its Greater Changhua holding company, and a Dutch-registered vehicle was approved to channel US$1.054 billion into green energy."
+        },
+        {
+          "word": "inbound",
+          "pos": "adj.",
+          "zh": "流入的",
+          "match": "inbound",
+          "example": "Singapore was the largest source of inbound capital, accounting for 51.71 percent of the total, followed by the United Kingdom at 9.12 percent."
+        },
+        {
+          "word": "principal",
+          "pos": "adj.",
+          "zh": "主要的",
+          "match": "principal",
+          "example": "TSMC was the principal driver, with US$30 billion earmarked for its global financial-investment arm and a further US$20 billion for TSMC Arizona, which operates its American wafer fabrication plants."
+        },
+        {
+          "word": "earmark",
+          "pos": "v.",
+          "zh": "指定用途；預留",
+          "match": "earmarked",
+          "example": "TSMC was the principal driver, with US$30 billion earmarked for its global financial-investment arm and a further US$20 billion for TSMC Arizona, which operates its American wafer fabrication plants."
+        },
+        {
+          "word": "dwindle",
+          "pos": "v.",
+          "zh": "逐漸減少",
+          "match": "dwindle",
+          "example": "Meanwhile, cross-strait capital continued to dwindle."
+        },
+        {
+          "word": "plummet",
+          "pos": "v.",
+          "zh": "驟降",
+          "match": "plummeted",
+          "example": "Chinese investment in Taiwan plummeted 91.63 percent to a mere US$8.564 million, and no applications were approved in October."
+        },
+        {
+          "word": "flagship",
+          "pos": "adj.",
+          "zh": "旗艦的；龍頭的",
+          "match": "flagship",
+          "example": "Whether that balance proves sustainable will depend on how well Taiwan keeps its manufacturing ecosystem competitive as its flagship companies spread their bets across continents."
+        },
+        {
+          "word": "spread one's bets",
+          "pos": "phr.",
+          "zh": "分散押注；分散風險",
+          "match": "spread their bets",
+          "example": "Whether that balance proves sustainable will depend on how well Taiwan keeps its manufacturing ecosystem competitive as its flagship companies spread their bets across continents."
+        }
+      ]
+    }
+  ]
+}
