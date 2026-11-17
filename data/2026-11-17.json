@@ -5,97 +5,96 @@
       "level": "600–800",
       "category": "International",
       "story_date": "2026-11-16",
-      "title": "Estonia to Close Russian Border Crossings After Arson Attack",
+      "title": "Xi, Trump and Putin to Meet in Shenzhen",
       "paragraphs": [
-        "Estonia plans to close its road border crossings with Russia from December 1, after accusing Moscow of ordering an arson attack on a local drone maker. Foreign Minister Margus Tsahkna said on Sunday that Russia's military intelligence service, the GRU, was behind the fire at Threod Systems, which was started in the early hours of Saturday.",
-        "Authorities said the attack did not cause serious damage, and eight people have been detained. Estonia shares a border of 294 kilometers with Russia. Mr. Tsahkna argued that closing the crossings would reduce Moscow's ability to carry out hostile activities and make it harder to get around sanctions. He said he had already told his counterparts in Finland, Lithuania and Latvia about the decision.",
-        "Prime Minister Kristen Michal described the incident as part of a wider \"hybrid war\" against Europe and said his country would not be intimidated. Russia's foreign ministry said it would study the plan and called a closure aggressive \"Russophobia,\" but it did not respond directly to the accusation. Kremlin spokesman Dmitry Peskov said Estonia was building walls, and that walls have rarely helped the people who build them.",
-        "The case follows a pattern. Estonia has repeatedly warned of sabotage against NATO members that support Ukraine since Russia launched its full-scale invasion in February 2022. In mid-August, another arson attack hit Milrem Robotics, a defense company that supplies Ukraine with unmanned military vehicles. Estonian officials blamed Russia, which denied it. In September, Danish intelligence also warned of a low but growing risk of isolated strikes on infrastructure that is important to Ukraine's defense.",
-        "Hybrid war is a term for a mix of tactics, such as cyberattacks, sabotage and disinformation, that stay below the level of open warfare."
+        "China said on Monday that President Xi Jinping will meet Russian President Vladimir Putin and U.S. President Donald Trump in the southern city of Shenzhen on Thursday. If it goes ahead, it will be the first time the three leaders have ever sat down together. The meeting will take place on the edge of the APEC summit, a yearly gathering of leaders from Asia-Pacific economies.",
+        "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine. Moscow and the White House had already announced the meeting before Beijing confirmed it. Mr. Xi has met Mr. Trump three times since October 2025, and he has met Mr. Putin more than 40 times since he became president in 2013.",
+        "The agenda is still unclear. China did not say what will be discussed. The White House says Mr. Trump wants to talk about reducing nuclear weapons around the world and about the war involving the United States, Israel and Iran. It does not expect him to raise Ukraine, although Russia wants that topic to be a priority. Trade is also likely to come up, because a truce between Washington and Beijing will expire in January. Many analysts expect it to be extended.",
+        "Experts are cautious about what the summit can achieve. One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely. Another called the event almost entirely a photo opportunity that raises China's standing. Others noted that simply bringing the two rivals to the table gives Mr. Xi a political benefit, whatever the final result."
       ],
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html"
+          "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
         }
       ],
       "vocab": [
         {
-          "word": "arson",
-          "pos": "n.",
-          "zh": "縱火",
-          "match": "arson",
-          "example": "Estonia plans to close its road border crossings with Russia from December 1, after accusing Moscow of ordering an arson attack on a local drone maker."
-        },
-        {
-          "word": "hostile",
-          "pos": "adj.",
-          "zh": "敵對的",
-          "match": "hostile",
-          "example": "Mr. Tsahkna argued that closing the crossings would reduce Moscow's ability to carry out hostile activities and make it harder to get around sanctions."
-        },
-        {
-          "word": "get around",
+          "word": "on the edge of",
           "pos": "phr.",
-          "zh": "規避；繞過",
-          "match": "get around",
-          "example": "Mr. Tsahkna argued that closing the crossings would reduce Moscow's ability to carry out hostile activities and make it harder to get around sanctions."
+          "zh": "在……的場邊／順道舉行",
+          "match": "on the edge of",
+          "example": "The meeting will take place on the edge of the APEC summit, a yearly gathering of leaders from Asia-Pacific economies."
         },
         {
-          "word": "counterpart",
-          "pos": "n.",
-          "zh": "(職位相當的)對口人士",
-          "match": "counterparts",
-          "example": "He said he had already told his counterparts in Finland, Lithuania and Latvia about the decision."
-        },
-        {
-          "word": "hybrid war",
-          "pos": "phr.",
-          "zh": "混合戰爭",
-          "match": "hybrid war",
-          "example": "Prime Minister Kristen Michal described the incident as part of a wider \"hybrid war\" against Europe and said his country would not be intimidated."
-        },
-        {
-          "word": "intimidate",
+          "word": "propose",
           "pos": "v.",
-          "zh": "恐嚇；威嚇",
-          "match": "intimidated",
-          "example": "Prime Minister Kristen Michal described the incident as part of a wider \"hybrid war\" against Europe and said his country would not be intimidated."
+          "zh": "提議",
+          "match": "proposed",
+          "example": "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine."
         },
         {
-          "word": "sabotage",
+          "word": "three-way",
+          "pos": "adj.",
+          "zh": "三方的",
+          "match": "three-way",
+          "example": "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine."
+        },
+        {
+          "word": "agenda",
           "pos": "n.",
-          "zh": "破壞活動",
-          "match": "sabotage",
-          "example": "Estonia has repeatedly warned of sabotage against NATO members that support Ukraine since Russia launched its full-scale invasion in February 2022."
+          "zh": "議程",
+          "match": "agenda",
+          "example": "The agenda is still unclear."
         },
         {
-          "word": "full-scale",
-          "pos": "adj.",
-          "zh": "全面的",
-          "match": "full-scale",
-          "example": "Estonia has repeatedly warned of sabotage against NATO members that support Ukraine since Russia launched its full-scale invasion in February 2022."
+          "word": "priority",
+          "pos": "n.",
+          "zh": "優先事項",
+          "match": "priority",
+          "example": "It does not expect him to raise Ukraine, although Russia wants that topic to be a priority."
         },
         {
-          "word": "unmanned",
-          "pos": "adj.",
-          "zh": "無人的",
-          "match": "unmanned",
-          "example": "In mid-August, another arson attack hit Milrem Robotics, a defense company that supplies Ukraine with unmanned military vehicles."
+          "word": "truce",
+          "pos": "n.",
+          "zh": "休戰；停火協議",
+          "match": "truce",
+          "example": "Trade is also likely to come up, because a truce between Washington and Beijing will expire in January."
         },
         {
-          "word": "deny",
+          "word": "expire",
           "pos": "v.",
-          "zh": "否認",
-          "match": "denied",
-          "example": "Estonian officials blamed Russia, which denied it."
+          "zh": "到期",
+          "match": "expire",
+          "example": "Trade is also likely to come up, because a truce between Washington and Beijing will expire in January."
         },
         {
-          "word": "infrastructure",
+          "word": "extend",
+          "pos": "v.",
+          "zh": "延長",
+          "match": "extended",
+          "example": "Many analysts expect it to be extended."
+        },
+        {
+          "word": "obstacle",
           "pos": "n.",
-          "zh": "基礎設施",
-          "match": "infrastructure",
-          "example": "In September, Danish intelligence also warned of a low but growing risk of isolated strikes on infrastructure that is important to Ukraine's defense."
+          "zh": "障礙",
+          "match": "obstacle",
+          "example": "One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely."
+        },
+        {
+          "word": "sanction",
+          "pos": "n.",
+          "zh": "制裁",
+          "match": "sanctions",
+          "example": "One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely."
+        },
+        {
+          "word": "standing",
+          "pos": "n.",
+          "zh": "地位；聲望",
+          "match": "standing",
+          "example": "Another called the event almost entirely a photo opportunity that raises China's standing."
         }
       ]
     },
@@ -103,208 +102,197 @@
       "level": "600–800",
       "category": "Business",
       "story_date": "2026-11-16",
-      "title": "China's Economy Loses Momentum as Exports Boom",
+      "title": "Taiwan's Foreign Investment Hits a Record High",
       "paragraphs": [
-        "China's economy lost more momentum in October, according to official data released on Monday. Retail sales rose just 0.4 percent from a year earlier, below the 0.8 percent that economists had expected and down from 1.1 percent in September. Industrial output grew 4.8 percent, also short of the forecast of 5.3 percent.",
-        "The weakest figure was investment, which fell 8.1 percent in the first ten months of the year. Analysts had predicted a decline of 7 percent. Here, investment means spending on property and infrastructure, such as housing and roads. The property downturn, now in its fifth year, has reduced household wealth and made many families cautious about spending. The unemployment rate eased to 5.1 percent, but joblessness among young people, excluding students, was close to a one-year high at 18 percent in September.",
-        "Consumer prices rose only 0.7 percent in October, a slower pace than in the previous month. By contrast, exports jumped 35.2 percent, helped by strong global demand for equipment and technology linked to artificial intelligence. China is on course to beat last year's record trade surplus of 1.2 trillion dollars, having passed 1 trillion dollars by October, the fastest it has ever done so.",
-        "Analysts say this uneven growth leaves the economy exposed to shocks from abroad. Goldman Sachs expects growth of 4.6 percent this year and 4.5 percent in 2027, citing weak domestic demand. Citi Research warned that new trade restrictions from the European Union are a major risk for exports next year, and said Beijing may offer practical concessions. Third-quarter growth was 4.5 percent, a rebound from three-year lows, but the latest figures suggest that the recovery depends heavily on customers overseas."
+        "Taiwan approved a record amount of foreign direct investment in the first ten months of this year. According to the Ministry of Economic Affairs, the total reached US$20.899 billion between January and October, the first time the figure has passed US$20 billion for that period. It covers 1,878 applications and is 127.5 percent higher than a year earlier.",
+        "Much of the increase came from one company. The U.S. memory chipmaker Micron Technology was approved to invest US$9.449 billion in its Taiwanese subsidiary. Other large projects include US$1.248 billion from Denmark's Orsted and US$1.054 billion for a green energy company based in the Netherlands. By source, Singapore was the biggest investor, with 51.71 percent of the total, followed by the United Kingdom with 9.12 percent.",
+        "Money is also flowing out of Taiwan at a fast pace. Approved outbound investment totaled US$69.916 billion across 612 applications, more than double last year's level. TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments. Nanya Technology and GlobalWafers also received approval for overseas spending.",
+        "Investment in China moved in the opposite direction. Taiwanese projects approved for China totaled only US$786 million, down 20.04 percent from a year earlier. Chinese investment in Taiwan was even smaller, at US$8.564 million, a fall of more than 91 percent. The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
       ],
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/business/202611160021"
         }
       ],
       "vocab": [
         {
-          "word": "momentum",
-          "pos": "n.",
-          "zh": "動能；氣勢",
-          "match": "momentum",
-          "example": "China's economy lost more momentum in October, according to official data released on Monday."
+          "word": "foreign direct investment",
+          "pos": "phr.",
+          "zh": "外商直接投資",
+          "match": "foreign direct investment",
+          "example": "Taiwan approved a record amount of foreign direct investment in the first ten months of this year."
         },
         {
-          "word": "forecast",
-          "pos": "n.",
-          "zh": "預測",
-          "match": "forecast",
-          "example": "Industrial output grew 4.8 percent, also short of the forecast of 5.3 percent."
+          "word": "approve",
+          "pos": "v.",
+          "zh": "核准",
+          "match": "approved",
+          "example": "Taiwan approved a record amount of foreign direct investment in the first ten months of this year."
         },
         {
-          "word": "downturn",
+          "word": "subsidiary",
           "pos": "n.",
-          "zh": "衰退；低迷",
-          "match": "downturn",
-          "example": "The property downturn, now in its fifth year, has reduced household wealth and made many families cautious about spending."
+          "zh": "子公司",
+          "match": "subsidiary",
+          "example": "The U.S. memory chipmaker Micron Technology was approved to invest US$9.449 billion in its Taiwanese subsidiary."
         },
         {
-          "word": "household",
+          "word": "outbound",
           "pos": "adj.",
-          "zh": "家庭的",
-          "match": "household",
-          "example": "The property downturn, now in its fifth year, has reduced household wealth and made many families cautious about spending."
+          "zh": "對外的；出境的",
+          "match": "outbound",
+          "example": "Approved outbound investment totaled US$69.916 billion across 612 applications, more than double last year's level."
         },
         {
-          "word": "cautious",
+          "word": "account for",
+          "pos": "phr.",
+          "zh": "佔（比例）",
+          "match": "accounted for",
+          "example": "TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments."
+        },
+        {
+          "word": "contract chipmaker",
+          "pos": "phr.",
+          "zh": "晶圓代工廠",
+          "match": "contract chipmaker",
+          "example": "TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments."
+        },
+        {
+          "word": "overseas",
           "pos": "adj.",
-          "zh": "謹慎的",
-          "match": "cautious",
-          "example": "The property downturn, now in its fifth year, has reduced household wealth and made many families cautious about spending."
+          "zh": "海外的",
+          "match": "overseas",
+          "example": "Nanya Technology and GlobalWafers also received approval for overseas spending."
         },
         {
-          "word": "by contrast",
-          "pos": "phr.",
-          "zh": "相比之下",
-          "match": "By contrast",
-          "example": "By contrast, exports jumped 35.2 percent, helped by strong global demand for equipment and technology linked to artificial intelligence."
+          "word": "opposite",
+          "pos": "adj.",
+          "zh": "相反的",
+          "match": "opposite",
+          "example": "Investment in China moved in the opposite direction."
         },
         {
-          "word": "on course to",
-          "pos": "phr.",
-          "zh": "有望；正朝…邁進",
-          "match": "on course to",
-          "example": "China is on course to beat last year's record trade surplus of 1.2 trillion dollars, having passed 1 trillion dollars by October, the fastest it has ever done so."
+          "word": "attractive",
+          "pos": "adj.",
+          "zh": "有吸引力的",
+          "match": "attractive",
+          "example": "The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
         },
         {
-          "word": "surplus",
+          "word": "capacity",
           "pos": "n.",
-          "zh": "順差；盈餘",
-          "match": "surplus",
-          "example": "China is on course to beat last year's record trade surplus of 1.2 trillion dollars, having passed 1 trillion dollars by October, the fastest it has ever done so."
-        },
-        {
-          "word": "exposed to",
-          "pos": "phr.",
-          "zh": "暴露於；易受…影響",
-          "match": "exposed to",
-          "example": "Analysts say this uneven growth leaves the economy exposed to shocks from abroad."
-        },
-        {
-          "word": "restriction",
-          "pos": "n.",
-          "zh": "限制",
-          "match": "restrictions",
-          "example": "Citi Research warned that new trade restrictions from the European Union are a major risk for exports next year, and said Beijing may offer practical concessions."
-        },
-        {
-          "word": "concession",
-          "pos": "n.",
-          "zh": "讓步",
-          "match": "concessions",
-          "example": "Citi Research warned that new trade restrictions from the European Union are a major risk for exports next year, and said Beijing may offer practical concessions."
-        },
-        {
-          "word": "rebound",
-          "pos": "n.",
-          "zh": "反彈",
-          "match": "rebound",
-          "example": "Third-quarter growth was 4.5 percent, a rebound from three-year lows, but the latest figures suggest that the recovery depends heavily on customers overseas."
+          "zh": "產能",
+          "match": "capacity",
+          "example": "The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
         }
       ]
     },
     {
       "level": "800+",
       "category": "Technology",
-      "story_date": "2026-11-11",
-      "title": "Taiwan Slips to 13th in Global Digital and AI Ranking",
+      "story_date": "2026-11-16",
+      "title": "Nvidia Leadership Crisis Splits Silicon Valley",
       "paragraphs": [
-        "Taiwan slipped one place to 13th out of 70 economies in the World Digital and AI Ranking 2026, published on November 11 by the Switzerland-based institute IMD. With a score of 92.44, the island trailed Hong Kong and Ireland, while the United States, Singapore and the Netherlands led the table. Taiwan had placed 12th in the previous edition.",
-        "The comparison with earlier editions should be treated with caution, since IMD rebuilt its methodology this year to gauge how well countries and companies can deploy artificial intelligence productively, govern it responsibly and earn public trust. The exercise draws on five factors, 15 sub-factors and 88 indicators.",
-        "Taiwan's profile is strikingly uneven. It ranked eighth for technology and infrastructure, sixth for efficiency and tenth for values, buoyed by first place in the market capitalization of IT and media stocks and second place in total research spending. Its companies also won plaudits for their agility and for their grasp of AI-related cybersecurity risks. Workforce development was a middling 16th, although Taiwan placed second for education and training.",
-        "Governance proved the Achilles' heel. Taiwan came 28th in that category and a dismal 62nd on the core government index, which measures public leadership. It also lagged behind its peers in telecommunications investment, at 49th, and in attracting highly skilled foreign personnel, also at 49th, while placing 58th for female researchers.",
-        "The Ministry of Digital Affairs said the report affirmed Taiwan's strengths in digital development, and pledged to bolster cross-agency defenses against AI-related fraud, expand research into software and generative AI, and shore up critical infrastructure and public services. Whether such measures can narrow the gap in governance remains to be seen."
+        "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum. Jensen Huang has stepped down as president, chief executive and board member following reports about his private conduct, including a relationship with a woman suspected of links to Chinese intelligence. Colette Kress, the longtime finance chief, is serving as interim chief executive while the board conducts an independent investigation and searches for a permanent successor.",
+        "Remarkably, a campaign to bring him back has gathered momentum. An online petition calling for his reinstatement and a fair inquiry has attracted nearly 180,000 signatures, and prominent backers include Elon Musk and several Silicon Valley chief executives. The Financial Times reported that Mr. Huang has discussed a comeback with confidants and that allies are assembling a so-called war room to seek White House support. Two prominent investors have likewise urged the board to weigh every option before making a permanent decision.",
+        "Opinion is sharply divided. President Donald Trump said he would not mind Mr. Huang returning, whereas Treasury Secretary Scott Bessent argued that Nvidia must look outside for its next leader, and he questioned whether the company had pursued questionable chip sales to inflate revenue. One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute. Another suggested that a comeback would be good for the share price, provided the board imposed guardrails.",
+        "The stakes extend well beyond one boardroom. American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security. Taiwan's central bank governor predicted only a short-lived disruption for the island's AI suppliers, which depend heavily on Nvidia's orders. Investors will get their first real glimpse of the interim leadership when the company reports quarterly earnings on Tuesday."
       ],
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+        },
+        {
           "name": "Focus Taiwan",
-          "url": "https://focustaiwan.tw/sci-tech/202611160022"
+          "url": "https://focustaiwan.tw/business/202611160007"
         }
       ],
       "vocab": [
         {
-          "word": "gauge",
-          "pos": "v.",
-          "zh": "評估；衡量",
-          "match": "gauge",
-          "example": "The comparison with earlier editions should be treated with caution, since IMD rebuilt its methodology this year to gauge how well countries and companies can deploy artificial intelligence productively, govern it responsibly and earn public trust."
-        },
-        {
-          "word": "deploy",
-          "pos": "v.",
-          "zh": "部署；運用",
-          "match": "deploy",
-          "example": "The comparison with earlier editions should be treated with caution, since IMD rebuilt its methodology this year to gauge how well countries and companies can deploy artificial intelligence productively, govern it responsibly and earn public trust."
-        },
-        {
-          "word": "strikingly",
-          "pos": "adv.",
-          "zh": "顯著地",
-          "match": "strikingly",
-          "example": "Taiwan's profile is strikingly uneven."
-        },
-        {
-          "word": "buoyed by",
+          "word": "grapple with",
           "pos": "phr.",
-          "zh": "受…提振",
-          "match": "buoyed by",
-          "example": "It ranked eighth for technology and infrastructure, sixth for efficiency and tenth for values, buoyed by first place in the market capitalization of IT and media stocks and second place in total research spending."
+          "zh": "努力應付；與……搏鬥",
+          "match": "grappling with",
+          "example": "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum."
         },
         {
-          "word": "plaudits",
+          "word": "vacuum",
           "pos": "n.",
-          "zh": "讚譽",
-          "match": "plaudits",
-          "example": "Its companies also won plaudits for their agility and for their grasp of AI-related cybersecurity risks."
+          "zh": "真空；（權力）空缺",
+          "match": "vacuum",
+          "example": "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum."
         },
         {
-          "word": "middling",
-          "pos": "adj.",
-          "zh": "普通的；中等的",
-          "match": "middling",
-          "example": "Workforce development was a middling 16th, although Taiwan placed second for education and training."
-        },
-        {
-          "word": "Achilles' heel",
+          "word": "step down",
           "pos": "phr.",
-          "zh": "致命弱點",
-          "match": "Achilles' heel",
-          "example": "Governance proved the Achilles' heel."
+          "zh": "卸任；辭職",
+          "match": "stepped down",
+          "example": "Jensen Huang has stepped down as president, chief executive and board member following reports about his private conduct, including a relationship with a woman suspected of links to Chinese intelligence."
         },
         {
-          "word": "dismal",
-          "pos": "adj.",
-          "zh": "糟糕的；慘淡的",
-          "match": "dismal",
-          "example": "Taiwan came 28th in that category and a dismal 62nd on the core government index, which measures public leadership."
+          "word": "successor",
+          "pos": "n.",
+          "zh": "繼任者",
+          "match": "successor",
+          "example": "Colette Kress, the longtime finance chief, is serving as interim chief executive while the board conducts an independent investigation and searches for a permanent successor."
         },
         {
-          "word": "lag behind",
+          "word": "gather momentum",
           "pos": "phr.",
-          "zh": "落後",
-          "match": "lagged behind",
-          "example": "It also lagged behind its peers in telecommunications investment, at 49th, and in attracting highly skilled foreign personnel, also at 49th, while placing 58th for female researchers."
+          "zh": "聲勢漸增",
+          "match": "gathered momentum",
+          "example": "Remarkably, a campaign to bring him back has gathered momentum."
         },
         {
-          "word": "bolster",
+          "word": "reinstatement",
+          "pos": "n.",
+          "zh": "復職",
+          "match": "reinstatement",
+          "example": "An online petition calling for his reinstatement and a fair inquiry has attracted nearly 180,000 signatures, and prominent backers include Elon Musk and several Silicon Valley chief executives."
+        },
+        {
+          "word": "confidant",
+          "pos": "n.",
+          "zh": "知己；心腹",
+          "match": "confidants",
+          "example": "Huang has discussed a comeback with confidants and that allies are assembling a so-called war room to seek White House support."
+        },
+        {
+          "word": "non-starter",
+          "pos": "n.",
+          "zh": "不可行的事；沒有希望的事",
+          "match": "non-starter",
+          "example": "One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute."
+        },
+        {
+          "word": "stem from",
+          "pos": "phr.",
+          "zh": "源於",
+          "match": "stemmed from",
+          "example": "One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute."
+        },
+        {
+          "word": "guardrail",
+          "pos": "n.",
+          "zh": "防護措施；約束機制",
+          "match": "guardrails",
+          "example": "Another suggested that a comeback would be good for the share price, provided the board imposed guardrails."
+        },
+        {
+          "word": "scrutinize",
           "pos": "v.",
-          "zh": "加強；支持",
-          "match": "bolster",
-          "example": "The Ministry of Digital Affairs said the report affirmed Taiwan's strengths in digital development, and pledged to bolster cross-agency defenses against AI-related fraud, expand research into software and generative AI, and shore up critical infrastructure and public services."
+          "zh": "仔細審查",
+          "match": "scrutinize",
+          "example": "American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security."
         },
         {
-          "word": "shore up",
-          "pos": "phr.",
-          "zh": "鞏固；支撐",
-          "match": "shore up",
-          "example": "The Ministry of Digital Affairs said the report affirmed Taiwan's strengths in digital development, and pledged to bolster cross-agency defenses against AI-related fraud, expand research into software and generative AI, and shore up critical infrastructure and public services."
-        },
-        {
-          "word": "remains to be seen",
-          "pos": "phr.",
-          "zh": "仍有待觀察",
-          "match": "remains to be seen",
-          "example": "Whether such measures can narrow the gap in governance remains to be seen."
+          "word": "undermine",
+          "pos": "v.",
+          "zh": "削弱；破壞",
+          "match": "undermined",
+          "example": "American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security."
         }
       ]
     }
