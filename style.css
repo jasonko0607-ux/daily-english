@@ -132,6 +132,7 @@ h1 {
   border-radius: 999px; padding: 2px 10px; cursor: pointer; white-space: nowrap;
 }
 .mini.danger { color: var(--danger); margin-left: 0; }
+a.mini { text-decoration: none; }
 .btn {
   font: inherit; font-size: 15px; font-weight: 600; color: var(--text);
   background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
@@ -212,3 +213,19 @@ h2 { font-size: 20px; margin: 40px 0 12px; }
 .card .t { display: block; font-family: Georgia, serif; font-size: 19px; line-height: 1.35; margin-top: 8px; }
 .card .c { font-size: 13px; color: var(--muted); margin-left: 8px; }
 .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+
+/* Daily review */
+.card.review-card { border-color: var(--rv-line); background: var(--rv); font-weight: 600; }
+.card.review-card .t { font-family: inherit; font-size: 17px; margin-top: 0; }
+a.card.review-card { margin-top: 28px; }
+.day a.card.review-card { margin-top: 0; }
+.vocab.cards .e { font-style: normal; color: var(--text); font-size: 17px; margin-top: 8px; }
+.vocab.cards .e strong { background: var(--rv); border-bottom: 2px solid var(--rv-line); padding: 0 2px; }
+.vocab .back { margin-top: 6px; padding-top: 8px; border-top: 1px dashed var(--line); }
+.vocab .back[hidden] { display: none; }
+.vocab .back p { margin: 0 0 6px; }
+.vocab .back .z { font-size: 18px; font-weight: 600; }
+.vocab .back .e-zh { font-size: 16px; }
+.vocab .back .orig { font-size: 14px; color: var(--muted); }
+.vocab .back .orig a { font-weight: 600; text-decoration: none; }
+.stars { color: var(--mark-line); font-size: 14px; letter-spacing: 1px; }

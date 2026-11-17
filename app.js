@@ -33,6 +33,16 @@ function articleUrl(date, n) {
   return "article.html?d=" + encodeURIComponent(date) + "&n=" + n;
 }
 
+function reviewUrl(date) {
+  return "review.html?d=" + encodeURIComponent(date);
+}
+
+function link(text, href, cls) {
+  const a = el("a", cls, text);
+  a.href = href;
+  return a;
+}
+
 async function loadJson(path) {
   const res = await fetch(path, { cache: "no-cache" });
   if (!res.ok) throw new Error(path + " " + res.status);
@@ -261,6 +271,11 @@ async function renderIndex() {
       const card = el("a", "card");
       card.href = articleUrl(day.date, a.n);
       card.append(badge(a.level), el("span", "c", a.category), el("span", "t", a.title));
+      section.append(card);
+    }
+    if (day.reviews) {
+      const card = link("", reviewUrl(day.date), "card review-card");
+      card.append(el("span", "t", "🔁 今日複習 · " + day.reviews + " 個你標記過的字"));
       section.append(card);
     }
     main.append(section);
@@ -495,6 +510,9 @@ async function renderArticle() {
     }
     parts.push(el("h2", null, "🔁 複習：你標記過的字"), rlist);
   }
+  if ((day.review_cards || []).length) {
+    parts.push(link("🔁 今日複習卡還有 " + day.review_cards.length + " 個字 →", reviewUrl(date), "card review-card"));
+  }
 
   const pager = el("nav", "pager");
   const prev = day.articles[n - 2] ? el("a", null, "← Previous article") : el("span");
@@ -509,12 +527,99 @@ async function renderArticle() {
   setupSelectionMark(ref);
 }
 
+// ---------- Daily review ----------
+
+// Puts `word` in bold inside `sentence` (first match only).
+function emphasize(sentence, word) {
+  const p = el("p", "e");
+  const re = new RegExp("(^|[^A-Za-z])(" + escapeRegExp(word) + ")(?![A-Za-z])", "i");
+  const m = re.exec(sentence);
+  if (!m) {
+    p.textContent = sentence;
+    return p;
+  }
+  const start = m.index + m[1].length;
+  p.append(sentence.slice(0, start), el("strong", null, m[2]), sentence.slice(start + m[2].length));
+  return p;
+}
+
+async function renderReview() {
+  const main = document.getElementById("main");
+  const date = new URLSearchParams(location.search).get("d") || "";
+  if (!/^[\w-]+$/.test(date)) return showError(main, "找不到這一天的複習。");
+  let day;
+  try {
+    day = await loadJson("data/" + date + ".json");
+  } catch (e) {
+    return showError(main, "找不到這一天的複習。");
+  }
+  document.getElementById("date").textContent = day.date;
+  document.title = "Review " + day.date + " · Daily English News";
+
+  const parts = [];
+  const inArticles = [];
+  day.articles.forEach((a, i) => {
+    for (const r of a.review || []) if (r.kind === "review") inArticles.push({ ...r, n: i + 1 });
+  });
+  const cards = day.review_cards || [];
+  if (!inArticles.length && !cards.length) return showError(main, "這一天沒有要複習的字。");
+
+  if (inArticles.length) {
+    parts.push(el("h2", null, "📰 寫進文章裡的（" + inArticles.length + "）"));
+    const list = el("ul", "vocab review");
+    for (const r of inArticles) {
+      const li = document.createElement("li");
+      const head = el("div", "head");
+      head.append(el("span", "w", r.word), el("span", "z", r.zh));
+      head.append(link("第 " + r.n + " 篇 →", articleUrl(day.date, r.n), "mini"));
+      li.append(head);
+      list.append(li);
+    }
+    parts.push(list);
+  }
+
+  if (cards.length) {
+    parts.push(el("h2", null, "🃏 複習卡（" + cards.length + "）"));
+    const list = el("ul", "vocab cards");
+    for (const c of cards) {
+      const li = el("li", "flip");
+      const head = el("div", "head");
+      head.append(el("span", "w", c.word), el("span", "p", c.pos || ""));
+      const back = el("div", "back");
+      back.hidden = true;
+      back.append(el("p", "z", c.zh), el("p", "e-zh", c.example_zh));
+      if (c.context) {
+        const orig = el("p", "orig", "你標記時的句子：" + c.context);
+        const url = wordRefUrl(c.source);
+        if (url) orig.append(" ", link("原文", url));
+        back.append(orig);
+      }
+      const toggle = button("tbtn", "看中文", () => {
+        back.hidden = !back.hidden;
+        toggle.textContent = back.hidden ? "看中文" : "收起";
+        toggle.setAttribute("aria-expanded", String(!back.hidden));
+      });
+      toggle.setAttribute("aria-expanded", "false");
+      li.append(head, emphasize(c.example, c.match || c.word), toggle, back);
+      list.append(li);
+    }
+    parts.push(list);
+  }
+  main.replaceChildren(...parts);
+}
+
 // ---------- My words ----------
 
 function reviewStatus(w) {
   const done = (w.reviews || []).length;
   if (done >= SCHEDULE.length) return "已完成 3 次複習，之後會不定期出現";
-  return "已複習 " + done + "/3 · 下次約 " + addDays(w.marked_at, SCHEDULE[done]);
+  const next = addDays(w.marked_at, SCHEDULE[done]);
+  if (next < studyDay()) return "已複習 " + done + "/3 · 排隊中，近期會排入";
+  return "已複習 " + done + "/3 · 下次約 " + next;
+}
+
+function stars(priority) {
+  return "★★★".slice(0, priority) + "☆☆☆".slice(0, 3 - priority);
 }
 
 function wordRefUrl(ref) {
@@ -569,6 +674,11 @@ async function renderWords() {
       head.append(el("span", "w", w.base || w.word));
       if (w.pos) head.append(el("span", "p", w.pos));
       head.append(el("span", w.zh ? "z" : "z pending", w.zh || "明早補上翻譯"));
+      if (w.priority) {
+        const s = el("span", "stars", stars(w.priority));
+        s.title = "重要度 " + w.priority + "/3（依多益與一般常用程度自動評估）";
+        head.append(s);
+      }
       li.append(head);
       if (w.context) li.append(el("p", "e", w.context));
       const foot = el("div", "word-foot");

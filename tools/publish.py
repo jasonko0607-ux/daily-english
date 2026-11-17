@@ -3,14 +3,18 @@
 Usage: python3 tools/publish.py path/to/day.json
 
 Writes data/<date>.json, updates data/index.json (newest day first) and
-records review-word usage and new translations in data/marked.json.
+records review-word usage (articles and review cards), translations and
+priorities in data/marked.json.
 Exits with an error message if the input does not follow the schema.
 Running it again for the same date replaces that issue cleanly.
 """
 import json
 import re
 import sys
+from datetime import date as Date
 from pathlib import Path
+
+from review import ARTICLE_MAX, plan
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -18,7 +22,7 @@ MARKED = DATA / "marked.json"
 LEVELS = {"600–800", "800+"}
 POS = {"n.", "v.", "adj.", "adv.", "phr."}
 KINDS = {"review", "casual"}
-MAX_REVIEW_PER_DAY = 5
+MAX_REVIEW_PER_ARTICLE = 4
 CJK = re.compile(r"[一-鿿]")
 
 
@@ -48,6 +52,9 @@ def check(day, marked):
         fail("exactly one article must have level '800+'")
 
     ids = {w["id"] for w in marked["words"]}
+    today = plan(Date.fromisoformat(day["date"]), marked["words"])
+    due_ids = [d["id"] for d in today["due"]]
+    casual_ids = {c["id"] for c in today["casual"]}
     used_ids = set()
     review_total = 0
     for i, a in enumerate(articles, 1):
@@ -90,6 +97,8 @@ def check(day, marked):
         review = a.get("review", [])
         if not isinstance(review, list):
             fail(where + "review must be a list")
+        if sum(r.get("kind") == "review" for r in review) > MAX_REVIEW_PER_ARTICLE:
+            fail(where + f"at most {MAX_REVIEW_PER_ARTICLE} review words per article")
         for r in review:
             rid = r.get("id")
             if rid not in ids:
@@ -99,13 +108,41 @@ def check(day, marked):
             used_ids.add(rid)
             if r.get("kind") not in KINDS:
                 fail(where + f"review {rid!r}: kind must be one of {sorted(KINDS)}")
+            if r["kind"] == "review" and rid not in due_ids:
+                fail(where + f"review {rid!r} is not in today's due list (tools/review.py)")
+            if r["kind"] == "casual" and rid not in casual_ids:
+                fail(where + f"casual {rid!r} is not today's casual word (tools/review.py)")
             if not r.get("word") or not r.get("match") or not r.get("zh"):
                 fail(where + f"review {rid!r} needs word, match and zh")
             if not appears(r["match"], text):
                 fail(where + f"review {rid!r}: {r['match']!r} does not appear in the body")
-            review_total += 1
-    if review_total > MAX_REVIEW_PER_DAY:
-        fail(f"{review_total} review words today; the maximum is {MAX_REVIEW_PER_DAY}")
+            review_total += r["kind"] == "review"
+    if review_total > ARTICLE_MAX:
+        fail(f"{review_total} review words in the articles; the maximum is {ARTICLE_MAX}")
+
+    cards = day.get("review_cards", [])
+    if not isinstance(cards, list):
+        fail("review_cards must be a list")
+    for c in cards:
+        cid = c.get("id")
+        where = f"review card {cid!r}: "
+        if cid not in due_ids:
+            fail(where + "is not in today's due list (tools/review.py)")
+        if cid in used_ids:
+            fail(where + "is already used today")
+        used_ids.add(cid)
+        if not c.get("word") or not c.get("zh") or c.get("pos") not in POS:
+            fail(where + f"needs word, zh and pos {sorted(POS)}")
+        example = str(c.get("example", ""))
+        if CJK.search(example) or not re.search(r"[.!?][\"”’)]?$", example.strip()):
+            fail(where + "example must be one complete English sentence")
+        if not appears(c.get("match") or c["word"], example):
+            fail(where + "the word does not appear in the example; set 'match' to the exact form used")
+        if not CJK.search(str(c.get("example_zh", ""))):
+            fail(where + "example_zh must be a Chinese translation of the example")
+    missed = [d["word"] for d in today["due"] if d["id"] not in used_ids]
+    if missed:
+        fail("these due words are neither in an article nor in review_cards: " + ", ".join(missed))
 
     updates = day.get("marked_updates", {})
     if not isinstance(updates, dict):
@@ -113,15 +150,23 @@ def check(day, marked):
     for rid, u in updates.items():
         if rid not in ids:
             fail(f"marked_updates: id {rid!r} is not in data/marked.json")
-        if not CJK.search(str(u.get("zh", ""))):
+        has_zh = any(w["id"] == rid and w.get("zh") for w in marked["words"])
+        if (u.get("zh") or not has_zh) and not CJK.search(str(u.get("zh", ""))):
             fail(f"marked_updates {rid!r}: zh must be a Chinese translation")
         if u.get("pos") and u["pos"] not in POS:
             fail(f"marked_updates {rid!r}: pos must be one of {sorted(POS)}")
+        if "priority" in u and u["priority"] not in (1, 2, 3):
+            fail(f"marked_updates {rid!r}: priority must be 1, 2 or 3")
+
+
+def used_today(day):
+    ids = {r["id"] for a in day["articles"] for r in a.get("review", [])}
+    return ids | {c["id"] for c in day.get("review_cards", [])}
 
 
 def update_marked(day, marked):
     date = day["date"]
-    used = {r["id"] for a in day["articles"] for r in a.get("review", [])}
+    used = used_today(day)
     for w in marked["words"]:
         reviews = [d for d in w.get("reviews", []) if d != date]  # replacing an issue resets that day
         if w["id"] in used:
@@ -129,7 +174,7 @@ def update_marked(day, marked):
         w["reviews"] = sorted(reviews)
         u = day.get("marked_updates", {}).get(w["id"])
         if u:
-            for key in ("zh", "pos", "base"):
+            for key in ("zh", "pos", "base", "priority"):
                 if u.get(key):
                     w[key] = u[key]
 
@@ -143,6 +188,11 @@ def main():
 
     DATA.mkdir(exist_ok=True)
     stored = {k: v for k, v in day.items() if k != "marked_updates"}
+    contexts = {w["id"]: w for w in marked["words"]}
+    for c in stored.get("review_cards", []):
+        w = contexts[c["id"]]
+        c["context"] = w.get("context", "")
+        c["source"] = w.get("article", "")
     (DATA / f"{day['date']}.json").write_text(
         json.dumps(stored, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
@@ -152,6 +202,7 @@ def main():
     index = [d for d in index if d["date"] != day["date"]]
     index.append({
         "date": day["date"],
+        "reviews": len(used_today(day)),
         "articles": [
             {"n": n, "level": a["level"], "category": a["category"], "title": a["title"]}
             for n, a in enumerate(day["articles"], 1)
@@ -163,9 +214,10 @@ def main():
     update_marked(day, marked)
     MARKED.write_text(json.dumps(marked, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    reviews = sum(len(a.get("review", [])) for a in day["articles"])
+    in_articles = sum(len(a.get("review", [])) for a in day["articles"])
     print(f"published {day['date']}: " + " | ".join(a["title"] for a in day["articles"])
-          + f" ({reviews} review words, {len(day.get('marked_updates', {}))} translations added)")
+          + f" ({in_articles} review words in articles, {len(day.get('review_cards', []))} review cards,"
+          + f" {len(day.get('marked_updates', {}))} marked words updated)")
 
 
 if __name__ == "__main__":
