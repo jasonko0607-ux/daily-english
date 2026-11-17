@@ -7,7 +7,9 @@ Prints JSON with:
                 has arrived, most urgent first, at most DAILY_MAX of them.
                 Urgency = priority (1-3, 3 = most important) plus one point
                 for every AGING_DAYS days the review is late, so a minor word
-                that keeps getting postponed still gets its turn.
+                that keeps getting postponed still gets its turn. Words with
+                priority 1 (rare or specialised) are never scheduled; they
+                only stay in the word list.
                 Weave up to ARTICLE_MAX of them into the articles (kind
                 "review"), taking them from the top of the list where they fit
                 naturally; put every other word in this list in review_cards.
@@ -29,6 +31,7 @@ ARTICLE_MAX = 9
 DAILY_MAX = 25
 AGING_DAYS = 3
 DEFAULT_PRIORITY = 2
+MIN_REVIEW_PRIORITY = 2  # priority-1 (rare) words are kept but not reviewed
 
 
 def load_words():
@@ -41,7 +44,9 @@ def plan(today, words):
         # Ignore a use recorded for today, so re-running a day gives the same plan.
         past = sorted(d for d in w.get("reviews", []) if date.fromisoformat(d) < today)
         priority = w.get("priority") or DEFAULT_PRIORITY
-        item = {"id": w["id"], "word": w.get("base") or w["word"], "pos": w.get("pos", ""),
+        if priority < MIN_REVIEW_PRIORITY:
+            continue  # rare words stay in the word list but are never scheduled
+        item ={"id": w["id"], "word": w.get("base") or w["word"], "pos": w.get("pos", ""),
                 "zh": w.get("zh", ""), "context": w.get("context", ""), "priority": priority}
         if len(past) < len(SCHEDULE):
             due_on = date.fromisoformat(w["marked_at"]) + timedelta(days=SCHEDULE[len(past)])

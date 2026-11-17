@@ -612,6 +612,7 @@ async function renderReview() {
 
 function reviewStatus(w) {
   const done = (w.reviews || []).length;
+  if (w.priority === 1) return "較少見的字，只收在單字本，不排入複習";
   if (done >= SCHEDULE.length) return "已完成 3 次複習，之後會不定期出現";
   const next = addDays(w.marked_at, SCHEDULE[done]);
   if (next < studyDay()) return "已複習 " + done + "/3 · 排隊中，近期會排入";
@@ -664,8 +665,10 @@ async function renderWords() {
     const words = (data.words || []).slice().sort((x, y) => (y.marked_at || "").localeCompare(x.marked_at || ""));
     if (!words.length) return showError(main, "還沒有標記任何字。在文章裡長按一個字就能加進來。");
 
-    const learning = words.filter((w) => (w.reviews || []).length < SCHEDULE.length).length;
-    main.replaceChildren(el("p", "summary", "共 " + words.length + " 個字 · 複習中 " + learning + " · 已完成 " + (words.length - learning)));
+    const kept = words.filter((w) => w.priority === 1).length;
+    const learning = words.filter((w) => w.priority !== 1 && (w.reviews || []).length < SCHEDULE.length).length;
+    main.replaceChildren(el("p", "summary", "共 " + words.length + " 個字 · 複習中 " + learning
+      + " · 已完成 " + (words.length - learning - kept) + " · 只收藏 " + kept));
 
     const list = el("ul", "vocab words");
     for (const w of words) {
