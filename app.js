@@ -43,8 +43,11 @@ function showError(main, message) {
   main.replaceChildren(el("p", "empty", message));
 }
 
-function todayTaipei() {
-  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date());
+// A study day runs from one 08:00 push to the next (Taipei time), so a word marked
+// at 01:00 still belongs to the previous day's issue.
+function studyDay() {
+  const shifted = new Date(Date.now() - 8 * 3600 * 1000);
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(shifted);
 }
 
 function addDays(iso, n) {
@@ -221,7 +224,7 @@ async function markWord(text, context, ref) {
         word,
         context,
         article: ref,
-        marked_at: todayTaipei(),
+        marked_at: studyDay(),
         zh: "",
         pos: "",
         reviews: [],
