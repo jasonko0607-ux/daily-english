@@ -356,6 +356,13 @@ function setupPopover(items, ref) {
     const item = items[Number(b.dataset.i)];
     const line = el("div", "pop-line");
     line.append(el("span", "w", item.word), el("span", "p", item.pos || ""));
+    if (tts.supported) {
+      const said = b.textContent;
+      const again = button("pop-say", "🔊", () => speakWord(said));
+      again.setAttribute("aria-label", "再念一次");
+      line.append(again);
+      speakWord(said);
+    }
     pop.replaceChildren(line, el("span", "z", item.zh));
     if (item.review) {
       pop.append(el("span", "pop-note", "🔁 你標記過的字"));
@@ -421,6 +428,291 @@ function setupSelectionMark(ref) {
   });
 }
 
+// ---------- Read aloud (browser speech synthesis) ----------
+//
+// Each paragraph gets a speaker button, a position slider and a speed button.
+// Text is spoken one sentence at a time (Chrome stops long utterances), with an
+// American English voice. The sentence and word being spoken are highlighted
+// with the CSS Custom Highlight API, so the paragraph's DOM is never touched.
+
+const RATE_KEY = "de_tts_rate";
+const RATES = [1, 0.8, 0.6];
+
+const tts = {
+  supported: "speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function",
+  voice: null,
+  rate: 1,
+  gen: 0, // bumped on every stop/start, so events from old utterances are ignored
+  active: null, // the paragraph player that is speaking
+  utter: null, // kept so Chrome doesn't garbage-collect it before onend fires
+  boundaryWorks: false, // set once the voice reports word positions
+  timer: null,
+};
+
+try {
+  const saved = Number(localStorage.getItem(RATE_KEY));
+  if (RATES.includes(saved)) tts.rate = saved;
+} catch (e) {}
+
+function pickVoice() {
+  const voices = speechSynthesis.getVoices();
+  const us = voices.filter((v) => /^en[-_]US$/i.test(v.lang));
+  tts.voice =
+    us.find((v) => /natural|neural|online/i.test(v.name)) ||
+    us.find((v) => /google/i.test(v.name)) ||
+    us.find((v) => /samantha|aria|jenny|ava|allison/i.test(v.name)) ||
+    us.find((v) => v.localService) ||
+    us[0] ||
+    voices.find((v) => /^en/i.test(v.lang)) ||
+    null;
+}
+
+if (tts.supported) {
+  pickVoice();
+  speechSynthesis.addEventListener("voiceschanged", pickVoice);
+  window.addEventListener("pagehide", () => speechSynthesis.cancel());
+}
+
+// Some setups (e.g. Windows with only Chinese voices installed) have no English
+// voice at all; the text would then be read with a Chinese accent.
+let warnedNoVoice = false;
+function warnIfNoVoice() {
+  if (tts.voice || warnedNoVoice || !speechSynthesis.getVoices().length) return;
+  warnedNoVoice = true;
+  toast("這個瀏覽器找不到英文語音，建議改用 Chrome／Edge，或在系統設定安裝英文（美國）語音。");
+}
+
+function makeUtterance(text) {
+  warnIfNoVoice();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US";
+  if (tts.voice) u.voice = tts.voice;
+  u.rate = tts.rate;
+  return u;
+}
+
+// Splits text into sentences as [{start, end}] character offsets.
+function splitSentences(text) {
+  const out = [];
+  const ends = /[.!?]["”’)]?\s+/g;
+  let start = 0;
+  let m;
+  while ((m = ends.exec(text))) {
+    if (ABBREVIATION.test(text.slice(0, m.index))) continue;
+    out.push({ start, end: m.index + m[0].trimEnd().length });
+    start = m.index + m[0].length;
+  }
+  if (start < text.trimEnd().length) out.push({ start, end: text.trimEnd().length });
+  return out;
+}
+
+// Builds a DOM Range covering text offsets [from, to) inside element `root`.
+function rangeFor(root, from, to) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const range = document.createRange();
+  let seen = 0;
+  let started = false;
+  let node;
+  while ((node = walker.nextNode())) {
+    const len = node.data.length;
+    if (!started && from <= seen + len) {
+      range.setStart(node, from - seen);
+      started = true;
+    }
+    if (started && to <= seen + len) {
+      range.setEnd(node, to - seen);
+      return range;
+    }
+    seen += len;
+  }
+  return started ? range : null;
+}
+
+const canHighlight = typeof Highlight === "function" && window.CSS && CSS.highlights;
+
+function highlight(name, root, from, to) {
+  if (!canHighlight) return;
+  const r = root && to > from ? rangeFor(root, from, to) : null;
+  if (r) CSS.highlights.set(name, new Highlight(r));
+  else CSS.highlights.delete(name);
+}
+
+function clearHighlights() {
+  highlight("tts-sentence");
+  highlight("tts-word");
+}
+
+function stopTimer() {
+  clearInterval(tts.timer);
+  tts.timer = null;
+}
+
+// Stops whatever is speaking. The paragraph keeps its position, so pressing its
+// speaker again continues from there.
+function stopSpeaking() {
+  tts.gen++;
+  stopTimer();
+  if (tts.supported) speechSynthesis.cancel();
+  const st = tts.active;
+  tts.active = null;
+  if (st) {
+    st.playing = false;
+    updatePlayer(st);
+    highlight("tts-word");
+  }
+}
+
+function setPos(st, pos) {
+  st.pos = pos;
+  if (!st.dragging) st.range.value = String(pos);
+}
+
+function updatePlayer(st) {
+  st.btn.textContent = st.playing ? "⏸" : "🔊";
+  st.btn.setAttribute("aria-label", st.playing ? "暫停朗讀" : "朗讀這段");
+  st.btn.classList.toggle("on", st.playing);
+}
+
+// Speaks paragraph `st` starting at character offset `from`.
+function speakFrom(st, from) {
+  stopSpeaking();
+  const gen = tts.gen;
+  const { text, sents } = st;
+  // Start at the beginning of the word under `from`.
+  while (from > 0 && /\S/.test(text[from - 1])) from--;
+  let i = sents.findIndex((s) => from < s.end);
+  if (i < 0) {
+    i = 0;
+    from = 0;
+  }
+
+  tts.active = st;
+  st.playing = true;
+  updatePlayer(st);
+
+  const next = () => {
+    if (gen !== tts.gen) return;
+    stopTimer();
+    if (i >= sents.length) return finishPlayer(st);
+    const s = sents[i];
+    const start = Math.max(from, s.start);
+    const u = makeUtterance(text.slice(start, s.end));
+    let sawBoundary = false;
+
+    u.onstart = () => {
+      if (gen !== tts.gen) return;
+      setPos(st, start);
+      highlight("tts-sentence", st.p, s.start, s.end);
+      highlight("tts-word");
+      // Voices that don't report word positions: move the slider by an estimate.
+      if (!tts.boundaryWorks) {
+        const t0 = Date.now();
+        const cps = 14 * tts.rate; // rough characters per second
+        tts.timer = setInterval(() => {
+          if (gen !== tts.gen || sawBoundary) return stopTimer();
+          setPos(st, Math.min(s.end - 1, start + Math.round(((Date.now() - t0) / 1000) * cps)));
+        }, 150);
+      }
+    };
+    u.onboundary = (e) => {
+      if (gen !== tts.gen || (e.name && e.name !== "word")) return;
+      sawBoundary = true;
+      tts.boundaryWorks = true;
+      const at = start + e.charIndex;
+      let len = e.charLength;
+      if (!len) {
+        const m = /^[\w'’-]+/.exec(text.slice(at));
+        len = m ? m[0].length : 0;
+      }
+      setPos(st, at);
+      highlight("tts-word", st.p, at, at + len);
+    };
+    u.onend = () => {
+      if (gen !== tts.gen) return;
+      i++;
+      next();
+    };
+    u.onerror = (e) => {
+      if (gen !== tts.gen || e.error === "interrupted" || e.error === "canceled") return;
+      i++;
+      next();
+    };
+    tts.utter = u;
+    speechSynthesis.speak(u);
+  };
+  next();
+}
+
+function finishPlayer(st) {
+  stopTimer();
+  tts.active = null;
+  st.playing = false;
+  setPos(st, 0);
+  updatePlayer(st);
+  clearHighlights();
+}
+
+// Speaks a single word or phrase (used when a highlighted word is tapped).
+function speakWord(word) {
+  if (!tts.supported) return;
+  stopSpeaking();
+  highlight("tts-word");
+  tts.utter = makeUtterance(word);
+  speechSynthesis.speak(tts.utter);
+}
+
+function rateLabel() {
+  return tts.rate.toFixed(1) + "×";
+}
+
+// The speaker / slider / speed controls for one paragraph.
+function buildPlayer(p, text) {
+  const st = { p, text, sents: splitSentences(text), pos: 0, playing: false, dragging: false };
+
+  st.btn = button("tts-btn", "🔊", () => {
+    if (st.playing) stopSpeaking();
+    else speakFrom(st, st.pos);
+  });
+
+  st.range = el("input", "tts-range");
+  st.range.type = "range";
+  st.range.min = "0";
+  st.range.max = String(text.length);
+  st.range.step = "1";
+  st.range.value = "0";
+  st.range.setAttribute("aria-label", "朗讀位置");
+  st.range.addEventListener("input", () => {
+    st.dragging = true;
+    const pos = Number(st.range.value);
+    const s = st.sents.find((x) => pos < x.end);
+    if (s) highlight("tts-sentence", p, s.start, s.end);
+  });
+  st.range.addEventListener("change", () => {
+    st.dragging = false;
+    const pos = Number(st.range.value);
+    if (st.playing) speakFrom(st, pos);
+    else {
+      st.pos = pos;
+      highlight("tts-word");
+    }
+  });
+
+  const rate = button("tts-rate", rateLabel(), () => {
+    tts.rate = RATES[(RATES.indexOf(tts.rate) + 1) % RATES.length];
+    try {
+      localStorage.setItem(RATE_KEY, String(tts.rate));
+    } catch (e) {}
+    document.querySelectorAll(".tts-rate").forEach((b) => (b.textContent = rateLabel()));
+    if (tts.active) speakFrom(tts.active, tts.active.pos);
+  });
+  rate.setAttribute("aria-label", "朗讀速度");
+
+  updatePlayer(st);
+  const row = el("div", "tts");
+  row.append(st.btn, st.range, rate);
+  return row;
+}
+
 async function renderArticle() {
   const main = document.getElementById("main");
   const params = new URLSearchParams(location.search);
@@ -453,7 +745,9 @@ async function renderArticle() {
   const used = new Set();
   a.paragraphs.forEach((para, i) => {
     const block = el("div", "para");
-    block.append(buildParagraph(para, items, used));
+    const p = buildParagraph(para, items, used);
+    block.append(p);
+    if (tts.supported) block.append(buildPlayer(p, para));
     if (zh[i]) {
       const t = el("p", "zh", zh[i]);
       t.hidden = true;

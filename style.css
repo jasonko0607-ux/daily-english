@@ -14,6 +14,8 @@
   --rv: #dcf5e3;
   --rv-line: #2f9e57;
   --danger: #b42318;
+  --tts-sent: #e8eefc;
+  --tts-word: #bcd0fb;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -32,6 +34,8 @@
     --rv: #15402a;
     --rv-line: #4cc27a;
     --danger: #f97066;
+    --tts-sent: #1f2a3d;
+    --tts-word: #34508a;
   }
 }
 
@@ -94,6 +98,28 @@ h1 {
   background: var(--surface); border-radius: 0 8px 8px 0;
 }
 .body p.zh[hidden] { display: none; }
+
+/* Read aloud */
+.tts { display: flex; align-items: center; gap: 10px; margin: 2px 0 2px; }
+.tts-btn {
+  flex: none; width: 34px; height: 34px; font-size: 16px; line-height: 1;
+  color: var(--text); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 999px; padding: 0; cursor: pointer;
+}
+.tts-btn.on { border-color: var(--accent); }
+.tts-range { flex: 1; min-width: 0; accent-color: var(--accent); cursor: pointer; }
+.tts-rate {
+  flex: none; font: inherit; font-size: 13px; font-weight: 600; color: var(--muted);
+  background: none; border: 1px solid var(--line); border-radius: 999px;
+  padding: 3px 9px; cursor: pointer; font-variant-numeric: tabular-nums;
+}
+.tts-btn:focus-visible, .tts-rate:focus-visible, .tts-range:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+::highlight(tts-sentence) { background-color: var(--tts-sent); }
+::highlight(tts-word) { background-color: var(--tts-word); }
+.pop-say {
+  margin-left: auto; padding: 0 0 0 10px; font-size: 15px;
+  background: none; border: 0; cursor: pointer; color: inherit;
+}
 
 .topbar-right { display: flex; gap: 14px; align-items: center; }
 .navline { margin: -16px 0 28px; font-weight: 600; }
