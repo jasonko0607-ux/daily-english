@@ -3,298 +3,298 @@
   "articles": [
     {
       "level": "600–800",
-      "category": "International",
-      "story_date": "2026-11-16",
-      "title": "Xi, Trump and Putin to Meet in Shenzhen",
+      "category": "Taiwan",
+      "story_date": "2026-11-17",
+      "title": "Taiwan to Help Employers Support Working Parents",
       "paragraphs": [
-        "China said on Monday that President Xi Jinping will meet Russian President Vladimir Putin and U.S. President Donald Trump in the southern city of Shenzhen on Thursday. If it goes ahead, it will be the first time the three leaders have ever sat down together. The meeting will take place on the edge of the APEC summit, a yearly gathering of leaders from Asia-Pacific economies.",
-        "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine. Moscow and the White House had already announced the meeting before Beijing confirmed it. Mr. Xi has met Mr. Trump three times since October 2025, and he has met Mr. Putin more than 40 times since he became president in 2013.",
-        "The agenda is still unclear. China did not say what will be discussed. The White House says Mr. Trump wants to talk about reducing nuclear weapons around the world and about the war involving the United States, Israel and Iran. It does not expect him to raise Ukraine, although Russia wants that topic to be a priority. Trade is also likely to come up, because a truce between Washington and Beijing will expire in January. Many analysts expect it to be extended.",
-        "Experts are cautious about what the summit can achieve. One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely. Another called the event almost entirely a photo opportunity that raises China's standing. Others noted that simply bringing the two rivals to the table gives Mr. Xi a political benefit, whatever the final result."
+        "Taiwan's Ministry of Labor announced on Tuesday that employers will be able to apply for new subsidies starting on January 1, 2027. The program supports parents of children under 12. It comes just days after the Legislature passed amendments that extend maternity leave from eight weeks to 14 weeks.",
+        "Several kinds of help are offered. An employer that shortens a parent's workday by at least one hour without cutting pay can claim one hour of wages for each qualifying day. Companies that pay coworkers to cover for someone on leave can claim up to NT$800 per day. Businesses with fewer than 200 employees can also receive NT$20,000 for hiring a replacement for a worker on maternity or unpaid parental leave. In addition, firms that adopt flexible scheduling or remote work may receive a one-time award of up to NT$150,000, depending on their size.",
+        "There are limits, however. Reimbursement for shorter hours is capped at NT$45,000 per employee each year. The benefit covers Taiwanese workers, as well as foreign or mainland Chinese spouses of Taiwanese nationals, but other foreign workers are excluded. The ministry has set aside NT$5.862 billion in its proposed 2027 budget for the plan.",
+        "Officials say the goal is to make parents feel comfortable taking leave, with colleagues willing to cover and employers facing less financial pressure. Lee Chia-hsin of the Birth Empowerment Alliance of Taiwan welcomed the staffing subsidies. However, she warned that some parents may still hesitate to take leave in workplaces that are not supportive, and she asked the ministry to publish data on how many employers use the money.",
+        "The measures come as the island faces a serious demographic challenge. Taiwan's population fell for the 34th month in a row in October, when only 8,035 babies were born, 1,423 fewer than a year earlier."
+      ],
+      "paragraphs_zh": [
+        "台灣勞動部週二宣布，雇主自2027年1月1日起可申請新的補助。這項計畫支持有12歲以下子女的父母。就在幾天前，立法院才通過修正案，將產假從八週延長為14週。",
+        "補助的形式有好幾種。雇主若在不減薪的情況下，將家長的每日工時縮短至少一小時，每個符合資格的日子可申請一小時的薪資。公司若支付薪水給替休假同事代班的人，每天最多可申請新台幣800元。員工少於200人的企業，若為請產假或無薪育嬰假的員工聘請代理人，還可獲得新台幣2萬元。此外，採行彈性排班或遠距工作的公司，視規模大小，可獲得最高新台幣15萬元的一次性獎勵。",
+        "不過，補助也有限制。縮短工時的補貼每位員工每年上限為新台幣4萬5千元。這項福利涵蓋台灣籍員工，以及台灣籍人士的外籍或陸籍配偶，但其他外籍勞工不在適用範圍內。勞動部已在2027年度預算草案中編列58.62億元新台幣支應這項計畫。",
+        "官員表示，目標是讓家長能安心請假，同事也願意代班，雇主的財務壓力則能減輕。台灣生育賦能聯盟理事李佳欣歡迎這些人力補助。然而，她警告說，在不友善的職場中，有些家長可能仍會猶豫是否請假，並要求勞動部公布有多少雇主使用這些經費。",
+        "這些措施出台之際，台灣正面臨嚴峻的人口挑戰。10月台灣人口連續第34個月下降，當月僅有8,035名嬰兒出生，比去年同期少了1,423人。"
       ],
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/society/202611170008"
         }
       ],
       "vocab": [
         {
-          "word": "on the edge of",
+          "word": "subsidy",
+          "pos": "n.",
+          "zh": "補助",
+          "match": "subsidies",
+          "example": "Taiwan's Ministry of Labor announced on Tuesday that employers will be able to apply for new subsidies starting on January 1, 2027."
+        },
+        {
+          "word": "amendment",
+          "pos": "n.",
+          "zh": "修正案",
+          "match": "amendments",
+          "example": "It comes just days after the Legislature passed amendments that extend maternity leave from eight weeks to 14 weeks."
+        },
+        {
+          "word": "maternity leave",
           "pos": "phr.",
-          "zh": "在……的場邊／順道舉行",
-          "match": "on the edge of",
-          "example": "The meeting will take place on the edge of the APEC summit, a yearly gathering of leaders from Asia-Pacific economies."
+          "zh": "產假",
+          "match": "maternity leave",
+          "example": "It comes just days after the Legislature passed amendments that extend maternity leave from eight weeks to 14 weeks."
         },
         {
-          "word": "propose",
-          "pos": "v.",
-          "zh": "提議",
-          "match": "proposed",
-          "example": "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine."
-        },
-        {
-          "word": "three-way",
+          "word": "qualifying",
           "pos": "adj.",
-          "zh": "三方的",
-          "match": "three-way",
-          "example": "The idea began last month, when the Wall Street Journal reported that Putin had proposed a three-way meeting to discuss ending the war in Ukraine."
+          "zh": "符合資格的",
+          "match": "qualifying",
+          "example": "An employer that shortens a parent's workday by at least one hour without cutting pay can claim one hour of wages for each qualifying day."
         },
         {
-          "word": "agenda",
+          "word": "reimbursement",
           "pos": "n.",
-          "zh": "議程",
-          "match": "agenda",
-          "example": "The agenda is still unclear."
+          "zh": "補貼；報銷",
+          "match": "Reimbursement",
+          "example": "Reimbursement for shorter hours is capped at NT$45,000 per employee each year."
         },
         {
-          "word": "priority",
-          "pos": "n.",
-          "zh": "優先事項",
-          "match": "priority",
-          "example": "It does not expect him to raise Ukraine, although Russia wants that topic to be a priority."
-        },
-        {
-          "word": "truce",
-          "pos": "n.",
-          "zh": "休戰；停火協議",
-          "match": "truce",
-          "example": "Trade is also likely to come up, because a truce between Washington and Beijing will expire in January."
-        },
-        {
-          "word": "expire",
+          "word": "cap",
           "pos": "v.",
-          "zh": "到期",
-          "match": "expire",
-          "example": "Trade is also likely to come up, because a truce between Washington and Beijing will expire in January."
+          "zh": "設定上限",
+          "match": "capped",
+          "example": "Reimbursement for shorter hours is capped at NT$45,000 per employee each year."
         },
         {
-          "word": "extend",
+          "word": "exclude",
           "pos": "v.",
-          "zh": "延長",
-          "match": "extended",
-          "example": "Many analysts expect it to be extended."
+          "zh": "排除",
+          "match": "excluded",
+          "example": "The benefit covers Taiwanese workers, as well as foreign or mainland Chinese spouses of Taiwanese nationals, but other foreign workers are excluded."
         },
         {
-          "word": "obstacle",
-          "pos": "n.",
-          "zh": "障礙",
-          "match": "obstacle",
-          "example": "One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely."
+          "word": "set aside",
+          "pos": "phr.",
+          "zh": "撥出（款項）",
+          "match": "set aside",
+          "example": "The ministry has set aside NT$5.862 billion in its proposed 2027 budget for the plan."
         },
         {
-          "word": "sanction",
-          "pos": "n.",
-          "zh": "制裁",
-          "match": "sanctions",
-          "example": "One analyst said the main obstacle is a disagreement over the agenda, and that a joint statement on Ukraine or on sanctions against Russia looks unlikely."
+          "word": "hesitate",
+          "pos": "v.",
+          "zh": "猶豫",
+          "match": "hesitate",
+          "example": "However, she warned that some parents may still hesitate to take leave in workplaces that are not supportive, and she asked the ministry to publish data on how many employers use the money."
         },
         {
-          "word": "standing",
-          "pos": "n.",
-          "zh": "地位；聲望",
-          "match": "standing",
-          "example": "Another called the event almost entirely a photo opportunity that raises China's standing."
+          "word": "demographic",
+          "pos": "adj.",
+          "zh": "人口統計的",
+          "match": "demographic",
+          "example": "The measures come as the island faces a serious demographic challenge."
         }
-      ]
+      ],
+      "review": []
     },
     {
       "level": "600–800",
-      "category": "Business",
-      "story_date": "2026-11-16",
-      "title": "Taiwan's Foreign Investment Hits a Record High",
+      "category": "International",
+      "story_date": "2026-11-17",
+      "title": "Iran Tensions Rise as Third American Carrier Arrives in Gulf",
       "paragraphs": [
-        "Taiwan approved a record amount of foreign direct investment in the first ten months of this year. According to the Ministry of Economic Affairs, the total reached US$20.899 billion between January and October, the first time the figure has passed US$20 billion for that period. It covers 1,878 applications and is 127.5 percent higher than a year earlier.",
-        "Much of the increase came from one company. The U.S. memory chipmaker Micron Technology was approved to invest US$9.449 billion in its Taiwanese subsidiary. Other large projects include US$1.248 billion from Denmark's Orsted and US$1.054 billion for a green energy company based in the Netherlands. By source, Singapore was the biggest investor, with 51.71 percent of the total, followed by the United Kingdom with 9.12 percent.",
-        "Money is also flowing out of Taiwan at a fast pace. Approved outbound investment totaled US$69.916 billion across 612 applications, more than double last year's level. TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments. Nanya Technology and GlobalWafers also received approval for overseas spending.",
-        "Investment in China moved in the opposite direction. Taiwanese projects approved for China totaled only US$786 million, down 20.04 percent from a year earlier. Chinese investment in Taiwan was even smaller, at US$8.564 million, a fall of more than 91 percent. The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
+        "A third American aircraft carrier has arrived in the Gulf region as tensions with Iran continue to grow. The USS Theodore Roosevelt reached the area on Sunday and joined two other carriers already there. The war began in late February 2026, when the United States and Israel attacked Iran, which then struck Israel and Gulf states that host American military bases.",
+        "On Sunday, Tehran said it launched six drones at an air-defense radar at Bahrain's Riffa air base. It was the second attack Iran has claimed against Bahrain in three days. Bahrain's military said it intercepted and destroyed several Iranian aerial attacks. On Monday, Secretary of State Marco Rubio condemned the attacks in a call with Bahrain's foreign minister and promised continued support for Gulf partners.",
+        "The Strait of Hormuz, a narrow waterway that is a key route for oil shipments, remains at the center of the crisis. Iran's Revolutionary Guards Navy warned shipping companies not to use a southern route backed by Washington, calling it a \"minefield of fire.\" An Iranian army spokesperson said the strait would stay closed until \"the enemy accepts Iran's conditions.\" On Tuesday, a British maritime agency reported that a tanker caught fire after being hit by an unidentified projectile.",
+        "Indirect talks mediated by Qatar have stalled. Washington has not accepted Iran's demands, including an end to the naval blockade of Iran's southern ports and the lifting of sanctions, and it insists that Iran cannot have a nuclear weapon. President Trump has sent mixed signals. Last week he said the war was effectively over in military terms and could end \"fairly soon,\" yet he has also warned of new large-scale strikes if a deal fails.",
+        "Oil prices dipped slightly for now. In Asian trading on Tuesday, Brent crude fell 0.7% to $91.80 a barrel. Analyst Ian Bremmer of Eurasia Group, however, expects Iran to keep attacking ships and to try to disrupt traffic through Hormuz over the coming year in order to pressure Washington."
       ],
-      "sources": [
-        {
-          "name": "Focus Taiwan",
-          "url": "https://focustaiwan.tw/business/202611160021"
-        }
-      ],
-      "vocab": [
-        {
-          "word": "foreign direct investment",
-          "pos": "phr.",
-          "zh": "外商直接投資",
-          "match": "foreign direct investment",
-          "example": "Taiwan approved a record amount of foreign direct investment in the first ten months of this year."
-        },
-        {
-          "word": "approve",
-          "pos": "v.",
-          "zh": "核准",
-          "match": "approved",
-          "example": "Taiwan approved a record amount of foreign direct investment in the first ten months of this year."
-        },
-        {
-          "word": "subsidiary",
-          "pos": "n.",
-          "zh": "子公司",
-          "match": "subsidiary",
-          "example": "The U.S. memory chipmaker Micron Technology was approved to invest US$9.449 billion in its Taiwanese subsidiary."
-        },
-        {
-          "word": "outbound",
-          "pos": "adj.",
-          "zh": "對外的；出境的",
-          "match": "outbound",
-          "example": "Approved outbound investment totaled US$69.916 billion across 612 applications, more than double last year's level."
-        },
-        {
-          "word": "account for",
-          "pos": "phr.",
-          "zh": "佔（比例）",
-          "match": "accounted for",
-          "example": "TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments."
-        },
-        {
-          "word": "contract chipmaker",
-          "pos": "phr.",
-          "zh": "晶圓代工廠",
-          "match": "contract chipmaker",
-          "example": "TSMC, the world's leading contract chipmaker, accounted for a large share, including US$20 billion for its factories in Arizona and US$30 billion for a company that manages its global financial investments."
-        },
-        {
-          "word": "overseas",
-          "pos": "adj.",
-          "zh": "海外的",
-          "match": "overseas",
-          "example": "Nanya Technology and GlobalWafers also received approval for overseas spending."
-        },
-        {
-          "word": "opposite",
-          "pos": "adj.",
-          "zh": "相反的",
-          "match": "opposite",
-          "example": "Investment in China moved in the opposite direction."
-        },
-        {
-          "word": "attractive",
-          "pos": "adj.",
-          "zh": "有吸引力的",
-          "match": "attractive",
-          "example": "The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
-        },
-        {
-          "word": "capacity",
-          "pos": "n.",
-          "zh": "產能",
-          "match": "capacity",
-          "example": "The figures suggest that Taiwan's chip industry is spreading its operations across more countries, while becoming a more attractive place for foreign companies to build new capacity."
-        }
-      ]
-    },
-    {
-      "level": "800+",
-      "category": "Technology",
-      "story_date": "2026-11-16",
-      "title": "Nvidia Leadership Crisis Splits Silicon Valley",
-      "paragraphs": [
-        "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum. Jensen Huang has stepped down as president, chief executive and board member following reports about his private conduct, including a relationship with a woman suspected of links to Chinese intelligence. Colette Kress, the longtime finance chief, is serving as interim chief executive while the board conducts an independent investigation and searches for a permanent successor.",
-        "Remarkably, a campaign to bring him back has gathered momentum. An online petition calling for his reinstatement and a fair inquiry has attracted nearly 180,000 signatures, and prominent backers include Elon Musk and several Silicon Valley chief executives. The Financial Times reported that Mr. Huang has discussed a comeback with confidants and that allies are assembling a so-called war room to seek White House support. Two prominent investors have likewise urged the board to weigh every option before making a permanent decision.",
-        "Opinion is sharply divided. President Donald Trump said he would not mind Mr. Huang returning, whereas Treasury Secretary Scott Bessent argued that Nvidia must look outside for its next leader, and he questioned whether the company had pursued questionable chip sales to inflate revenue. One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute. Another suggested that a comeback would be good for the share price, provided the board imposed guardrails.",
-        "The stakes extend well beyond one boardroom. American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security. Taiwan's central bank governor predicted only a short-lived disruption for the island's AI suppliers, which depend heavily on Nvidia's orders. Investors will get their first real glimpse of the interim leadership when the company reports quarterly earnings on Tuesday."
+      "paragraphs_zh": [
+        "美國第三艘航空母艦已抵達波斯灣地區，與伊朗的緊張局勢持續升高。「西奧多·羅斯福號」週日抵達該海域，與先前已在當地的另外兩艘航艦會合。這場戰爭始於2026年2月下旬，當時美國與以色列攻擊伊朗，伊朗隨後攻擊以色列以及駐有美軍基地的波斯灣國家。",
+        "週日，德黑蘭表示對巴林里法空軍基地的一座防空雷達發射了六架無人機。這是三天內伊朗宣稱對巴林發動的第二次攻擊。巴林軍方表示，已攔截並擊毀數起伊朗的空中攻擊。週一，國務卿魯比歐在與巴林外交部長通話時譴責這些攻擊，並承諾持續支持波斯灣夥伴國。",
+        "荷莫茲海峽是一條狹窄的水道，也是石油運輸的重要航線，仍是這場危機的核心。伊朗革命衛隊海軍警告航運公司，不要使用美國支持的南部航線，並稱其為「火焰雷區」。一名伊朗陸軍發言人表示，在「敵人接受伊朗的條件」之前，海峽不會重新開放。週二，英國一個海事機構通報，一艘油輪被不明飛行物擊中後起火。",
+        "由卡達居中斡旋的間接談判已陷入停滯。華盛頓並未接受伊朗的要求，包括結束對伊朗南部港口的海上封鎖以及解除制裁，同時堅持伊朗不得擁有核武。川普釋出了混雜的訊號。上週他表示，這場戰爭在軍事上實質上已經結束，且可能「很快」結束，但他也警告，若協議破局，將再度發動大規模攻擊。",
+        "油價暫時小幅下滑。週二亞洲交易時段，布蘭特原油下跌0.7%，報每桶91.80美元。然而，歐亞集團的分析師布瑞默預期，伊朗將持續攻擊船隻，並在未來一年設法干擾荷莫茲海峽的航運，以向華盛頓施壓。"
       ],
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
-        },
-        {
-          "name": "Focus Taiwan",
-          "url": "https://focustaiwan.tw/business/202611160007"
+          "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
         }
       ],
       "vocab": [
         {
-          "word": "grapple with",
-          "pos": "phr.",
-          "zh": "努力應付；與……搏鬥",
-          "match": "grappling with",
-          "example": "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum."
-        },
-        {
-          "word": "vacuum",
-          "pos": "n.",
-          "zh": "真空；（權力）空缺",
-          "match": "vacuum",
-          "example": "Nvidia, the company at the heart of the artificial-intelligence boom, is grappling with an extraordinary leadership vacuum."
-        },
-        {
-          "word": "step down",
-          "pos": "phr.",
-          "zh": "卸任；辭職",
-          "match": "stepped down",
-          "example": "Jensen Huang has stepped down as president, chief executive and board member following reports about his private conduct, including a relationship with a woman suspected of links to Chinese intelligence."
-        },
-        {
-          "word": "successor",
-          "pos": "n.",
-          "zh": "繼任者",
-          "match": "successor",
-          "example": "Colette Kress, the longtime finance chief, is serving as interim chief executive while the board conducts an independent investigation and searches for a permanent successor."
-        },
-        {
-          "word": "gather momentum",
-          "pos": "phr.",
-          "zh": "聲勢漸增",
-          "match": "gathered momentum",
-          "example": "Remarkably, a campaign to bring him back has gathered momentum."
-        },
-        {
-          "word": "reinstatement",
-          "pos": "n.",
-          "zh": "復職",
-          "match": "reinstatement",
-          "example": "An online petition calling for his reinstatement and a fair inquiry has attracted nearly 180,000 signatures, and prominent backers include Elon Musk and several Silicon Valley chief executives."
-        },
-        {
-          "word": "confidant",
-          "pos": "n.",
-          "zh": "知己；心腹",
-          "match": "confidants",
-          "example": "Huang has discussed a comeback with confidants and that allies are assembling a so-called war room to seek White House support."
-        },
-        {
-          "word": "non-starter",
-          "pos": "n.",
-          "zh": "不可行的事；沒有希望的事",
-          "match": "non-starter",
-          "example": "One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute."
-        },
-        {
-          "word": "stem from",
-          "pos": "phr.",
-          "zh": "源於",
-          "match": "stemmed from",
-          "example": "One analyst dismissed the prospect of a return as a non-starter, pointing out that an ongoing investigation makes a swift reversal far harder than Sam Altman's reinstatement at OpenAI in 2023, which stemmed from a governance dispute."
-        },
-        {
-          "word": "guardrail",
-          "pos": "n.",
-          "zh": "防護措施；約束機制",
-          "match": "guardrails",
-          "example": "Another suggested that a comeback would be good for the share price, provided the board imposed guardrails."
-        },
-        {
-          "word": "scrutinize",
+          "word": "intercept",
           "pos": "v.",
-          "zh": "仔細審查",
-          "match": "scrutinize",
-          "example": "American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security."
+          "zh": "攔截",
+          "match": "intercepted",
+          "example": "Bahrain's military said it intercepted and destroyed several Iranian aerial attacks."
         },
         {
-          "word": "undermine",
+          "word": "condemn",
           "pos": "v.",
-          "zh": "削弱；破壞",
-          "match": "undermined",
-          "example": "American lawmakers are preparing to scrutinize whether the episode has undermined the country's lead in AI and what it means for national security."
+          "zh": "譴責",
+          "match": "condemned",
+          "example": "On Monday, Secretary of State Marco Rubio condemned the attacks in a call with Bahrain's foreign minister and promised continued support for Gulf partners."
+        },
+        {
+          "word": "waterway",
+          "pos": "n.",
+          "zh": "水道",
+          "match": "waterway",
+          "example": "The Strait of Hormuz, a narrow waterway that is a key route for oil shipments, remains at the center of the crisis."
+        },
+        {
+          "word": "projectile",
+          "pos": "n.",
+          "zh": "投射物；飛彈",
+          "match": "projectile",
+          "example": "Iran's Revolutionary Guards Navy warned shipping companies not to use a southern route backed by Washington, calling it a \"minefield of fire.\" An Iranian army spokesperson said the strait would stay closed until \"the enemy accepts Iran's conditions.\" On Tuesday, a British maritime agency reported that a tanker caught fire after being hit by an unidentified projectile."
+        },
+        {
+          "word": "mediate",
+          "pos": "v.",
+          "zh": "居中調停",
+          "match": "mediated",
+          "example": "Indirect talks mediated by Qatar have stalled."
+        },
+        {
+          "word": "stall",
+          "pos": "v.",
+          "zh": "陷入停滯",
+          "match": "stalled",
+          "example": "Indirect talks mediated by Qatar have stalled."
+        },
+        {
+          "word": "blockade",
+          "pos": "n.",
+          "zh": "封鎖",
+          "match": "blockade",
+          "example": "Washington has not accepted Iran's demands, including an end to the naval blockade of Iran's southern ports and the lifting of sanctions, and it insists that Iran cannot have a nuclear weapon."
+        },
+        {
+          "word": "sanctions",
+          "pos": "n.",
+          "zh": "制裁",
+          "match": "sanctions",
+          "example": "Washington has not accepted Iran's demands, including an end to the naval blockade of Iran's southern ports and the lifting of sanctions, and it insists that Iran cannot have a nuclear weapon."
+        },
+        {
+          "word": "mixed signals",
+          "pos": "phr.",
+          "zh": "混雜的訊號",
+          "match": "mixed signals",
+          "example": "President Trump has sent mixed signals."
+        },
+        {
+          "word": "dip",
+          "pos": "v.",
+          "zh": "小幅下滑",
+          "match": "dipped",
+          "example": "Oil prices dipped slightly for now."
         }
-      ]
+      ],
+      "review": []
+    },
+    {
+      "level": "800+",
+      "category": "Business",
+      "story_date": "2026-11-16",
+      "title": "China's Slowdown Deepens Even as Exports Boom",
+      "paragraphs": [
+        "China's latest economic data painted a picture of an economy increasingly reliant on foreign buyers while domestic demand sputters. Retail sales rose just 0.4% in October from a year earlier, undershooting the 0.8% analysts had expected and falling sharply from 1.1% in September, which had been a six-month high. Industrial output grew 4.8%, also short of the 5.3% forecast.",
+        "The weakest reading was fixed-asset investment, which has contracted 8.1% over the first ten months of the year, a steeper decline than the 7% economists had anticipated. Outside the pandemic period, such a collapse is without precedent. Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending. Consumer inflation slowed to 0.7%, and youth unemployment, at 18% in September, remained close to a one-year high, even though the overall jobless rate eased to 5.1%.",
+        "Exports, by contrast, are thriving. They rose 35.2%, and the trade surplus reached $1 trillion by October, the fastest pace on record, putting it on course to surpass last year's record $1.2 trillion. Yet this dependence on overseas demand is a double-edged sword. Citi Research expects export headwinds to intensify in 2027, with possible new European Union trade measures against China a key risk, and it believes Beijing is likely to offer \"reasonable, practical concessions\" in negotiations.",
+        "Forecasters remain cautiously upbeat about the headline numbers. Third-quarter growth reached 4.5%, a rebound from three-year lows, and Goldman Sachs projects that expansion will ease to 4.6% this year from 5% in 2025, and to 4.5% in 2027, which would still keep China on track to double its 2020 per capita income by 2035. Others sound a harsher note. Zhiwei Zhang of Pinpoint Asset Management observed that markets were already anxious about a slowdown in AI-related capital spending, and that scrutiny of chip flows to China has made the risk \"even more serious,\" leading him to forecast further downside for global growth next year."
+      ],
+      "paragraphs_zh": [
+        "中國最新的經濟數據描繪出一幅經濟日益依賴外國買家、而內需疲軟乏力的圖像。10月零售銷售較去年同期僅成長0.4%，低於分析師預期的0.8%，也較9月的1.1%（為六個月來高點）大幅下滑。工業產出成長4.8%，同樣不及預期的5.3%。",
+        "最疲弱的是固定資產投資，今年前十個月萎縮8.1%，降幅比經濟學家預期的7%更陡。除了疫情期間，如此大幅的崩跌前所未見。造成這種低迷的背景是房市下滑，家庭財富已連續第五年遭到侵蝕，拖累消費支出。消費者物價通膨放緩至0.7%，9月的青年失業率為18%，仍接近一年來高點，儘管整體失業率已降至5.1%。",
+        "相較之下，出口表現亮眼。出口成長35.2%，貿易順差到10月已達1兆美元，是有紀錄以來最快的速度，有望超越去年創紀錄的1.2兆美元。然而，這種對海外需求的依賴是一把雙面刃。花旗研究預期，出口逆風將在2027年加劇，歐盟可能對中國採取新的貿易措施是主要風險，並認為北京很可能在談判中提出「合理且務實的讓步」。",
+        "預測者對整體數據仍抱持謹慎樂觀。第三季成長4.5%，自三年來低點反彈，高盛預測今年成長將由2025年的5%放緩至4.6%，2027年為4.5%，這仍可讓中國有望在2035年前使2020年的人均所得翻倍。也有人語氣較為嚴峻。Pinpoint資產管理公司的張智威指出，市場原本就擔憂人工智慧資本支出放緩，而對流入中國的晶片的審查使風險「變得更加嚴重」，他因此預測明年全球成長將進一步下探。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "sputter",
+          "pos": "v.",
+          "zh": "運轉不順；疲軟",
+          "match": "sputters",
+          "example": "China's latest economic data painted a picture of an economy increasingly reliant on foreign buyers while domestic demand sputters."
+        },
+        {
+          "word": "undershoot",
+          "pos": "v.",
+          "zh": "低於（預期）",
+          "match": "undershooting",
+          "example": "Retail sales rose just 0.4% in October from a year earlier, undershooting the 0.8% analysts had expected and falling sharply from 1.1% in September, which had been a six-month high."
+        },
+        {
+          "word": "contract",
+          "pos": "v.",
+          "zh": "萎縮",
+          "match": "contracted",
+          "example": "The weakest reading was fixed-asset investment, which has contracted 8.1% over the first ten months of the year, a steeper decline than the 7% economists had anticipated."
+        },
+        {
+          "word": "without precedent",
+          "pos": "phr.",
+          "zh": "前所未有",
+          "match": "without precedent",
+          "example": "Outside the pandemic period, such a collapse is without precedent."
+        },
+        {
+          "word": "malaise",
+          "pos": "n.",
+          "zh": "低迷；萎靡",
+          "match": "malaise",
+          "example": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending."
+        },
+        {
+          "word": "erode",
+          "pos": "v.",
+          "zh": "侵蝕",
+          "match": "eroded",
+          "example": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending."
+        },
+        {
+          "word": "double-edged sword",
+          "pos": "phr.",
+          "zh": "雙面刃",
+          "match": "double-edged sword",
+          "example": "Yet this dependence on overseas demand is a double-edged sword."
+        },
+        {
+          "word": "headwind",
+          "pos": "n.",
+          "zh": "逆風；不利因素",
+          "match": "headwinds",
+          "example": "Citi Research expects export headwinds to intensify in 2027, with possible new European Union trade measures against China a key risk, and it believes Beijing is likely to offer \"reasonable, practical concessions\" in negotiations."
+        },
+        {
+          "word": "concession",
+          "pos": "n.",
+          "zh": "讓步",
+          "match": "concessions",
+          "example": "Citi Research expects export headwinds to intensify in 2027, with possible new European Union trade measures against China a key risk, and it believes Beijing is likely to offer \"reasonable, practical concessions\" in negotiations."
+        },
+        {
+          "word": "capital spending",
+          "pos": "phr.",
+          "zh": "資本支出",
+          "match": "capital spending",
+          "example": "Zhiwei Zhang of Pinpoint Asset Management observed that markets were already anxious about a slowdown in AI-related capital spending, and that scrutiny of chip flows to China has made the risk \"even more serious,\" leading him to forecast further downside for global growth next year."
+        }
+      ],
+      "review": []
     }
   ]
 }
