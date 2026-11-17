@@ -1,11 +1,27 @@
-// Renders the home page and article pages from the JSON files in data/.
-// All content is inserted as text nodes, never as HTML.
+// Renders the home page, article pages and the word list from the JSON files
+// in data/. All content is inserted as text nodes, never as HTML.
+//
+// Marked words are saved to data/marked.json through the GitHub API, using a
+// fine-grained token the reader pastes once per device (kept in localStorage).
+
+const OWNER = "jasonko0607-ux";
+const REPO = "daily-english";
+const MARKED_PATH = "data/marked.json";
+const TOKEN_KEY = "de_github_token";
+const SCHEDULE = [3, 7, 14];
 
 function el(tag, cls, text) {
   const node = document.createElement(tag);
   if (cls) node.className = cls;
   if (text != null) node.textContent = text;
   return node;
+}
+
+function button(cls, text, onClick) {
+  const b = el("button", cls, text);
+  b.type = "button";
+  if (onClick) b.addEventListener("click", onClick);
+  return b;
 }
 
 function badge(level) {
@@ -25,6 +41,201 @@ async function loadJson(path) {
 
 function showError(main, message) {
   main.replaceChildren(el("p", "empty", message));
+}
+
+function todayTaipei() {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date());
+}
+
+function addDays(iso, n) {
+  const d = new Date(iso + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+// ---------- Token and GitHub storage ----------
+
+function getToken() {
+  try {
+    return localStorage.getItem(TOKEN_KEY) || "";
+  } catch (e) {
+    return "";
+  }
+}
+
+function setToken(token) {
+  try {
+    if (token) localStorage.setItem(TOKEN_KEY, token);
+    else localStorage.removeItem(TOKEN_KEY);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function b64ToText(b64) {
+  const bin = atob(b64.replace(/\s/g, ""));
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+
+function textToB64(text) {
+  const bytes = new TextEncoder().encode(text);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+
+function gh(path, options = {}, token = getToken()) {
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    Authorization: "Bearer " + token,
+  };
+  if (options.body) headers["Content-Type"] = "application/json";
+  return fetch("https://api.github.com/repos/" + OWNER + "/" + REPO + path, {
+    ...options,
+    headers,
+    cache: "no-store",
+  });
+}
+
+class AuthError extends Error {}
+
+// Reads the word list. With a token it reads the repository directly, so a
+// word marked a moment ago shows up at once; without one it reads the
+// published copy, which can lag a minute behind.
+async function readMarked() {
+  if (getToken()) {
+    const res = await gh("/contents/" + MARKED_PATH + "?ref=main");
+    if (res.status === 404) return { data: { words: [] }, sha: null };
+    if (res.status === 401 || res.status === 403) throw new AuthError();
+    if (!res.ok) throw new Error("GitHub " + res.status);
+    const file = await res.json();
+    return { data: JSON.parse(b64ToText(file.content)), sha: file.sha };
+  }
+  try {
+    return { data: await loadJson(MARKED_PATH), sha: null };
+  } catch (e) {
+    return { data: { words: [] }, sha: null };
+  }
+}
+
+// Applies change(data) to the latest word list and saves it. If the file
+// changed in between (another device, or the morning job), it retries.
+async function updateMarked(change, message) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { data, sha } = await readMarked();
+    if (!Array.isArray(data.words)) data.words = [];
+    if (change(data) === false) return false;
+    const body = { message, branch: "main", content: textToB64(JSON.stringify(data, null, 2) + "\n") };
+    if (sha) body.sha = sha;
+    const res = await gh("/contents/" + MARKED_PATH, { method: "PUT", body: JSON.stringify(body) });
+    if (res.ok) return true;
+    if (res.status === 401 || res.status === 403) throw new AuthError();
+    if (res.status !== 409 && res.status !== 422) throw new Error("GitHub " + res.status);
+  }
+  throw new Error("conflict");
+}
+
+// ---------- Small UI pieces ----------
+
+let toastTimer = null;
+function toast(message) {
+  let t = document.getElementById("toast");
+  if (!t) {
+    t = el("div", "toast");
+    t.id = "toast";
+    t.setAttribute("role", "status");
+    document.body.append(t);
+  }
+  t.textContent = message;
+  t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => (t.hidden = true), 2600);
+}
+
+// Asks for the GitHub token in a dialog. Resolves true once a working token is saved.
+function askToken() {
+  return new Promise((resolve) => {
+    const overlay = el("div", "modal");
+    const box = el("div", "modal-box");
+    const input = el("input", "modal-input");
+    input.type = "password";
+    input.placeholder = "github_pat_…";
+    input.autocomplete = "off";
+    const status = el("p", "modal-status");
+    const close = (ok) => {
+      overlay.remove();
+      resolve(ok);
+    };
+    const save = button("btn primary", "儲存", async () => {
+      const token = input.value.trim();
+      if (!token) return;
+      status.textContent = "確認中…";
+      try {
+        const res = await gh("/contents/data/index.json?ref=main", {}, token);
+        if (!res.ok) throw new Error();
+      } catch (e) {
+        status.textContent = "這組金鑰無法讀取 daily-english，請確認是否複製完整、權限是否正確。";
+        return;
+      }
+      if (!setToken(token)) {
+        status.textContent = "這個瀏覽器無法儲存金鑰（可能是無痕模式）。";
+        return;
+      }
+      close(true);
+    });
+    box.append(
+      el("h2", "modal-title", "連結 GitHub"),
+      el("p", null, "標記的單字會存到你的 GitHub 儲存庫。請貼上 daily-english 專用的金鑰，只需在這台裝置設定一次。"),
+      input,
+      status,
+      el("div", "modal-actions")
+    );
+    box.lastChild.append(button("btn", "取消", () => close(false)), save);
+    overlay.append(box);
+    overlay.addEventListener("click", (ev) => ev.target === overlay && close(false));
+    document.body.append(overlay);
+    input.focus();
+  });
+}
+
+async function markWord(text, context, ref) {
+  const word = text.trim();
+  if (!word) return;
+  if (!getToken() && !(await askToken())) return;
+  toast("儲存中…");
+  try {
+    let existed = false;
+    await updateMarked((data) => {
+      if (data.words.some((w) => w.word.toLowerCase() === word.toLowerCase())) {
+        existed = true;
+        return false;
+      }
+      data.words.push({
+        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+        word,
+        context,
+        article: ref,
+        marked_at: todayTaipei(),
+        zh: "",
+        pos: "",
+        reviews: [],
+      });
+    }, "Mark word: " + word);
+    toast(existed ? "「" + word + "」已經在單字本裡" : "已標記「" + word + "」");
+  } catch (e) {
+    if (e instanceof AuthError) {
+      setToken("");
+      toast("金鑰已失效，請重新設定後再標記一次");
+    } else {
+      toast("儲存失敗，請稍後再試");
+    }
+  }
 }
 
 // ---------- Home ----------
@@ -59,16 +270,41 @@ function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-// Splits a paragraph into text and vocabulary buttons. Each vocabulary item is
-// marked once, at its first appearance in the article.
-function buildParagraph(text, vocab, used) {
-  const p = document.createElement("p");
+const ABBREVIATION = /\b(Mr|Mrs|Ms|Dr|St|Jr|Sr|vs|Inc|Co|Corp|Ltd|No|U\.S|U\.K|e\.g|i\.e)$/;
+
+// Returns the sentence of `text` that contains `phrase`.
+function sentenceAround(text, phrase) {
+  const at = text.toLowerCase().indexOf(phrase.toLowerCase());
+  if (at < 0) return "";
+  const ends = /[.!?]["”’)]?\s+/g;
+  let start = 0;
+  let end = text.length;
+  let m;
+  while ((m = ends.exec(text))) {
+    if (ABBREVIATION.test(text.slice(0, m.index))) continue;
+    const next = m.index + m[0].length;
+    if (next <= at) start = next;
+    else {
+      end = m.index + m[0].trimEnd().length;
+      break;
+    }
+  }
+  return text.slice(start, end).trim();
+}
+
+// Splits a paragraph into text and highlighted buttons. Each item is marked
+// once, at its first appearance in the article.
+function buildParagraph(text, items, used) {
+  const p = el("p", "en");
   const hits = [];
-  vocab.forEach((v, i) => {
+  items.forEach((item, i) => {
     if (used.has(i)) return;
-    const needle = v.match || v.word;
-    const m = new RegExp("(?<![A-Za-z])" + escapeRegExp(needle) + "(?![A-Za-z])", "i").exec(text);
-    if (m) hits.push({ start: m.index, end: m.index + m[0].length, i });
+    const re = new RegExp("(^|[^A-Za-z])(" + escapeRegExp(item.match || item.word) + ")(?![A-Za-z])", "i");
+    const m = re.exec(text);
+    if (m) {
+      const start = m.index + m[1].length;
+      hits.push({ start, end: start + m[2].length, i });
+    }
   });
   hits.sort((a, b) => a.start - b.start);
 
@@ -77,8 +313,7 @@ function buildParagraph(text, vocab, used) {
     if (h.start < pos) continue; // overlaps an earlier mark
     used.add(h.i);
     p.append(text.slice(pos, h.start));
-    const b = el("button", "vw", text.slice(h.start, h.end));
-    b.type = "button";
+    const b = button("vw" + (items[h.i].review ? " rv" : ""), text.slice(h.start, h.end));
     b.dataset.i = h.i;
     p.append(b);
     pos = h.end;
@@ -87,7 +322,7 @@ function buildParagraph(text, vocab, used) {
   return p;
 }
 
-function setupPopover(vocab) {
+function setupPopover(items, ref) {
   const pop = document.getElementById("pop");
   let current = null;
 
@@ -97,10 +332,21 @@ function setupPopover(vocab) {
   }
 
   document.addEventListener("click", (ev) => {
+    if (ev.target.closest(".pop")) return;
     const b = ev.target.closest(".vw");
     if (!b || b === current) return hide();
-    const v = vocab[Number(b.dataset.i)];
-    pop.replaceChildren(el("span", "w", v.word), el("span", "p", v.pos), el("span", "z", v.zh));
+    const item = items[Number(b.dataset.i)];
+    const line = el("div", "pop-line");
+    line.append(el("span", "w", item.word), el("span", "p", item.pos || ""));
+    pop.replaceChildren(line, el("span", "z", item.zh));
+    if (item.review) {
+      pop.append(el("span", "pop-note", "🔁 你標記過的字"));
+    } else {
+      pop.append(button("pop-mark", "＋ 標記", () => {
+        hide();
+        markWord(item.word, item.example || "", ref);
+      }));
+    }
     pop.hidden = false;
     const r = b.getBoundingClientRect();
     const left = Math.max(16, Math.min(r.left, window.innerWidth - pop.offsetWidth - 16));
@@ -112,6 +358,49 @@ function setupPopover(vocab) {
     if (ev.key === "Escape") hide();
   });
   window.addEventListener("resize", hide);
+}
+
+// Shows a "mark" bar at the bottom of the screen while a word or short phrase
+// in the article is selected (long-press on a phone, drag on a computer).
+function setupSelectionMark(ref) {
+  const bar = button("markbar");
+  bar.hidden = true;
+  document.body.append(bar);
+  let pending = null;
+  let hideTimer = null;
+
+  document.addEventListener("selectionchange", () => {
+    const sel = window.getSelection();
+    const raw = sel ? sel.toString() : "";
+    const text = raw.replace(/\s+/g, " ").trim().replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, "");
+    const node = sel && sel.anchorNode;
+    const elNode = node && (node.nodeType === 1 ? node : node.parentElement);
+    const para = elNode && elNode.closest(".body p.en");
+    const valid = para && text && text.length <= 40 && text.split(" ").length <= 4 && /^[A-Za-z][A-Za-z' -]*$/.test(text);
+
+    clearTimeout(hideTimer);
+    if (!valid) {
+      // Wait a moment, so tapping the bar (which clears the selection) still works.
+      hideTimer = setTimeout(() => {
+        bar.hidden = true;
+        pending = null;
+      }, 400);
+      return;
+    }
+    pending = { text, context: sentenceAround(para.textContent, text) };
+    bar.textContent = "＋ 標記「" + text + "」";
+    bar.hidden = false;
+  });
+
+  bar.addEventListener("click", () => {
+    if (!pending) return;
+    const p = pending;
+    pending = null;
+    bar.hidden = true;
+    const sel = window.getSelection();
+    if (sel) sel.removeAllRanges();
+    markWord(p.text, p.context, ref);
+  });
 }
 
 async function renderArticle() {
@@ -129,17 +418,37 @@ async function renderArticle() {
   }
   const a = day.articles[n - 1];
   if (!a) return showError(main, "找不到這篇文章。");
+  const ref = date + "#" + n;
 
   document.title = a.title + " · Daily English News";
   document.getElementById("date").textContent = day.date;
+
+  const reviewWords = (a.review || []).filter((r) => r.kind === "review");
+  const items = a.vocab.concat(reviewWords.map((r) => ({ ...r, review: true })));
 
   const meta = el("div", "meta");
   meta.append(badge(a.level), el("span", null, a.category));
   if (a.story_date) meta.append(el("span", null, "News date: " + a.story_date));
 
+  const zh = Array.isArray(a.paragraphs_zh) ? a.paragraphs_zh : [];
   const body = el("div", "body");
   const used = new Set();
-  for (const para of a.paragraphs) body.append(buildParagraph(para, a.vocab, used));
+  a.paragraphs.forEach((para, i) => {
+    const block = el("div", "para");
+    block.append(buildParagraph(para, items, used));
+    if (zh[i]) {
+      const t = el("p", "zh", zh[i]);
+      t.hidden = true;
+      const toggle = button("tbtn", "看翻譯", () => {
+        t.hidden = !t.hidden;
+        toggle.textContent = t.hidden ? "看翻譯" : "收起翻譯";
+        toggle.setAttribute("aria-expanded", String(!t.hidden));
+      });
+      toggle.setAttribute("aria-expanded", "false");
+      block.append(toggle, t);
+    }
+    body.append(block);
+  });
 
   const sources = el("p", "sources", "Sources: ");
   a.sources.forEach((s, i) => {
@@ -156,9 +465,32 @@ async function renderArticle() {
     const li = document.createElement("li");
     const head = el("div", "head");
     head.append(el("span", "w", v.word), el("span", "p", v.pos), el("span", "z", v.zh));
+    head.append(button("mini", "＋ 標記", () => markWord(v.word, v.example || "", ref)));
     li.append(head);
     if (v.example) li.append(el("p", "e", v.example));
     list.append(li);
+  }
+
+  const parts = [
+    meta,
+    el("h1", null, a.title),
+    el("p", "hint", "點標示的字看中文；長按（或選取）任何字可以加入單字本。"),
+    body,
+    sources,
+    el("h2", null, "📚 Vocabulary"),
+    list,
+  ];
+
+  if (reviewWords.length) {
+    const rlist = el("ul", "vocab review");
+    for (const r of reviewWords) {
+      const li = document.createElement("li");
+      const head = el("div", "head");
+      head.append(el("span", "w", r.word), el("span", "z", r.zh));
+      li.append(head);
+      rlist.append(li);
+    }
+    parts.push(el("h2", null, "🔁 複習：你標記過的字"), rlist);
   }
 
   const pager = el("nav", "pager");
@@ -167,16 +499,106 @@ async function renderArticle() {
   if (prev.tagName === "A") prev.href = articleUrl(date, n - 1);
   if (next.tagName === "A") next.href = articleUrl(date, n + 1);
   pager.append(prev, next);
+  parts.push(pager);
 
-  main.replaceChildren(
-    meta,
-    el("h1", null, a.title),
-    el("p", "hint", "點一下標示的單字可以看中文解釋。"),
-    body,
-    sources,
-    el("h2", null, "📚 Vocabulary"),
-    list,
-    pager
-  );
-  setupPopover(a.vocab);
+  main.replaceChildren(...parts);
+  setupPopover(items, ref);
+  setupSelectionMark(ref);
+}
+
+// ---------- My words ----------
+
+function reviewStatus(w) {
+  const done = (w.reviews || []).length;
+  if (done >= SCHEDULE.length) return "已完成 3 次複習，之後會不定期出現";
+  return "已複習 " + done + "/3 · 下次約 " + addDays(w.marked_at, SCHEDULE[done]);
+}
+
+function wordRefUrl(ref) {
+  const m = /^([\w-]+)#(\d+)$/.exec(ref || "");
+  return m ? articleUrl(m[1], m[2]) : null;
+}
+
+async function renderWords() {
+  const main = document.getElementById("main");
+  const tokenBox = document.getElementById("token");
+
+  function renderTokenBox() {
+    const has = !!getToken();
+    tokenBox.replaceChildren(
+      el("span", null, has ? "這台裝置已連結 GitHub。" : "這台裝置尚未連結 GitHub，只能瀏覽，不能標記或刪除。"),
+      has
+        ? button("btn", "移除金鑰", () => {
+            if (confirm("要移除這台裝置上的金鑰嗎？")) {
+              setToken("");
+              renderTokenBox();
+            }
+          })
+        : button("btn primary", "設定金鑰", async () => {
+            if (await askToken()) load();
+          })
+    );
+  }
+
+  async function load() {
+    renderTokenBox();
+    let data;
+    try {
+      ({ data } = await readMarked());
+    } catch (e) {
+      if (e instanceof AuthError) {
+        setToken("");
+        renderTokenBox();
+        return showError(main, "金鑰已失效，請重新設定。");
+      }
+      return showError(main, "無法載入單字本。");
+    }
+    const words = (data.words || []).slice().sort((x, y) => (y.marked_at || "").localeCompare(x.marked_at || ""));
+    if (!words.length) return showError(main, "還沒有標記任何字。在文章裡長按一個字就能加進來。");
+
+    const learning = words.filter((w) => (w.reviews || []).length < SCHEDULE.length).length;
+    main.replaceChildren(el("p", "summary", "共 " + words.length + " 個字 · 複習中 " + learning + " · 已完成 " + (words.length - learning)));
+
+    const list = el("ul", "vocab words");
+    for (const w of words) {
+      const li = document.createElement("li");
+      const head = el("div", "head");
+      head.append(el("span", "w", w.base || w.word));
+      if (w.pos) head.append(el("span", "p", w.pos));
+      head.append(el("span", w.zh ? "z" : "z pending", w.zh || "明早補上翻譯"));
+      li.append(head);
+      if (w.context) li.append(el("p", "e", w.context));
+      const foot = el("div", "word-foot");
+      const info = el("span", null, "標記於 " + w.marked_at + " · " + reviewStatus(w));
+      foot.append(info);
+      const url = wordRefUrl(w.article);
+      if (url) {
+        const link = el("a", null, "原文");
+        link.href = url;
+        foot.append(link);
+      }
+      if (getToken()) {
+        foot.append(button("mini danger", "刪除", async () => {
+          if (!confirm("要從單字本刪除「" + w.word + "」嗎？")) return;
+          toast("刪除中…");
+          try {
+            await updateMarked((d) => {
+              const before = d.words.length;
+              d.words = d.words.filter((x) => x.id !== w.id);
+              if (d.words.length === before) return false;
+            }, "Remove word: " + w.word);
+            toast("已刪除「" + w.word + "」");
+            load();
+          } catch (e) {
+            toast(e instanceof AuthError ? "金鑰已失效，請重新設定" : "刪除失敗，請稍後再試");
+          }
+        }));
+      }
+      li.append(foot);
+      list.append(li);
+    }
+    main.append(list);
+  }
+
+  load();
 }
