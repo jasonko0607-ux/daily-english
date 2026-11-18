@@ -47,41 +47,58 @@ jobs:
             } >> "$GITHUB_OUTPUT"
           fi
 
+      # The Claude Code CLI is used directly: the claude-code-action wrapper
+      # does not accept push events.
       - name: Ask Claude for the meanings
-        id: claude
         if: steps.pending.outputs.count != '0'
-        uses: anthropics/claude-code-action@v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          github_token: ${{ github.token }}
-          prompt: |
-            You are filling in a Taiwanese learner's English vocabulary notebook.
-            Do not read, edit or run anything; answer only with the structured output.
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          WORDS: ${{ steps.pending.outputs.words }}
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          export PATH="$HOME/.local/bin:$PATH"
+          prompt="You are filling in a Taiwanese learner's English vocabulary notebook.
+          Do not read, edit or run anything; answer only with the structured output.
 
-            For each item below, give the meaning of "word" as it is used in "context":
-            - zh: a short Traditional Chinese (Taiwan) dictionary-style meaning, at most
-              two senses separated by "；", the sense used in the context first,
-              e.g. "讓步；妥協". No pinyin, no explanation.
-            - pos: one of "n.", "v.", "adj.", "adv.", "phr." (use "phr." for any multi-word item).
-            - base: the dictionary form, lowercase unless it is a proper noun
-              (e.g. "hikes" -> "hike", "sputtered" -> "sputter"; a phrase stays a phrase).
-            - id: copied unchanged.
+          For each item below, give the meaning of \"word\" as it is used in \"context\":
+          - zh: a short Traditional Chinese (Taiwan) dictionary-style meaning, at most
+            two senses separated by \"；\", the sense used in the context first,
+            e.g. \"讓步；妥協\". No pinyin, no explanation.
+          - pos: one of \"n.\", \"v.\", \"adj.\", \"adv.\", \"phr.\" (use \"phr.\" for any multi-word item).
+          - base: the dictionary form, lowercase unless it is a proper noun
+            (e.g. \"hikes\" -> \"hike\", \"sputtered\" -> \"sputter\"; a phrase stays a phrase).
+          - id: copied unchanged.
 
-            Items (JSON):
-            ${{ steps.pending.outputs.words }}
-          claude_args: |
-            --model haiku
-            --max-turns 3
-            --json-schema '{"type":"object","properties":{"words":{"type":"array","items":{"type":"object","properties":{"id":{"type":"string"},"zh":{"type":"string"},"pos":{"type":"string","enum":["n.","v.","adj.","adv.","phr."]},"base":{"type":"string"}},"required":["id","zh","pos","base"]}}},"required":["words"]}'
+          Items (JSON):
+          $WORDS"
+          schema='{"type":"object","properties":{"words":{"type":"array","items":{"type":"object","properties":{"id":{"type":"string"},"zh":{"type":"string"},"pos":{"type":"string","enum":["n.","v.","adj.","adv.","phr."]},"base":{"type":"string"}},"required":["id","zh","pos","base"]}}},"required":["words"]}'
+          claude -p "$prompt" --model haiku --max-turns 3 --output-format json \
+            --json-schema "$schema" > "$RUNNER_TEMP/claude.json" || true
+          python3 - "$RUNNER_TEMP/claude.json" "$RUNNER_TEMP/result.json" <<'PY'
+          import json, sys
+          raw = json.load(open(sys.argv[1], encoding="utf-8"))
+          usage = raw.get("usage") or {}
+          print(f"::notice::turns={raw.get('num_turns')} input={usage.get('input_tokens')} "
+                f"cache_read={usage.get('cache_read_input_tokens')} "
+                f"cache_write={usage.get('cache_creation_input_tokens')} output={usage.get('output_tokens')}")
+          out = raw.get("structured_output")
+          if not out:
+              try:
+                  out = json.loads(raw.get("result") or "")
+              except ValueError:
+                  out = None
+          if raw.get("is_error") or not isinstance(out, dict):
+              print("::error::Claude gave no usable answer: " + str(raw.get("result"))[:300])
+              sys.exit(1)
+          json.dump(out, open(sys.argv[2], "w", encoding="utf-8"), ensure_ascii=False)
+          print(f"::notice::Claude returned {len(out.get('words', []))} meaning(s)")
+          PY
 
       # Re-read the latest file before writing, and retry if the site saved a
       # new word in between.
       - name: Save the meanings
         if: steps.pending.outputs.count != '0'
-        env:
-          RESULT: ${{ steps.claude.outputs.structured_output }}
         run: |
-          printf '%s' "$RESULT" > "$RUNNER_TEMP/result.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do
