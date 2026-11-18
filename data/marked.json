@@ -138,9 +138,10 @@
       "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "排放量；排放物",
+      "pos": "n.",
+      "reviews": [],
+      "base": "emission"
     },
     {
       "id": "mwlxnsm31tbn",
@@ -148,9 +149,10 @@
       "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "暴利稅；意外獲利稅",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "windfall tax"
     },
     {
       "id": "mwlxoq1qdae2",
@@ -158,9 +160,10 @@
       "context": "However, major fossil fuel producers and consumers are reportedly resisting any deal that sets firm new targets.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "抵制；抗拒",
+      "pos": "v.",
+      "reviews": [],
+      "base": "resist"
     },
     {
       "id": "mwlxouc4cqoe",
@@ -168,9 +171,10 @@
       "context": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "主席團；主席職位",
+      "pos": "n.",
+      "reviews": [],
+      "base": "presidency"
     },
     {
       "id": "mwlxpbegqwzd",
@@ -178,9 +182,10 @@
       "context": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "電氣化；電動化",
+      "pos": "n.",
+      "reviews": [],
+      "base": "electrification"
     },
     {
       "id": "mwlxpy4iak9u",
@@ -188,9 +193,10 @@
       "context": "Last year's conference, COP30, ended without a plan to phase out fossil fuels, because more than 100 countries blocked such language.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "逐步淘汰；分階段廢除",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "phase out"
     },
     {
       "id": "mwlxsffqhd1t",
@@ -198,9 +204,10 @@
       "context": "Whether the delegates can bridge their differences remains unclear.",
       "article": "2026-11-18#1",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "彌合；化解",
+      "pos": "v.",
+      "reviews": [],
+      "base": "bridge"
     },
     {
       "id": "mwm0vtq3prhw",
@@ -208,9 +215,10 @@
       "context": "The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "劣化；性能下降",
+      "pos": "n.",
+      "reviews": [],
+      "base": "degradation"
     },
     {
       "id": "mwm0xcaitq5k",
@@ -218,9 +226,10 @@
       "context": "One analyst described the mix as a compounding of bizarre stories.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "加劇；疊加（負面事件）",
+      "pos": "n.",
+      "reviews": [],
+      "base": "compound"
     },
     {
       "id": "mwm0xep90urx",
@@ -228,9 +237,10 @@
       "context": "One analyst described the mix as a compounding of bizarre stories.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "怪異的；離奇的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "bizarre"
     },
     {
       "id": "mwm0xq2vp12o",
@@ -238,9 +248,10 @@
       "context": "The VIX volatility index, a popular gauge of market fear, rose as much as 21% to 27.73.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "波動性；動盪程度",
+      "pos": "n.",
+      "reviews": [],
+      "base": "volatility"
     },
     {
       "id": "mwm11vqpfgqm",
@@ -248,9 +259,10 @@
       "context": "Home Depot dropped nearly 3% even though it beat expectations for earnings and revenue, because its cautious full-year outlook disappointed some investors.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "優於（預期）；擊敗",
+      "pos": "v.",
+      "reviews": [],
+      "base": "beat"
     },
     {
       "id": "mwm64aj16lhq",
@@ -258,9 +270,10 @@
       "context": "Alberto Musalem, a regional Federal Reserve president, said the economy might need as many as four rate hikes in the coming months.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "升息；加息",
+      "pos": "n.",
+      "reviews": [],
+      "base": "hike"
     },
     {
       "id": "mwm6herukmt2",
@@ -268,9 +281,10 @@
       "context": "Oil prices edged lower, with Brent crude down 0.71% to $92.44 a barrel.",
       "article": "2026-11-18#2",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "桶（石油計量單位）",
+      "pos": "n.",
+      "reviews": [],
+      "base": "barrel"
     },
     {
       "id": "mwm8aj8oq4l4",
@@ -278,9 +292,10 @@
       "context": "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "暫時的；過渡性的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "interim"
     },
     {
       "id": "mwmb3q6jeb1b",
@@ -288,9 +303,10 @@
       "context": "Washington already restricts the shipment of such chips to China, but regulators have had only limited authority over access to processors housed in data centers abroad, a gap that critics say allows the restrictions to be circumvented.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "規避；繞過",
+      "pos": "v.",
+      "reviews": [],
+      "base": "circumvent"
     },
     {
       "id": "mwmb4lqj2eaa",
@@ -298,9 +314,10 @@
       "context": "Pending legislation would go further.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "待審的；未決的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "pending"
     },
     {
       "id": "mwmb4pyxokvw",
@@ -308,9 +325,10 @@
       "context": "Pending legislation would go further.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "法案；立法",
+      "pos": "n.",
+      "reviews": [],
+      "base": "legislation"
     },
     {
       "id": "mwmb7im6qwnt",
@@ -318,9 +336,10 @@
       "context": "It has also said it will not sell chips to customers who rent out more than half of their processors to Chinese firms, and the Financial Times reported that it verbally told data-center clients to direct at least 51% of their services to non-Chinese customers under future contracts.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "口頭上地；以口頭方式",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "verbally"
     },
     {
       "id": "mwmbffy6u4kk",
@@ -328,9 +347,10 @@
       "context": "The impetus is a mixture of congressional scrutiny and strategic anxiety.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "推動力；動機",
+      "pos": "n.",
+      "reviews": [],
+      "base": "impetus"
     },
     {
       "id": "mwmbfx8ij5gb",
@@ -338,9 +358,10 @@
       "context": "The impetus is a mixture of congressional scrutiny and strategic anxiety.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "國會的；國會議員的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "congressional"
     },
     {
       "id": "mwmbfzf5zekf",
@@ -348,9 +369,10 @@
       "context": "The impetus is a mixture of congressional scrutiny and strategic anxiety.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "嚴格審查；仔細檢視",
+      "pos": "n.",
+      "reviews": [],
+      "base": "scrutiny"
     },
     {
       "id": "mwmbq4te7hlb",
@@ -358,9 +380,10 @@
       "context": "CNBC reported on November 5 that Moonshot AI had sought chip access through European data centers, and in July the administration accused the same company of reaching chips through facilities in East Asia.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "尋求；設法取得",
+      "pos": "v.",
+      "reviews": [],
+      "base": "seek"
     },
     {
       "id": "mwmbqy4fpr9f",
@@ -368,9 +391,10 @@
       "context": "CNBC reported on November 5 that Moonshot AI had sought chip access through European data centers, and in July the administration accused the same company of reaching chips through facilities in East Asia.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "指控；控告",
+      "pos": "v.",
+      "reviews": [],
+      "base": "accuse"
     },
     {
       "id": "mwmbusdv7gxj",
@@ -378,9 +402,10 @@
       "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "大改組；人事大調整",
+      "pos": "n.",
+      "reviews": [],
+      "base": "shakeup"
     },
     {
       "id": "mwmbv4t6wwcq",
@@ -388,9 +413,10 @@
       "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "表面上；看似",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "seemingly"
     },
     {
       "id": "mwmbv6s9u263",
@@ -398,9 +424,10 @@
       "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "非法的；違法的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "illicit"
     },
     {
       "id": "mwmbv8x4olw3",
@@ -408,9 +435,10 @@
       "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "提振；增強",
+      "pos": "v.",
+      "reviews": [],
+      "base": "bolster"
     },
     {
       "id": "mwmbxbjivpft",
