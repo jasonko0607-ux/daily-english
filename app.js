@@ -263,6 +263,15 @@ async function renderIndex() {
   }
   if (!days.length) return showError(main, "還沒有文章，明天早上 8 點見。");
 
+  // Word counts per day come from the published copy; if it is missing the
+  // home page simply shows no word links.
+  const marked = new Map();
+  try {
+    for (const w of (await loadJson(MARKED_PATH)).words || []) {
+      marked.set(w.marked_at, (marked.get(w.marked_at) || 0) + 1);
+    }
+  } catch (e) {}
+
   main.replaceChildren();
   for (const day of days) {
     const section = el("section", "day");
@@ -277,6 +286,10 @@ async function renderIndex() {
       const card = link("", reviewUrl(day.date), "card review-card");
       card.append(el("span", "t", "🔁 今日複習 · " + day.reviews + " 個你標記過的字"));
       section.append(card);
+    }
+    if (marked.get(day.date)) {
+      section.append(link("📒 當天標記的 " + marked.get(day.date) + " 個字 →",
+        "words.html?date=" + encodeURIComponent(day.date), "day-words"));
     }
     main.append(section);
   }
@@ -946,9 +959,129 @@ function wordRefUrl(ref) {
   return m ? articleUrl(m[1], m[2]) : null;
 }
 
+// The id starts with Date.now() in base 36, so it records the exact moment a
+// word was marked; marked_at alone only has the day.
+function markedTime(w) {
+  const t = parseInt(String(w.id || "").slice(0, 8), 36);
+  return t > 1e12 && t < 4e12 ? t : 0;
+}
+
+// Sort group for review order: words still in the schedule first, then finished
+// ones, then words that are only kept.
+function reviewGroup(w) {
+  if (w.priority === 1) return 2;
+  return (w.reviews || []).length >= SCHEDULE.length ? 1 : 0;
+}
+
+function nextReview(w) {
+  return addDays(w.marked_at, SCHEDULE[(w.reviews || []).length]);
+}
+
+const SORTS = {
+  time: { label: "加入時間", dir: "desc", names: { desc: "新→舊", asc: "舊→新" } },
+  alpha: { label: "字首字母", dir: "asc", names: { asc: "A→Z", desc: "Z→A" } },
+  review: { label: "複習進度", dir: "asc", names: { asc: "近→遠", desc: "遠→近" } },
+};
+const SORT_KEY = "de_words_sort";
+
+function loadSortPref() {
+  try {
+    const p = JSON.parse(localStorage.getItem(SORT_KEY) || "null");
+    if (p && SORTS[p.sort] && (p.dir === "asc" || p.dir === "desc")) return p;
+  } catch (e) {}
+  return { sort: "time", dir: "desc" };
+}
+
+function saveSortPref(sort, dir) {
+  try {
+    localStorage.setItem(SORT_KEY, JSON.stringify({ sort, dir }));
+  } catch (e) {}
+}
+
+function sortWords(words, sort, dir) {
+  const sign = dir === "asc" ? 1 : -1;
+  const byTime = (a, b) => (a.marked_at || "").localeCompare(b.marked_at || "")
+    || markedTime(a) - markedTime(b) || a._order - b._order;
+  const cmp = {
+    time: (a, b) => sign * byTime(a, b),
+    alpha: (a, b) => sign * (a.base || a.word).localeCompare(b.base || b.word, "en", { sensitivity: "base" }),
+    review: (a, b) => {
+      const g = reviewGroup(a) - reviewGroup(b);
+      if (g) return g;
+      if (reviewGroup(a) === 0) {
+        const d = nextReview(a).localeCompare(nextReview(b));
+        if (d) return sign * d;
+      }
+      return -byTime(a, b);
+    },
+  }[sort];
+  return words.slice().sort(cmp);
+}
+
+function matchesQuery(w, q) {
+  if (!q) return true;
+  return [w.word, w.base, w.zh].some((s) => s && s.toLowerCase().includes(q));
+}
+
 async function renderWords() {
   const main = document.getElementById("main");
   const tokenBox = document.getElementById("token");
+  const pref = loadSortPref();
+  const state = {
+    date: new URLSearchParams(location.search).get("date") || "all",
+    sort: pref.sort,
+    dir: pref.dir,
+    q: "",
+  };
+  let words = [];
+
+  // Controls are built once and kept across reloads, so deleting a word keeps
+  // the current filter, sort and search text.
+  const tools = el("div", "word-tools");
+  tools.hidden = true;
+  const search = el("input", "word-search");
+  search.type = "search";
+  search.placeholder = "🔍 搜尋英文或中文…";
+  search.setAttribute("aria-label", "搜尋單字");
+  search.addEventListener("input", () => {
+    state.q = search.value.trim().toLowerCase();
+    draw();
+  });
+  const dateSel = el("select", "word-select");
+  dateSel.setAttribute("aria-label", "選擇日期");
+  dateSel.addEventListener("change", () => setDate(dateSel.value));
+  const sortSel = el("select", "word-select");
+  sortSel.setAttribute("aria-label", "排序方式");
+  for (const [key, s] of Object.entries(SORTS)) {
+    const o = el("option", null, s.label);
+    o.value = key;
+    sortSel.append(o);
+  }
+  sortSel.addEventListener("change", () => {
+    state.sort = sortSel.value;
+    state.dir = SORTS[state.sort].dir;
+    saveSortPref(state.sort, state.dir);
+    draw();
+  });
+  const dirBtn = button("word-dir", "", () => {
+    state.dir = state.dir === "asc" ? "desc" : "asc";
+    saveSortPref(state.sort, state.dir);
+    draw();
+  });
+  dirBtn.setAttribute("aria-label", "切換排序方向");
+  const row = el("div", "word-tools-row");
+  row.append(dateSel, sortSel, dirBtn);
+  tools.append(search, row);
+  main.before(tools);
+
+  function setDate(date) {
+    state.date = date;
+    const url = new URL(location.href);
+    if (date === "all") url.searchParams.delete("date");
+    else url.searchParams.set("date", date);
+    history.replaceState(null, "", url);
+    draw();
+  }
 
   function renderTokenBox() {
     const has = !!getToken();
@@ -967,6 +1100,105 @@ async function renderWords() {
     );
   }
 
+  function fillDates() {
+    const counts = new Map();
+    for (const w of words) counts.set(w.marked_at, (counts.get(w.marked_at) || 0) + 1);
+    const dates = [...counts.keys()].sort().reverse();
+    const all = el("option", null, "全部日期（" + words.length + " 字）");
+    all.value = "all";
+    dateSel.replaceChildren(all, ...dates.map((d) => {
+      const o = el("option", null, d + "（" + counts.get(d) + " 字）");
+      o.value = d;
+      return o;
+    }));
+    if (state.date !== "all" && !counts.has(state.date)) setDate("all");
+  }
+
+  function wordItem(w) {
+    const li = document.createElement("li");
+    const head = el("div", "head");
+    head.append(el("span", "w", w.base || w.word));
+    if (w.pos) head.append(el("span", "p", w.pos));
+    head.append(el("span", w.zh ? "z" : "z pending", w.zh || "明早補上翻譯"));
+    if (w.priority) {
+      const s = el("span", "stars", stars(w.priority));
+      s.title = "重要度 " + w.priority + "/3（依多益與一般常用程度自動評估）";
+      head.append(s);
+    }
+    li.append(head);
+    if (w.context) li.append(el("p", "e", w.context));
+    const foot = el("div", "word-foot");
+    foot.append(el("span", null, "標記於 " + w.marked_at + " · " + reviewStatus(w)));
+    const url = wordRefUrl(w.article);
+    if (url) foot.append(link("原文", url));
+    if (getToken()) {
+      foot.append(button("mini danger", "刪除", async () => {
+        if (!confirm("要從單字本刪除「" + w.word + "」嗎？")) return;
+        toast("刪除中…");
+        try {
+          await updateMarked((d) => {
+            const before = d.words.length;
+            d.words = d.words.filter((x) => x.id !== w.id);
+            if (d.words.length === before) return false;
+          }, "Remove word: " + w.word);
+          toast("已刪除「" + w.word + "」");
+          load();
+        } catch (e) {
+          toast(e instanceof AuthError ? "金鑰已失效，請重新設定" : "刪除失敗，請稍後再試");
+        }
+      }));
+    }
+    li.append(foot);
+    return li;
+  }
+
+  function draw() {
+    dateSel.value = state.date;
+    sortSel.value = state.sort;
+    dirBtn.textContent = SORTS[state.sort].names[state.dir];
+
+    const shown = sortWords(
+      words.filter((w) => (state.date === "all" || w.marked_at === state.date) && matchesQuery(w, state.q)),
+      state.sort, state.dir);
+
+    const kept = words.filter((w) => w.priority === 1).length;
+    const learning = words.filter((w) => w.priority !== 1 && (w.reviews || []).length < SCHEDULE.length).length;
+    const filtered = state.date !== "all" || state.q;
+    main.replaceChildren(el("p", "summary", (filtered ? "顯示 " + shown.length + " / " : "") + "共 " + words.length
+      + " 個字 · 複習中 " + learning + " · 已完成 " + (words.length - learning - kept) + " · 只收藏 " + kept));
+
+    if (!shown.length) {
+      const empty = el("div", "empty");
+      empty.append(el("p", null, "沒有符合的字。"), button("btn", "清除篩選", () => {
+        search.value = "";
+        state.q = "";
+        setDate("all");
+      }));
+      main.append(empty);
+      return;
+    }
+
+    if (state.date === "all" && state.sort === "time") {
+      const counts = new Map();
+      for (const w of shown) counts.set(w.marked_at, (counts.get(w.marked_at) || 0) + 1);
+      let list = null;
+      let day = null;
+      for (const w of shown) {
+        if (w.marked_at !== day) {
+          day = w.marked_at;
+          main.append(el("h2", "word-group", day + " · " + counts.get(day) + " 字"));
+          list = el("ul", "vocab words");
+          main.append(list);
+        }
+        list.append(wordItem(w));
+      }
+    } else {
+      const list = el("ul", "vocab words");
+      for (const w of shown) list.append(wordItem(w));
+      main.append(list);
+    }
+  }
+
   async function load() {
     renderTokenBox();
     let data;
@@ -980,58 +1212,14 @@ async function renderWords() {
       }
       return showError(main, "無法載入單字本。");
     }
-    const words = (data.words || []).slice().sort((x, y) => (y.marked_at || "").localeCompare(x.marked_at || ""));
-    if (!words.length) return showError(main, "還沒有標記任何字。在文章裡長按一個字就能加進來。");
-
-    const kept = words.filter((w) => w.priority === 1).length;
-    const learning = words.filter((w) => w.priority !== 1 && (w.reviews || []).length < SCHEDULE.length).length;
-    main.replaceChildren(el("p", "summary", "共 " + words.length + " 個字 · 複習中 " + learning
-      + " · 已完成 " + (words.length - learning - kept) + " · 只收藏 " + kept));
-
-    const list = el("ul", "vocab words");
-    for (const w of words) {
-      const li = document.createElement("li");
-      const head = el("div", "head");
-      head.append(el("span", "w", w.base || w.word));
-      if (w.pos) head.append(el("span", "p", w.pos));
-      head.append(el("span", w.zh ? "z" : "z pending", w.zh || "明早補上翻譯"));
-      if (w.priority) {
-        const s = el("span", "stars", stars(w.priority));
-        s.title = "重要度 " + w.priority + "/3（依多益與一般常用程度自動評估）";
-        head.append(s);
-      }
-      li.append(head);
-      if (w.context) li.append(el("p", "e", w.context));
-      const foot = el("div", "word-foot");
-      const info = el("span", null, "標記於 " + w.marked_at + " · " + reviewStatus(w));
-      foot.append(info);
-      const url = wordRefUrl(w.article);
-      if (url) {
-        const link = el("a", null, "原文");
-        link.href = url;
-        foot.append(link);
-      }
-      if (getToken()) {
-        foot.append(button("mini danger", "刪除", async () => {
-          if (!confirm("要從單字本刪除「" + w.word + "」嗎？")) return;
-          toast("刪除中…");
-          try {
-            await updateMarked((d) => {
-              const before = d.words.length;
-              d.words = d.words.filter((x) => x.id !== w.id);
-              if (d.words.length === before) return false;
-            }, "Remove word: " + w.word);
-            toast("已刪除「" + w.word + "」");
-            load();
-          } catch (e) {
-            toast(e instanceof AuthError ? "金鑰已失效，請重新設定" : "刪除失敗，請稍後再試");
-          }
-        }));
-      }
-      li.append(foot);
-      list.append(li);
+    words = (data.words || []).map((w, i) => ({ ...w, _order: i }));
+    if (!words.length) {
+      tools.hidden = true;
+      return showError(main, "還沒有標記任何字。在文章裡長按一個字就能加進來。");
     }
-    main.append(list);
+    tools.hidden = false;
+    fillDates();
+    draw();
   }
 
   load();

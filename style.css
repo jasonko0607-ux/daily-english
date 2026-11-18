@@ -191,6 +191,27 @@ a.mini { text-decoration: none; }
 }
 .word-foot a { font-weight: 600; text-decoration: none; }
 .summary { color: var(--muted); margin: 0 0 16px; }
+
+.word-tools { display: flex; flex-direction: column; gap: 10px; margin: 0 0 16px; }
+.word-tools[hidden] { display: none; }
+.word-tools-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.word-search, .word-select, .word-dir {
+  font: inherit; font-size: 16px; color: var(--text); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px;
+}
+.word-search { width: 100%; }
+.word-select { flex: 1 1 140px; min-width: 0; cursor: pointer; }
+.word-dir { flex: none; font-weight: 600; cursor: pointer; white-space: nowrap; }
+@media (max-width: 520px) {
+  .word-tools-row .word-select:first-child { flex-basis: 100%; }
+}
+.word-search:focus-visible, .word-select:focus-visible, .word-dir:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+.word-group { font-size: 16px; color: var(--muted); margin: 24px 0 10px; }
+.summary + .word-group { margin-top: 0; }
+.empty .btn { margin-top: 8px; }
+.day-words { display: inline-block; margin-top: 4px; font-size: 15px; font-weight: 600; text-decoration: none; }
 .token-box {
   display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
   margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted);
