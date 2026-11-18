@@ -479,9 +479,10 @@
       "context": "Closing the loophole may prove easier to announce than to enforce.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "執行；強制實施",
+      "pos": "v.",
+      "reviews": [],
+      "base": "enforce"
     }
   ]
 }
