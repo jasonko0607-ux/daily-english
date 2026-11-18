@@ -446,9 +446,10 @@
       "context": "Huang has been asked to testify before the Senate Banking Committee on December 3.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "作證；出庭作證",
+      "pos": "v.",
+      "reviews": [],
+      "base": "testify"
     },
     {
       "id": "mwmbxrhghvfm",
@@ -456,9 +457,10 @@
       "context": "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "強調；凸顯",
+      "pos": "v.",
+      "reviews": [],
+      "base": "underscore"
     },
     {
       "id": "mwmbxtx0g0t6",
@@ -466,9 +468,10 @@
       "context": "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police.",
       "article": "2026-11-18#3",
       "marked_at": "2026-11-18",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "進退兩難；兩難困境",
+      "pos": "n.",
+      "reviews": [],
+      "base": "dilemma"
     }
   ]
 }
