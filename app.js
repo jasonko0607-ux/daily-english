@@ -361,7 +361,6 @@ function setupPopover(items, ref) {
       const again = button("pop-say", "🔊", () => speakWord(said));
       again.setAttribute("aria-label", "再念一次");
       line.append(again);
-      speakWord(said);
     }
     pop.replaceChildren(line, el("span", "z", item.zh));
     if (item.review) {
@@ -447,6 +446,7 @@ const tts = {
   utter: null, // kept so Chrome doesn't garbage-collect it before onend fires
   boundaryWorks: false, // set once the voice reports word positions
   timer: null,
+  clearTimer: null, // removes the highlight once the spoken word is over
 };
 
 try {
@@ -545,6 +545,13 @@ function clearHighlights() {
 function stopTimer() {
   clearInterval(tts.timer);
   tts.timer = null;
+  clearTimeout(tts.clearTimer);
+  tts.clearTimer = null;
+}
+
+// Rough time, in ms, the voice needs to say `chars` characters.
+function speechMs(chars) {
+  return (chars / (14 * tts.rate)) * 1000;
 }
 
 // Stops whatever is speaking. The paragraph keeps its position, so pressing its
@@ -558,8 +565,8 @@ function stopSpeaking() {
   if (st) {
     st.playing = false;
     updatePlayer(st);
-    highlight("tts-word");
   }
+  clearHighlights();
 }
 
 function setPos(st, pos) {
@@ -607,10 +614,16 @@ function speakFrom(st, from) {
       // Voices that don't report word positions: move the slider by an estimate.
       if (!tts.boundaryWorks) {
         const t0 = Date.now();
-        const cps = 14 * tts.rate; // rough characters per second
+        const total = speechMs(s.end - start);
         tts.timer = setInterval(() => {
-          if (gen !== tts.gen || sawBoundary) return stopTimer();
-          setPos(st, Math.min(s.end - 1, start + Math.round(((Date.now() - t0) / 1000) * cps)));
+          if (gen !== tts.gen || sawBoundary) return clearInterval(tts.timer);
+          const ms = Date.now() - t0;
+          setPos(st, Math.min(s.end - 1, start + Math.round(((s.end - start) * ms) / total)));
+          // Some voices report the end late; drop the highlight once it should be over.
+          if (ms > total * 1.2 + 400) {
+            stopTimer();
+            clearHighlights();
+          }
         }, 150);
       }
     };
@@ -626,9 +639,20 @@ function speakFrom(st, from) {
       }
       setPos(st, at);
       highlight("tts-word", st.p, at, at + len);
+      // Remove the word highlight when the word should be over, so it never
+      // lingers. After the last word the sentence highlight goes too, because
+      // some voices fire the end event well after the audio stops.
+      const last = !/[A-Za-z0-9]/.test(text.slice(at + len, s.end));
+      clearTimeout(tts.clearTimer);
+      tts.clearTimer = setTimeout(() => {
+        if (gen !== tts.gen) return;
+        highlight("tts-word");
+        if (last) highlight("tts-sentence");
+      }, speechMs(len + 1) + (last ? 250 : 400));
     };
     u.onend = () => {
       if (gen !== tts.gen) return;
+      clearHighlights();
       i++;
       next();
     };
@@ -693,7 +717,7 @@ function buildPlayer(p, text) {
     if (st.playing) speakFrom(st, pos);
     else {
       st.pos = pos;
-      highlight("tts-word");
+      clearHighlights();
     }
   });
 
