@@ -240,7 +240,7 @@ async function markWord(text, context, ref) {
         reviews: [],
       });
     }, "Mark word: " + word);
-    toast(existed ? "「" + word + "」已經在單字本裡" : "已標記「" + word + "」");
+    toast(existed ? "「" + word + "」已經在單字本裡" : "已標記「" + word + "」，約 1–2 分鐘後補上中文");
   } catch (e) {
     if (e instanceof AuthError) {
       setToken("");
@@ -973,6 +973,12 @@ function reviewGroup(w) {
   return (w.reviews || []).length >= SCHEDULE.length ? 1 : 0;
 }
 
+// A word marked in the last 20 minutes without a meaning is still with the
+// translate workflow; after that it waits for the morning routine.
+function isTranslating(w) {
+  return !w.zh && Date.now() - markedTime(w) < 20 * 60 * 1000;
+}
+
 function nextReview(w) {
   return addDays(w.marked_at, SCHEDULE[(w.reviews || []).length]);
 }
@@ -1119,7 +1125,7 @@ async function renderWords() {
     const head = el("div", "head");
     head.append(el("span", "w", w.base || w.word));
     if (w.pos) head.append(el("span", "p", w.pos));
-    head.append(el("span", w.zh ? "z" : "z pending", w.zh || "明早補上翻譯"));
+    head.append(el("span", w.zh ? "z" : "z pending", w.zh || (isTranslating(w) ? "翻譯中…" : "明早補上翻譯")));
     if (w.priority) {
       const s = el("span", "stars", stars(w.priority));
       s.title = "重要度 " + w.priority + "/3（依多益與一般常用程度自動評估）";
@@ -1212,7 +1218,7 @@ async function renderWords() {
       }
       return showError(main, "無法載入單字本。");
     }
-    words = (data.words || []).map((w, i) => ({ ...w, _order: i }));
+    setWords(data);
     if (!words.length) {
       tools.hidden = true;
       return showError(main, "還沒有標記任何字。在文章裡長按一個字就能加進來。");
@@ -1220,6 +1226,34 @@ async function renderWords() {
     tools.hidden = false;
     fillDates();
     draw();
+    schedulePoll();
+  }
+
+  function setWords(data) {
+    words = (data.words || []).map((w, i) => ({ ...w, _order: i }));
+  }
+
+  // While a just-marked word is being translated, check every 20 seconds and
+  // redraw (keeping the scroll position) once a meaning arrives.
+  let pollTimer = null;
+  function schedulePoll() {
+    clearTimeout(pollTimer);
+    if (!getToken() || !words.some(isTranslating)) return;
+    pollTimer = setTimeout(async () => {
+      try {
+        const waiting = new Set(words.filter(isTranslating).map((w) => w.id));
+        const { data } = await readMarked();
+        const arrived = (data.words || []).some((w) => waiting.has(w.id) && w.zh);
+        if (arrived || (data.words || []).length !== words.length) {
+          const y = window.scrollY;
+          setWords(data);
+          fillDates();
+          draw();
+          window.scrollTo(0, y);
+        }
+      } catch (e) {}
+      schedulePoll();
+    }, 20000);
   }
 
   load();

@@ -1,0 +1,97 @@
+# Fills in the Chinese meaning and part of speech of newly marked words a minute
+# or two after they are saved, using Claude Code with the owner's Claude
+# subscription (secret CLAUDE_CODE_OAUTH_TOKEN, made with `claude setup-token`).
+# Stars (priority) are still set by the morning routine.
+name: Translate marked words
+
+on:
+  push:
+    branches: [main]
+    paths: [data/marked.json]
+  workflow_dispatch:
+
+# One run at a time; marks saved while a run is busy are picked up by a single
+# queued run instead of one run per word.
+concurrency:
+  group: translate-words
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # Wait a little so a burst of marks is translated together in one call.
+      - name: Collect words still missing a meaning
+        id: pending
+        run: |
+          sleep 45
+          git pull --quiet origin main
+          words=$(python3 tools/translate.py pending)
+          echo "Pending: $words"
+          if [ "$words" = "[]" ]; then
+            echo "count=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "count=1" >> "$GITHUB_OUTPUT"
+            {
+              echo "words<<END_OF_WORDS"
+              echo "$words"
+              echo "END_OF_WORDS"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ask Claude for the meanings
+        id: claude
+        if: steps.pending.outputs.count != '0'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            You are filling in a Taiwanese learner's English vocabulary notebook.
+            Do not read, edit or run anything; answer only with the structured output.
+
+            For each item below, give the meaning of "word" as it is used in "context":
+            - zh: a short Traditional Chinese (Taiwan) dictionary-style meaning, at most
+              two senses separated by "；", the sense used in the context first,
+              e.g. "讓步；妥協". No pinyin, no explanation.
+            - pos: one of "n.", "v.", "adj.", "adv.", "phr." (use "phr." for any multi-word item).
+            - base: the dictionary form, lowercase unless it is a proper noun
+              (e.g. "hikes" -> "hike", "sputtered" -> "sputter"; a phrase stays a phrase).
+            - id: copied unchanged.
+
+            Items (JSON):
+            ${{ steps.pending.outputs.words }}
+          claude_args: |
+            --model haiku
+            --max-turns 3
+            --json-schema '{"type":"object","properties":{"words":{"type":"array","items":{"type":"object","properties":{"id":{"type":"string"},"zh":{"type":"string"},"pos":{"type":"string","enum":["n.","v.","adj.","adv.","phr."]},"base":{"type":"string"}},"required":["id","zh","pos","base"]}}},"required":["words"]}'
+
+      # Re-read the latest file before writing, and retry if the site saved a
+      # new word in between.
+      - name: Save the meanings
+        if: steps.pending.outputs.count != '0'
+        env:
+          RESULT: ${{ steps.claude.outputs.structured_output }}
+        run: |
+          printf '%s' "$RESULT" > "$RUNNER_TEMP/result.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch --quiet origin main
+            git reset --quiet --hard origin/main
+            changed=$(python3 tools/translate.py apply "$RUNNER_TEMP/result.json")
+            echo "Translated: $changed"
+            [ "$changed" = "0" ] && exit 0
+            git commit --quiet -am "Translate $changed marked word(s)"
+            git push --quiet origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
