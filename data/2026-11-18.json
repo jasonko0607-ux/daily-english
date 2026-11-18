@@ -1,0 +1,327 @@
+{
+  "date": "2026-11-18",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "story_date": "2026-11-13",
+      "title": "UN Climate Talks Split Over the Future of Fossil Fuels",
+      "paragraphs": [
+        "The annual United Nations climate conference, known as COP31, is being held this month in Antalya, Türkiye. As the talks entered their final week, negotiators were still divided over one central question: how quickly the world should move away from oil, gas and coal. Türkiye is the host, while Australia is leading the negotiations, and both now have only a few days left to reach an agreement.",
+        "UN Secretary-General Antonio Guterres urged delegates to act with speed. He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action. He also warned negotiators not to use delaying tactics.",
+        "However, major fossil fuel producers and consumers are reportedly resisting any deal that sets firm new targets. The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification. Officials argue that using more electricity will automatically reduce the burning of coal, oil and gas. Critics see this as a weaker path.",
+        "The background is difficult. Last year's conference, COP30, ended without a plan to phase out fossil fuels, because more than 100 countries blocked such language. Brazil later started an informal roadmap effort that was meant to feed into this year's talks, and Colombia hosted a separate meeting on the issue in Santa Marta earlier in 2026. The United States, meanwhile, skipped the talks for the second year in a row.",
+        "Whether the delegates can bridge their differences remains unclear. The final text will show if governments are ready to turn promises into firm commitments, or whether the fossil fuel question will be pushed to yet another conference."
+      ],
+      "paragraphs_zh": [
+        "聯合國年度氣候大會 COP31 本月在土耳其安塔利亞舉行。談判進入最後一週時，各國談判代表在一個核心問題上仍然意見分歧：世界應以多快的速度減少使用石油、天然氣和煤炭。土耳其是主辦國，澳洲則主導談判，兩者如今都只剩幾天時間來達成協議。",
+        "聯合國秘書長古特雷斯敦促各國代表加快行動。他呼籲大幅削減溫室氣體排放，並要求各國政府對石油和天然氣公司課徵暴利稅，讓這些額外利潤可用來支付氣候行動的經費。他也警告談判代表不要使用拖延戰術。",
+        "然而，據報導，主要的化石燃料生產國與消費國正抗拒任何訂下明確新目標的協議。大會主席團表示，將以 COP28 協議中在能源系統中逐步脫離化石燃料的決議為基礎，但其主要重點在於電氣化。官員們主張，使用更多電力將自動減少煤、石油和天然氣的燃燒。批評者則認為這條路徑力道較弱。",
+        "背景相當艱難。去年的 COP30 結束時，並未達成逐步淘汰化石燃料的計畫，因為超過 100 個國家阻擋了相關措辭。巴西後來啟動了一項非正式的路線圖行動，原本是要為今年的談判提供參考，而哥倫比亞也在 2026 年稍早於聖塔瑪爾塔主辦了一場針對此議題的獨立會議。同時，美國連續第二年缺席這場談判。",
+        "代表們能否彌合彼此的歧見，目前仍不明朗。最終文本將顯示各國政府是否準備好把承諾化為明確的承諾，還是會把化石燃料問題再推遲到下一場大會。"
+      ],
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/11/un-climate-chief-urges-speed-cop31-confronts-fossil-fuel-divide"
+        },
+        {
+          "name": "The Star (Reuters)",
+          "url": "https://www.thestar.com.my/news/world/2026/11/13/cop31-talks-face-early-friction-over-future-of-fossil-fuels"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "negotiator",
+          "pos": "n.",
+          "zh": "談判代表",
+          "match": "negotiators",
+          "example": "As the talks entered their final week, negotiators were still divided over one central question: how quickly the world should move away from oil, gas and coal."
+        },
+        {
+          "word": "delegate",
+          "pos": "n.",
+          "zh": "（會議）代表",
+          "match": "delegates",
+          "example": "UN Secretary-General Antonio Guterres urged delegates to act with speed."
+        },
+        {
+          "word": "emissions",
+          "pos": "n.",
+          "zh": "排放（量）",
+          "match": "emissions",
+          "example": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action."
+        },
+        {
+          "word": "windfall tax",
+          "pos": "phr.",
+          "zh": "暴利稅",
+          "match": "windfall taxes",
+          "example": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action."
+        },
+        {
+          "word": "tactic",
+          "pos": "n.",
+          "zh": "戰術；策略",
+          "match": "tactics",
+          "example": "He also warned negotiators not to use delaying tactics."
+        },
+        {
+          "word": "resist",
+          "pos": "v.",
+          "zh": "抗拒；反對",
+          "match": "resisting",
+          "example": "However, major fossil fuel producers and consumers are reportedly resisting any deal that sets firm new targets."
+        },
+        {
+          "word": "electrification",
+          "pos": "n.",
+          "zh": "電氣化",
+          "match": "electrification",
+          "example": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification."
+        },
+        {
+          "word": "phase out",
+          "pos": "phr.",
+          "zh": "逐步淘汰",
+          "match": "phase out",
+          "example": "Last year's conference, COP30, ended without a plan to phase out fossil fuels, because more than 100 countries blocked such language."
+        },
+        {
+          "word": "roadmap",
+          "pos": "n.",
+          "zh": "路線圖",
+          "match": "roadmap",
+          "example": "Brazil later started an informal roadmap effort that was meant to feed into this year's talks, and Colombia hosted a separate meeting on the issue in Santa Marta earlier in 2026."
+        },
+        {
+          "word": "bridge",
+          "pos": "v.",
+          "zh": "彌合（差異）",
+          "match": "bridge",
+          "example": "Whether the delegates can bridge their differences remains unclear."
+        },
+        {
+          "word": "commitment",
+          "pos": "n.",
+          "zh": "承諾",
+          "match": "commitments",
+          "example": "The final text will show if governments are ready to turn promises into firm commitments, or whether the fossil fuel question will be pushed to yet another conference."
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Business",
+      "story_date": "2026-11-17",
+      "title": "Wall Street Slides as Tech Worries and Rate Fears Grow",
+      "paragraphs": [
+        "US stocks fell sharply on Tuesday, November 17, and the S&P 500 closed at its lowest level since late July. The index lost 1.03% to finish at 7,340.53. The Dow Jones Industrial Average dropped 848.75 points, or 1.64%, to 50,759.42, after falling by more than 1,000 points at its worst moment. The Nasdaq Composite slipped 0.74% to 24,328.38.",
+        "Shares of chip companies led the decline ahead of Nvidia's earnings report, which was due after the market closed. Nvidia itself ended the day down 0.5%. The selling deepened after CNN reported that a classified network at the National Security Agency had gone down. The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack. Strategists also pointed to a string of recent incidents, including a weekend flight stoppage in the US and an Outlook outage at Microsoft. One analyst described the mix as a compounding of bizarre stories.",
+        "Investors showed clear signs of anxiety. The VIX volatility index, a popular gauge of market fear, rose as much as 21% to 27.73. Weakness was widespread: at midday, 1,924 stocks fell on the New York Stock Exchange while only 700 rose. Home Depot dropped nearly 3% even though it beat expectations for earnings and revenue, because its cautious full-year outlook disappointed some investors. Disney, on the other hand, won praise from analysts after its results.",
+        "Worries about interest rates added to the pressure. Alberto Musalem, a regional Federal Reserve president, said the economy might need as many as four rate hikes in the coming months. The yield on the 10-year Treasury note stood at 5.118% early in the day. Some analysts remained calm. UBS said a lasting downturn would require weaker demand for computing power or slower growth in AI revenue, and it still sees room for broad stock gains over the next six to 12 months. Oil prices edged lower, with Brent crude down 0.71% to $92.44 a barrel."
+      ],
+      "paragraphs_zh": [
+        "美國股市週二（11 月 17 日）急跌，標普 500 指數收在 7 月下旬以來的最低水準。該指數下跌 1.03%，收在 7,340.53 點。道瓊工業指數下跌 848.75 點，跌幅 1.64%，收在 50,759.42 點，盤中最低時曾下挫超過 1,000 點。那斯達克綜合指數下跌 0.74%，收在 24,328.38 點。",
+        "在輝達財報發布前，晶片公司股價領跌，該財報預定在收盤後公布。輝達本身當天收盤下跌 0.5%。在 CNN 報導美國國家安全局的一個機密網路中斷後，賣壓加深。該機構表示，網路在例行的預定維護期間出現暫時性效能下降，CNN 的消息來源也表示沒有證據顯示遭到網路攻擊。策略師還指出近期一連串事件，包括週末美國的航班停飛，以及微軟 Outlook 的服務中斷。一位分析師形容這些事件的組合是一連串離奇消息的疊加。",
+        "投資人明顯顯露出焦慮。被視為市場恐慌指標的 VIX 波動率指數最多上升 21%，達到 27.73。疲弱情況相當普遍：在中午時，紐約證交所有 1,924 檔股票下跌，上漲的只有 700 檔。家得寶儘管獲利與營收都優於預期，股價仍下跌近 3%，因為其審慎的全年展望令部分投資人失望。另一方面，迪士尼在公布業績後獲得分析師的讚許。",
+        "對利率的擔憂也增添了壓力。聯邦準備銀行一位地區總裁阿爾貝托·穆薩勒姆表示，未來幾個月經濟可能需要多達四次升息。10 年期美國公債殖利率在當天稍早為 5.118%。部分分析師仍保持冷靜。瑞銀表示，要出現持久的衰退，需要運算力需求轉弱或人工智慧營收成長放緩，而該行仍看好未來 6 至 12 個月股市有廣泛的漲幅空間。油價小幅走低，布蘭特原油下跌 0.71%，每桶報 92.44 美元。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "decline",
+          "pos": "n.",
+          "zh": "下跌；衰退",
+          "match": "decline",
+          "example": "Shares of chip companies led the decline ahead of Nvidia's earnings report, which was due after the market closed."
+        },
+        {
+          "word": "earnings",
+          "pos": "n.",
+          "zh": "獲利；收益",
+          "match": "earnings",
+          "example": "Shares of chip companies led the decline ahead of Nvidia's earnings report, which was due after the market closed."
+        },
+        {
+          "word": "degradation",
+          "pos": "n.",
+          "zh": "（效能）降低",
+          "match": "degradation",
+          "example": "The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack."
+        },
+        {
+          "word": "routine",
+          "pos": "adj.",
+          "zh": "例行的",
+          "match": "routine",
+          "example": "The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack."
+        },
+        {
+          "word": "string of",
+          "pos": "phr.",
+          "zh": "一連串的",
+          "match": "string of",
+          "example": "Strategists also pointed to a string of recent incidents, including a weekend flight stoppage in the US and an Outlook outage at Microsoft."
+        },
+        {
+          "word": "compounding",
+          "pos": "adj.",
+          "zh": "加劇的；疊加的",
+          "match": "compounding",
+          "example": "One analyst described the mix as a compounding of bizarre stories."
+        },
+        {
+          "word": "gauge",
+          "pos": "n.",
+          "zh": "衡量指標",
+          "match": "gauge",
+          "example": "The VIX volatility index, a popular gauge of market fear, rose as much as 21% to 27.73."
+        },
+        {
+          "word": "outlook",
+          "pos": "n.",
+          "zh": "展望；前景",
+          "match": "outlook",
+          "example": "Home Depot dropped nearly 3% even though it beat expectations for earnings and revenue, because its cautious full-year outlook disappointed some investors."
+        },
+        {
+          "word": "hike",
+          "pos": "n.",
+          "zh": "（利率）調升",
+          "match": "hikes",
+          "example": "Alberto Musalem, a regional Federal Reserve president, said the economy might need as many as four rate hikes in the coming months."
+        },
+        {
+          "word": "yield",
+          "pos": "n.",
+          "zh": "殖利率",
+          "match": "yield",
+          "example": "The yield on the 10-year Treasury note stood at 5.118% early in the day."
+        },
+        {
+          "word": "edge lower",
+          "pos": "phr.",
+          "zh": "小幅走低",
+          "match": "edged lower",
+          "example": "Oil prices edged lower, with Brent crude down 0.71% to $92.44 a barrel."
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Technology",
+      "story_date": "2026-11-16",
+      "title": "Washington Moves to Close the Cloud Loophole in Chip Controls",
+      "paragraphs": [
+        "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips. Washington already restricts the shipment of such chips to China, but regulators have had only limited authority over access to processors housed in data centers abroad, a gap that critics say allows the restrictions to be circumvented.",
+        "Pending legislation would go further. The Remote Access Security Act would give the government broader powers to police cloud access to chips, and although it passed the House in January, it has yet to clear the Senate. Nvidia has warned customers that the bill could expose both them and the company to legal action. It has also said it will not sell chips to customers who rent out more than half of their processors to Chinese firms, and the Financial Times reported that it verbally told data-center clients to direct at least 51% of their services to non-Chinese customers under future contracts.",
+        "The impetus is a mixture of congressional scrutiny and strategic anxiety. The Trump administration wants to keep the chips out of Chinese hands in order to preserve America's lead in artificial intelligence. CNBC reported on November 5 that Moonshot AI had sought chip access through European data centers, and in July the administration accused the same company of reaching chips through facilities in East Asia.",
+        "Nvidia itself is under pressure. On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue. In an August filing, Nvidia insisted that it complies strictly with export controls but lacks physical control of its products after sale. Huang has been asked to testify before the Senate Banking Committee on December 3.",
+        "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police. Closing the loophole may prove easier to announce than to enforce."
+      ],
+      "paragraphs_zh": [
+        "週一，美國商務部工業與安全局宣布一項臨時最終規則，旨在阻止中國企業遠端存取先進的人工智慧晶片。華盛頓早已限制這類晶片出口至中國，但監管機構對於設於海外資料中心的處理器之存取，權限一直有限，批評者認為這個缺口使管制措施得以被規避。",
+        "待審的立法將更進一步。《遠端存取安全法案》將賦予政府更廣泛的權力來管控對晶片的雲端存取，該法案雖在 1 月通過眾議院，但尚未獲得參議院通過。輝達已警告客戶，這項法案可能使他們與公司都面臨法律訴訟。該公司也表示，不會把晶片賣給將超過半數處理器出租給中國企業的客戶，而《金融時報》報導，輝達以口頭方式要求資料中心客戶，在未來合約中將至少 51% 的服務提供給非中國客戶。",
+        "背後的推力是國會審查與戰略焦慮的混合。川普政府希望讓這些晶片遠離中國之手，以維持美國在人工智慧領域的領先地位。CNBC 於 11 月 5 日報導，月之暗面（Moonshot AI）曾試圖透過歐洲資料中心取得晶片，而政府在 7 月曾指控該公司透過東亞的設施取得晶片。",
+        "輝達本身也承受壓力。週日，財政部長貝森特在黃仁勳卸任執行長後，呼籲該公司進行劇烈改組，並質疑它是否為了提振營收而推動看似違法的銷售。在 8 月的一份文件中，輝達堅稱自己嚴格遵守出口管制，但在產品售出後無法實際掌控。黃仁勳已被要求於 12 月 3 日出席參議院銀行委員會作證。",
+        "這起事件凸顯出出口政策長期存在的兩難：硬體可以跨越國界被追蹤，但按小時出租的運算力則難以管控得多。堵住漏洞，恐怕宣布起來容易，執行起來卻困難。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "interim",
+          "pos": "adj.",
+          "zh": "臨時的；暫行的",
+          "match": "interim",
+          "example": "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips."
+        },
+        {
+          "word": "circumvent",
+          "pos": "v.",
+          "zh": "規避；繞過",
+          "match": "circumvented",
+          "example": "Washington already restricts the shipment of such chips to China, but regulators have had only limited authority over access to processors housed in data centers abroad, a gap that critics say allows the restrictions to be circumvented."
+        },
+        {
+          "word": "pending",
+          "pos": "adj.",
+          "zh": "待決的；未決的",
+          "match": "Pending",
+          "example": "Pending legislation would go further."
+        },
+        {
+          "word": "police",
+          "pos": "v.",
+          "zh": "管控；監管",
+          "match": "police",
+          "example": "The Remote Access Security Act would give the government broader powers to police cloud access to chips, and although it passed the House in January, it has yet to clear the Senate."
+        },
+        {
+          "word": "impetus",
+          "pos": "n.",
+          "zh": "推動力",
+          "match": "impetus",
+          "example": "The impetus is a mixture of congressional scrutiny and strategic anxiety."
+        },
+        {
+          "word": "scrutiny",
+          "pos": "n.",
+          "zh": "嚴格審查",
+          "match": "scrutiny",
+          "example": "The impetus is a mixture of congressional scrutiny and strategic anxiety."
+        },
+        {
+          "word": "shakeup",
+          "pos": "n.",
+          "zh": "改組；大幅調整",
+          "match": "shakeup",
+          "example": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue."
+        },
+        {
+          "word": "illicit",
+          "pos": "adj.",
+          "zh": "違法的；非法的",
+          "match": "illicit",
+          "example": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue."
+        },
+        {
+          "word": "bolster",
+          "pos": "v.",
+          "zh": "提振；增強",
+          "match": "bolster",
+          "example": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue."
+        },
+        {
+          "word": "underscore",
+          "pos": "v.",
+          "zh": "凸顯；強調",
+          "match": "underscores",
+          "example": "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police."
+        },
+        {
+          "word": "persistent",
+          "pos": "adj.",
+          "zh": "持續的；長期的",
+          "match": "persistent",
+          "example": "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police."
+        }
+      ]
+    }
+  ],
+  "review_cards": []
+}

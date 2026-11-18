@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-18",
+    "reviews": 0,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "International",
+        "title": "UN Climate Talks Split Over the Future of Fossil Fuels"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Business",
+        "title": "Wall Street Slides as Tech Worries and Rate Fears Grow"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Technology",
+        "title": "Washington Moves to Close the Cloud Loophole in Chip Controls"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "articles": [
       {

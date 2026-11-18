@@ -6,9 +6,11 @@
       "context": "Citi Research expects export headwinds to intensify in 2027, with possible new European Union trade measures against China a key risk, and it believes Beijing is likely to offer \"reasonable, practical concessions\" in negotiations.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "讓步；妥協",
+      "pos": "n.",
+      "reviews": [],
+      "base": "concession",
+      "priority": 2
     },
     {
       "id": "mwkmqo7f8wcs",
@@ -16,9 +18,11 @@
       "context": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "萎靡不振；低迷",
+      "pos": "n.",
+      "reviews": [],
+      "base": "malaise",
+      "priority": 2
     },
     {
       "id": "mwkqnhqz2mfa",
@@ -26,9 +30,11 @@
       "context": "China's latest economic data painted a picture of an economy increasingly reliant on foreign buyers while domestic demand sputters.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "依賴的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "reliant",
+      "priority": 3
     },
     {
       "id": "mwkqpcnikaeg",
@@ -36,9 +42,11 @@
       "context": "China's latest economic data painted a picture of an economy increasingly reliant on foreign buyers while domestic demand sputters.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "（引擎等）運轉不穩；（經濟）疲弱不振",
+      "pos": "v.",
+      "reviews": [],
+      "base": "sputter",
+      "priority": 2
     },
     {
       "id": "mwkr2h1lm40g",
@@ -46,9 +54,11 @@
       "context": "Retail sales rose just 0.4% in October from a year earlier, undershooting the 0.8% analysts had expected and falling sharply from 1.1% in September, which had been a six-month high.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "低於（預期）",
+      "pos": "v.",
+      "reviews": [],
+      "base": "undershoot",
+      "priority": 1
     },
     {
       "id": "mwkr41p0mdv8",
@@ -56,9 +66,11 @@
       "context": "Outside the pandemic period, such a collapse is without precedent.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "先例",
+      "pos": "n.",
+      "reviews": [],
+      "base": "precedent",
+      "priority": 3
     },
     {
       "id": "mwkr4oj5ovit",
@@ -66,9 +78,11 @@
       "context": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "衰退；下滑",
+      "pos": "n.",
+      "reviews": [],
+      "base": "downturn",
+      "priority": 3
     },
     {
       "id": "mwkri3l4xj7e",
@@ -76,9 +90,11 @@
       "context": "They rose 35.2%, and the trade surplus reached $1 trillion by October, the fastest pace on record, putting it on course to surpass last year's record $1.2 trillion.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "超越；超過",
+      "pos": "v.",
+      "reviews": [],
+      "base": "surpass",
+      "priority": 3
     },
     {
       "id": "mwkrih5du7wp",
@@ -86,9 +102,11 @@
       "context": "Yet this dependence on overseas demand is a double-edged sword.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "雙面刃；利弊並存的事物",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "double-edged sword",
+      "priority": 2
     },
     {
       "id": "mwkrjz69yau3",
@@ -96,9 +114,11 @@
       "context": "Forecasters remain cautiously upbeat about the headline numbers.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "樂觀的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "upbeat",
+      "priority": 2
     },
     {
       "id": "mwkryu9gxrit",
@@ -106,9 +126,11 @@
       "context": "Third-quarter growth reached 4.5%, a rebound from three-year lows, and Goldman Sachs projects that expansion will ease to 4.6% this year from 5% in 2025, and to 4.5% in 2027, which would still keep China on track to double its 2020 per capita income by 2035.",
       "article": "2026-11-17#3",
       "marked_at": "2026-11-17",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "人均的（per capita）",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "capita",
+      "priority": 2
     }
   ]
 }
