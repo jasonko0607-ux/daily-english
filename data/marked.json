@@ -768,6 +768,16 @@
       "pos": "adj.",
       "reviews": [],
       "base": "murky"
+    },
+    {
+      "id": "mwnrjep6eezl",
+      "word": "contain",
+      "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
+      "article": "2026-11-19#3",
+      "marked_at": "2026-11-19",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
