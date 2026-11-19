@@ -676,9 +676,10 @@
       "context": "The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "流傳；傳播",
+      "pos": "v.",
+      "reviews": [],
+      "base": "circulate"
     },
     {
       "id": "mwnrg7fx4y67",
@@ -686,9 +687,10 @@
       "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "故意地；蓄意地",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "deliberately"
     },
     {
       "id": "mwnrgb53ow9g",
@@ -696,9 +698,10 @@
       "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "指控；聲稱",
+      "pos": "v.",
+      "reviews": [],
+      "base": "allege"
     },
     {
       "id": "mwnrgijz4sok",
