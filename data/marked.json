@@ -786,9 +786,10 @@
       "context": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "性質；本質",
+      "pos": "n.",
+      "reviews": [],
+      "base": "nature"
     },
     {
       "id": "mwnrkxs0mrl5",
@@ -796,9 +797,10 @@
       "context": "How courts treat this kind of imitation may shape the rules for AI-generated advertising.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "模仿；仿冒",
+      "pos": "n.",
+      "reviews": [],
+      "base": "imitation"
     },
     {
       "id": "mwnrlscuwjuq",
@@ -806,9 +808,10 @@
       "context": "The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "隨後；之後",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "subsequently"
     }
   ]
 }
