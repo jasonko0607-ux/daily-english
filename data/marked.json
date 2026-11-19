@@ -515,6 +515,16 @@
       "reviews": [],
       "base": "enforce",
       "priority": 3
+    },
+    {
+      "id": "mwnqm7q6aerq",
+      "word": "truce",
+      "context": "Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing.",
+      "article": "2026-11-19#1",
+      "marked_at": "2026-11-19",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
