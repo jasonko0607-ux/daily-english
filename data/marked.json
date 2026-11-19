@@ -632,9 +632,10 @@
       "context": "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "肖像；相貌",
+      "pos": "n.",
+      "reviews": [],
+      "base": "likeness"
     },
     {
       "id": "mwnrb4dhi0xt",
@@ -642,9 +643,10 @@
       "context": "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "憑空變出；喚起",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "conjure up"
     }
   ]
 }
