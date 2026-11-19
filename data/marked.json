@@ -566,9 +566,10 @@
       "context": "Exports have been the main engine of Japan's growth, and sales of chip-making equipment have been especially important in propping them up.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "支撐；撐住",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "prop up"
     },
     {
       "id": "mwnr1itpg1b4",
@@ -576,9 +577,10 @@
       "context": "Petroleum imports were worth 60.5% more than a year earlier, even though the volume slipped slightly.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "數量；音量",
+      "pos": "n.",
+      "reviews": [],
+      "base": "volume"
     },
     {
       "id": "mwnr1s2w0jkd",
@@ -586,9 +588,10 @@
       "context": "Petroleum imports were worth 60.5% more than a year earlier, even though the volume slipped slightly.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "小幅下滑；滑落",
+      "pos": "v.",
+      "reviews": [],
+      "base": "slip"
     },
     {
       "id": "mwnr21pn23y7",
