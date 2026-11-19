@@ -533,9 +533,10 @@
       "context": "Washington is moving to close loopholes that let Chinese companies reach American AI technology, and China has threatened to respond.",
       "article": "2026-11-19#1",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "法律漏洞；漏洞",
+      "pos": "n.",
+      "reviews": [],
+      "base": "loophole"
     },
     {
       "id": "mwnqpa1vkr6j",
@@ -543,9 +544,10 @@
       "context": "Tensions between China and Japan have also grown, and Japanese Prime Minister Sanae Takaichi is expected to attend, on her first visit to China as prime minister.",
       "article": "2026-11-19#1",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "緊張關係；局勢緊張",
+      "pos": "n.",
+      "reviews": [],
+      "base": "tension"
     }
   ]
 }
