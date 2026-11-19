@@ -775,9 +775,10 @@
       "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "遏制；控制",
+      "pos": "v.",
+      "reviews": [],
+      "base": "contain"
     },
     {
       "id": "mwnrklm9qn9j",
