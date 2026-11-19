@@ -647,6 +647,16 @@
       "pos": "phr.",
       "reviews": [],
       "base": "conjure up"
+    },
+    {
+      "id": "mwnrdy2jxray",
+      "word": "simulated",
+      "context": "According to the complaint, the advertisement, released earlier this month, featured an AI-generated figure in a basketball locker room, wearing a jersey bearing the nickname \"Bron\" and the number 23, complete with James's tattoos and a simulated version of his voice.",
+      "article": "2026-11-19#3",
+      "marked_at": "2026-11-19",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
