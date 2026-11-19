@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-19",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "story_date": "2026-11-18",
+      "title": "Trump, Xi and Putin Converge on Shenzhen for APEC",
+      "paragraphs": [
+        "Leaders from three of the world's biggest powers are gathering this week in the Chinese city of Shenzhen. China is hosting the APEC leaders' meetings on November 18 and 19. Russian President Vladimir Putin arrived early on Wednesday, while U.S. President Donald Trump travelled from the Philippines, where he had attended a regional summit.",
+        "The main event is expected to be a meeting between Trump and Chinese President Xi Jinping, their third this year. Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing. The truce has since been extended to January 2027. In September, both countries said they would cut tariffs on 30 billion dollars of each other's goods, but they did not say when. Officials say the talks will focus on carrying out the existing agreement.",
+        "On Thursday, Xi is also due to meet Trump and Putin together, in a gathering Beijing calls the China-Russia-U.S. Summit. It would be the first time the three leaders have met. Expectations are low, however, because there may not be enough time for serious discussion. Analysts say the event is mostly a photo opportunity.",
+        "Other issues cast a shadow over the week. Washington is moving to close loopholes that let Chinese companies reach American AI technology, and China has threatened to respond. Tensions between China and Japan have also grown, and Japanese Prime Minister Sanae Takaichi is expected to attend, on her first visit to China as prime minister. Meanwhile, the Iran war is still pushing up energy prices. One expert said any cooperation is more likely to come from managing risk than from sharing advantage."
+      ],
+      "paragraphs_zh": [
+        "三個世界大國的領導人本週將齊聚中國城市深圳。中國將於11月18日和19日主辦亞太經合會（APEC）領袖會議。俄羅斯總統普丁週三一早抵達，美國總統川普則從菲律賓前往，他先前在當地出席了一場區域高峰會。",
+        "此行的重頭戲預計是川普與中國國家主席習近平的會面，這是兩人今年的第三次會晤。去年在南韓，兩人同意達成為期一年的貿易休戰，調降部分關稅，並讓稀土材料得以持續流通。這項休戰協議後來已延長至2027年1月。9月，兩國表示將對彼此價值300億美元的商品調降關稅，但並未說明何時生效。官員表示，會談將聚焦於落實現有協議。",
+        "週四，習近平預計還將同時與川普和普丁會面，北京稱這場聚會為「中俄美峰會」。這將是三位領導人首次會面。然而外界期望不高，因為可能沒有足夠的時間進行深入討論。分析師表示，這場活動主要是一個合影的機會。",
+        "其他議題也為本週蒙上陰影。華盛頓正採取行動堵住讓中國企業得以取得美國人工智慧技術的漏洞，中國則威脅將做出回應。中日之間的緊張關係也在升高，日本首相高市早苗預計將出席，這是她擔任首相後首次訪問中國。同時，伊朗戰爭仍在推升能源價格。一位專家表示，任何合作較可能來自管理風險，而非分享優勢。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "truce",
+          "pos": "n.",
+          "zh": "休戰；停火協議",
+          "match": "truce",
+          "example": "Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing."
+        },
+        {
+          "word": "tariff",
+          "pos": "n.",
+          "zh": "關稅",
+          "match": "tariffs",
+          "example": "Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing."
+        },
+        {
+          "word": "rare earth",
+          "pos": "phr.",
+          "zh": "稀土",
+          "match": "rare earth",
+          "example": "Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing."
+        },
+        {
+          "word": "extend",
+          "pos": "v.",
+          "zh": "延長",
+          "match": "extended",
+          "example": "The truce has since been extended to January 2027."
+        },
+        {
+          "word": "carry out",
+          "pos": "phr.",
+          "zh": "執行；落實",
+          "match": "carrying out",
+          "example": "Officials say the talks will focus on carrying out the existing agreement."
+        },
+        {
+          "word": "expectation",
+          "pos": "n.",
+          "zh": "期望；預期",
+          "match": "Expectations",
+          "example": "Expectations are low, however, because there may not be enough time for serious discussion."
+        },
+        {
+          "word": "photo opportunity",
+          "pos": "phr.",
+          "zh": "拍照（合影）機會",
+          "match": "photo opportunity",
+          "example": "Analysts say the event is mostly a photo opportunity."
+        },
+        {
+          "word": "cast a shadow over",
+          "pos": "phr.",
+          "zh": "為……蒙上陰影",
+          "match": "cast a shadow over",
+          "example": "Other issues cast a shadow over the week."
+        },
+        {
+          "word": "loophole",
+          "pos": "n.",
+          "zh": "漏洞",
+          "match": "loopholes",
+          "example": "Washington is moving to close loopholes that let Chinese companies reach American AI technology, and China has threatened to respond."
+        },
+        {
+          "word": "cooperation",
+          "pos": "n.",
+          "zh": "合作",
+          "match": "cooperation",
+          "example": "One expert said any cooperation is more likely to come from managing risk than from sharing advantage."
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Business",
+      "story_date": "2026-11-18",
+      "title": "Japan's Exports Jump 20.5% as Chip Gear Surges",
+      "paragraphs": [
+        "Japan's exports grew strongly in October, ending a two-month slowdown. Official data showed that shipments abroad rose 20.5% from a year earlier. That was slightly better than the 20% forecast by economists polled by Reuters. Growth for September was revised to 16.5%. Japan, a major manufacturing economy, relies heavily on overseas sales of cars and machinery, so export data are closely watched by investors and policymakers.",
+        "Chips drove the gain. Shipments of semiconductor equipment jumped 49.7% in value, and car exports rose 19.9%. Exports to the United States climbed 23.9%, while those to China rose 13.3%. Exports have been the main engine of Japan's growth, and sales of chip-making equipment have been especially important in propping them up.",
+        "Imports told a different story. They rose 21.6%, well below the 25.8% that analysts expected, but the oil bill jumped. Petroleum imports were worth 60.5% more than a year earlier, even though the volume slipped slightly. Analysts said Japan was switching to more expensive American oil as shipments from the Middle East stalled during the Iran war. Oil imports from the United States rose more than 1,100% in value. Middle East shipments fell 16.5% in volume, but their value rose 37.7% because prices were higher.",
+        "The overall picture is mixed. Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports. Investors still welcomed the trade figures. The Nikkei 225 index rose 0.91%, and the yen traded at 159.50 to the U.S. dollar. Economists will now watch whether the export strength can continue in the coming months."
+      ],
+      "paragraphs_zh": [
+        "日本10月出口強勁成長，結束了兩個月的放緩。官方資料顯示，對外出貨量較去年同期成長20.5%，略優於接受路透社調查的經濟學家預測的20%。9月的成長率被修正為16.5%。日本是主要的製造業經濟體，高度仰賴汽車與機械的海外銷售，因此出口數據備受投資人與決策者關注。",
+        "晶片帶動了這波成長。半導體設備出貨金額躍升49.7%，汽車出口成長19.9%。對美國出口增加23.9%，對中國則成長13.3%。出口一直是日本經濟成長的主要引擎，其中晶片製造設備的銷售對支撐出口尤其重要。",
+        "進口則呈現不同的情況。進口成長21.6%，遠低於分析師預期的25.8%，但石油支出大增。石油進口金額比去年同期多出60.5%，儘管進口量略微下滑。分析師表示，由於伊朗戰爭期間中東的出貨陷入停滯，日本正改買較昂貴的美國石油。自美國進口的石油金額成長超過1,100%。中東出貨量減少16.5%，但由於價格較高，其金額反而增加37.7%。",
+        "整體情況好壞參半。日本第三季經濟意外以年率計萎縮0.1%，而較高的能源支出也部分抵銷了出口帶來的助益。投資人仍歡迎這些貿易數據。日經225指數上漲0.91%，日圓兌美元報159.50。經濟學家接下來將關注出口的強勁表現能否在未來幾個月持續。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "slowdown",
+          "pos": "n.",
+          "zh": "放緩；減速",
+          "match": "slowdown",
+          "example": "Japan's exports grew strongly in October, ending a two-month slowdown."
+        },
+        {
+          "word": "shipment",
+          "pos": "n.",
+          "zh": "出貨；貨運",
+          "match": "shipments",
+          "example": "Official data showed that shipments abroad rose 20.5% from a year earlier."
+        },
+        {
+          "word": "forecast",
+          "pos": "v.",
+          "zh": "預測",
+          "match": "forecast",
+          "example": "That was slightly better than the 20% forecast by economists polled by Reuters."
+        },
+        {
+          "word": "revise",
+          "pos": "v.",
+          "zh": "修正；修訂",
+          "match": "revised",
+          "example": "Growth for September was revised to 16.5%."
+        },
+        {
+          "word": "semiconductor",
+          "pos": "n.",
+          "zh": "半導體",
+          "match": "semiconductor",
+          "example": "Shipments of semiconductor equipment jumped 49.7% in value, and car exports rose 19.9%."
+        },
+        {
+          "word": "petroleum",
+          "pos": "n.",
+          "zh": "石油",
+          "match": "Petroleum",
+          "example": "Petroleum imports were worth 60.5% more than a year earlier, even though the volume slipped slightly."
+        },
+        {
+          "word": "volume",
+          "pos": "n.",
+          "zh": "數量；量",
+          "match": "volume",
+          "example": "Petroleum imports were worth 60.5% more than a year earlier, even though the volume slipped slightly."
+        },
+        {
+          "word": "stall",
+          "pos": "v.",
+          "zh": "停滯；停擺",
+          "match": "stalled",
+          "example": "Analysts said Japan was switching to more expensive American oil as shipments from the Middle East stalled during the Iran war."
+        },
+        {
+          "word": "shrink",
+          "pos": "v.",
+          "zh": "萎縮；縮減",
+          "match": "shrank",
+          "example": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports."
+        },
+        {
+          "word": "annualized",
+          "pos": "adj.",
+          "zh": "以年率計算的",
+          "match": "annualized",
+          "example": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports."
+        },
+        {
+          "word": "offset",
+          "pos": "v.",
+          "zh": "抵銷",
+          "match": "offset",
+          "example": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports."
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Technology",
+      "story_date": "2026-11-17",
+      "title": "LeBron James Sues Startup Over AI-Made Advertisement",
+      "paragraphs": [
+        "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent. The basketball star, now with the Philadelphia 76ers, filed suit on Tuesday in federal court in New York against PlayVision, which operates an app called Bron, and its two co-founders, Anish Gupta and Marc Zoghby.",
+        "According to the complaint, the advertisement, released earlier this month, featured an AI-generated figure in a basketball locker room, wearing a jersey bearing the nickname \"Bron\" and the number 23, complete with James's tattoos and a simulated version of his voice. The figure scrolls through betting options on the app. The clip drew roughly one million views on X within a day.",
+        "James's lawyers sent a cease-and-desist letter on November 5. The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged. The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense. It describes his endorsements as \"uniquely valuable\" and says the defendants \"decided to steal it for themselves.\" James seeks damages and an injunction barring any use of his name, image, likeness and voice, as well as the Bron name.",
+        "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads. The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky. How courts treat this kind of imitation may shape the rules for AI-generated advertising."
+      ],
+      "paragraphs_zh": [
+        "勒布朗·詹姆斯（LeBron James）向一家加州新創公司提告，指控其一則廣告在未經他同意的情況下憑空打造出他的形象。這位籃球明星目前效力於費城76人隊，他週二在紐約聯邦法院對PlayVision及其兩位共同創辦人安尼什·古普塔（Anish Gupta）與馬克·佐格比（Marc Zoghby）提起訴訟；PlayVision經營一款名為Bron的應用程式。",
+        "根據訴狀，這則廣告於本月稍早推出，內容是一個由AI生成的人物，身處籃球更衣室，身穿印有「Bron」暱稱和23號的球衣，連詹姆斯的刺青和模擬出的聲音都一應俱全。該人物在應用程式上瀏覽各種投注選項。這段影片在一天內於X平台上獲得約一百萬次觀看。",
+        "詹姆斯的律師於11月5日寄出了停止侵權函。該公司隨後從其X和Instagram帳號上移除了廣告，並表示正著手更改應用程式名稱，然而到提告時，這段影片仍透過第三方轉貼持續流傳，名稱也尚未更改。訴狀指稱，創辦人刻意製造爭議，盤算著曝光帶來的好處將大於任何法律後果，實際上是把違法行為當作行銷費用。訴狀形容他的代言「獨一無二地有價值」，並稱被告「決定將其據為己有」。詹姆斯請求損害賠償，以及禁止被告使用其姓名、肖像、形象與聲音，以及Bron這個名稱的禁制令。",
+        "此案顯示，生成式AI如今能多麼低成本地複製名人的形象，而這類內容一旦擴散又有多難控制。蘋果App Store將Bron描述為一款運動分析與投注研究應用程式，且不接受下注，因此這家公司業務的確切性質仍有些模糊。法院如何看待這類模仿，可能會左右AI生成廣告的規則。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/lebron-james-startup-ai-lawsuit.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "conjure up",
+          "pos": "phr.",
+          "zh": "憑空變出；喚起",
+          "match": "conjured up",
+          "example": "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent."
+        },
+        {
+          "word": "likeness",
+          "pos": "n.",
+          "zh": "肖像；相似形象",
+          "match": "likeness",
+          "example": "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent."
+        },
+        {
+          "word": "consent",
+          "pos": "n.",
+          "zh": "同意；許可",
+          "match": "consent",
+          "example": "LeBron James has taken a California startup to court over an advertisement that, he says, conjured up his likeness without his consent."
+        },
+        {
+          "word": "simulated",
+          "pos": "adj.",
+          "zh": "模擬的",
+          "match": "simulated",
+          "example": "According to the complaint, the advertisement, released earlier this month, featured an AI-generated figure in a basketball locker room, wearing a jersey bearing the nickname \"Bron\" and the number 23, complete with James's tattoos and a simulated version of his voice."
+        },
+        {
+          "word": "cease-and-desist letter",
+          "pos": "phr.",
+          "zh": "停止侵權函；警告函",
+          "match": "cease-and-desist letter",
+          "example": "James's lawyers sent a cease-and-desist letter on November 5."
+        },
+        {
+          "word": "circulate",
+          "pos": "v.",
+          "zh": "流傳；散布",
+          "match": "circulating",
+          "example": "The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged."
+        },
+        {
+          "word": "court controversy",
+          "pos": "phr.",
+          "zh": "刻意引發爭議",
+          "match": "courted controversy",
+          "example": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense."
+        },
+        {
+          "word": "outweigh",
+          "pos": "v.",
+          "zh": "超過；比……更重要",
+          "match": "outweigh",
+          "example": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense."
+        },
+        {
+          "word": "injunction",
+          "pos": "n.",
+          "zh": "禁制令",
+          "match": "injunction",
+          "example": "James seeks damages and an injunction barring any use of his name, image, likeness and voice, as well as the Bron name."
+        },
+        {
+          "word": "replicate",
+          "pos": "v.",
+          "zh": "複製；重現",
+          "match": "replicate",
+          "example": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads."
+        },
+        {
+          "word": "wager",
+          "pos": "n.",
+          "zh": "賭注；下注",
+          "match": "wagers",
+          "example": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky."
+        },
+        {
+          "word": "murky",
+          "pos": "adj.",
+          "zh": "模糊不清的",
+          "match": "murky",
+          "example": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky."
+        }
+      ]
+    }
+  ],
+  "review_cards": []
+}

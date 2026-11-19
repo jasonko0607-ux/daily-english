@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-19",
+    "reviews": 0,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "International",
+        "title": "Trump, Xi and Putin Converge on Shenzhen for APEC"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Business",
+        "title": "Japan's Exports Jump 20.5% as Chip Gear Surges"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Technology",
+        "title": "LeBron James Sues Startup Over AI-Made Advertisement"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "reviews": 0,
     "articles": [

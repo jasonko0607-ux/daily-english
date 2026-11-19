@@ -141,7 +141,8 @@
       "zh": "排放量；排放物",
       "pos": "n.",
       "reviews": [],
-      "base": "emission"
+      "base": "emission",
+      "priority": 3
     },
     {
       "id": "mwlxnsm31tbn",
@@ -152,7 +153,8 @@
       "zh": "暴利稅；意外獲利稅",
       "pos": "phr.",
       "reviews": [],
-      "base": "windfall tax"
+      "base": "windfall tax",
+      "priority": 2
     },
     {
       "id": "mwlxoq1qdae2",
@@ -163,7 +165,8 @@
       "zh": "抵制；抗拒",
       "pos": "v.",
       "reviews": [],
-      "base": "resist"
+      "base": "resist",
+      "priority": 2
     },
     {
       "id": "mwlxouc4cqoe",
@@ -174,7 +177,8 @@
       "zh": "主席團；主席職位",
       "pos": "n.",
       "reviews": [],
-      "base": "presidency"
+      "base": "presidency",
+      "priority": 2
     },
     {
       "id": "mwlxpbegqwzd",
@@ -185,7 +189,8 @@
       "zh": "電氣化；電動化",
       "pos": "n.",
       "reviews": [],
-      "base": "electrification"
+      "base": "electrification",
+      "priority": 2
     },
     {
       "id": "mwlxpy4iak9u",
@@ -196,7 +201,8 @@
       "zh": "逐步淘汰；分階段廢除",
       "pos": "phr.",
       "reviews": [],
-      "base": "phase out"
+      "base": "phase out",
+      "priority": 3
     },
     {
       "id": "mwlxsffqhd1t",
@@ -207,7 +213,8 @@
       "zh": "彌合；化解",
       "pos": "v.",
       "reviews": [],
-      "base": "bridge"
+      "base": "bridge",
+      "priority": 2
     },
     {
       "id": "mwm0vtq3prhw",
@@ -218,7 +225,8 @@
       "zh": "劣化；性能下降",
       "pos": "n.",
       "reviews": [],
-      "base": "degradation"
+      "base": "degradation",
+      "priority": 2
     },
     {
       "id": "mwm0xcaitq5k",
@@ -229,7 +237,8 @@
       "zh": "加劇；疊加（負面事件）",
       "pos": "n.",
       "reviews": [],
-      "base": "compound"
+      "base": "compound",
+      "priority": 1
     },
     {
       "id": "mwm0xep90urx",
@@ -240,7 +249,8 @@
       "zh": "怪異的；離奇的",
       "pos": "adj.",
       "reviews": [],
-      "base": "bizarre"
+      "base": "bizarre",
+      "priority": 2
     },
     {
       "id": "mwm0xq2vp12o",
@@ -251,7 +261,8 @@
       "zh": "波動性；動盪程度",
       "pos": "n.",
       "reviews": [],
-      "base": "volatility"
+      "base": "volatility",
+      "priority": 3
     },
     {
       "id": "mwm11vqpfgqm",
@@ -262,7 +273,8 @@
       "zh": "優於（預期）；擊敗",
       "pos": "v.",
       "reviews": [],
-      "base": "beat"
+      "base": "beat",
+      "priority": 2
     },
     {
       "id": "mwm64aj16lhq",
@@ -273,7 +285,8 @@
       "zh": "升息；加息",
       "pos": "n.",
       "reviews": [],
-      "base": "hike"
+      "base": "hike",
+      "priority": 3
     },
     {
       "id": "mwm6herukmt2",
@@ -284,7 +297,8 @@
       "zh": "桶（石油計量單位）",
       "pos": "n.",
       "reviews": [],
-      "base": "barrel"
+      "base": "barrel",
+      "priority": 2
     },
     {
       "id": "mwm8aj8oq4l4",
@@ -295,7 +309,8 @@
       "zh": "暫時的；過渡性的",
       "pos": "adj.",
       "reviews": [],
-      "base": "interim"
+      "base": "interim",
+      "priority": 2
     },
     {
       "id": "mwmb3q6jeb1b",
@@ -306,7 +321,8 @@
       "zh": "規避；繞過",
       "pos": "v.",
       "reviews": [],
-      "base": "circumvent"
+      "base": "circumvent",
+      "priority": 2
     },
     {
       "id": "mwmb4lqj2eaa",
@@ -317,7 +333,8 @@
       "zh": "待審的；未決的",
       "pos": "adj.",
       "reviews": [],
-      "base": "pending"
+      "base": "pending",
+      "priority": 3
     },
     {
       "id": "mwmb4pyxokvw",
@@ -328,7 +345,8 @@
       "zh": "法案；立法",
       "pos": "n.",
       "reviews": [],
-      "base": "legislation"
+      "base": "legislation",
+      "priority": 3
     },
     {
       "id": "mwmb7im6qwnt",
@@ -339,7 +357,8 @@
       "zh": "口頭上地；以口頭方式",
       "pos": "adv.",
       "reviews": [],
-      "base": "verbally"
+      "base": "verbally",
+      "priority": 2
     },
     {
       "id": "mwmbffy6u4kk",
@@ -350,7 +369,8 @@
       "zh": "推動力；動機",
       "pos": "n.",
       "reviews": [],
-      "base": "impetus"
+      "base": "impetus",
+      "priority": 1
     },
     {
       "id": "mwmbfx8ij5gb",
@@ -361,7 +381,8 @@
       "zh": "國會的；國會議員的",
       "pos": "adj.",
       "reviews": [],
-      "base": "congressional"
+      "base": "congressional",
+      "priority": 2
     },
     {
       "id": "mwmbfzf5zekf",
@@ -372,7 +393,8 @@
       "zh": "嚴格審查；仔細檢視",
       "pos": "n.",
       "reviews": [],
-      "base": "scrutiny"
+      "base": "scrutiny",
+      "priority": 2
     },
     {
       "id": "mwmbq4te7hlb",
@@ -383,7 +405,8 @@
       "zh": "尋求；設法取得",
       "pos": "v.",
       "reviews": [],
-      "base": "seek"
+      "base": "seek",
+      "priority": 3
     },
     {
       "id": "mwmbqy4fpr9f",
@@ -394,7 +417,8 @@
       "zh": "指控；控告",
       "pos": "v.",
       "reviews": [],
-      "base": "accuse"
+      "base": "accuse",
+      "priority": 3
     },
     {
       "id": "mwmbusdv7gxj",
@@ -405,7 +429,8 @@
       "zh": "大改組；人事大調整",
       "pos": "n.",
       "reviews": [],
-      "base": "shakeup"
+      "base": "shakeup",
+      "priority": 2
     },
     {
       "id": "mwmbv4t6wwcq",
@@ -416,7 +441,8 @@
       "zh": "表面上；看似",
       "pos": "adv.",
       "reviews": [],
-      "base": "seemingly"
+      "base": "seemingly",
+      "priority": 2
     },
     {
       "id": "mwmbv6s9u263",
@@ -427,7 +453,8 @@
       "zh": "非法的；違法的",
       "pos": "adj.",
       "reviews": [],
-      "base": "illicit"
+      "base": "illicit",
+      "priority": 1
     },
     {
       "id": "mwmbv8x4olw3",
@@ -438,7 +465,8 @@
       "zh": "提振；增強",
       "pos": "v.",
       "reviews": [],
-      "base": "bolster"
+      "base": "bolster",
+      "priority": 2
     },
     {
       "id": "mwmbxbjivpft",
@@ -449,7 +477,8 @@
       "zh": "作證；出庭作證",
       "pos": "v.",
       "reviews": [],
-      "base": "testify"
+      "base": "testify",
+      "priority": 2
     },
     {
       "id": "mwmbxrhghvfm",
@@ -460,7 +489,8 @@
       "zh": "強調；凸顯",
       "pos": "v.",
       "reviews": [],
-      "base": "underscore"
+      "base": "underscore",
+      "priority": 3
     },
     {
       "id": "mwmbxtx0g0t6",
@@ -471,7 +501,8 @@
       "zh": "進退兩難；兩難困境",
       "pos": "n.",
       "reviews": [],
-      "base": "dilemma"
+      "base": "dilemma",
+      "priority": 2
     },
     {
       "id": "mwmbzds6yogr",
@@ -482,7 +513,8 @@
       "zh": "執行；強制實施",
       "pos": "v.",
       "reviews": [],
-      "base": "enforce"
+      "base": "enforce",
+      "priority": 3
     }
   ]
 }
