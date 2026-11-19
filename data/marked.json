@@ -610,9 +610,10 @@
       "context": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "萎縮；縮減",
+      "pos": "v.",
+      "reviews": [],
+      "base": "shrink"
     },
     {
       "id": "mwnr4g8bouzg",
@@ -620,9 +621,10 @@
       "context": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "抵銷；抵消",
+      "pos": "v.",
+      "reviews": [],
+      "base": "offset"
     }
   ]
 }
