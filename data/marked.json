@@ -599,9 +599,10 @@
       "context": "Analysts said Japan was switching to more expensive American oil as shipments from the Middle East stalled during the Iran war.",
       "article": "2026-11-19#2",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "停滯；熄火",
+      "pos": "v.",
+      "reviews": [],
+      "base": "stall"
     }
   ]
 }
