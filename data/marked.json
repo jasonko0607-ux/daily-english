@@ -709,9 +709,10 @@
       "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "勝過；超過",
+      "pos": "v.",
+      "reviews": [],
+      "base": "outweigh"
     },
     {
       "id": "mwnrgzpeo7rv",
@@ -719,9 +720,10 @@
       "context": "It describes his endorsements as \"uniquely valuable\" and says the defendants \"decided to steal it for themselves.\"",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "代言；背書",
+      "pos": "n.",
+      "reviews": [],
+      "base": "endorsement"
     },
     {
       "id": "mwnrhi1j6ey3",
@@ -729,9 +731,10 @@
       "context": "James seeks damages and an injunction barring any use of his name, image, likeness and voice, as well as the Bron name.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "禁制令；禁令",
+      "pos": "n.",
+      "reviews": [],
+      "base": "injunction"
     },
     {
       "id": "mwnrhqkrfgo5",
