@@ -742,9 +742,10 @@
       "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "複製；仿製",
+      "pos": "v.",
+      "reviews": [],
+      "base": "replicate"
     },
     {
       "id": "mwnri97tunul",
@@ -752,9 +753,10 @@
       "context": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "賭注；下注",
+      "pos": "n.",
+      "reviews": [],
+      "base": "wager"
     },
     {
       "id": "mwnriel1jm9m",
@@ -762,9 +764,10 @@
       "context": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky.",
       "article": "2026-11-19#3",
       "marked_at": "2026-11-19",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "模糊的；不明朗的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "murky"
     }
   ]
 }
