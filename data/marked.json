@@ -921,9 +921,10 @@
       "context": "Anthropic, the AI company co-founded in 2021 by chief executive Dario Amodei and others who left OpenAI, made its stock market debut on Thursday in the largest initial public offering on record.",
       "article": "2026-11-20#2",
       "marked_at": "2026-11-20",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "首次上市；初次亮相",
+      "pos": "n.",
+      "reviews": [],
+      "base": "debut"
     }
   ]
 }
