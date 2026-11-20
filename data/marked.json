@@ -888,9 +888,10 @@
       "context": "In September, Chinese coast guard vessels were accused of ramming Filipino fishing boats near the Spratly Islands.",
       "article": "2026-11-20#1",
       "marked_at": "2026-11-20",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "衝撞；猛撞",
+      "pos": "v.",
+      "reviews": [],
+      "base": "ram"
     },
     {
       "id": "mwp6j6bi3mq0",
@@ -898,9 +899,10 @@
       "context": "Some experts also warn that a weak code could be a double-edged sword, because Beijing might use it to undermine the UN Convention on the Law of the Sea.",
       "article": "2026-11-20#1",
       "marked_at": "2026-11-20",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "破壞；暗中削弱",
+      "pos": "v.",
+      "reviews": [],
+      "base": "undermine"
     }
   ]
 }
