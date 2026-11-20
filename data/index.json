@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-20",
+    "reviews": 10,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "International",
+        "title": "Talks on South China Sea Code Miss Their Deadline"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Business",
+        "title": "Anthropic Raises a Record $81 Billion in IPO as Wall Street Sinks"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Technology",
+        "title": "Nvidia Posts Blowout Results, but a Leadership Vacuum Clouds the Outlook"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "reviews": 0,
     "articles": [

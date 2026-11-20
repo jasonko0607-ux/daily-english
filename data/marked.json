@@ -8,7 +8,9 @@
       "marked_at": "2026-11-17",
       "zh": "讓步；妥協",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "concession",
       "priority": 2
     },
@@ -20,7 +22,9 @@
       "marked_at": "2026-11-17",
       "zh": "萎靡不振；低迷",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "malaise",
       "priority": 2
     },
@@ -32,7 +36,9 @@
       "marked_at": "2026-11-17",
       "zh": "依賴的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "reliant",
       "priority": 3
     },
@@ -44,7 +50,9 @@
       "marked_at": "2026-11-17",
       "zh": "（引擎等）運轉不穩；（經濟）疲弱不振",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "sputter",
       "priority": 2
     },
@@ -68,7 +76,9 @@
       "marked_at": "2026-11-17",
       "zh": "先例",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "precedent",
       "priority": 3
     },
@@ -80,7 +90,9 @@
       "marked_at": "2026-11-17",
       "zh": "衰退；下滑",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "downturn",
       "priority": 3
     },
@@ -92,7 +104,9 @@
       "marked_at": "2026-11-17",
       "zh": "超越；超過",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "surpass",
       "priority": 3
     },
@@ -104,7 +118,9 @@
       "marked_at": "2026-11-17",
       "zh": "雙面刃；利弊並存的事物",
       "pos": "phr.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "double-edged sword",
       "priority": 2
     },
@@ -116,7 +132,9 @@
       "marked_at": "2026-11-17",
       "zh": "樂觀的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "upbeat",
       "priority": 2
     },
@@ -128,7 +146,9 @@
       "marked_at": "2026-11-17",
       "zh": "人均的（per capita）",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-20"
+      ],
       "base": "capita",
       "priority": 2
     },
@@ -525,7 +545,8 @@
       "zh": "暫時停戰協議；休戰",
       "pos": "n.",
       "reviews": [],
-      "base": "truce"
+      "base": "truce",
+      "priority": 2
     },
     {
       "id": "mwnqo9ysleet",
@@ -536,7 +557,8 @@
       "zh": "法律漏洞；漏洞",
       "pos": "n.",
       "reviews": [],
-      "base": "loophole"
+      "base": "loophole",
+      "priority": 2
     },
     {
       "id": "mwnqpa1vkr6j",
@@ -547,7 +569,8 @@
       "zh": "緊張關係；局勢緊張",
       "pos": "n.",
       "reviews": [],
-      "base": "tension"
+      "base": "tension",
+      "priority": 3
     },
     {
       "id": "mwnqxsapdrh3",
@@ -558,7 +581,8 @@
       "zh": "稍微；略微",
       "pos": "adv.",
       "reviews": [],
-      "base": "slightly"
+      "base": "slightly",
+      "priority": 3
     },
     {
       "id": "mwnr0nd4cxhu",
@@ -569,7 +593,8 @@
       "zh": "支撐；撐住",
       "pos": "phr.",
       "reviews": [],
-      "base": "prop up"
+      "base": "prop up",
+      "priority": 2
     },
     {
       "id": "mwnr1itpg1b4",
@@ -580,7 +605,8 @@
       "zh": "數量；音量",
       "pos": "n.",
       "reviews": [],
-      "base": "volume"
+      "base": "volume",
+      "priority": 3
     },
     {
       "id": "mwnr1s2w0jkd",
@@ -591,7 +617,8 @@
       "zh": "小幅下滑；滑落",
       "pos": "v.",
       "reviews": [],
-      "base": "slip"
+      "base": "slip",
+      "priority": 3
     },
     {
       "id": "mwnr21pn23y7",
@@ -602,7 +629,8 @@
       "zh": "停滯；熄火",
       "pos": "v.",
       "reviews": [],
-      "base": "stall"
+      "base": "stall",
+      "priority": 2
     },
     {
       "id": "mwnr45ah2b4d",
@@ -613,7 +641,8 @@
       "zh": "萎縮；縮減",
       "pos": "v.",
       "reviews": [],
-      "base": "shrink"
+      "base": "shrink",
+      "priority": 3
     },
     {
       "id": "mwnr4g8bouzg",
@@ -624,7 +653,8 @@
       "zh": "抵銷；抵消",
       "pos": "v.",
       "reviews": [],
-      "base": "offset"
+      "base": "offset",
+      "priority": 2
     },
     {
       "id": "mwnrb1ihr7yt",
@@ -635,7 +665,8 @@
       "zh": "肖像；相貌",
       "pos": "n.",
       "reviews": [],
-      "base": "likeness"
+      "base": "likeness",
+      "priority": 1
     },
     {
       "id": "mwnrb4dhi0xt",
@@ -646,7 +677,8 @@
       "zh": "憑空變出；喚起",
       "pos": "phr.",
       "reviews": [],
-      "base": "conjure up"
+      "base": "conjure up",
+      "priority": 1
     },
     {
       "id": "mwnrdy2jxray",
@@ -657,7 +689,8 @@
       "zh": "模擬的；仿造的；假裝的",
       "pos": "adj.",
       "reviews": [],
-      "base": "simulated"
+      "base": "simulated",
+      "priority": 2
     },
     {
       "id": "mwnreevcpwkx",
@@ -668,7 +701,8 @@
       "zh": "滾動瀏覽；捲動",
       "pos": "v.",
       "reviews": [],
-      "base": "scroll"
+      "base": "scroll",
+      "priority": 2
     },
     {
       "id": "mwnrfg2o379u",
@@ -679,7 +713,8 @@
       "zh": "流傳；傳播",
       "pos": "v.",
       "reviews": [],
-      "base": "circulate"
+      "base": "circulate",
+      "priority": 2
     },
     {
       "id": "mwnrg7fx4y67",
@@ -690,7 +725,8 @@
       "zh": "故意地；蓄意地",
       "pos": "adv.",
       "reviews": [],
-      "base": "deliberately"
+      "base": "deliberately",
+      "priority": 3
     },
     {
       "id": "mwnrgb53ow9g",
@@ -701,7 +737,8 @@
       "zh": "指控；聲稱",
       "pos": "v.",
       "reviews": [],
-      "base": "allege"
+      "base": "allege",
+      "priority": 2
     },
     {
       "id": "mwnrgijz4sok",
@@ -712,7 +749,8 @@
       "zh": "勝過；超過",
       "pos": "v.",
       "reviews": [],
-      "base": "outweigh"
+      "base": "outweigh",
+      "priority": 2
     },
     {
       "id": "mwnrgzpeo7rv",
@@ -723,7 +761,8 @@
       "zh": "代言；背書",
       "pos": "n.",
       "reviews": [],
-      "base": "endorsement"
+      "base": "endorsement",
+      "priority": 2
     },
     {
       "id": "mwnrhi1j6ey3",
@@ -734,7 +773,8 @@
       "zh": "禁制令；禁令",
       "pos": "n.",
       "reviews": [],
-      "base": "injunction"
+      "base": "injunction",
+      "priority": 1
     },
     {
       "id": "mwnrhqkrfgo5",
@@ -745,7 +785,8 @@
       "zh": "複製；仿製",
       "pos": "v.",
       "reviews": [],
-      "base": "replicate"
+      "base": "replicate",
+      "priority": 2
     },
     {
       "id": "mwnri97tunul",
@@ -756,7 +797,8 @@
       "zh": "賭注；下注",
       "pos": "n.",
       "reviews": [],
-      "base": "wager"
+      "base": "wager",
+      "priority": 1
     },
     {
       "id": "mwnriel1jm9m",
@@ -767,7 +809,8 @@
       "zh": "模糊的；不明朗的",
       "pos": "adj.",
       "reviews": [],
-      "base": "murky"
+      "base": "murky",
+      "priority": 1
     },
     {
       "id": "mwnrjep6eezl",
@@ -778,7 +821,8 @@
       "zh": "遏制；控制",
       "pos": "v.",
       "reviews": [],
-      "base": "contain"
+      "base": "contain",
+      "priority": 2
     },
     {
       "id": "mwnrklm9qn9j",
@@ -789,7 +833,8 @@
       "zh": "性質；本質",
       "pos": "n.",
       "reviews": [],
-      "base": "nature"
+      "base": "nature",
+      "priority": 3
     },
     {
       "id": "mwnrkxs0mrl5",
@@ -800,7 +845,8 @@
       "zh": "模仿；仿冒",
       "pos": "n.",
       "reviews": [],
-      "base": "imitation"
+      "base": "imitation",
+      "priority": 2
     },
     {
       "id": "mwnrlscuwjuq",
@@ -811,7 +857,8 @@
       "zh": "隨後；之後",
       "pos": "adv.",
       "reviews": [],
-      "base": "subsequently"
+      "base": "subsequently",
+      "priority": 3
     }
   ]
 }

@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-20",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "story_date": "2026-11-18",
+      "title": "Talks on South China Sea Code Miss Their Deadline",
+      "paragraphs": [
+        "Southeast Asian leaders and China failed to finish a long-awaited code of conduct for the South China Sea this week. The talks took place around an ASEAN summit in the Philippines. The group had set 2026 as its deadline, and Manila had said it hoped to complete the document this year.",
+        "Philippine officials say about 80 percent of the text is now agreed, and talks will continue through 2027 under Singapore, the next ASEAN chair. ASEAN's secretary-general, Kao Kim Hourn, struck an upbeat tone. He said he does not see the result as a failure at all and that leaders on both sides remain committed.",
+        "Many experts are less hopeful. Collin Koh of Nanyang Technological University says the unfinished 20 percent holds the hardest problems: the geographic scope of the code, the different interests of ASEAN members, and how it would be enforced. He also notes that ASEAN has never negotiated with China as one united group, describing the talks as \"10 against one.\" Other analysts say missing the deadline has become an annual pattern and that the negotiations have sputtered along year after year. Lynn Kuok of the Brookings Institution argues that Beijing has little reason to make real concessions while it strengthens its position at sea.",
+        "The background shows why this matters. China claims almost all of the South China Sea, even though an international court ruled in 2016 that its \"nine-dash line\" claim was invalid. Beijing rejects that ruling. Brunei, Indonesia, Malaysia, the Philippines and Vietnam also claim parts of the sea, which has rich fishing grounds and resources. In September, Chinese coast guard vessels were accused of ramming Filipino fishing boats near the Spratly Islands. Some experts also warn that a weak code could be a double-edged sword, because Beijing might use it to undermine the UN Convention on the Law of the Sea."
+      ],
+      "paragraphs_zh": [
+        "東南亞各國領袖與中國本週未能完成期待已久的南海行為準則。談判在菲律賓舉行的東協高峰會前後進行。東協原本將2026年訂為期限，馬尼拉也曾表示希望在今年內完成這份文件。",
+        "菲律賓官員表示，約80%的文本已獲共識，談判將在下一任東協輪值主席國新加坡的主持下持續到2027年。東協秘書長高金洪語氣樂觀，他說自己完全不認為這個結果是失敗，並表示雙方領袖仍然致力於此。",
+        "許多專家就沒那麼樂觀。南洋理工大學的柯林·高（Collin Koh）表示，尚未完成的20%包含最棘手的問題：準則的地理適用範圍、東協成員國各異的利益，以及如何執行。他也指出，東協從未以單一團體的身分與中國談判，並形容這場談判是「十對一」。其他分析人士說，錯過期限已成為年年上演的模式，談判年復一年斷斷續續、進展不順。布魯金斯研究院的郭琳（Lynn Kuok）認為，北京在海上鞏固自身地位的同時，幾乎沒有理由做出真正的讓步。",
+        "背景說明了這件事為何重要。中國主張擁有南海幾乎全部海域，儘管國際法院在2016年裁定其「九段線」主張無效。北京拒絕接受該裁決。汶萊、印尼、馬來西亞、菲律賓和越南也對部分海域提出主權主張，該海域擁有豐富的漁場和資源。9月，中國海警船被指控在南沙群島附近衝撞菲律賓漁船。一些專家也警告，一份薄弱的準則可能是把雙面刃，因為北京可能利用它來削弱《聯合國海洋法公約》。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "long-awaited",
+          "pos": "adj.",
+          "zh": "期待已久的",
+          "match": "long-awaited",
+          "example": "Southeast Asian leaders and China failed to finish a long-awaited code of conduct for the South China Sea this week."
+        },
+        {
+          "word": "committed",
+          "pos": "adj.",
+          "zh": "致力的；投入的",
+          "match": "committed",
+          "example": "He said he does not see the result as a failure at all and that leaders on both sides remain committed."
+        },
+        {
+          "word": "scope",
+          "pos": "n.",
+          "zh": "範圍",
+          "match": "scope",
+          "example": "Collin Koh of Nanyang Technological University says the unfinished 20 percent holds the hardest problems: the geographic scope of the code, the different interests of ASEAN members, and how it would be enforced."
+        },
+        {
+          "word": "enforce",
+          "pos": "v.",
+          "zh": "執行；實施",
+          "match": "enforced",
+          "example": "Collin Koh of Nanyang Technological University says the unfinished 20 percent holds the hardest problems: the geographic scope of the code, the different interests of ASEAN members, and how it would be enforced."
+        },
+        {
+          "word": "claim",
+          "pos": "v.",
+          "zh": "主張擁有",
+          "match": "claims",
+          "example": "China claims almost all of the South China Sea, even though an international court ruled in 2016 that its \"nine-dash line\" claim was invalid."
+        },
+        {
+          "word": "invalid",
+          "pos": "adj.",
+          "zh": "無效的",
+          "match": "invalid",
+          "example": "China claims almost all of the South China Sea, even though an international court ruled in 2016 that its \"nine-dash line\" claim was invalid."
+        },
+        {
+          "word": "reject",
+          "pos": "v.",
+          "zh": "拒絕接受",
+          "match": "rejects",
+          "example": "Beijing rejects that ruling."
+        },
+        {
+          "word": "ram",
+          "pos": "v.",
+          "zh": "衝撞",
+          "match": "ramming",
+          "example": "In September, Chinese coast guard vessels were accused of ramming Filipino fishing boats near the Spratly Islands."
+        },
+        {
+          "word": "undermine",
+          "pos": "v.",
+          "zh": "削弱；破壞",
+          "match": "undermine",
+          "example": "Some experts also warn that a weak code could be a double-edged sword, because Beijing might use it to undermine the UN Convention on the Law of the Sea."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwkmdgyfwq1c",
+          "word": "concession",
+          "match": "concessions",
+          "zh": "讓步；妥協",
+          "kind": "review"
+        },
+        {
+          "id": "mwkrih5du7wp",
+          "word": "double-edged sword",
+          "match": "double-edged sword",
+          "zh": "雙面刃",
+          "kind": "review"
+        },
+        {
+          "id": "mwkqpcnikaeg",
+          "word": "sputter",
+          "match": "sputtered",
+          "zh": "（進展）不順、斷斷續續",
+          "kind": "review"
+        },
+        {
+          "id": "mwkrjz69yau3",
+          "word": "upbeat",
+          "match": "upbeat",
+          "zh": "樂觀的",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Business",
+      "story_date": "2026-11-19",
+      "title": "Anthropic Raises a Record $81 Billion in IPO as Wall Street Sinks",
+      "paragraphs": [
+        "Anthropic, the AI company co-founded in 2021 by chief executive Dario Amodei and others who left OpenAI, made its stock market debut on Thursday in the largest initial public offering on record. The company priced its shares at $83, above the expected range, and sold about 979.6 million shares to raise roughly $81.3 billion, a sum that surpassed every earlier listing.",
+        "The stock opened on the Nasdaq under the ticker ANT at $111.50, up 34.3 percent, which put the company's market value at about $2 trillion. But the early excitement did not last. Shares slid from their opening level and ended the day about 13 percent below that first trade, although they still closed 17 percent above the IPO price.",
+        "The debut came on a rough day for the whole market. The Dow Jones Industrial Average fell 2.19 percent to 49,097, closing below 50,000 for the first time since June. The S&P 500 dropped 2.02 percent and the Nasdaq lost 2.25 percent. The VIX, Wall Street's fear gauge, climbed to nearly 29, its highest level since March. Analysts said investors took profits once the big event was over. \"The dam seemed to break once the big event was behind us,\" said Steve Sosnick of Interactive Brokers.",
+        "The sell-off reflects deeper worries about artificial intelligence. Investors are asking whether heavy spending on AI infrastructure will ever produce enough profit, and the malaise has hurt chipmakers and cloud companies alike. A downturn in AI-related shares this month has been sharp: one AI-focused fund is down nearly 14 percent, and CoreWeave is down 18 percent. Because many investors have grown reliant on AI stocks for market gains, doubts about the sector spread quickly. Still, some remain bullish. A strategist at Baird called the day \"a blink of an eye\" in Anthropic's journey."
+      ],
+      "paragraphs_zh": [
+        "Anthropic是一家人工智慧公司，於2021年由執行長達里奧·阿莫迪（Dario Amodei）與其他離開OpenAI的人士共同創立。週四，該公司以史上規模最大的首次公開發行股票（IPO）登上股市。公司以每股83美元的價格定價，高於預期區間，並售出約9.796億股，募得約813億美元，這個金額超越了先前所有的上市案。",
+        "該股在那斯達克以代號ANT開盤，開盤價為111.50美元，上漲34.3%，使公司市值約達2兆美元。但早盤的興奮並未持續。股價從開盤水準下滑，當天收盤比首筆成交價低約13%，不過仍比IPO價格高出17%。",
+        "這次上市正逢整個市場表現糟糕的一天。道瓊工業指數下跌2.19%，收在49,097點，是6月以來首度收在5萬點之下。標普500指數下跌2.02%，那斯達克指數下跌2.25%。華爾街的恐慌指標VIX攀升至近29，為3月以來最高。分析師表示，在這件大事結束後，投資人便獲利了結。盈透證券（Interactive Brokers）的史蒂夫·索斯尼克（Steve Sosnick）說：「大事一過，堤防似乎就潰決了。」",
+        "這波拋售反映出市場對人工智慧更深層的憂慮。投資人在問，對AI基礎設施的大量投入究竟能不能帶來足夠的獲利，這種低迷已經衝擊到晶片製造商與雲端公司。本月AI相關股票的下滑相當劇烈：一檔專注於AI的基金下跌近14%，CoreWeave則下跌18%。由於許多投資人已習慣依賴AI股票來獲取市場漲幅，對這個產業的疑慮便迅速擴散。不過，仍有人看好。貝爾德（Baird）的一位策略師稱這一天在Anthropic的歷程中只是「轉眼之間」。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "co-found",
+          "pos": "v.",
+          "zh": "共同創立",
+          "match": "co-founded",
+          "example": "Anthropic, the AI company co-founded in 2021 by chief executive Dario Amodei and others who left OpenAI, made its stock market debut on Thursday in the largest initial public offering on record."
+        },
+        {
+          "word": "debut",
+          "pos": "n.",
+          "zh": "首次亮相；首度上市",
+          "match": "debut",
+          "example": "Anthropic, the AI company co-founded in 2021 by chief executive Dario Amodei and others who left OpenAI, made its stock market debut on Thursday in the largest initial public offering on record."
+        },
+        {
+          "word": "initial public offering",
+          "pos": "phr.",
+          "zh": "首次公開發行（IPO）",
+          "match": "initial public offering",
+          "example": "Anthropic, the AI company co-founded in 2021 by chief executive Dario Amodei and others who left OpenAI, made its stock market debut on Thursday in the largest initial public offering on record."
+        },
+        {
+          "word": "slide",
+          "pos": "v.",
+          "zh": "下滑",
+          "match": "slid",
+          "example": "Shares slid from their opening level and ended the day about 13 percent below that first trade, although they still closed 17 percent above the IPO price."
+        },
+        {
+          "word": "fear gauge",
+          "pos": "phr.",
+          "zh": "恐慌指標",
+          "match": "fear gauge",
+          "example": "The VIX, Wall Street's fear gauge, climbed to nearly 29, its highest level since March."
+        },
+        {
+          "word": "take profits",
+          "pos": "phr.",
+          "zh": "獲利了結",
+          "match": "took profits",
+          "example": "Analysts said investors took profits once the big event was over."
+        },
+        {
+          "word": "sell-off",
+          "pos": "n.",
+          "zh": "大量拋售",
+          "match": "sell-off",
+          "example": "The sell-off reflects deeper worries about artificial intelligence."
+        },
+        {
+          "word": "infrastructure",
+          "pos": "n.",
+          "zh": "基礎設施",
+          "match": "infrastructure",
+          "example": "Investors are asking whether heavy spending on AI infrastructure will ever produce enough profit, and the malaise has hurt chipmakers and cloud companies alike."
+        },
+        {
+          "word": "bullish",
+          "pos": "adj.",
+          "zh": "看漲的；樂觀的",
+          "match": "bullish",
+          "example": "Still, some remain bullish."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwkri3l4xj7e",
+          "word": "surpass",
+          "match": "surpassed",
+          "zh": "超越；超過",
+          "kind": "review"
+        },
+        {
+          "id": "mwkr4oj5ovit",
+          "word": "downturn",
+          "match": "downturn",
+          "zh": "衰退；下滑",
+          "kind": "review"
+        },
+        {
+          "id": "mwkmqo7f8wcs",
+          "word": "malaise",
+          "match": "malaise",
+          "zh": "萎靡不振；低迷",
+          "kind": "review"
+        },
+        {
+          "id": "mwkqnhqz2mfa",
+          "word": "reliant",
+          "match": "reliant",
+          "zh": "依賴的",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Technology",
+      "story_date": "2026-11-18",
+      "title": "Nvidia Posts Blowout Results, but a Leadership Vacuum Clouds the Outlook",
+      "paragraphs": [
+        "Nvidia delivered a set of quarterly results that would ordinarily have prompted celebration, yet the company's triumph was tempered by an unusual leadership crisis. Revenue for the fiscal third quarter reached $115.84 billion, comfortably eclipsing analysts' expectations of $109.10 billion, and the chipmaker guided for $130 billion in the current quarter, against a consensus of $125.1 billion.",
+        "A caveat is in order. Part of the sequential increase reflects an extra week in the fiscal fourth quarter, which Melius Research estimates adds $9 billion to $10 billion. Even so, the underlying momentum looks formidable: supply commitments swelled to $390 billion from $279 billion three months earlier, and the Vera Rubin platform has already generated $20 billion. Management raised its fiscal 2028 growth forecast to 75 percent from 70 percent, a projection for data-center compute revenue that excludes China, which accounted for roughly 2 percent of sales this quarter. Shares rose more than 5 percent in after-hours trading.",
+        "The glow faded quickly, however. Jensen Huang resigned as chief executive last week, and although he said before the results that he was open to returning, board chair Harvey Jones told the earnings call that the board does not intend to reinstate him. The search for a successor has only just begun, and investigations are ongoing. Brian Colello of Morningstar said the company is at \"peak uncertainty\" because investors cannot tell what its long-term leadership will look like.",
+        "Policy adds another layer of risk. The Commerce Department will require licenses for advanced chip shipments to Singapore, Malaysia, Indonesia, Thailand and Brazil, out of concern that the processors could be diverted to China. Analysts judge the direct hit to guidance to be limited, since it already assumed no Chinese data-center revenue, but Ben Reitzes of Melius expects sales to the affected countries to decline in fiscal 2028. Nvidia says it is still studying the rules and remains confident in its 75 percent target. Colello also pointed to longer-term threats, including large cloud customers designing their own chips."
+      ],
+      "paragraphs_zh": [
+        "Nvidia公布的季度財報，原本通常會引來一片歡呼，但這家公司的勝利卻因一場罕見的領導層危機而蒙上陰影。第三財季營收達1,158.4億美元，大幅超越分析師預期的1,091億美元；這家晶片製造商並預告本季營收為1,300億美元，高於市場共識的1,251億美元。",
+        "不過有一點必須說明。環比成長有一部分源自第四財季多出的一週，Melius Research估計這會增加90億至100億美元。即便如此，其底層動能依然驚人：供應承諾從三個月前的2,790億美元激增至3,900億美元，而Vera Rubin平台已創造200億美元營收。管理層把2028財年的成長預測從70%上調至75%，這項針對資料中心運算營收的預測不含中國；中國本季約占銷售額的2%。股價在盤後交易中上漲逾5%。",
+        "然而，這份光彩很快就消退了。黃仁勳上週辭去執行長一職，儘管他在財報公布前表示願意回任，但董事會主席哈維·瓊斯（Harvey Jones）在法說會上表示，董事會無意讓他復職。接班人的遴選才剛起步，調查也仍在進行。晨星（Morningstar）的布萊恩·柯萊洛（Brian Colello）表示，公司正處於「不確定性的高峰」，因為投資人無從判斷其長期領導層會是什麼樣子。",
+        "政策又增添了一層風險。美國商務部將要求對輸往新加坡、馬來西亞、印尼、泰國和巴西的先進晶片出貨申請許可，原因是擔心這些處理器可能被轉運到中國。分析師認為，這對財測的直接衝擊有限，因為財測原本就假設沒有中國資料中心營收，但Melius的班·雷茨（Ben Reitzes）預期，2028財年對受影響國家的銷售將會下滑。Nvidia表示仍在研究相關規定，並對75%的目標保持信心。柯萊洛也指出了較長期的威脅，包括大型雲端客戶自行設計晶片。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "temper",
+          "pos": "v.",
+          "zh": "減弱；使緩和",
+          "match": "tempered",
+          "example": "Nvidia delivered a set of quarterly results that would ordinarily have prompted celebration, yet the company's triumph was tempered by an unusual leadership crisis."
+        },
+        {
+          "word": "eclipse",
+          "pos": "v.",
+          "zh": "超越；使黯然失色",
+          "match": "eclipsing",
+          "example": "Revenue for the fiscal third quarter reached $115.84 billion, comfortably eclipsing analysts' expectations of $109.10 billion, and the chipmaker guided for $130 billion in the current quarter, against a consensus of $125.1 billion."
+        },
+        {
+          "word": "consensus",
+          "pos": "n.",
+          "zh": "（市場）共識預期",
+          "match": "consensus",
+          "example": "Revenue for the fiscal third quarter reached $115.84 billion, comfortably eclipsing analysts' expectations of $109.10 billion, and the chipmaker guided for $130 billion in the current quarter, against a consensus of $125.1 billion."
+        },
+        {
+          "word": "caveat",
+          "pos": "n.",
+          "zh": "附帶說明；警告",
+          "match": "caveat",
+          "example": "A caveat is in order."
+        },
+        {
+          "word": "sequential",
+          "pos": "adj.",
+          "zh": "環比的；連續的",
+          "match": "sequential",
+          "example": "Part of the sequential increase reflects an extra week in the fiscal fourth quarter, which Melius Research estimates adds $9 billion to $10 billion."
+        },
+        {
+          "word": "formidable",
+          "pos": "adj.",
+          "zh": "驚人的；強大的",
+          "match": "formidable",
+          "example": "Even so, the underlying momentum looks formidable: supply commitments swelled to $390 billion from $279 billion three months earlier, and the Vera Rubin platform has already generated $20 billion."
+        },
+        {
+          "word": "swell",
+          "pos": "v.",
+          "zh": "激增；膨脹",
+          "match": "swelled",
+          "example": "Even so, the underlying momentum looks formidable: supply commitments swelled to $390 billion from $279 billion three months earlier, and the Vera Rubin platform has already generated $20 billion."
+        },
+        {
+          "word": "reinstate",
+          "pos": "v.",
+          "zh": "使復職；恢復",
+          "match": "reinstate",
+          "example": "Jensen Huang resigned as chief executive last week, and although he said before the results that he was open to returning, board chair Harvey Jones told the earnings call that the board does not intend to reinstate him."
+        },
+        {
+          "word": "successor",
+          "pos": "n.",
+          "zh": "接班人",
+          "match": "successor",
+          "example": "The search for a successor has only just begun, and investigations are ongoing."
+        },
+        {
+          "word": "divert",
+          "pos": "v.",
+          "zh": "轉移；轉向",
+          "match": "diverted",
+          "example": "The Commerce Department will require licenses for advanced chip shipments to Singapore, Malaysia, Indonesia, Thailand and Brazil, out of concern that the processors could be diverted to China."
+        }
+      ],
+      "review": []
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwkr41p0mdv8",
+      "word": "precedent",
+      "pos": "n.",
+      "zh": "先例",
+      "match": "precedent",
+      "example": "Such a sharp fall in exports is without precedent in the company's history.",
+      "example_zh": "出口如此大幅下滑，在該公司的歷史上是前所未有的。",
+      "context": "Outside the pandemic period, such a collapse is without precedent.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkryu9gxrit",
+      "word": "capita",
+      "pos": "adj.",
+      "zh": "人均的（per capita）",
+      "match": "capita",
+      "example": "Per capita income in the region has doubled over the past two decades.",
+      "example_zh": "該地區的人均所得在過去二十年間已翻倍。",
+      "context": "Third-quarter growth reached 4.5%, a rebound from three-year lows, and Goldman Sachs projects that expansion will ease to 4.6% this year from 5% in 2025, and to 4.5% in 2027, which would still keep China on track to double its 2020 per capita income by 2035.",
+      "source": "2026-11-17#3"
+    }
+  ]
+}
