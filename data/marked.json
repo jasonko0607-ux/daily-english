@@ -932,9 +932,10 @@
       "context": "Shares slid from their opening level and ended the day about 13 percent below that first trade, although they still closed 17 percent above the IPO price.",
       "article": "2026-11-20#2",
       "marked_at": "2026-11-20",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "下滑；滑落",
+      "pos": "v.",
+      "reviews": [],
+      "base": "slide"
     }
   ]
 }
