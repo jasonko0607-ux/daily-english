@@ -954,9 +954,10 @@
       "context": "Still, some remain bullish.",
       "article": "2026-11-20#2",
       "marked_at": "2026-11-20",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "看好的；看漲的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "bullish"
     }
   ]
 }
