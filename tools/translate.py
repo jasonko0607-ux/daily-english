@@ -10,7 +10,10 @@ Used by .github/workflows/translate.yml:
       RESULT.json is {"words": [{"id", "zh", "pos", "base"}, ...]}.
       Writes zh, pos and base into data/marked.json for words that still have
       no meaning. Entries that fail the checks are skipped, so a bad answer
-      only leaves that word for the morning routine. Prints how many changed.
+      only leaves that word for the morning routine. Then merges any newly
+      translated word whose dictionary form matches an older entry (e.g.
+      "sought" after "seek") into that entry as a repeat mark, the same way
+      the site records marking a word again. Prints how many changed.
 
 Priority (stars) is left to the morning routine.
 """
@@ -50,7 +53,45 @@ def apply(data, result):
         if base and len(base) <= 60 and not CJK.search(base) and not w.get("base"):
             w["base"] = base
         changed += 1
-    return changed
+    return changed + merge_duplicates(data)
+
+
+def key(w):
+    return (w.get("base") or w["word"]).strip().lower()
+
+
+def refs(w):
+    return {w.get("article")} | {m.get("article") for m in w.get("marks", [])}
+
+
+def merge_duplicates(data):
+    """Fold a later entry into an earlier one with the same dictionary form.
+    Only entries with a translation (so with a base form) are compared. The
+    later entry becomes a repeat mark of the earlier one; if it came from a
+    later day the earlier word's review round starts over that day."""
+    first = {}
+    keep = []
+    merged = 0
+    for w in data["words"]:
+        if not w.get("zh"):
+            keep.append(w)
+            continue
+        old = first.get(key(w))
+        if old is None:
+            first[key(w)] = w
+            keep.append(w)
+            continue
+        marks = [{"marked_at": w["marked_at"], "context": w.get("context", ""), "article": w.get("article", "")}]
+        marks += w.get("marks", [])
+        for m in marks:
+            if m["article"] in refs(old):
+                continue
+            old.setdefault("marks", []).append(m)
+            if m["marked_at"] > (old.get("cycle_start") or old["marked_at"]):
+                old["cycle_start"] = m["marked_at"]
+        merged += 1
+    data["words"] = keep
+    return merged
 
 
 def main():

@@ -6,10 +6,16 @@ Prints JSON with:
   due           words whose next spaced review (3, 7, 14 days after marking)
                 has arrived, most urgent first, at most DAILY_MAX of them.
                 Urgency = priority (1-3, 3 = most important) plus one point
-                for every AGING_DAYS days the review is late, so a minor word
-                that keeps getting postponed still gets its turn. Words with
-                priority 1 (rare or specialised) are never scheduled; they
-                only stay in the word list.
+                for each extra article the word was marked in (at most
+                REPEAT_BONUS_MAX; a word you keep marking is one you keep
+                missing) plus one point for every AGING_DAYS days the review
+                is late, so a minor word that keeps getting postponed still
+                gets its turn. Words with priority 1 (rare or specialised) are
+                never scheduled unless they were marked in 2+ articles; until
+                then they only stay in the word list.
+                Marking a word again on a later day restarts its round:
+                "cycle_start" moves to that day and only reviews after it
+                count toward the 3, 7 and 14 day schedule.
                 Weave up to ARTICLE_MAX of them into the articles (kind
                 "review"), taking them from the top of the list where they fit
                 naturally; put every other word in this list in review_cards.
@@ -31,7 +37,18 @@ ARTICLE_MAX = 9
 DAILY_MAX = 25
 AGING_DAYS = 3
 DEFAULT_PRIORITY = 2
-MIN_REVIEW_PRIORITY = 2  # priority-1 (rare) words are kept but not reviewed
+MIN_REVIEW_PRIORITY = 2  # priority-1 (rare) words are kept but not reviewed...
+REPEAT_TO_REVIEW = 2     # ...unless they were marked in this many articles
+REPEAT_BONUS_MAX = 2
+
+
+def times_marked(w):
+    refs = {w.get("article")} | {m.get("article") for m in w.get("marks", [])}
+    return max(1, len(refs - {None, ""}))
+
+
+def cycle_start(w):
+    return date.fromisoformat(w.get("cycle_start") or w["marked_at"])
 
 
 def load_words():
@@ -42,23 +59,28 @@ def plan(today, words):
     due, casual = [], []
     for w in words:
         # Ignore a use recorded for today, so re-running a day gives the same plan.
-        past = sorted(d for d in w.get("reviews", []) if date.fromisoformat(d) < today)
+        # Only reviews in the current round count (after cycle_start).
+        start = cycle_start(w)
+        past = sorted(d for d in w.get("reviews", []) if start < date.fromisoformat(d) < today)
         priority = w.get("priority") or DEFAULT_PRIORITY
-        if priority < MIN_REVIEW_PRIORITY:
+        times = times_marked(w)
+        if priority < MIN_REVIEW_PRIORITY and times < REPEAT_TO_REVIEW:
             continue  # rare words stay in the word list but are never scheduled
-        item ={"id": w["id"], "word": w.get("base") or w["word"], "pos": w.get("pos", ""),
-                "zh": w.get("zh", ""), "context": w.get("context", ""), "priority": priority}
+        item = {"id": w["id"], "word": w.get("base") or w["word"], "pos": w.get("pos", ""),
+                "zh": w.get("zh", ""), "context": w.get("context", ""), "priority": priority,
+                "times_marked": times}
         if len(past) < len(SCHEDULE):
-            due_on = date.fromisoformat(w["marked_at"]) + timedelta(days=SCHEDULE[len(past)])
+            due_on = start + timedelta(days=SCHEDULE[len(past)])
             if due_on <= today:
                 late = (today - due_on).days
+                bonus = min(times - 1, REPEAT_BONUS_MAX)
                 due.append({**item, "review_number": len(past) + 1, "due_on": due_on.isoformat(),
-                            "days_late": late, "urgency": round(priority + late / AGING_DAYS, 2)})
+                            "days_late": late, "urgency": round(priority + bonus + late / AGING_DAYS, 2)})
         elif (today - date.fromisoformat(past[-1])).days >= CASUAL_GAP:
             casual.append({**item, "last_used": past[-1]})
 
     due.sort(key=lambda x: (-x["urgency"], x["due_on"], x["id"]))
-    casual.sort(key=lambda x: (-x["priority"], x["last_used"]))
+    casual.sort(key=lambda x: (-x["priority"] - min(x["times_marked"] - 1, REPEAT_BONUS_MAX), x["last_used"]))
     missing = [{"id": w["id"], "word": w["word"], "context": w.get("context", ""),
                 "needs": [k for k in ("zh", "priority") if not w.get(k)]}
                for w in words if not w.get("zh") or not w.get("priority")]

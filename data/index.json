@@ -7,18 +7,21 @@
         "n": 1,
         "level": "600–800",
         "category": "International",
+        "topic": "apec-shenzhen-trump-xi-putin-summit",
         "title": "U.S., China and Russia Leaders Meet for First Time in Shenzhen"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
+        "topic": "wall-street-ai-selloff",
         "title": "Wall Street Ends a Brutal Week as AI Selloff Deepens"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Taiwan",
+        "topic": "taiwan-export-orders-record",
         "title": "Taiwan's Export Orders Hit a Record as AI Demand Defies a Global Rout"
       }
     ]
@@ -31,18 +34,21 @@
         "n": 1,
         "level": "600–800",
         "category": "International",
+        "topic": "south-china-sea-code-of-conduct",
         "title": "Talks on South China Sea Code Miss Their Deadline"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
+        "topic": "anthropic-ipo",
         "title": "Anthropic Raises a Record $81 Billion in IPO as Wall Street Sinks"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
+        "topic": "nvidia-earnings-leadership",
         "title": "Nvidia Posts Blowout Results, but a Leadership Vacuum Clouds the Outlook"
       }
     ]
@@ -55,18 +61,21 @@
         "n": 1,
         "level": "600–800",
         "category": "International",
+        "topic": "apec-shenzhen-trump-xi-putin-summit",
         "title": "Trump, Xi and Putin Converge on Shenzhen for APEC"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
+        "topic": "japan-exports-chip-equipment",
         "title": "Japan's Exports Jump 20.5% as Chip Gear Surges"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
+        "topic": "lebron-james-ai-ad-lawsuit",
         "title": "LeBron James Sues Startup Over AI-Made Advertisement"
       }
     ]
@@ -79,18 +88,21 @@
         "n": 1,
         "level": "600–800",
         "category": "International",
+        "topic": "cop31-fossil-fuels",
         "title": "UN Climate Talks Split Over the Future of Fossil Fuels"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
+        "topic": "wall-street-ai-selloff",
         "title": "Wall Street Slides as Tech Worries and Rate Fears Grow"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
+        "topic": "us-chip-controls-cloud-loophole",
         "title": "Washington Moves to Close the Cloud Loophole in Chip Controls"
       }
     ]
@@ -102,18 +114,21 @@
         "n": 1,
         "level": "600–800",
         "category": "Taiwan",
+        "topic": "taiwan-working-parents-support",
         "title": "Taiwan to Help Employers Support Working Parents"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "International",
+        "topic": "iran-us-carrier-gulf",
         "title": "Iran Tensions Rise as Third American Carrier Arrives in Gulf"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Business",
+        "topic": "china-slowdown-exports",
         "title": "China's Slowdown Deepens Even as Exports Boom"
       }
     ]

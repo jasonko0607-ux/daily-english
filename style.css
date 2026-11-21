@@ -276,3 +276,7 @@ a.card.review-card { margin-top: 28px; }
 .vocab .back .orig { font-size: 14px; color: var(--muted); }
 .vocab .back .orig a { font-weight: 600; text-decoration: none; }
 .stars { color: var(--mark-line); font-size: 14px; letter-spacing: 1px; }
+.times { font-size: 13px; font-weight: 600; color: var(--rv-line); border: 1px solid var(--rv-line); border-radius: 999px; padding: 0 8px; }
+.vocab .e.again { font-size: 14px; }
+.vocab .e.again .again-date { font-style: normal; font-weight: 600; }
+.vocab .e.again a { font-style: normal; font-weight: 600; text-decoration: none; }

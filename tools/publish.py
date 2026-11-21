@@ -15,6 +15,7 @@ from datetime import date as Date
 from pathlib import Path
 
 from review import ARTICLE_MAX, plan
+from topics import CATEGORIES, load_index, previous_categories, recent, topic_tokens
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -42,6 +43,45 @@ def load_marked():
     return {"words": []}
 
 
+def check_topics(day):
+    """Every article needs an allowed category and a topic key. Categories must
+    differ from each other and from the previous issue; a topic may not repeat
+    one from the last few days. A topic key that shares two or more meaningful
+    words with a recent one is treated as the same story unless the article
+    explains its different angle in "new_angle"."""
+    today = Date.fromisoformat(day["date"])
+    index = load_index()
+    past = recent(today, index)
+    blocked = set(previous_categories(today, index))
+    seen_cats, seen_topics = set(), set()
+    for i, a in enumerate(day["articles"], 1):
+        where = f"article {i}: "
+        cat = a.get("category")
+        if cat not in CATEGORIES:
+            fail(where + f"category must be one of {CATEGORIES}")
+        if cat in seen_cats:
+            fail(where + f"category {cat!r} is used twice today")
+        if cat in blocked:
+            fail(where + f"category {cat!r} was used in the previous issue; pick another (tools/topics.py)")
+        seen_cats.add(cat)
+        topic = a.get("topic")
+        if not isinstance(topic, str) or not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", topic):
+            fail(where + "topic must be a lowercase kebab-case key naming the specific story, e.g. 'putin-xi-trump-summit'")
+        if topic in seen_topics:
+            fail(where + f"topic {topic!r} is used twice today")
+        seen_topics.add(topic)
+        for p in past:
+            if not p["topic"]:
+                continue
+            if p["topic"] == topic:
+                fail(where + f"topic {topic!r} already ran on {p['date']} ({p['title']}); pick a different story")
+            shared = topic_tokens(topic) & topic_tokens(p["topic"])
+            if len(shared) >= 2 and not str(a.get("new_angle", "")).strip():
+                fail(where + f"topic {topic!r} looks like {p['topic']!r} from {p['date']} ({p['title']}),"
+                     f" sharing {sorted(shared)}. Pick a different story, or, if this is a genuinely different"
+                     " angle on a broad issue (not a follow-up of the same event), say how in 'new_angle'")
+
+
 def check(day, marked):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(day.get("date", ""))):
         fail("date must be YYYY-MM-DD")
@@ -50,6 +90,8 @@ def check(day, marked):
         fail("articles must be a list of exactly 3")
     if [a.get("level") for a in articles].count("800+") != 1:
         fail("exactly one article must have level '800+'")
+
+    check_topics(day)
 
     ids = {w["id"] for w in marked["words"]}
     today = plan(Date.fromisoformat(day["date"]), marked["words"])
@@ -204,7 +246,8 @@ def main():
         "date": day["date"],
         "reviews": len(used_today(day)),
         "articles": [
-            {"n": n, "level": a["level"], "category": a["category"], "title": a["title"]}
+            {"n": n, "level": a["level"], "category": a["category"], "topic": a["topic"],
+             "title": a["title"]}
             for n, a in enumerate(day["articles"], 1)
         ],
     })

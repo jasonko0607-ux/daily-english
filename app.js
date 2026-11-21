@@ -224,10 +224,24 @@ async function markWord(text, context, ref) {
   toast("儲存中…");
   try {
     let existed = false;
+    let again = 0;
     await updateMarked((data) => {
-      if (data.words.some((w) => w.word.toLowerCase() === word.toLowerCase())) {
-        existed = true;
-        return false;
+      existed = false;
+      again = 0;
+      const key = word.toLowerCase();
+      const old = data.words.find((w) => w.word.toLowerCase() === key || (w.base || "").toLowerCase() === key);
+      if (old) {
+        // Marked again in another article: remember where, which raises its
+        // priority, and start its review round over (see tools/review.py).
+        if (markRefs(old).includes(ref)) {
+          existed = true;
+          return false;
+        }
+        const today = studyDay();
+        old.marks = [...(old.marks || []), { marked_at: today, context, article: ref }];
+        if (today > cycleStart(old)) old.cycle_start = today;
+        again = markRefs(old).length;
+        return;
       }
       data.words.push({
         id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
@@ -240,7 +254,9 @@ async function markWord(text, context, ref) {
         reviews: [],
       });
     }, "Mark word: " + word);
-    toast(existed ? "「" + word + "」已經在單字本裡" : "已標記「" + word + "」，約 1–2 分鐘後補上中文");
+    toast(existed ? "「" + word + "」已經在單字本裡"
+      : again ? "「" + word + "」第 " + again + " 次標記，已提高優先並重新開始複習"
+      : "已標記「" + word + "」，約 1–2 分鐘後補上中文");
   } catch (e) {
     if (e instanceof AuthError) {
       setToken("");
@@ -268,7 +284,7 @@ async function renderIndex() {
   const marked = new Map();
   try {
     for (const w of (await loadJson(MARKED_PATH)).words || []) {
-      marked.set(w.marked_at, (marked.get(w.marked_at) || 0) + 1);
+      for (const d of markDates(w)) marked.set(d, (marked.get(d) || 0) + 1);
     }
   } catch (e) {}
 
@@ -941,11 +957,40 @@ async function renderReview() {
 
 // ---------- My words ----------
 
+// Word bookkeeping, kept in step with tools/review.py:
+// - marks: later marks of the same word in other articles ({marked_at, context, article});
+// - cycle_start: the day the current review round began (marking again restarts it).
+function markRefs(w) {
+  return [...new Set([w.article, ...(w.marks || []).map((m) => m.article)].filter(Boolean))];
+}
+
+function markDates(w) {
+  return [...new Set([w.marked_at, ...(w.marks || []).map((m) => m.marked_at)])];
+}
+
+function timesMarked(w) {
+  return Math.max(1, markRefs(w).length);
+}
+
+function cycleStart(w) {
+  return w.cycle_start || w.marked_at;
+}
+
+function cycleReviews(w) {
+  const start = cycleStart(w);
+  return (w.reviews || []).filter((d) => d > start).length;
+}
+
+// Rare (one-star) words are only kept, unless they were marked again.
+function isKept(w) {
+  return w.priority === 1 && timesMarked(w) < 2;
+}
+
 function reviewStatus(w) {
-  const done = (w.reviews || []).length;
-  if (w.priority === 1) return "較少見的字，只收在單字本，不排入複習";
+  const done = cycleReviews(w);
+  if (isKept(w)) return "較少見的字，只收在單字本，不排入複習";
   if (done >= SCHEDULE.length) return "已完成 3 次複習，之後會不定期出現";
-  const next = addDays(w.marked_at, SCHEDULE[done]);
+  const next = addDays(cycleStart(w), SCHEDULE[done]);
   if (next < studyDay()) return "已複習 " + done + "/3 · 排隊中，近期會排入";
   return "已複習 " + done + "/3 · 下次約 " + next;
 }
@@ -969,8 +1014,8 @@ function markedTime(w) {
 // Sort group for review order: words still in the schedule first, then finished
 // ones, then words that are only kept.
 function reviewGroup(w) {
-  if (w.priority === 1) return 2;
-  return (w.reviews || []).length >= SCHEDULE.length ? 1 : 0;
+  if (isKept(w)) return 2;
+  return cycleReviews(w) >= SCHEDULE.length ? 1 : 0;
 }
 
 // A word marked in the last 20 minutes without a meaning is still with the
@@ -980,7 +1025,7 @@ function isTranslating(w) {
 }
 
 function nextReview(w) {
-  return addDays(w.marked_at, SCHEDULE[(w.reviews || []).length]);
+  return addDays(cycleStart(w), SCHEDULE[cycleReviews(w)]);
 }
 
 const SORTS = {
@@ -1108,7 +1153,7 @@ async function renderWords() {
 
   function fillDates() {
     const counts = new Map();
-    for (const w of words) counts.set(w.marked_at, (counts.get(w.marked_at) || 0) + 1);
+    for (const w of words) for (const d of markDates(w)) counts.set(d, (counts.get(d) || 0) + 1);
     const dates = [...counts.keys()].sort().reverse();
     const all = el("option", null, "全部日期（" + words.length + " 字）");
     all.value = "all";
@@ -1131,8 +1176,21 @@ async function renderWords() {
       s.title = "重要度 " + w.priority + "/3（依多益與一般常用程度自動評估）";
       head.append(s);
     }
+    const times = timesMarked(w);
+    if (times > 1) {
+      const t = el("span", "times", "標記 " + times + " 次");
+      t.title = "在不同文章標記過 " + times + " 次，複習時優先安排";
+      head.append(t);
+    }
     li.append(head);
     if (w.context) li.append(el("p", "e", w.context));
+    for (const m of w.marks || []) {
+      const again = el("p", "e again");
+      again.append(el("span", "again-date", "再次遇到 " + m.marked_at + "："), m.context || "");
+      const url = wordRefUrl(m.article);
+      if (url) again.append(" ", link("原文", url));
+      li.append(again);
+    }
     const foot = el("div", "word-foot");
     foot.append(el("span", null, "標記於 " + w.marked_at + " · " + reviewStatus(w)));
     const url = wordRefUrl(w.article);
@@ -1164,11 +1222,11 @@ async function renderWords() {
     dirBtn.textContent = SORTS[state.sort].names[state.dir];
 
     const shown = sortWords(
-      words.filter((w) => (state.date === "all" || w.marked_at === state.date) && matchesQuery(w, state.q)),
+      words.filter((w) => (state.date === "all" || markDates(w).includes(state.date)) && matchesQuery(w, state.q)),
       state.sort, state.dir);
 
-    const kept = words.filter((w) => w.priority === 1).length;
-    const learning = words.filter((w) => w.priority !== 1 && (w.reviews || []).length < SCHEDULE.length).length;
+    const kept = words.filter(isKept).length;
+    const learning = words.filter((w) => !isKept(w) && cycleReviews(w) < SCHEDULE.length).length;
     const filtered = state.date !== "all" || state.q;
     main.replaceChildren(el("p", "summary", (filtered ? "顯示 " + shown.length + " / " : "") + "共 " + words.length
       + " 個字 · 複習中 " + learning + " · 已完成 " + (words.length - learning - kept) + " · 只收藏 " + kept));
