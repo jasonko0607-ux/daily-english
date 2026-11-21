@@ -1057,9 +1057,10 @@
       "context": "They also agreed that \"a nuclear war cannot be won and must never be fought,\" and promised to start a dialogue on reducing nuclear risks.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "對話；談判",
+      "pos": "n.",
+      "reviews": [],
+      "base": "dialogue"
     },
     {
       "id": "mwqlvthjjh5w",
@@ -1067,9 +1068,10 @@
       "context": "In addition, it said the International Criminal Court and similar bodies must not abuse their jurisdiction.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "管轄權；司法權",
+      "pos": "n.",
+      "reviews": [],
+      "base": "jurisdiction"
     },
     {
       "id": "mwqlvvhm1o42",
@@ -1077,9 +1079,10 @@
       "context": "In addition, it said the International Criminal Court and similar bodies must not abuse their jurisdiction.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "濫用；虐待",
+      "pos": "v.",
+      "reviews": [],
+      "base": "abuse"
     },
     {
       "id": "mwqlw86dxyi4",
