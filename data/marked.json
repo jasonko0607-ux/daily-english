@@ -1024,9 +1024,10 @@
       "context": "The talks took place on the sidelines of the APEC summit and lasted about 90 minutes.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "在……場外；趁……期間",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "on the sidelines of"
     },
     {
       "id": "mwqltxlsiysd",
@@ -1034,9 +1035,10 @@
       "context": "Afterward, the three governments issued identical statements called a \"Heads of State Declaration toward Peace.\"",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "之後；隨後",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "afterward"
     },
     {
       "id": "mwqltzmzcfqa",
@@ -1044,9 +1046,10 @@
       "context": "Afterward, the three governments issued identical statements called a \"Heads of State Declaration toward Peace.\" The text was short and general.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "相同的；一模一樣的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "identical"
     }
   ]
 }
