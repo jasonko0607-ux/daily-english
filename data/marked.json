@@ -160,7 +160,9 @@
       "marked_at": "2026-11-18",
       "zh": "排放量；排放物",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "emission",
       "priority": 3
     },
@@ -172,7 +174,9 @@
       "marked_at": "2026-11-18",
       "zh": "暴利稅；意外獲利稅",
       "pos": "phr.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "windfall tax",
       "priority": 2
     },
@@ -184,7 +188,9 @@
       "marked_at": "2026-11-18",
       "zh": "抵制；抗拒",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "resist",
       "priority": 2
     },
@@ -196,7 +202,9 @@
       "marked_at": "2026-11-18",
       "zh": "主席團；主席職位",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "presidency",
       "priority": 2
     },
@@ -208,7 +216,9 @@
       "marked_at": "2026-11-18",
       "zh": "電氣化；電動化",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "electrification",
       "priority": 2
     },
@@ -220,7 +230,9 @@
       "marked_at": "2026-11-18",
       "zh": "逐步淘汰；分階段廢除",
       "pos": "phr.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "phase out",
       "priority": 3
     },
@@ -232,7 +244,9 @@
       "marked_at": "2026-11-18",
       "zh": "彌合；化解",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "bridge",
       "priority": 2
     },
@@ -244,7 +258,9 @@
       "marked_at": "2026-11-18",
       "zh": "劣化；性能下降",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "degradation",
       "priority": 2
     },
@@ -268,7 +284,9 @@
       "marked_at": "2026-11-18",
       "zh": "怪異的；離奇的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "bizarre",
       "priority": 2
     },
@@ -280,7 +298,9 @@
       "marked_at": "2026-11-18",
       "zh": "波動性；動盪程度",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "volatility",
       "priority": 3
     },
@@ -292,7 +312,9 @@
       "marked_at": "2026-11-18",
       "zh": "優於（預期）；擊敗",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "beat",
       "priority": 2
     },
@@ -304,7 +326,9 @@
       "marked_at": "2026-11-18",
       "zh": "升息；加息",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "hike",
       "priority": 3
     },
@@ -316,7 +340,9 @@
       "marked_at": "2026-11-18",
       "zh": "桶（石油計量單位）",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "barrel",
       "priority": 2
     },
@@ -328,7 +354,9 @@
       "marked_at": "2026-11-18",
       "zh": "暫時的；過渡性的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "interim",
       "priority": 2
     },
@@ -340,7 +368,9 @@
       "marked_at": "2026-11-18",
       "zh": "規避；繞過",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "circumvent",
       "priority": 2
     },
@@ -352,7 +382,9 @@
       "marked_at": "2026-11-18",
       "zh": "待審的；未決的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "pending",
       "priority": 3
     },
@@ -364,7 +396,9 @@
       "marked_at": "2026-11-18",
       "zh": "法案；立法",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "legislation",
       "priority": 3
     },
@@ -376,7 +410,9 @@
       "marked_at": "2026-11-18",
       "zh": "口頭上地；以口頭方式",
       "pos": "adv.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "verbally",
       "priority": 2
     },
@@ -400,7 +436,9 @@
       "marked_at": "2026-11-18",
       "zh": "國會的；國會議員的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "congressional",
       "priority": 2
     },
@@ -412,7 +450,9 @@
       "marked_at": "2026-11-18",
       "zh": "嚴格審查；仔細檢視",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "scrutiny",
       "priority": 2
     },
@@ -424,7 +464,9 @@
       "marked_at": "2026-11-18",
       "zh": "尋求；設法取得",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "seek",
       "priority": 3
     },
@@ -436,7 +478,9 @@
       "marked_at": "2026-11-18",
       "zh": "指控；控告",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "accuse",
       "priority": 3
     },
@@ -448,7 +492,9 @@
       "marked_at": "2026-11-18",
       "zh": "大改組；人事大調整",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "shakeup",
       "priority": 2
     },
@@ -508,7 +554,9 @@
       "marked_at": "2026-11-18",
       "zh": "強調；凸顯",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "underscore",
       "priority": 3
     },
@@ -532,7 +580,9 @@
       "marked_at": "2026-11-18",
       "zh": "執行；強制實施",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-21"
+      ],
       "base": "enforce",
       "priority": 3
     },
@@ -869,7 +919,8 @@
       "zh": "期待已久的；盼望已久的",
       "pos": "adj.",
       "reviews": [],
-      "base": "long-awaited"
+      "base": "long-awaited",
+      "priority": 2
     },
     {
       "id": "mwp6ck35see5",
@@ -880,7 +931,8 @@
       "zh": "堅守的；承諾的",
       "pos": "adj.",
       "reviews": [],
-      "base": "committed"
+      "base": "committed",
+      "priority": 3
     },
     {
       "id": "mwp6i7q140av",
@@ -891,7 +943,8 @@
       "zh": "衝撞；猛撞",
       "pos": "v.",
       "reviews": [],
-      "base": "ram"
+      "base": "ram",
+      "priority": 2
     },
     {
       "id": "mwp6j6bi3mq0",
@@ -902,7 +955,8 @@
       "zh": "破壞；暗中削弱",
       "pos": "v.",
       "reviews": [],
-      "base": "undermine"
+      "base": "undermine",
+      "priority": 3
     },
     {
       "id": "mwp6m8nv18hn",
@@ -913,7 +967,8 @@
       "zh": "行為準則；法典",
       "pos": "n.",
       "reviews": [],
-      "base": "code"
+      "base": "code",
+      "priority": 3
     },
     {
       "id": "mwp7flmnb6ae",
@@ -924,7 +979,8 @@
       "zh": "首次上市；初次亮相",
       "pos": "n.",
       "reviews": [],
-      "base": "debut"
+      "base": "debut",
+      "priority": 2
     },
     {
       "id": "mwp7hvuasat5",
@@ -935,7 +991,8 @@
       "zh": "下滑；滑落",
       "pos": "v.",
       "reviews": [],
-      "base": "slide"
+      "base": "slide",
+      "priority": 2
     },
     {
       "id": "mwp7ovr1li2c",
@@ -946,7 +1003,8 @@
       "zh": "熱潮；興奮",
       "pos": "n.",
       "reviews": [],
-      "base": "excitement"
+      "base": "excitement",
+      "priority": 3
     },
     {
       "id": "mwp7rgfzhyla",
@@ -957,7 +1015,8 @@
       "zh": "看好的；看漲的",
       "pos": "adj.",
       "reviews": [],
-      "base": "bullish"
+      "base": "bullish",
+      "priority": 2
     }
   ]
 }

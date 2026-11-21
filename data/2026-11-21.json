@@ -1,0 +1,548 @@
+{
+  "date": "2026-11-21",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "story_date": "2026-11-19",
+      "title": "U.S., China and Russia Leaders Meet for First Time in Shenzhen",
+      "paragraphs": [
+        "The leaders of the United States, China and Russia met together for the first time on Thursday in the Chinese city of Shenzhen. The talks took place on the sidelines of the APEC summit and lasted about 90 minutes. Beijing confirmed the meeting only on Monday, so it surprised many observers.",
+        "Afterward, the three governments issued identical statements called a \"Heads of State Declaration toward Peace.\" The text was short and general. The leaders said they would \"plan to increase the production and supply of refined petroleum products\" and stressed the importance of stable energy flows. They also agreed that \"a nuclear war cannot be won and must never be fought,\" and promised to start a dialogue on reducing nuclear risks.",
+        "The statement also called for reform of the United Nations. In addition, it said the International Criminal Court and similar bodies must not abuse their jurisdiction. The Trump administration has strongly criticized the court and announced new sanctions against it last month.",
+        "What the declaration left out was just as striking. It did not mention the war in Ukraine or the American war in Iran, although Russia and China have been accused of helping Tehran. This omission underscores how far apart the three powers remain on the most urgent conflicts.",
+        "At the meeting, Trump said the three countries, as the largest nuclear powers, were \"uniquely positioned\" to reduce the world's nuclear weapons. Xi said good relations among major nations were \"not a choice but a necessity,\" while Putin urged cooperation on energy security. Whether the three can bridge their differences remains unclear, but the meeting itself marks a rare moment of direct contact."
+      ],
+      "paragraphs_zh": [
+        "美國、中國與俄羅斯三國領導人週四首度在中國城市深圳同場會面。會談在亞太經合會（APEC）高峰會場邊舉行，歷時約90分鐘。北京直到週一才證實這場會面，因此令許多觀察人士感到意外。",
+        "會後，三國政府發表了內容相同的聲明，題為「致力和平的國家元首宣言」。文本簡短而籠統。領導人表示，他們將「計畫增加精煉石油產品的生產與供應」，並強調穩定能源流通的重要性。他們也同意「核戰爭不可能獲勝，也絕不能開打」，並承諾啟動降低核風險的對話。",
+        "聲明同時呼籲改革聯合國。此外，聲明稱國際刑事法院及類似機構不得濫用其管轄權。川普政府一直強烈批評該法院，並於上個月宣布對其實施新的制裁。",
+        "宣言略去的內容同樣引人注目。文中未提及烏克蘭戰爭，也未提及美國在伊朗的戰事，儘管俄羅斯與中國被指控協助德黑蘭。這項遺漏凸顯了三大強權在最迫切的衝突上仍然分歧甚大。",
+        "會議上，川普表示，三國身為最大的核武強權，「處於獨特的位置」，能夠減少全球的核武器。習近平說，大國之間的良好關係「不是選擇，而是必要」，普廷則呼籲在能源安全方面合作。三國能否彌合彼此的分歧仍不明朗，但這場會面本身標誌著一次罕見的直接接觸。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "on the sidelines of",
+          "pos": "phr.",
+          "zh": "在……的場邊；在……期間另行",
+          "match": "sidelines",
+          "example": "The talks took place on the sidelines of the APEC summit and lasted about 90 minutes."
+        },
+        {
+          "word": "identical",
+          "pos": "adj.",
+          "zh": "完全相同的",
+          "match": "identical",
+          "example": "Afterward, the three governments issued identical statements called a \"Heads of State Declaration toward Peace.\" The text was short and general."
+        },
+        {
+          "word": "declaration",
+          "pos": "n.",
+          "zh": "宣言；聲明",
+          "match": "declaration",
+          "example": "What the declaration left out was just as striking."
+        },
+        {
+          "word": "stress",
+          "pos": "v.",
+          "zh": "強調",
+          "match": "stressed",
+          "example": "The leaders said they would \"plan to increase the production and supply of refined petroleum products\" and stressed the importance of stable energy flows."
+        },
+        {
+          "word": "reform",
+          "pos": "n.",
+          "zh": "改革",
+          "match": "reform",
+          "example": "The statement also called for reform of the United Nations."
+        },
+        {
+          "word": "jurisdiction",
+          "pos": "n.",
+          "zh": "管轄權",
+          "match": "jurisdiction",
+          "example": "In addition, it said the International Criminal Court and similar bodies must not abuse their jurisdiction."
+        },
+        {
+          "word": "sanction",
+          "pos": "n.",
+          "zh": "制裁",
+          "match": "sanctions",
+          "example": "The Trump administration has strongly criticized the court and announced new sanctions against it last month."
+        },
+        {
+          "word": "striking",
+          "pos": "adj.",
+          "zh": "引人注目的",
+          "match": "striking",
+          "example": "What the declaration left out was just as striking."
+        },
+        {
+          "word": "omission",
+          "pos": "n.",
+          "zh": "遺漏；省略",
+          "match": "omission",
+          "example": "This omission underscores how far apart the three powers remain on the most urgent conflicts."
+        },
+        {
+          "word": "urge",
+          "pos": "v.",
+          "zh": "敦促；呼籲",
+          "match": "urged",
+          "example": "Xi said good relations among major nations were \"not a choice but a necessity,\" while Putin urged cooperation on energy security."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwmbqy4fpr9f",
+          "word": "accuse",
+          "match": "accused",
+          "zh": "指控；控告",
+          "kind": "review"
+        },
+        {
+          "id": "mwlxsffqhd1t",
+          "word": "bridge",
+          "match": "bridge",
+          "zh": "彌合；化解",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbxrhghvfm",
+          "word": "underscore",
+          "match": "underscores",
+          "zh": "強調；凸顯",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Business",
+      "story_date": "2026-11-20",
+      "title": "Wall Street Ends a Brutal Week as AI Selloff Deepens",
+      "paragraphs": [
+        "Stocks on Wall Street fell sharply on Friday, ending one of the worst weeks in years. The S&P 500 dropped 3.7% to 6,910.39, and the Dow lost 949.73 points, or 1.93%. Both indexes now sit about 10% below their record highs, which traders call a correction. The Nasdaq Composite fell 5.28% and turned negative for 2026.",
+        "Over the week, the Dow lost 8%, its worst week since March 2020. The Nasdaq fell about 10%, its biggest weekly drop in more than six years. Chip stocks led the decline. Nvidia lost about 14%, and Micron and AMD each lost more than 13%. Reuters reported that the SEC is exploring possible accounting issues at Nvidia, which adds to the scrutiny of the company. Anthropic fell 8.5% a day after its debut, giving back much of its first-day gain.",
+        "Analysts said investors are questioning the huge spending on artificial intelligence. Signs that big tech firms are slowing their capital spending, along with weaker profit growth, have worried the market. Fear of higher interest rates also played a part. Traders now expect a Federal Reserve rate hike at its December 8-9 meeting. The VIX, a gauge of market volatility, rose above 30 and reached 32.27 during the day.",
+        "Investors looked for safety elsewhere. Defensive stocks such as Walmart and Procter & Gamble rose about 1%, but gold fell 2.81% and Bitcoin dropped below $60,000. Oil edged up, with Brent crude at $92.57 a barrel. Overseas, Japan's Nikkei fell 5.06%, and Taiwan's Taiex had its worst weekly drop since October 1997.",
+        "Some analysts think the pain is not over. BTIG said the sell-off may continue, and Capital Economics expects the S&P 500 to fall to 6,500 by the end of next year. One bright spot was consumer sentiment, which rose to 51.5 in a University of Michigan survey."
+      ],
+      "paragraphs_zh": [
+        "華爾街股市週五大幅下挫，結束了近年來最糟糕的一週之一。標普500指數下跌3.7%，收在6,910.39點，道瓊工業指數下跌949.73點，跌幅1.93%。兩大指數目前都比紀錄高點低約10%，這在交易員口中稱為「修正」。那斯達克綜合指數下跌5.28%，今年的漲幅也轉為負值。",
+        "整週下來，道瓊下跌8%，是2020年3月以來最差的一週。那斯達克下跌約10%，是六年多來單週最大跌幅。晶片股領跌。輝達下跌約14%，美光與超微各自下跌逾13%。路透報導，美國證券交易委員會正在調查輝達可能存在的會計問題，使該公司受到的嚴格審查更加升高。Anthropic在上市次日下跌8.5%，吐回了首日大部分的漲幅。",
+        "分析師表示，投資人開始質疑在人工智慧上的龐大投入。大型科技公司放慢資本支出的跡象，加上獲利成長減弱，令市場憂心。對利率走高的恐懼也推波助瀾。交易員現在預期聯準會將在12月8日至9日的會議上升息。衡量市場波動性的VIX指數升破30，盤中一度達到32.27。",
+        "投資人轉往其他地方尋求避險。沃爾瑪與寶僑等防禦型股票上漲約1%，但黃金下跌2.81%，比特幣跌破6萬美元。油價小幅上揚，布蘭特原油每桶報92.57美元。在海外，日本日經指數下跌5.06%，台灣加權指數則創下1997年10月以來最糟的單週跌幅。",
+        "部分分析師認為痛苦尚未結束。BTIG表示，賣壓可能持續，凱投宏觀預期標普500指數將在明年底前跌至6,500點。一個亮點是消費者信心，在密西根大學的調查中升至51.5。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "correction",
+          "pos": "n.",
+          "zh": "（股市）修正，回檔",
+          "match": "correction",
+          "example": "Both indexes now sit about 10% below their record highs, which traders call a correction."
+        },
+        {
+          "word": "turn negative",
+          "pos": "phr.",
+          "zh": "轉為負值",
+          "match": "turned negative",
+          "example": "The Nasdaq Composite fell 5.28% and turned negative for 2026."
+        },
+        {
+          "word": "capital spending",
+          "pos": "phr.",
+          "zh": "資本支出",
+          "match": "capital spending",
+          "example": "Signs that big tech firms are slowing their capital spending, along with weaker profit growth, have worried the market."
+        },
+        {
+          "word": "gauge",
+          "pos": "n.",
+          "zh": "衡量指標",
+          "match": "gauge",
+          "example": "The VIX, a gauge of market volatility, rose above 30 and reached 32.27 during the day."
+        },
+        {
+          "word": "defensive stock",
+          "pos": "phr.",
+          "zh": "防禦型股票",
+          "match": "Defensive stocks",
+          "example": "Defensive stocks such as Walmart and Procter & Gamble rose about 1%, but gold fell 2.81% and Bitcoin dropped below $60,000."
+        },
+        {
+          "word": "edge up",
+          "pos": "phr.",
+          "zh": "小幅上升",
+          "match": "edged up",
+          "example": "Oil edged up, with Brent crude at $92.57 a barrel."
+        },
+        {
+          "word": "sell-off",
+          "pos": "n.",
+          "zh": "拋售；大跌",
+          "match": "sell-off",
+          "example": "BTIG said the sell-off may continue, and Capital Economics expects the S&P 500 to fall to 6,500 by the end of next year."
+        },
+        {
+          "word": "sentiment",
+          "pos": "n.",
+          "zh": "（市場或消費者的）信心；情緒",
+          "match": "sentiment",
+          "example": "One bright spot was consumer sentiment, which rose to 51.5 in a University of Michigan survey."
+        },
+        {
+          "word": "give back",
+          "pos": "phr.",
+          "zh": "吐回（先前的漲幅）",
+          "match": "giving back",
+          "example": "Anthropic fell 8.5% a day after its debut, giving back much of its first-day gain."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwmbfzf5zekf",
+          "word": "scrutiny",
+          "match": "scrutiny",
+          "zh": "嚴格審查；仔細檢視",
+          "kind": "review"
+        },
+        {
+          "id": "mwm64aj16lhq",
+          "word": "hike",
+          "match": "hike",
+          "zh": "升息；加息",
+          "kind": "review"
+        },
+        {
+          "id": "mwm0xq2vp12o",
+          "word": "volatility",
+          "match": "volatility",
+          "zh": "波動性；動盪程度",
+          "kind": "review"
+        },
+        {
+          "id": "mwm6herukmt2",
+          "word": "barrel",
+          "match": "barrel",
+          "zh": "桶（石油計量單位）",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Taiwan",
+      "story_date": "2026-11-20",
+      "title": "Taiwan's Export Orders Hit a Record as AI Demand Defies a Global Rout",
+      "paragraphs": [
+        "Taiwan's export orders reached a record US$123.82 billion in October, up 78.3% from a year earlier, the Ministry of Economic Affairs said on Friday. It was the 21st consecutive month of annual growth and the steepest year-on-year increase ever recorded. For the first ten months of the year, orders totaled US$943.02 billion, a rise of 58.6%.",
+        "The surge was overwhelmingly driven by artificial intelligence. Orders for information and communications products more than doubled, climbing 107.2% to US$46.77 billion, while electronics orders rose 89.8% to US$53.91 billion, with the United States contributing the largest share of that growth. Traditional sectors benefited as well: basic metals gained 22%, buoyed by demand for copper foil and copper-clad laminates used in the AI supply chain, and machinery orders rose 36.3% as chipmakers expanded capacity. Huang Wei-chieh, director of the ministry's statistics department, nevertheless cautioned that low-priced Chinese exports continue to squeeze some manufacturers, and he attributed part of the gains in older industries to a low base of comparison and higher prices.",
+        "The figures arrive at a delicate moment, since Taiwan's stock market this week suffered its worst weekly drop since October 1997 amid a global rout in technology shares. Yet Huang struck a composed tone. He described Nvidia's latest financial outlook as a reassuring signal and argued that, despite likely turbulence, the sector's long-term growth trajectory is unlikely to reverse. He also played down the effect of Washington's recent measures on AI-related exports to China, saying they appear aimed chiefly at closing existing loopholes rather than imposing a blanket ban. Because Taiwan's advanced chip-making customers are mainly American, he expects the direct impact to be limited.",
+        "Even so, the episode illustrates a recurring tension: determined buyers will often try to circumvent restrictions through indirect channels, and how rigorously the new rules can be enforced remains an open question. Looking ahead, the ministry expects November orders of between US$115 billion and US$118.7 billion, up roughly 58% to 63%. Huang said that surpassing US$1.1 trillion for the full year is highly likely, although reaching US$1.2 trillion would be a stretch."
+      ],
+      "paragraphs_zh": [
+        "經濟部週五表示，台灣10月外銷訂單創下1,238.2億美元的新高，較去年同期成長78.3%。這是連續第21個月年增，也是有紀錄以來最大的年增幅。今年前10個月訂單總額為9,430.2億美元，成長58.6%。",
+        "這波暴增壓倒性地由人工智慧所帶動。資訊通信產品訂單成長逾一倍，攀升107.2%至467.7億美元；電子產品訂單則成長89.8%至539.1億美元，其中美國貢獻了最大比例的成長。傳統產業也同樣受惠：基本金屬成長22%，受惠於AI供應鏈所需的銅箔與銅箔基板需求；機械訂單成長36.3%，因為晶片製造商擴充產能。不過，經濟部統計處處長黃偉傑提醒，中國低價出口品持續擠壓部分製造商，他也將傳統產業部分的成長歸因於低基期與價格上漲。",
+        "這些數字出現在微妙的時刻，因為台灣股市本週在全球科技股崩跌的背景下，遭遇1997年10月以來最糟的單週跌幅。然而黃偉傑的語氣相當沉著。他形容輝達最新的財務展望是令人安心的訊號，並主張儘管可能出現動盪，該產業的長期成長軌跡不太可能逆轉。他也淡化華府近期針對輸往中國的AI相關出口措施所造成的影響，稱這些措施主要似乎是為了堵住現有漏洞，而非全面禁止。由於台灣先進晶片製造的客戶主要是美國企業，他預期直接衝擊有限。",
+        "即便如此，這個事件仍顯示出一種反覆出現的矛盾：決心十足的買家往往會試圖透過間接管道規避限制，而新規定能被多嚴格地執行，仍是一個懸而未決的問題。展望未來，經濟部預估11月訂單介於1,150億至1,187億美元之間，年增約58%至63%。黃偉傑表示，全年突破1.1兆美元的可能性很高，但要達到1.2兆美元則有些勉強。"
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/business/202611200021"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "consecutive",
+          "pos": "adj.",
+          "zh": "連續的",
+          "match": "consecutive",
+          "example": "It was the 21st consecutive month of annual growth and the steepest year-on-year increase ever recorded."
+        },
+        {
+          "word": "overwhelmingly",
+          "pos": "adv.",
+          "zh": "壓倒性地；絕大程度上",
+          "match": "overwhelmingly",
+          "example": "The surge was overwhelmingly driven by artificial intelligence."
+        },
+        {
+          "word": "buoyed",
+          "pos": "adj.",
+          "zh": "受到支撐的；受到鼓舞的",
+          "match": "buoyed",
+          "example": "Traditional sectors benefited as well: basic metals gained 22%, buoyed by demand for copper foil and copper-clad laminates used in the AI supply chain, and machinery orders rose 36.3% as chipmakers expanded capacity."
+        },
+        {
+          "word": "squeeze",
+          "pos": "v.",
+          "zh": "擠壓；壓縮（利潤）",
+          "match": "squeeze",
+          "example": "Huang Wei-chieh, director of the ministry's statistics department, nevertheless cautioned that low-priced Chinese exports continue to squeeze some manufacturers, and he attributed part of the gains in older industries to a low base of comparison and higher prices."
+        },
+        {
+          "word": "attribute to",
+          "pos": "phr.",
+          "zh": "把……歸因於",
+          "match": "attributed",
+          "example": "Huang Wei-chieh, director of the ministry's statistics department, nevertheless cautioned that low-priced Chinese exports continue to squeeze some manufacturers, and he attributed part of the gains in older industries to a low base of comparison and higher prices."
+        },
+        {
+          "word": "rout",
+          "pos": "n.",
+          "zh": "（股市）崩跌；潰敗",
+          "match": "rout",
+          "example": "The figures arrive at a delicate moment, since Taiwan's stock market this week suffered its worst weekly drop since October 1997 amid a global rout in technology shares."
+        },
+        {
+          "word": "composed",
+          "pos": "adj.",
+          "zh": "沉著的；鎮定的",
+          "match": "composed",
+          "example": "Yet Huang struck a composed tone."
+        },
+        {
+          "word": "turbulence",
+          "pos": "n.",
+          "zh": "動盪；亂流",
+          "match": "turbulence",
+          "example": "He described Nvidia's latest financial outlook as a reassuring signal and argued that, despite likely turbulence, the sector's long-term growth trajectory is unlikely to reverse."
+        },
+        {
+          "word": "trajectory",
+          "pos": "n.",
+          "zh": "軌跡；走向",
+          "match": "trajectory",
+          "example": "He described Nvidia's latest financial outlook as a reassuring signal and argued that, despite likely turbulence, the sector's long-term growth trajectory is unlikely to reverse."
+        },
+        {
+          "word": "play down",
+          "pos": "phr.",
+          "zh": "淡化；貶低",
+          "match": "played down",
+          "example": "He also played down the effect of Washington's recent measures on AI-related exports to China, saying they appear aimed chiefly at closing existing loopholes rather than imposing a blanket ban."
+        },
+        {
+          "word": "blanket ban",
+          "pos": "phr.",
+          "zh": "全面禁止",
+          "match": "blanket ban",
+          "example": "He also played down the effect of Washington's recent measures on AI-related exports to China, saying they appear aimed chiefly at closing existing loopholes rather than imposing a blanket ban."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwmb3q6jeb1b",
+          "word": "circumvent",
+          "match": "circumvent",
+          "zh": "規避；繞過",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbzds6yogr",
+          "word": "enforce",
+          "match": "enforced",
+          "zh": "執行；強制實施",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwlxm5b84b4o",
+      "word": "emission",
+      "pos": "n.",
+      "zh": "排放量；排放物",
+      "match": "emissions",
+      "example": "Several airlines have pledged to cut their carbon emissions by half before 2035.",
+      "example_zh": "數家航空公司承諾在2035年前將碳排放量減半。",
+      "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxpy4iak9u",
+      "word": "phase out",
+      "pos": "phr.",
+      "zh": "逐步淘汰",
+      "match": "phase out",
+      "example": "The government plans to phase out coal-fired power plants over the next decade.",
+      "example_zh": "政府計畫在未來十年逐步淘汰燃煤電廠。",
+      "context": "Last year's conference, COP30, ended without a plan to phase out fossil fuels, because more than 100 countries blocked such language.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwmb4lqj2eaa",
+      "word": "pending",
+      "pos": "adj.",
+      "zh": "待審的；未決的",
+      "match": "pending",
+      "example": "The merger remains pending until regulators complete their review.",
+      "example_zh": "在監管機關完成審查之前，這項併購案仍懸而未決。",
+      "context": "Pending legislation would go further.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmb4pyxokvw",
+      "word": "legislation",
+      "pos": "n.",
+      "zh": "法案；立法",
+      "match": "legislation",
+      "example": "New legislation on data privacy will take effect next year.",
+      "example_zh": "有關資料隱私的新法案將於明年生效。",
+      "context": "Pending legislation would go further.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbq4te7hlb",
+      "word": "seek",
+      "pos": "v.",
+      "zh": "尋求；設法取得",
+      "match": "seeking",
+      "example": "The startup is seeking new investors to fund its expansion overseas.",
+      "example_zh": "這家新創公司正在尋求新的投資人，為海外擴張提供資金。",
+      "context": "CNBC reported on November 5 that Moonshot AI had sought chip access through European data centers, and in July the administration accused the same company of reaching chips through facilities in East Asia.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwlxnsm31tbn",
+      "word": "windfall tax",
+      "pos": "phr.",
+      "zh": "暴利稅；意外獲利稅",
+      "match": "windfall tax",
+      "example": "Lawmakers proposed a windfall tax on energy firms that profited from the price spike.",
+      "example_zh": "立法委員提議對因價格飆漲而獲利的能源公司課徵暴利稅。",
+      "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxoq1qdae2",
+      "word": "resist",
+      "pos": "v.",
+      "zh": "抵制；抗拒",
+      "match": "resisted",
+      "example": "Employees resisted the change until managers explained its benefits.",
+      "example_zh": "員工一直抗拒這項變革，直到主管說明其好處為止。",
+      "context": "However, major fossil fuel producers and consumers are reportedly resisting any deal that sets firm new targets.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxouc4cqoe",
+      "word": "presidency",
+      "pos": "n.",
+      "zh": "主席團；主席職位",
+      "match": "presidency",
+      "example": "The country holds the rotating presidency of the council this year.",
+      "example_zh": "該國今年擔任理事會的輪值主席國。",
+      "context": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxpbegqwzd",
+      "word": "electrification",
+      "pos": "n.",
+      "zh": "電氣化；電動化",
+      "match": "electrification",
+      "example": "Rapid electrification of public transport is a key part of the city's climate plan.",
+      "example_zh": "大眾運輸的快速電氣化是該市氣候計畫的關鍵部分。",
+      "context": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwm0vtq3prhw",
+      "word": "degradation",
+      "pos": "n.",
+      "zh": "劣化；性能下降",
+      "match": "degradation",
+      "example": "Users reported a degradation in service during the network upgrade.",
+      "example_zh": "用戶回報在網路升級期間服務品質下降。",
+      "context": "The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm0xep90urx",
+      "word": "bizarre",
+      "pos": "adj.",
+      "zh": "怪異的；離奇的",
+      "match": "bizarre",
+      "example": "Traders were puzzled by the bizarre pattern of price movements.",
+      "example_zh": "交易員對這種離奇的價格波動模式感到困惑。",
+      "context": "One analyst described the mix as a compounding of bizarre stories.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm11vqpfgqm",
+      "word": "beat",
+      "pos": "v.",
+      "zh": "優於（預期）",
+      "match": "beat",
+      "example": "The retailer beat analysts' forecasts for quarterly sales.",
+      "example_zh": "這家零售商的季度銷售額優於分析師預測。",
+      "context": "Home Depot dropped nearly 3% even though it beat expectations for earnings and revenue, because its cautious full-year outlook disappointed some investors.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm8aj8oq4l4",
+      "word": "interim",
+      "pos": "adj.",
+      "zh": "暫時的；過渡性的",
+      "match": "interim",
+      "example": "The board named an interim chief executive while it searched for a permanent one.",
+      "example_zh": "董事會在尋找正式人選期間，任命了一位代理執行長。",
+      "context": "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmb7im6qwnt",
+      "word": "verbally",
+      "pos": "adv.",
+      "zh": "口頭上地",
+      "match": "verbally",
+      "example": "The manager verbally agreed to the deadline but never confirmed it in writing.",
+      "example_zh": "經理口頭同意了這個期限，卻從未以書面確認。",
+      "context": "It has also said it will not sell chips to customers who rent out more than half of their processors to Chinese firms, and the Financial Times reported that it verbally told data-center clients to direct at least 51% of their services to non-Chinese customers under future contracts.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbfx8ij5gb",
+      "word": "congressional",
+      "pos": "adj.",
+      "zh": "國會的",
+      "match": "congressional",
+      "example": "A congressional committee will hold a hearing on the proposed rules next week.",
+      "example_zh": "國會委員會下週將就擬議的規定舉行聽證會。",
+      "context": "The impetus is a mixture of congressional scrutiny and strategic anxiety.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbusdv7gxj",
+      "word": "shakeup",
+      "pos": "n.",
+      "zh": "大改組；人事大調整",
+      "match": "shakeup",
+      "example": "Weak profits led to a management shakeup at the company.",
+      "example_zh": "獲利疲弱導致該公司進行管理階層大改組。",
+      "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
+      "source": "2026-11-18#3"
+    }
+  ]
+}
