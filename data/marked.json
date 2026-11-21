@@ -1090,9 +1090,10 @@
       "context": "The Trump administration has strongly criticized the court and announced new sanctions against it last month.",
       "article": "2026-11-21#1",
       "marked_at": "2026-11-21",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "制裁；批准",
+      "pos": "n.",
+      "reviews": [],
+      "base": "sanction"
     },
     {
       "id": "mwqlxgt2f2en",
