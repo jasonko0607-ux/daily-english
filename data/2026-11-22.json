@@ -1,0 +1,551 @@
+{
+  "date": "2026-11-22",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "Science",
+      "topic": "voyager-1-one-light-day",
+      "story_date": "2026-11-18",
+      "title": "Voyager 1 Becomes the First Object to Travel One Light-Day From Earth",
+      "paragraphs": [
+        "On November 18, NASA's Voyager 1 spacecraft became the first human-made object to travel one light-day from Earth. A light-day is the distance that light travels in 24 hours, about 16.1 billion miles, or 25.9 billion kilometers. The probe passed the mark at about 5:16 a.m. Eastern time, after more than 49 years in space. No other spacecraft has ever travelled so far from home.",
+        "The milestone is hard to picture, so it helps to think about time. A radio message sent from Earth now needs a full day to reach Voyager 1. Engineers subsequently checked the result using the spacecraft's carrier signal and trajectory calculations, and a signal from the probe arrived exactly 24 hours after it was sent.",
+        "Voyager 1 is much weaker today than when it left Earth in 1977. Only two of its science instruments still work: one listens to plasma waves, and the other measures magnetic fields. Because the probe is so far away and its power is limited, the volume of data it can send home is small. Even so, it is still sending valuable information about the nature of interstellar space, the region far beyond the influence of the Sun.",
+        "Its twin, Voyager 2, took a different path past Uranus and Neptune, and it has three instruments running. It should reach one light-day from Earth in November 2035, but it is unclear whether either spacecraft will still be working by then. For now, Voyager 1 keeps moving outward, and its long journey shows how well careful engineering can last."
+      ],
+      "paragraphs_zh": [
+        "11月18日，美國太空總署（NASA）的航海家1號太空船成為第一個距離地球達一光日的人造物體。一光日是光在24小時內行進的距離，約為161億英里，也就是259億公里。這艘探測器在東部時間上午約5點16分越過這個標記，此時它已在太空中航行超過49年。從來沒有其他太空船離家如此遙遠。",
+        "這個里程碑很難想像，所以從時間的角度來思考會比較容易。現在從地球發出的無線電訊息，需要整整一天才能抵達航海家1號。工程師隨後利用太空船的載波訊號和軌道計算來檢查結果，而探測器傳來的訊號正好在發出後24小時抵達。",
+        "航海家1號如今比1977年離開地球時虛弱許多。它的科學儀器只剩兩台仍在運作：一台偵測電漿波，另一台測量磁場。由於探測器距離極為遙遠，電力又有限，它能傳回地球的資料量很小。即便如此，它仍持續傳回關於星際空間性質的寶貴資訊，那是遠遠超出太陽影響範圍的區域。",
+        "它的孿生姊妹航海家2號走了不同的路徑，飛越天王星和海王星，目前有三台儀器仍在運作。航海家2號預計在2035年11月抵達距地球一光日之處，但目前不清楚屆時兩艘太空船是否仍能運作。眼下，航海家1號持續向外前進，它漫長的旅程顯示出精心的工程設計能夠持續多麼長久。"
+      ],
+      "sources": [
+        {
+          "name": "ITV News",
+          "url": "https://www.itv.com/news/2026-11-19/nasas-voyager-1-phones-home-from-one-light-day-away"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://cbsnews.com/news/voyager-1-probe-light-day-earth-father-than-anything"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "milestone",
+          "pos": "n.",
+          "zh": "里程碑",
+          "match": "milestone",
+          "example": "The milestone is hard to picture, so it helps to think about time."
+        },
+        {
+          "word": "human-made",
+          "pos": "adj.",
+          "zh": "人造的",
+          "match": "human-made",
+          "example": "On November 18, NASA's Voyager 1 spacecraft became the first human-made object to travel one light-day from Earth."
+        },
+        {
+          "word": "trajectory",
+          "pos": "n.",
+          "zh": "軌道；軌跡",
+          "match": "trajectory",
+          "example": "Engineers subsequently checked the result using the spacecraft's carrier signal and trajectory calculations, and a signal from the probe arrived exactly 24 hours after it was sent."
+        },
+        {
+          "word": "instrument",
+          "pos": "n.",
+          "zh": "儀器",
+          "match": "instruments",
+          "example": "Only two of its science instruments still work: one listens to plasma waves, and the other measures magnetic fields."
+        },
+        {
+          "word": "plasma",
+          "pos": "n.",
+          "zh": "電漿",
+          "match": "plasma",
+          "example": "Only two of its science instruments still work: one listens to plasma waves, and the other measures magnetic fields."
+        },
+        {
+          "word": "interstellar",
+          "pos": "adj.",
+          "zh": "星際的",
+          "match": "interstellar",
+          "example": "Even so, it is still sending valuable information about the nature of interstellar space, the region far beyond the influence of the Sun."
+        },
+        {
+          "word": "influence",
+          "pos": "n.",
+          "zh": "影響（範圍）",
+          "match": "influence",
+          "example": "Even so, it is still sending valuable information about the nature of interstellar space, the region far beyond the influence of the Sun."
+        },
+        {
+          "word": "twin",
+          "pos": "n.",
+          "zh": "孿生兄弟姊妹",
+          "match": "twin",
+          "example": "Its twin, Voyager 2, took a different path past Uranus and Neptune, and it has three instruments running."
+        },
+        {
+          "word": "unclear",
+          "pos": "adj.",
+          "zh": "不清楚的",
+          "match": "unclear",
+          "example": "It should reach one light-day from Earth in November 2035, but it is unclear whether either spacecraft will still be working by then."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnrklm9qn9j",
+          "word": "nature",
+          "match": "nature",
+          "zh": "性質；本質",
+          "kind": "review"
+        },
+        {
+          "id": "mwnrlscuwjuq",
+          "word": "subsequently",
+          "match": "subsequently",
+          "zh": "隨後；之後",
+          "kind": "review"
+        },
+        {
+          "id": "mwnr1itpg1b4",
+          "word": "volume",
+          "match": "volume",
+          "zh": "數量",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Health",
+      "topic": "sleep-loss-weight-gain-study",
+      "story_date": "2026-11-16",
+      "title": "Even a Little Less Sleep May Add Pounds, Study Finds",
+      "paragraphs": [
+        "Many people believe that skipping a little sleep is harmless. A new study suggests it may not be. Researchers asked 95 adults who normally slept seven or eight hours a night to cut their sleep, and on average the volunteers gained about one pound over six weeks. The results were published in the Annals of Internal Medicine and reported by NPR. The finding adds to a growing body of research on how rest affects the body.",
+        "The team deliberately set a modest goal: 90 minutes less sleep each night. In practice, the volunteers slept about 80 minutes less, which was slightly short of the target. They also became less active, sitting for roughly 17 more minutes a day.",
+        "The study did not record what the participants ate, so scientists cannot say exactly why their weight went up. Tiredness may change appetite, energy levels and the wish to exercise, but this study cannot prove which of these played the biggest role. The researchers also noted that it was not designed to show whether one extra pound in six weeks would become steady weight gain over months or years.",
+        "Other research has linked poor sleep with trouble sticking to diet and exercise goals in weight-loss programs. However, experts say the evidence that sleeping more helps people lose weight is still thin. The message for now is simple: if your sleep routine begins to slip, your health may be affected in ways that are easy to miss, so protecting a regular bedtime is a sensible habit."
+      ],
+      "paragraphs_zh": [
+        "許多人認為少睡一點無傷大雅。一項新研究顯示事實可能並非如此。研究人員請95位平時每晚睡七到八小時的成年人減少睡眠，結果這些志願者在六週內平均增加了約一磅體重。研究結果發表於《內科學年鑑》，並由美國國家公共廣播電台（NPR）報導。這項發現為探討休息如何影響身體的研究增添了新的證據。",
+        "研究團隊刻意設定了一個適度的目標：每晚少睡90分鐘。實際上，志願者每晚少睡約80分鐘，比目標稍微短一點。他們的活動量也變少了，每天久坐的時間多了大約17分鐘。",
+        "這項研究沒有記錄參與者吃了什麼，因此科學家無法確切說出他們體重上升的原因。疲倦可能會改變食慾、精力和運動的意願，但這項研究無法證明其中哪一項影響最大。研究人員也指出，這項研究的設計並不是為了判斷六週內多出的一磅，是否會在數月或數年間變成持續的體重增加。",
+        "其他研究曾指出，睡眠不佳與減重計畫中難以堅持飲食和運動目標有關。不過，專家表示，多睡覺有助於減重的證據仍然薄弱。目前的訊息很簡單：如果你的睡眠作息開始走樣，健康可能會以不易察覺的方式受到影響，因此維持規律的就寢時間是明智的習慣。"
+      ],
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6037761/sleep-weight-gain-loss"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://scientificamerican.com/article/too-many-sleepless-nights-may-lead-to-weight-gain/"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "harmless",
+          "pos": "adj.",
+          "zh": "無害的",
+          "match": "harmless",
+          "example": "Many people believe that skipping a little sleep is harmless."
+        },
+        {
+          "word": "on average",
+          "pos": "phr.",
+          "zh": "平均而言",
+          "match": "on average",
+          "example": "Researchers asked 95 adults who normally slept seven or eight hours a night to cut their sleep, and on average the volunteers gained about one pound over six weeks."
+        },
+        {
+          "word": "modest",
+          "pos": "adj.",
+          "zh": "適度的；有限的",
+          "match": "modest",
+          "example": "The team deliberately set a modest goal: 90 minutes less sleep each night."
+        },
+        {
+          "word": "target",
+          "pos": "n.",
+          "zh": "目標",
+          "match": "target",
+          "example": "In practice, the volunteers slept about 80 minutes less, which was slightly short of the target."
+        },
+        {
+          "word": "record",
+          "pos": "v.",
+          "zh": "記錄",
+          "match": "record",
+          "example": "The study did not record what the participants ate, so scientists cannot say exactly why their weight went up."
+        },
+        {
+          "word": "appetite",
+          "pos": "n.",
+          "zh": "食慾",
+          "match": "appetite",
+          "example": "Tiredness may change appetite, energy levels and the wish to exercise, but this study cannot prove which of these played the biggest role."
+        },
+        {
+          "word": "prove",
+          "pos": "v.",
+          "zh": "證明",
+          "match": "prove",
+          "example": "Tiredness may change appetite, energy levels and the wish to exercise, but this study cannot prove which of these played the biggest role."
+        },
+        {
+          "word": "steady",
+          "pos": "adj.",
+          "zh": "持續穩定的",
+          "match": "steady",
+          "example": "The researchers also noted that it was not designed to show whether one extra pound in six weeks would become steady weight gain over months or years."
+        },
+        {
+          "word": "thin",
+          "pos": "adj.",
+          "zh": "薄弱的；不足的",
+          "match": "thin",
+          "example": "However, experts say the evidence that sleeping more helps people lose weight is still thin."
+        },
+        {
+          "word": "sensible",
+          "pos": "adj.",
+          "zh": "明智的",
+          "match": "sensible",
+          "example": "The message for now is simple: if your sleep routine begins to slip, your health may be affected in ways that are easy to miss, so protecting a regular bedtime is a sensible habit."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnqxsapdrh3",
+          "word": "slightly",
+          "match": "slightly",
+          "zh": "稍微；略微",
+          "kind": "review"
+        },
+        {
+          "id": "mwnr1s2w0jkd",
+          "word": "slip",
+          "match": "slip",
+          "zh": "走樣；下滑",
+          "kind": "review"
+        },
+        {
+          "id": "mwnrg7fx4y67",
+          "word": "deliberately",
+          "match": "deliberately",
+          "zh": "故意地；刻意地",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Culture",
+      "topic": "gta-vi-launch-clip-economy",
+      "story_date": "2026-11-20",
+      "title": "GTA VI's Launch Spawns an Economy of Streams and Clips",
+      "paragraphs": [
+        "After a wait of thirteen years, Grand Theft Auto VI reached players on November 19, and the numbers were formidable. By Thursday morning the game had sold about 19.1 million copies, preorders included, which Sensor Tower values at roughly $1.84 billion. The franchise has now shifted more than 470 million units worldwide, although its publisher, Take-Two Interactive, has not disclosed a profit figure for the new title.",
+        "Yet the game's reach extends well beyond its buyers. Streams Charts estimates that viewers watched 125.5 million hours of GTA VI content across Twitch, YouTube and Kick in the first 24 hours alone. The YouTuber IShowSpeed led the field with 4.47 million hours, while Kai Cenat's marathon broadcast drew about two million hours over roughly 36 hours. Rockstar Games partnered with YouTube on a 24-hour launch stream and even offered themed gifts that viewers could send during select broadcasts.",
+        "A parallel economy has grown up around these streams. Agencies pay editors to cut highlights and distribute them across short-video platforms: one campaign offered a $10,000 prize pool, and another paid $1 per 1,000 views. Modest channels have profited too, with one account of about 1,220 subscribers seeing a single Short attract 1.5 million views. Clips of this kind circulate quickly across platforms, multiplying the game's exposure. CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified.",
+        "Investors are watching closely. Alicia Reese, an analyst at Wedbush, argues that in-game purchases could bolster Take-Two's high-margin recurring revenue for years, a prospect she believes the market has not fully priced in. She expects a PC version and an online multiplayer mode to follow, as happened with the previous title, although Rockstar has announced only PlayStation 5 and Xbox Series X|S editions and no timetable. Whether that long-term revenue will outweigh the pressure of a thirteen-year build-up of expectation is an open question, but the game already has eight Game Awards nominations, including Game of the Year."
+      ],
+      "paragraphs_zh": [
+        "經過十三年的等待，《俠盜獵車手六》（GTA VI）於11月19日與玩家見面，數字相當驚人。到週四早上，這款遊戲已售出約1,910萬份（含預購），Sensor Tower估計其價值約18.4億美元。該系列作品目前全球銷量已超過4.7億套，不過發行商Take-Two Interactive尚未公布這款新作的獲利數字。",
+        "然而，這款遊戲的影響力遠遠超出購買者的範圍。Streams Charts估計，光是在最初24小時內，觀眾就在Twitch、YouTube和Kick上觀看了1.255億小時的GTA VI內容。YouTuber IShowSpeed以447萬小時的觀看時數領先，Kai Cenat長達約36小時的馬拉松式直播則吸引了約200萬小時的觀看。Rockstar Games與YouTube合作推出24小時的發售直播，甚至在部分直播中提供主題禮物供觀眾贈送。",
+        "圍繞這些直播，一種平行經濟已逐漸成形。經紀公司付費請剪輯師剪出精華片段，並散布到各個短影音平台：有一項活動提供1萬美元的獎金池，另一項則每1,000次觀看支付1美元。規模不大的頻道也從中獲利，有一個約有1,220名訂閱者的帳號，單一則Short就吸引了150萬次觀看。這類片段在各平台上迅速流傳，擴大了遊戲的曝光度。不過，CNBC提醒，有幾項收益估算無法獨立查證，包括一個由AI輔助的剪輯營運據稱一夜之間賺進2.1萬美元。",
+        "投資人正密切關注。Wedbush分析師Alicia Reese主張，遊戲內購買可能在未來數年提振Take-Two高利潤的經常性收入，她認為市場尚未完全反映這項前景。她預期PC版和線上多人模式會接著推出，就像前一代作品那樣，不過Rockstar目前只宣布了PlayStation 5和Xbox Series X|S版本，也沒有公布時程表。這些長期收入能否勝過十三年累積下來的期待所帶來的壓力，仍是個未知數，但這款遊戲已獲得八項The Game Awards提名，包括年度遊戲。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "formidable",
+          "pos": "adj.",
+          "zh": "驚人的；令人敬畏的",
+          "match": "formidable",
+          "example": "After a wait of thirteen years, Grand Theft Auto VI reached players on November 19, and the numbers were formidable."
+        },
+        {
+          "word": "disclose",
+          "pos": "v.",
+          "zh": "公開；揭露",
+          "match": "disclosed",
+          "example": "The franchise has now shifted more than 470 million units worldwide, although its publisher, Take-Two Interactive, has not disclosed a profit figure for the new title."
+        },
+        {
+          "word": "marathon",
+          "pos": "adj.",
+          "zh": "馬拉松式的；長時間的",
+          "match": "marathon",
+          "example": "The YouTuber IShowSpeed led the field with 4.47 million hours, while Kai Cenat's marathon broadcast drew about two million hours over roughly 36 hours."
+        },
+        {
+          "word": "parallel",
+          "pos": "adj.",
+          "zh": "平行的",
+          "match": "parallel",
+          "example": "A parallel economy has grown up around these streams."
+        },
+        {
+          "word": "highlight",
+          "pos": "n.",
+          "zh": "精華片段",
+          "match": "highlights",
+          "example": "Agencies pay editors to cut highlights and distribute them across short-video platforms: one campaign offered a $10,000 prize pool, and another paid $1 per 1,000 views."
+        },
+        {
+          "word": "profit",
+          "pos": "v.",
+          "zh": "獲利",
+          "match": "profited",
+          "example": "Modest channels have profited too, with one account of about 1,220 subscribers seeing a single Short attract 1.5 million views."
+        },
+        {
+          "word": "caution",
+          "pos": "v.",
+          "zh": "提醒；警告",
+          "match": "cautions",
+          "example": "CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified."
+        },
+        {
+          "word": "verify",
+          "pos": "v.",
+          "zh": "查證；驗證",
+          "match": "verified",
+          "example": "CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified."
+        },
+        {
+          "word": "recurring",
+          "pos": "adj.",
+          "zh": "經常性的；反覆出現的",
+          "match": "recurring",
+          "example": "Alicia Reese, an analyst at Wedbush, argues that in-game purchases could bolster Take-Two's high-margin recurring revenue for years, a prospect she believes the market has not fully priced in."
+        },
+        {
+          "word": "priced in",
+          "pos": "phr.",
+          "zh": "（價格）已反映",
+          "match": "priced in",
+          "example": "Alicia Reese, an analyst at Wedbush, argues that in-game purchases could bolster Take-Two's high-margin recurring revenue for years, a prospect she believes the market has not fully priced in."
+        },
+        {
+          "word": "timetable",
+          "pos": "n.",
+          "zh": "時程表",
+          "match": "timetable",
+          "example": "She expects a PC version and an online multiplayer mode to follow, as happened with the previous title, although Rockstar has announced only PlayStation 5 and Xbox Series X|S editions and no timetable."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnrfg2o379u",
+          "word": "circulate",
+          "match": "circulate",
+          "zh": "流傳；傳播",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbv8x4olw3",
+          "word": "bolster",
+          "match": "bolster",
+          "zh": "提振；增強",
+          "kind": "review"
+        },
+        {
+          "id": "mwnrgijz4sok",
+          "word": "outweigh",
+          "match": "outweigh",
+          "zh": "勝過；超過",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwnqpa1vkr6j",
+      "word": "tension",
+      "pos": "n.",
+      "zh": "緊張關係；局勢緊張",
+      "match": "tensions",
+      "example": "Rising tensions between the two neighbors worried investors across the region.",
+      "example_zh": "兩個鄰國之間升高的緊張關係讓整個地區的投資人感到憂心。",
+      "context": "Tensions between China and Japan have also grown, and Japanese Prime Minister Sanae Takaichi is expected to attend, on her first visit to China as prime minister.",
+      "source": "2026-11-19#1"
+    },
+    {
+      "id": "mwnr45ah2b4d",
+      "word": "shrink",
+      "pos": "v.",
+      "zh": "萎縮；縮減",
+      "match": "shrank",
+      "example": "The economy unexpectedly shrank in the third quarter as consumers spent less.",
+      "example_zh": "由於消費者支出減少，經濟在第三季出乎意料地萎縮。",
+      "context": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwmbv4t6wwcq",
+      "word": "seemingly",
+      "pos": "adv.",
+      "zh": "表面上；看似",
+      "match": "seemingly",
+      "example": "The company announced a seemingly generous bonus, but few employees qualified for it.",
+      "example_zh": "公司宣布了一筆看似慷慨的獎金，但符合資格的員工寥寥無幾。",
+      "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbxbjivpft",
+      "word": "testify",
+      "pos": "v.",
+      "zh": "作證；出庭作證",
+      "match": "testify",
+      "example": "The chief executive will testify before a parliamentary committee next month.",
+      "example_zh": "執行長下個月將在議會委員會面前作證。",
+      "context": "Huang has been asked to testify before the Senate Banking Committee on December 3.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbxtx0g0t6",
+      "word": "dilemma",
+      "pos": "n.",
+      "zh": "進退兩難；兩難困境",
+      "match": "dilemma",
+      "example": "The manager faced a dilemma: cut costs or risk losing her best staff.",
+      "example_zh": "經理面臨兩難：要削減成本，還是冒著失去最優秀員工的風險。",
+      "context": "The episode underscores a persistent dilemma of export policy: hardware can be tracked across borders, but computing power rented by the hour is far harder to police.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwnqm7q6aerq",
+      "word": "truce",
+      "pos": "n.",
+      "zh": "暫時停戰協議；休戰",
+      "match": "truce",
+      "example": "The two governments agreed to a trade truce while negotiations continued.",
+      "example_zh": "兩國政府在談判持續進行期間同意達成貿易休戰。",
+      "context": "Last year in South Korea, they agreed on a one-year trade truce that lowered some tariffs and allowed rare earth materials to keep flowing.",
+      "source": "2026-11-19#1"
+    },
+    {
+      "id": "mwnqo9ysleet",
+      "word": "loophole",
+      "pos": "n.",
+      "zh": "法律漏洞；漏洞",
+      "match": "loopholes",
+      "example": "Regulators promised to close the loopholes that allowed firms to avoid the tax.",
+      "example_zh": "監管機關承諾堵住讓企業得以避稅的漏洞。",
+      "context": "Washington is moving to close loopholes that let Chinese companies reach American AI technology, and China has threatened to respond.",
+      "source": "2026-11-19#1"
+    },
+    {
+      "id": "mwnr0nd4cxhu",
+      "word": "prop up",
+      "pos": "phr.",
+      "zh": "支撐；撐住",
+      "match": "propped up",
+      "example": "Strong overseas sales propped up the company's profits last year.",
+      "example_zh": "強勁的海外銷售撐住了這家公司去年的獲利。",
+      "context": "Exports have been the main engine of Japan's growth, and sales of chip-making equipment have been especially important in propping them up.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnr21pn23y7",
+      "word": "stall",
+      "pos": "v.",
+      "zh": "停滯；熄火",
+      "match": "stalled",
+      "example": "Talks between the union and management stalled over wages.",
+      "example_zh": "工會與資方的談判因薪資問題陷入停滯。",
+      "context": "Analysts said Japan was switching to more expensive American oil as shipments from the Middle East stalled during the Iran war.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnr4g8bouzg",
+      "word": "offset",
+      "pos": "v.",
+      "zh": "抵銷；抵消",
+      "match": "offset",
+      "example": "Lower fuel prices helped offset the rise in shipping costs.",
+      "example_zh": "較低的燃料價格有助於抵銷運費的上漲。",
+      "context": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnrdy2jxray",
+      "word": "simulated",
+      "pos": "adj.",
+      "zh": "模擬的；仿造的",
+      "match": "simulated",
+      "example": "The pilots trained in a simulated storm before their first real flight.",
+      "example_zh": "飛行員在首次實際飛行前，先在模擬的暴風雨中受訓。",
+      "context": "According to the complaint, the advertisement, released earlier this month, featured an AI-generated figure in a basketball locker room, wearing a jersey bearing the nickname \"Bron\" and the number 23, complete with James's tattoos and a simulated version of his voice.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnreevcpwkx",
+      "word": "scroll",
+      "pos": "v.",
+      "zh": "滾動瀏覽；捲動",
+      "match": "scroll",
+      "example": "Many commuters scroll through the news on their phones every morning.",
+      "example_zh": "許多通勤族每天早上用手機滑閱新聞。",
+      "context": "The figure scrolls through betting options on the app.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrgb53ow9g",
+      "word": "allege",
+      "pos": "v.",
+      "zh": "指控；聲稱",
+      "match": "alleges",
+      "example": "The lawsuit alleges that the supplier hid defects in the products.",
+      "example_zh": "這項訴訟指控供應商隱瞞了產品瑕疵。",
+      "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrgzpeo7rv",
+      "word": "endorsement",
+      "pos": "n.",
+      "zh": "代言；背書",
+      "match": "endorsement",
+      "example": "The athlete signed a lucrative endorsement deal with a sportswear brand.",
+      "example_zh": "這位運動員與一家運動服飾品牌簽下利潤豐厚的代言合約。",
+      "context": "It describes his endorsements as \"uniquely valuable\" and says the defendants \"decided to steal it for themselves.\"",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrhqkrfgo5",
+      "word": "replicate",
+      "pos": "v.",
+      "zh": "複製；仿製",
+      "match": "replicate",
+      "example": "Rival firms struggled to replicate the product's success.",
+      "example_zh": "競爭對手難以複製這項產品的成功。",
+      "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrjep6eezl",
+      "word": "contain",
+      "pos": "v.",
+      "zh": "遏制；控制",
+      "match": "contain",
+      "example": "Officials worked to contain the spread of false rumors online.",
+      "example_zh": "官員努力遏止網路假消息的擴散。",
+      "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
+      "source": "2026-11-19#3"
+    }
+  ]
+}
