@@ -1163,6 +1163,16 @@
       "reviews": [],
       "base": "omission",
       "priority": 2
+    },
+    {
+      "id": "mwrxybk307ho",
+      "word": "probe",
+      "context": "The probe passed the mark at about 5:16 a.m.",
+      "article": "2026-11-22#1",
+      "marked_at": "2026-11-22",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
