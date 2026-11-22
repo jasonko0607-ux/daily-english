@@ -1247,9 +1247,10 @@
       "context": "After a wait of thirteen years, Grand Theft Auto VI reached players on November 19, and the numbers were formidable.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "驚人的；令人敬畏的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "formidable"
     },
     {
       "id": "mws1utlhik4i",
@@ -1257,9 +1258,10 @@
       "context": "The franchise has now shifted more than 470 million units worldwide, although its publisher, Take-Two Interactive, has not disclosed a profit figure for the new title.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "透露；揭露",
+      "pos": "v.",
+      "reviews": [],
+      "base": "disclose"
     }
   ]
 }
