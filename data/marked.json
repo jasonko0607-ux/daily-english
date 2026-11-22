@@ -1170,9 +1170,10 @@
       "context": "The probe passed the mark at about 5:16 a.m.",
       "article": "2026-11-22#1",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "探測器；探針",
+      "pos": "n.",
+      "reviews": [],
+      "base": "probe"
     },
     {
       "id": "mwrxygessr7o",
@@ -1180,9 +1181,10 @@
       "context": "The milestone is hard to picture, so it helps to think about time.",
       "article": "2026-11-22#1",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "里程碑；重要節點",
+      "pos": "n.",
+      "reviews": [],
+      "base": "milestone"
     },
     {
       "id": "mwrxytgrhgma",
@@ -1190,9 +1192,10 @@
       "context": "Engineers subsequently checked the result using the spacecraft's carrier signal and trajectory calculations, and a signal from the probe arrived exactly 24 hours after it was sent.",
       "article": "2026-11-22#1",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "軌跡；飛行路徑",
+      "pos": "n.",
+      "reviews": [],
+      "base": "trajectory"
     }
   ]
 }
