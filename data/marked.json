@@ -1225,9 +1225,10 @@
       "context": "In practice, the volunteers slept about 80 minutes less, which was slightly short of the target.",
       "article": "2026-11-22#2",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "實際上；事實上",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "in practice"
     }
   ]
 }
