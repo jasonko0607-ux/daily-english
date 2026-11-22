@@ -1269,9 +1269,10 @@
       "context": "Rockstar Games partnered with YouTube on a 24-hour launch stream and even offered themed gifts that viewers could send during select broadcasts.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "以主題設計的；主題式的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "themed"
     },
     {
       "id": "mws1wiias8oi",
@@ -1279,9 +1280,10 @@
       "context": "Rockstar Games partnered with YouTube on a 24-hour launch stream and even offered themed gifts that viewers could send during select broadcasts.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "直播節目；廣播",
+      "pos": "n.",
+      "reviews": [],
+      "base": "broadcast"
     }
   ]
 }
