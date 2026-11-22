@@ -715,6 +715,14 @@ function speakWord(word) {
   speechSynthesis.speak(tts.utter);
 }
 
+// A small speaker button that reads `word` aloud (nothing if speech is unavailable).
+function sayButton(word) {
+  if (!tts.supported) return "";
+  const b = button("say", "🔊", () => speakWord(word));
+  b.setAttribute("aria-label", "朗讀 " + word);
+  return b;
+}
+
 function rateLabel() {
   return tts.rate.toFixed(1) + "×";
 }
@@ -919,7 +927,7 @@ async function renderReview() {
     for (const r of inArticles) {
       const li = document.createElement("li");
       const head = el("div", "head");
-      head.append(el("span", "w", r.word), el("span", "z", r.zh));
+      head.append(el("span", "w", r.word), sayButton(r.word), el("span", "z", r.zh));
       head.append(link("第 " + r.n + " 篇 →", articleUrl(day.date, r.n), "mini"));
       li.append(head);
       list.append(li);
@@ -933,7 +941,7 @@ async function renderReview() {
     for (const c of cards) {
       const li = el("li", "flip");
       const head = el("div", "head");
-      head.append(el("span", "w", c.word), el("span", "p", c.pos || ""));
+      head.append(el("span", "w", c.word), sayButton(c.word), el("span", "p", c.pos || ""));
       const back = el("div", "back");
       back.hidden = true;
       back.append(el("p", "z", c.zh), el("p", "e-zh", c.example_zh));
