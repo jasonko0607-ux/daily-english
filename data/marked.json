@@ -1214,9 +1214,10 @@
       "context": "Even so, it is still sending valuable information about the nature of interstellar space, the region far beyond the influence of the Sun.",
       "article": "2026-11-22#1",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "星際的；恆星之間的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "interstellar"
     }
   ]
 }
