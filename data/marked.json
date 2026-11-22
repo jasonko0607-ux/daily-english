@@ -1294,6 +1294,16 @@
       "zh": "",
       "pos": "",
       "reviews": []
+    },
+    {
+      "id": "mws24ytrpp6h",
+      "word": "caution",
+      "context": "CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified.",
+      "article": "2026-11-22#3",
+      "marked_at": "2026-11-22",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
