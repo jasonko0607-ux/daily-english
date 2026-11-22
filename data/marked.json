@@ -1203,9 +1203,10 @@
       "context": "Only two of its science instruments still work: one listens to plasma waves, and the other measures magnetic fields.",
       "article": "2026-11-22#1",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "電漿；等離子體",
+      "pos": "n.",
+      "reviews": [],
+      "base": "plasma"
     },
     {
       "id": "mwry240f5ktd",
