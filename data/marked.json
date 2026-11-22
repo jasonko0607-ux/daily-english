@@ -1291,9 +1291,10 @@
       "context": "Clips of this kind circulate quickly across platforms, multiplying the game's exposure.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "片段；剪輯影片",
+      "pos": "n.",
+      "reviews": [],
+      "base": "clip"
     },
     {
       "id": "mws24ytrpp6h",
@@ -1301,9 +1302,10 @@
       "context": "CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "提醒；警告",
+      "pos": "v.",
+      "reviews": [],
+      "base": "caution"
     }
   ]
 }
