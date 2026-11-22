@@ -6,6 +6,7 @@
       "category": "International",
       "story_date": "2026-11-13",
       "title": "UN Climate Talks Split Over the Future of Fossil Fuels",
+      "title_zh": "聯合國氣候談判因化石燃料前途而分裂",
       "paragraphs": [
         "The annual United Nations climate conference, known as COP31, is being held this month in Antalya, Türkiye. As the talks entered their final week, negotiators were still divided over one central question: how quickly the world should move away from oil, gas and coal. Türkiye is the host, while Australia is leading the negotiations, and both now have only a few days left to reach an agreement.",
         "UN Secretary-General Antonio Guterres urged delegates to act with speed. He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action. He also warned negotiators not to use delaying tactics.",
@@ -115,6 +116,7 @@
       "category": "Business",
       "story_date": "2026-11-17",
       "title": "Wall Street Slides as Tech Worries and Rate Fears Grow",
+      "title_zh": "科技股疑慮與升息憂慮升溫，華爾街下跌",
       "paragraphs": [
         "US stocks fell sharply on Tuesday, November 17, and the S&P 500 closed at its lowest level since late July. The index lost 1.03% to finish at 7,340.53. The Dow Jones Industrial Average dropped 848.75 points, or 1.64%, to 50,759.42, after falling by more than 1,000 points at its worst moment. The Nasdaq Composite slipped 0.74% to 24,328.38.",
         "Shares of chip companies led the decline ahead of Nvidia's earnings report, which was due after the market closed. Nvidia itself ended the day down 0.5%. The selling deepened after CNN reported that a classified network at the National Security Agency had gone down. The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack. Strategists also pointed to a string of recent incidents, including a weekend flight stoppage in the US and an Outlook outage at Microsoft. One analyst described the mix as a compounding of bizarre stories.",
@@ -218,6 +220,7 @@
       "category": "Technology",
       "story_date": "2026-11-16",
       "title": "Washington Moves to Close the Cloud Loophole in Chip Controls",
+      "title_zh": "華府著手堵住晶片管制中的雲端漏洞",
       "paragraphs": [
         "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips. Washington already restricts the shipment of such chips to China, but regulators have had only limited authority over access to processors housed in data centers abroad, a gap that critics say allows the restrictions to be circumvented.",
         "Pending legislation would go further. The Remote Access Security Act would give the government broader powers to police cloud access to chips, and although it passed the House in January, it has yet to clear the Senate. Nvidia has warned customers that the bill could expose both them and the company to legal action. It has also said it will not sell chips to customers who rent out more than half of their processors to Chinese firms, and the Financial Times reported that it verbally told data-center clients to direct at least 51% of their services to non-Chinese customers under future contracts.",

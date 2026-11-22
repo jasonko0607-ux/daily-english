@@ -72,6 +72,8 @@ h1 {
   font-size: clamp(26px, 6vw, 36px); line-height: 1.25; margin: 14px 0 24px;
   text-wrap: balance;
 }
+h1:has(+ .title-zh) { margin-bottom: 6px; }
+.title-zh { margin: 0 0 24px; font-size: clamp(17px, 4vw, 21px); line-height: 1.4; color: var(--muted); }
 .body p {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 19px; line-height: 1.8; margin: 0 0 1.2em;
@@ -258,6 +260,7 @@ h2 { font-size: 20px; margin: 40px 0 12px; }
 }
 .card:hover { border-color: var(--accent); }
 .card .t { display: block; font-family: Georgia, serif; font-size: 19px; line-height: 1.35; margin-top: 8px; }
+.card .tz { display: block; font-size: 15px; line-height: 1.4; margin-top: 4px; color: var(--muted); }
 .card .c { font-size: 13px; color: var(--muted); margin-left: 8px; }
 .empty { color: var(--muted); padding: 40px 0; text-align: center; }
 

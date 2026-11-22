@@ -296,6 +296,7 @@ async function renderIndex() {
       const card = el("a", "card");
       card.href = articleUrl(day.date, a.n);
       card.append(badge(a.level), el("span", "c", a.category), el("span", "t", a.title));
+      if (a.title_zh) card.append(el("span", "tz", a.title_zh));
       section.append(card);
     }
     if (day.reviews) {
@@ -839,6 +840,7 @@ async function renderArticle() {
   const parts = [
     meta,
     el("h1", null, a.title),
+    ...(a.title_zh ? [el("p", "title-zh", a.title_zh)] : []),
     el("p", "hint", "點標示的字看中文；長按（或選取）任何字可以加入單字本。"),
     body,
     sources,

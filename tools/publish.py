@@ -115,6 +115,8 @@ def check(day, marked):
             fail(where + f"body is {words} words; expected 250-350")
         if CJK.search(text + a["title"]):
             fail(where + "title and body must be English only")
+        if not CJK.search(str(a.get("title_zh", ""))):
+            fail(where + "title_zh must be a Chinese translation of the title")
         zh = a.get("paragraphs_zh")
         if not isinstance(zh, list) or len(zh) != len(paras):
             fail(where + "paragraphs_zh must have one Chinese translation per paragraph")
@@ -247,7 +249,7 @@ def main():
         "reviews": len(used_today(day)),
         "articles": [
             {"n": n, "level": a["level"], "category": a["category"], "topic": a["topic"],
-             "title": a["title"]}
+             "title": a["title"], "title_zh": a["title_zh"]}
             for n, a in enumerate(day["articles"], 1)
         ],
     })

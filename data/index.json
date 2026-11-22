@@ -8,21 +8,24 @@
         "level": "600–800",
         "category": "Science",
         "topic": "voyager-1-one-light-day",
-        "title": "Voyager 1 Becomes the First Object to Travel One Light-Day From Earth"
+        "title": "Voyager 1 Becomes the First Object to Travel One Light-Day From Earth",
+        "title_zh": "航海家1號成為首個距離地球一光日的人造物體"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Health",
         "topic": "sleep-loss-weight-gain-study",
-        "title": "Even a Little Less Sleep May Add Pounds, Study Finds"
+        "title": "Even a Little Less Sleep May Add Pounds, Study Finds",
+        "title_zh": "研究發現：只要少睡一點，體重就可能增加"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Culture",
         "topic": "gta-vi-launch-clip-economy",
-        "title": "GTA VI's Launch Spawns an Economy of Streams and Clips"
+        "title": "GTA VI's Launch Spawns an Economy of Streams and Clips",
+        "title_zh": "《GTA VI》上市，帶動直播與短片經濟"
       }
     ]
   },
@@ -35,21 +38,24 @@
         "level": "600–800",
         "category": "International",
         "topic": "apec-shenzhen-trump-xi-putin-summit",
-        "title": "U.S., China and Russia Leaders Meet for First Time in Shenzhen"
+        "title": "U.S., China and Russia Leaders Meet for First Time in Shenzhen",
+        "title_zh": "美中俄領袖首度在深圳會面"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
         "topic": "wall-street-ai-selloff",
-        "title": "Wall Street Ends a Brutal Week as AI Selloff Deepens"
+        "title": "Wall Street Ends a Brutal Week as AI Selloff Deepens",
+        "title_zh": "AI 拋售潮加劇，華爾街結束慘烈的一週"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Taiwan",
         "topic": "taiwan-export-orders-record",
-        "title": "Taiwan's Export Orders Hit a Record as AI Demand Defies a Global Rout"
+        "title": "Taiwan's Export Orders Hit a Record as AI Demand Defies a Global Rout",
+        "title_zh": "AI 需求逆勢強勁，台灣外銷訂單創新高"
       }
     ]
   },
@@ -62,21 +68,24 @@
         "level": "600–800",
         "category": "International",
         "topic": "south-china-sea-code-of-conduct",
-        "title": "Talks on South China Sea Code Miss Their Deadline"
+        "title": "Talks on South China Sea Code Miss Their Deadline",
+        "title_zh": "南海行為準則談判未能如期達成"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
         "topic": "anthropic-ipo",
-        "title": "Anthropic Raises a Record $81 Billion in IPO as Wall Street Sinks"
+        "title": "Anthropic Raises a Record $81 Billion in IPO as Wall Street Sinks",
+        "title_zh": "Anthropic 以創紀錄的 810 億美元完成 IPO，華爾街同步下挫"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
         "topic": "nvidia-earnings-leadership",
-        "title": "Nvidia Posts Blowout Results, but a Leadership Vacuum Clouds the Outlook"
+        "title": "Nvidia Posts Blowout Results, but a Leadership Vacuum Clouds the Outlook",
+        "title_zh": "輝達財報亮眼，但領導層空缺為前景蒙上陰影"
       }
     ]
   },
@@ -89,21 +98,24 @@
         "level": "600–800",
         "category": "International",
         "topic": "apec-shenzhen-trump-xi-putin-summit",
-        "title": "Trump, Xi and Putin Converge on Shenzhen for APEC"
+        "title": "Trump, Xi and Putin Converge on Shenzhen for APEC",
+        "title_zh": "川普、習近平與普丁齊聚深圳出席 APEC"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
         "topic": "japan-exports-chip-equipment",
-        "title": "Japan's Exports Jump 20.5% as Chip Gear Surges"
+        "title": "Japan's Exports Jump 20.5% as Chip Gear Surges",
+        "title_zh": "晶片設備大增，日本出口躍升 20.5%"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
         "topic": "lebron-james-ai-ad-lawsuit",
-        "title": "LeBron James Sues Startup Over AI-Made Advertisement"
+        "title": "LeBron James Sues Startup Over AI-Made Advertisement",
+        "title_zh": "勒布朗‧詹姆斯控告新創公司以 AI 製作廣告"
       }
     ]
   },
@@ -116,21 +128,24 @@
         "level": "600–800",
         "category": "International",
         "topic": "cop31-fossil-fuels",
-        "title": "UN Climate Talks Split Over the Future of Fossil Fuels"
+        "title": "UN Climate Talks Split Over the Future of Fossil Fuels",
+        "title_zh": "聯合國氣候談判因化石燃料前途而分裂"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "Business",
         "topic": "wall-street-ai-selloff",
-        "title": "Wall Street Slides as Tech Worries and Rate Fears Grow"
+        "title": "Wall Street Slides as Tech Worries and Rate Fears Grow",
+        "title_zh": "科技股疑慮與升息憂慮升溫，華爾街下跌"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Technology",
         "topic": "us-chip-controls-cloud-loophole",
-        "title": "Washington Moves to Close the Cloud Loophole in Chip Controls"
+        "title": "Washington Moves to Close the Cloud Loophole in Chip Controls",
+        "title_zh": "華府著手堵住晶片管制中的雲端漏洞"
       }
     ]
   },
@@ -142,21 +157,24 @@
         "level": "600–800",
         "category": "Taiwan",
         "topic": "taiwan-working-parents-support",
-        "title": "Taiwan to Help Employers Support Working Parents"
+        "title": "Taiwan to Help Employers Support Working Parents",
+        "title_zh": "台灣將協助雇主支持職場父母"
       },
       {
         "n": 2,
         "level": "600–800",
         "category": "International",
         "topic": "iran-us-carrier-gulf",
-        "title": "Iran Tensions Rise as Third American Carrier Arrives in Gulf"
+        "title": "Iran Tensions Rise as Third American Carrier Arrives in Gulf",
+        "title_zh": "美國第三艘航艦抵達波斯灣，伊朗局勢升溫"
       },
       {
         "n": 3,
         "level": "800+",
         "category": "Business",
         "topic": "china-slowdown-exports",
-        "title": "China's Slowdown Deepens Even as Exports Boom"
+        "title": "China's Slowdown Deepens Even as Exports Boom",
+        "title_zh": "中國經濟放緩加劇，出口卻依然暢旺"
       }
     ]
   }
