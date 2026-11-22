@@ -1324,9 +1324,10 @@
       "context": "She expects a PC version and an online multiplayer mode to follow, as happened with the previous title, although Rockstar has announced only PlayStation 5 and Xbox Series X|S editions and no timetable.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "時程表；時刻表",
+      "pos": "n.",
+      "reviews": [],
+      "base": "timetable"
     },
     {
       "id": "mws27x6aej5t",
@@ -1334,9 +1335,10 @@
       "context": "Whether that long-term revenue will outweigh the pressure of a thirteen-year build-up of expectation is an open question, but the game already has eight Game Awards nominations, including Game of the Year.",
       "article": "2026-11-22#3",
       "marked_at": "2026-11-22",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "提名；入圍名單",
+      "pos": "n.",
+      "reviews": [],
+      "base": "nomination"
     }
   ]
 }
