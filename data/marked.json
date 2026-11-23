@@ -1415,9 +1415,10 @@
       "context": "His major league debut came in April, and he soon became a regular in Detroit's lineup.",
       "article": "2026-11-23#1",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "陣容；先發名單",
+      "pos": "n.",
+      "reviews": [],
+      "base": "lineup"
     }
   ]
 }
