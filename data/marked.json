@@ -108,7 +108,15 @@
         "2026-11-20"
       ],
       "base": "surpass",
-      "priority": 3
+      "priority": 3,
+      "marks": [
+        {
+          "marked_at": "2026-11-23",
+          "context": "Fatih Birol, the agency's executive director, described the crisis around the Strait of Hormuz as the biggest threat to energy security in history, surpassing even the oil shocks of the 1970s.",
+          "article": "2026-11-23#3"
+        }
+      ],
+      "cycle_start": "2026-11-23"
     },
     {
       "id": "mwkrih5du7wp",
