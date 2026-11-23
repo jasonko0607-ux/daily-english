@@ -1618,9 +1618,10 @@
       "context": "In other words, the very shock that has rattled oil markets could also bring forward the day when demand begins to slide.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "震撼；使不安",
+      "pos": "v.",
+      "reviews": [],
+      "base": "rattle"
     },
     {
       "id": "mwtgrmcx4ezc",
@@ -1628,9 +1629,10 @@
       "context": "Such exercises are a reminder of how unsettled the situation remains.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "不穩定的；懸而未決的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "unsettled"
     },
     {
       "id": "mwtgrzmque0s",
@@ -1638,9 +1640,10 @@
       "context": "A word of caution is in order about the superlative.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "誇大之詞；最高級",
+      "pos": "n.",
+      "reviews": [],
+      "base": "superlative"
     }
   ]
 }
