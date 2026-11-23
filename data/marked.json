@@ -1489,9 +1489,10 @@
       "context": "The war involving Iran has inflicted the most severe shock on global oil and gas markets on record, according to the International Energy Agency, which published its latest World Energy Outlook on November 19.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "造成（打擊、傷害）；施加（懲罰）",
+      "pos": "v.",
+      "reviews": [],
+      "base": "inflict"
     }
   ]
 }
