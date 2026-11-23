@@ -228,7 +228,15 @@
         "2026-11-21"
       ],
       "base": "electrification",
-      "priority": 2
+      "priority": 2,
+      "marks": [
+        {
+          "marked_at": "2026-11-23",
+          "context": "Importers that have just endured a supply scare may well hasten the shift toward electrification, efficiency and domestic energy sources.",
+          "article": "2026-11-23#3"
+        }
+      ],
+      "cycle_start": "2026-11-23"
     },
     {
       "id": "mwlxpy4iak9u",
