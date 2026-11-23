@@ -1404,9 +1404,10 @@
       "context": "The team is made up of players from countries and territories outside the United States.",
       "article": "2026-11-23#1",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "屬地；地區",
+      "pos": "n.",
+      "reviews": [],
+      "base": "territory"
     }
   ]
 }
