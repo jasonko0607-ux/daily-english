@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-23",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "Sports",
+      "topic": "lee-hao-yu-mlb-all-world-team",
+      "story_date": "2026-11-22",
+      "title": "Taiwan's Lee Hao-yu Named to MLB.com All-World Team",
+      "title_zh": "台灣李灝宇入選 MLB.com 世界明星隊",
+      "paragraphs": [
+        "Lee Hao-yu, a 23-year-old infielder for the Detroit Tigers, has become the first Taiwanese player named to the All-World Team. The list is published each year by Michael Clair, a writer for MLB.com, and this is its third edition. Clair released it on Saturday, American time, and put Lee at third base after his rookie season.",
+        "The team is made up of players from countries and territories outside the United States. Each place may be represented by only one player, and a player must have spent enough time at a position during the season to be chosen there. The choice is a long-awaited honor for Taiwanese baseball, which had never before placed a player on the list.",
+        "Lee's selection follows a breakthrough year. His major league debut came in April, and he soon became a regular in Detroit's lineup. In 114 games he hit .264 with 10 home runs, 87 hits and 46 runs batted in. Those numbers, together with his games played, set single-season records for a Taiwan-born player in the majors. Clair wrote that the multi-position infielder \"set almost every major single-season record for a player born in Taiwan.\"",
+        "The season was not without disappointment. An oblique injury kept Lee from playing for Taiwan at the World Baseball Classic in March. A month later, however, he was in the major leagues.",
+        "Several famous names share the team with him. Shohei Ohtani of the Dodgers is the designated hitter, and Yordan Alvarez of the Astros, who was voted American League Most Valuable Player unanimously, is one of the outfielders. For baseball fans in Taiwan, the news adds to the excitement surrounding a young player who is only at the start of his career."
+      ],
+      "paragraphs_zh": [
+        "底特律老虎隊23歲的內野手李灝宇，成為首位入選世界明星隊的台灣球員。這份名單由 MLB.com 作家邁克爾·克萊爾（Michael Clair）每年發表，今年已是第三屆。克萊爾於美國時間週六公布名單，在新人球季結束後，將李灝宇列為三壘手。",
+        "這支球隊由美國以外的國家和地區的球員組成。每個國家或地區只能有一名球員代表，而且球員必須在球季中於某個守備位置上出賽足夠的時間，才能獲選該位置。對台灣棒球來說，這是一項期待已久的榮耀，因為此前從未有台灣球員入選這份名單。",
+        "李灝宇的入選，源自他突破性的一年。他在四月完成大聯盟初登場，很快就成為底特律先發陣容中的固定班底。在114場比賽中，他打擊率.264，擊出10支全壘打、87支安打，並繳出46分打點。這些數據，連同他的出賽場數，都創下台灣出生球員在大聯盟的單季紀錄。克萊爾寫道，這位多位置內野手「幾乎打破了台灣出生球員所有主要的單季紀錄」。",
+        "這個球季並非毫無遺憾。三月時，斜腹肌傷勢讓李灝宇無法代表台灣參加世界棒球經典賽。不過一個月後，他就已站上大聯盟。",
+        "還有幾位知名球星與他同列這支球隊。道奇隊的大谷翔平擔任指定打擊，太空人隊的尤爾登·阿爾瓦雷茲（Yordan Alvarez）則是外野手之一，他獲得全票通過當選美國聯盟最有價值球員。對台灣的棒球迷來說，這則消息讓人對這位職業生涯才剛起步的年輕球員更加興奮期待。"
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/sports/202611220008"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "infielder",
+          "pos": "n.",
+          "zh": "內野手",
+          "match": "infielder",
+          "example": "Lee Hao-yu, a 23-year-old infielder for the Detroit Tigers, has become the first Taiwanese player named to the All-World Team."
+        },
+        {
+          "word": "rookie",
+          "pos": "n.",
+          "zh": "新人；菜鳥球員",
+          "match": "rookie",
+          "example": "Clair released it on Saturday, American time, and put Lee at third base after his rookie season."
+        },
+        {
+          "word": "represent",
+          "pos": "v.",
+          "zh": "代表",
+          "match": "represented",
+          "example": "Each place may be represented by only one player, and a player must have spent enough time at a position during the season to be chosen there."
+        },
+        {
+          "word": "breakthrough",
+          "pos": "adj.",
+          "zh": "突破性的",
+          "match": "breakthrough",
+          "example": "Lee's selection follows a breakthrough year."
+        },
+        {
+          "word": "lineup",
+          "pos": "n.",
+          "zh": "先發陣容",
+          "match": "lineup",
+          "example": "His major league debut came in April, and he soon became a regular in Detroit's lineup."
+        },
+        {
+          "word": "multi-position",
+          "pos": "adj.",
+          "zh": "多位置的",
+          "match": "multi-position",
+          "example": "Clair wrote that the multi-position infielder \"set almost every major single-season record for a player born in Taiwan.\""
+        },
+        {
+          "word": "disappointment",
+          "pos": "n.",
+          "zh": "失望；遺憾",
+          "match": "disappointment",
+          "example": "The season was not without disappointment."
+        },
+        {
+          "word": "oblique",
+          "pos": "adj.",
+          "zh": "腹斜肌的",
+          "match": "oblique",
+          "example": "An oblique injury kept Lee from playing for Taiwan at the World Baseball Classic in March."
+        },
+        {
+          "word": "designated hitter",
+          "pos": "phr.",
+          "zh": "指定打擊",
+          "match": "designated hitter",
+          "example": "Shohei Ohtani of the Dodgers is the designated hitter, and Yordan Alvarez of the Astros, who was voted American League Most Valuable Player unanimously, is one of the outfielders."
+        },
+        {
+          "word": "unanimously",
+          "pos": "adv.",
+          "zh": "全體一致地",
+          "match": "unanimously",
+          "example": "Shohei Ohtani of the Dodgers is the designated hitter, and Yordan Alvarez of the Astros, who was voted American League Most Valuable Player unanimously, is one of the outfielders."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwp7ovr1li2c",
+          "word": "excitement",
+          "match": "excitement",
+          "zh": "熱潮；興奮",
+          "kind": "review"
+        },
+        {
+          "id": "mwp6b3snwk53",
+          "word": "long-awaited",
+          "match": "long-awaited",
+          "zh": "期待已久的",
+          "kind": "review"
+        },
+        {
+          "id": "mwp7flmnb6ae",
+          "word": "debut",
+          "match": "debut",
+          "zh": "首次亮相",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Environment",
+      "topic": "harvard-hyperscale-data-centers-power-study",
+      "story_date": "2026-11-16",
+      "title": "Study: America's Biggest Data Centers Rely Heavily on Fossil Fuels",
+      "title_zh": "研究：美國最大型資料中心高度依賴化石燃料",
+      "paragraphs": [
+        "A new study led by researchers at Harvard University has put numbers on how much power America's biggest data centers use and where that power comes from. The paper, published in the journal Nature Sustainability on November 16, looked at 403 so-called hyperscale data centers, the huge facilities run by large cloud and artificial intelligence companies.",
+        "Between May 2024 and April 2025, these sites used about 68 to 99 terawatt-hours of electricity, depending on the scenario. That is roughly 1.8 percent of all the electricity used in the United States, and at the high end it is close to what the state of Michigan uses in a year.",
+        "The source of that power is a concern. About 54 percent of it came from fossil fuels, mainly natural gas at 38 percent and coal at 15 percent. Roughly a quarter of the electricity was drawn from grid regions that are dirtier than average. As a result, the study found that carbon emissions from these sites were about three times higher than the estimate in the last peer-reviewed study, published in 2018.",
+        "The researchers say their figures are a minimum. Demand has probably grown since the study period ended, as technology companies keep building new sites to meet the rising need for artificial intelligence. Many of these companies say they are committed to using clean energy. However, the findings suggest that fast growth in power demand could undermine those goals if new wind, solar and nuclear supply cannot keep up.",
+        "For ordinary people the issue is also practical. Electricity used by data centers affects the cost and reliability of the power system, and communities near new sites often ask whether the benefits outweigh the burden. The study gives local officials and energy planners firmer data for those debates."
+      ],
+      "paragraphs_zh": [
+        "哈佛大學研究人員主導的一項新研究，用數據說明了美國最大型資料中心的用電量，以及這些電力的來源。這篇論文於11月16日刊登在《自然永續》（Nature Sustainability）期刊上，研究對象是403座所謂的超大規模資料中心，也就是由大型雲端與人工智慧公司營運的龐大設施。",
+        "在2024年5月至2025年4月之間，依情境不同，這些資料中心約使用了68至99太瓦時的電力。這大約占美國總用電量的1.8%，而在高估值情況下，已接近密西根州一整年的用電量。",
+        "電力的來源令人憂心。其中約54%來自化石燃料，主要是占38%的天然氣和占15%的煤炭。約四分之一的電力取自比平均更髒（碳排較高）的電網區域。因此，研究發現這些資料中心的碳排放量，約為2018年最近一次經同儕審查的研究所估計數字的三倍。",
+        "研究人員表示，他們的數字只是下限。研究期間結束後，需求很可能已經成長，因為科技公司為了因應人工智慧不斷增加的需求，持續興建新的據點。許多這類公司都說，他們致力於使用乾淨能源。然而，研究結果顯示，如果新的風能、太陽能與核能供應跟不上，電力需求的快速成長可能會破壞這些目標。",
+        "對一般民眾來說，這個問題也很實際。資料中心的用電會影響電力系統的成本與可靠度，而新據點附近的社區常會問，好處是否大於負擔。這項研究為地方官員與能源規劃人員的相關辯論，提供了更紮實的數據。"
+      ],
+      "sources": [
+        {
+          "name": "Fast Company",
+          "url": "https://www.fastcompany.com/91640605/hyperscale-data-centers-use-shocking-levels-of-electricity-harvard"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374707/americas-most-powerful-data-centres-emit-much-small-nation"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "hyperscale",
+          "pos": "adj.",
+          "zh": "超大規模的",
+          "match": "hyperscale",
+          "example": "The paper, published in the journal Nature Sustainability on November 16, looked at 403 so-called hyperscale data centers, the huge facilities run by large cloud and artificial intelligence companies."
+        },
+        {
+          "word": "scenario",
+          "pos": "n.",
+          "zh": "情境；設想",
+          "match": "scenario",
+          "example": "Between May 2024 and April 2025, these sites used about 68 to 99 terawatt-hours of electricity, depending on the scenario."
+        },
+        {
+          "word": "fossil fuel",
+          "pos": "n.",
+          "zh": "化石燃料",
+          "match": "fossil fuels",
+          "example": "About 54 percent of it came from fossil fuels, mainly natural gas at 38 percent and coal at 15 percent."
+        },
+        {
+          "word": "grid",
+          "pos": "n.",
+          "zh": "電網",
+          "match": "grid",
+          "example": "Roughly a quarter of the electricity was drawn from grid regions that are dirtier than average."
+        },
+        {
+          "word": "peer-reviewed",
+          "pos": "adj.",
+          "zh": "經同儕審查的",
+          "match": "peer-reviewed",
+          "example": "As a result, the study found that carbon emissions from these sites were about three times higher than the estimate in the last peer-reviewed study, published in 2018."
+        },
+        {
+          "word": "minimum",
+          "pos": "n.",
+          "zh": "最低限度；下限",
+          "match": "minimum",
+          "example": "The researchers say their figures are a minimum."
+        },
+        {
+          "word": "reliability",
+          "pos": "n.",
+          "zh": "可靠度",
+          "match": "reliability",
+          "example": "Electricity used by data centers affects the cost and reliability of the power system, and communities near new sites often ask whether the benefits outweigh the burden."
+        },
+        {
+          "word": "outweigh",
+          "pos": "v.",
+          "zh": "勝過；比……更重要",
+          "match": "outweigh",
+          "example": "Electricity used by data centers affects the cost and reliability of the power system, and communities near new sites often ask whether the benefits outweigh the burden."
+        },
+        {
+          "word": "burden",
+          "pos": "n.",
+          "zh": "負擔",
+          "match": "burden",
+          "example": "Electricity used by data centers affects the cost and reliability of the power system, and communities near new sites often ask whether the benefits outweigh the burden."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwp6ck35see5",
+          "word": "committed",
+          "match": "committed",
+          "zh": "致力於；承諾的",
+          "kind": "review"
+        },
+        {
+          "id": "mwp6j6bi3mq0",
+          "word": "undermine",
+          "match": "undermine",
+          "zh": "破壞；削弱",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Business",
+      "topic": "iea-iran-war-energy-shock",
+      "story_date": "2026-11-19",
+      "title": "IEA Calls Iran War the Gravest Energy Shock on Record",
+      "title_zh": "IEA：伊朗戰爭是有史以來最嚴重的能源衝擊",
+      "paragraphs": [
+        "The war involving Iran has inflicted the most severe shock on global oil and gas markets on record, according to the International Energy Agency, which published its latest World Energy Outlook on November 19. Fatih Birol, the agency's executive director, described the crisis around the Strait of Hormuz as the biggest threat to energy security in history, surpassing even the oil shocks of the 1970s.",
+        "The scale of the disruption is difficult to overstate. The IEA puts cumulative losses of supply from the Persian Gulf at 2.8 billion barrels of oil and 60 billion cubic metres of natural gas. The strait normally carries around a fifth of the world's oil and liquefied natural gas, so the sharp fall in traffic has reverberated through every region that depends on imported fuel. Earlier this year, the agency coordinated a record release of 400 million barrels from emergency stocks to cushion the blow.",
+        "Yet the outlook is not only about the present. The IEA estimates that the policy responses governments adopt in the name of energy security could cut world oil demand by more than 4 percent by 2035. Importers that have just endured a supply scare may well hasten the shift toward electrification, efficiency and domestic energy sources. In other words, the very shock that has rattled oil markets could also bring forward the day when demand begins to slide.",
+        "The agency also added stress tests to its analysis, examining what would happen if the disruption in Hormuz were to continue. Such exercises are a reminder of how unsettled the situation remains.",
+        "A word of caution is in order about the superlative. Calculations by Reuters show that the disruption is the largest when measured by the volume of daily output lost, but the 1973 Arab oil embargo still had a greater cumulative effect. Whichever yardstick one prefers, the episode has exposed how heavily the world economy leans on a narrow stretch of water, and governments will be judged by how well they respond."
+      ],
+      "paragraphs_zh": [
+        "根據國際能源署（IEA）的說法，這場涉及伊朗的戰爭，對全球石油與天然氣市場造成了有紀錄以來最嚴重的衝擊；該機構於11月19日發布了最新的《世界能源展望》。IEA執行長法提赫·比羅爾（Fatih Birol）形容，荷莫茲海峽周邊的危機是史上對能源安全最大的威脅，甚至超越1970年代的石油危機。",
+        "這場供應中斷的規模，再怎麼強調都不為過。IEA估計，波斯灣累計損失的供應量為28億桶石油與600億立方公尺天然氣。該海峽平常約承載全球五分之一的石油與液化天然氣，因此通行量的大幅下滑，已波及每一個仰賴進口燃料的地區。今年稍早，該機構協調了4億桶的創紀錄緊急儲油釋出，以緩衝衝擊。",
+        "不過，這份展望談的不只是當下。IEA估計，各國政府以能源安全為名所採取的政策因應，到2035年可能使全球石油需求減少逾4%。剛剛經歷供應恐慌的進口國，很可能加速轉向電氣化、能源效率與本土能源。換句話說，讓石油市場動盪不安的這場衝擊，也可能讓需求開始下滑的那一天提早到來。",
+        "該機構也在分析中加入了壓力測試，檢視若荷莫茲海峽的中斷持續下去會發生什麼事。這類演練提醒人們，局勢仍然多麼不穩定。",
+        "對於「史上最大」這個最高級說法，仍需提醒幾句。路透社的計算顯示，以每日損失的產量來衡量，這場中斷確實是最大的，但若以累計影響來看，1973年的阿拉伯石油禁運仍然更大。無論採用哪一種衡量標準，這起事件都暴露出世界經濟有多麼依賴一條狹窄的水道，而各國政府將以應對得好不好來接受評判。"
+      ],
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/business/energy/mid-east-crisis-largest-threat-to-energy-security-ever-iea-1.500753037"
+        },
+        {
+          "name": "The Daily Star (Reuters)",
+          "url": "https://www.thedailystar.net/business/news/how-the-iran-war-oil-and-gas-supply-shock-compares-past-disruptions-4157656"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "inflict",
+          "pos": "v.",
+          "zh": "造成（傷害、打擊）",
+          "match": "inflicted",
+          "example": "The war involving Iran has inflicted the most severe shock on global oil and gas markets on record, according to the International Energy Agency, which published its latest World Energy Outlook on November 19."
+        },
+        {
+          "word": "surpass",
+          "pos": "v.",
+          "zh": "超越",
+          "match": "surpassing",
+          "example": "Fatih Birol, the agency's executive director, described the crisis around the Strait of Hormuz as the biggest threat to energy security in history, surpassing even the oil shocks of the 1970s."
+        },
+        {
+          "word": "cumulative",
+          "pos": "adj.",
+          "zh": "累計的",
+          "match": "cumulative",
+          "example": "The IEA puts cumulative losses of supply from the Persian Gulf at 2.8 billion barrels of oil and 60 billion cubic metres of natural gas."
+        },
+        {
+          "word": "reverberate",
+          "pos": "v.",
+          "zh": "波及；引起反響",
+          "match": "reverberated",
+          "example": "The strait normally carries around a fifth of the world's oil and liquefied natural gas, so the sharp fall in traffic has reverberated through every region that depends on imported fuel."
+        },
+        {
+          "word": "cushion the blow",
+          "pos": "phr.",
+          "zh": "緩衝衝擊",
+          "match": "cushion the blow",
+          "example": "Earlier this year, the agency coordinated a record release of 400 million barrels from emergency stocks to cushion the blow."
+        },
+        {
+          "word": "hasten",
+          "pos": "v.",
+          "zh": "加速；促進",
+          "match": "hasten",
+          "example": "Importers that have just endured a supply scare may well hasten the shift toward electrification, efficiency and domestic energy sources."
+        },
+        {
+          "word": "stress test",
+          "pos": "n.",
+          "zh": "壓力測試",
+          "match": "stress tests",
+          "example": "The agency also added stress tests to its analysis, examining what would happen if the disruption in Hormuz were to continue."
+        },
+        {
+          "word": "unsettled",
+          "pos": "adj.",
+          "zh": "不穩定的",
+          "match": "unsettled",
+          "example": "Such exercises are a reminder of how unsettled the situation remains."
+        },
+        {
+          "word": "superlative",
+          "pos": "n.",
+          "zh": "最高級說法；誇大之詞",
+          "match": "superlative",
+          "example": "A word of caution is in order about the superlative."
+        },
+        {
+          "word": "yardstick",
+          "pos": "n.",
+          "zh": "衡量標準",
+          "match": "yardstick",
+          "example": "Whichever yardstick one prefers, the episode has exposed how heavily the world economy leans on a narrow stretch of water, and governments will be judged by how well they respond."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwp7hvuasat5",
+          "word": "slide",
+          "match": "slide",
+          "zh": "下滑",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwp6m8nv18hn",
+      "word": "code",
+      "pos": "n.",
+      "zh": "行為準則",
+      "match": "code",
+      "example": "The company introduced a new code of conduct after the scandal.",
+      "example_zh": "這家公司在醜聞後推出了新的行為準則。",
+      "context": "Southeast Asian leaders and China failed to finish a long-awaited code of conduct for the South China Sea this week.",
+      "source": "2026-11-20#1"
+    },
+    {
+      "id": "mwnrkxs0mrl5",
+      "word": "imitation",
+      "pos": "n.",
+      "zh": "仿冒品；模仿",
+      "match": "imitations",
+      "example": "Customs officers seized thousands of cheap imitations of the luxury brand's handbags.",
+      "example_zh": "海關人員查扣了數千件仿冒該奢侈品牌的廉價手提包。",
+      "context": "How courts treat this kind of imitation may shape the rules for AI-generated advertising.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwp6i7q140av",
+      "word": "ram",
+      "pos": "v.",
+      "zh": "衝撞；猛撞",
+      "match": "rammed",
+      "example": "Police said the driver lost control and rammed a delivery truck at the intersection.",
+      "example_zh": "警方表示，駕駛失控後在路口猛撞一輛貨車。",
+      "context": "In September, Chinese coast guard vessels were accused of ramming Filipino fishing boats near the Spratly Islands.",
+      "source": "2026-11-20#1"
+    },
+    {
+      "id": "mwp7rgfzhyla",
+      "word": "bullish",
+      "pos": "adj.",
+      "zh": "看好的；看漲的",
+      "match": "bullish",
+      "example": "Analysts are bullish on the retailer's outlook after its strong holiday sales.",
+      "example_zh": "在假期銷售強勁之後，分析師看好這家零售商的前景。",
+      "context": "Still, some remain bullish.",
+      "source": "2026-11-20#2"
+    }
+  ]
+}

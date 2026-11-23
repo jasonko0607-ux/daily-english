@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-23",
+    "reviews": 10,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "Sports",
+        "topic": "lee-hao-yu-mlb-all-world-team",
+        "title": "Taiwan's Lee Hao-yu Named to MLB.com All-World Team",
+        "title_zh": "台灣李灝宇入選 MLB.com 世界明星隊"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Environment",
+        "topic": "harvard-hyperscale-data-centers-power-study",
+        "title": "Study: America's Biggest Data Centers Rely Heavily on Fossil Fuels",
+        "title_zh": "研究：美國最大型資料中心高度依賴化石燃料"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Business",
+        "topic": "iea-iran-war-energy-shock",
+        "title": "IEA Calls Iran War the Gravest Energy Shock on Record",
+        "title_zh": "IEA：伊朗戰爭是有史以來最嚴重的能源衝擊"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "reviews": 25,
     "articles": [

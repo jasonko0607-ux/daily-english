@@ -942,7 +942,9 @@
       "marked_at": "2026-11-19",
       "zh": "模仿；仿冒",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "imitation",
       "priority": 2
     },
@@ -968,7 +970,9 @@
       "marked_at": "2026-11-20",
       "zh": "期待已久的；盼望已久的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "long-awaited",
       "priority": 2
     },
@@ -980,7 +984,9 @@
       "marked_at": "2026-11-20",
       "zh": "堅守的；承諾的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "committed",
       "priority": 3
     },
@@ -992,7 +998,9 @@
       "marked_at": "2026-11-20",
       "zh": "衝撞；猛撞",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "ram",
       "priority": 2
     },
@@ -1004,7 +1012,9 @@
       "marked_at": "2026-11-20",
       "zh": "破壞；暗中削弱",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "undermine",
       "priority": 3
     },
@@ -1016,7 +1026,9 @@
       "marked_at": "2026-11-20",
       "zh": "行為準則；法典",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "code",
       "priority": 3
     },
@@ -1028,7 +1040,9 @@
       "marked_at": "2026-11-20",
       "zh": "首次上市；初次亮相",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "debut",
       "priority": 2
     },
@@ -1040,7 +1054,9 @@
       "marked_at": "2026-11-20",
       "zh": "下滑；滑落",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "slide",
       "priority": 2
     },
@@ -1052,7 +1068,9 @@
       "marked_at": "2026-11-20",
       "zh": "熱潮；興奮",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "excitement",
       "priority": 3
     },
@@ -1064,7 +1082,9 @@
       "marked_at": "2026-11-20",
       "zh": "看好的；看漲的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-23"
+      ],
       "base": "bullish",
       "priority": 2
     },
@@ -1173,7 +1193,8 @@
       "zh": "探測器；探針",
       "pos": "n.",
       "reviews": [],
-      "base": "probe"
+      "base": "probe",
+      "priority": 2
     },
     {
       "id": "mwrxygessr7o",
@@ -1184,7 +1205,8 @@
       "zh": "里程碑；重要節點",
       "pos": "n.",
       "reviews": [],
-      "base": "milestone"
+      "base": "milestone",
+      "priority": 3
     },
     {
       "id": "mwrxytgrhgma",
@@ -1195,7 +1217,8 @@
       "zh": "軌跡；飛行路徑",
       "pos": "n.",
       "reviews": [],
-      "base": "trajectory"
+      "base": "trajectory",
+      "priority": 2
     },
     {
       "id": "mwry10bbm52f",
@@ -1206,7 +1229,8 @@
       "zh": "電漿；等離子體",
       "pos": "n.",
       "reviews": [],
-      "base": "plasma"
+      "base": "plasma",
+      "priority": 1
     },
     {
       "id": "mwry240f5ktd",
@@ -1217,7 +1241,8 @@
       "zh": "星際的；恆星之間的",
       "pos": "adj.",
       "reviews": [],
-      "base": "interstellar"
+      "base": "interstellar",
+      "priority": 1
     },
     {
       "id": "mwrylvxem2u3",
@@ -1228,7 +1253,8 @@
       "zh": "實際上；事實上",
       "pos": "phr.",
       "reviews": [],
-      "base": "in practice"
+      "base": "in practice",
+      "priority": 2
     },
     {
       "id": "mwrysxqi8u4m",
@@ -1239,7 +1265,8 @@
       "zh": "明智的；合理的",
       "pos": "adj.",
       "reviews": [],
-      "base": "sensible"
+      "base": "sensible",
+      "priority": 2
     },
     {
       "id": "mws1ulp5eo2v",
@@ -1250,7 +1277,8 @@
       "zh": "驚人的；令人敬畏的",
       "pos": "adj.",
       "reviews": [],
-      "base": "formidable"
+      "base": "formidable",
+      "priority": 2
     },
     {
       "id": "mws1utlhik4i",
@@ -1261,7 +1289,8 @@
       "zh": "透露；揭露",
       "pos": "v.",
       "reviews": [],
-      "base": "disclose"
+      "base": "disclose",
+      "priority": 3
     },
     {
       "id": "mws1w74hedyj",
@@ -1272,7 +1301,8 @@
       "zh": "以主題設計的；主題式的",
       "pos": "adj.",
       "reviews": [],
-      "base": "themed"
+      "base": "themed",
+      "priority": 2
     },
     {
       "id": "mws1wiias8oi",
@@ -1283,7 +1313,8 @@
       "zh": "直播節目；廣播",
       "pos": "n.",
       "reviews": [],
-      "base": "broadcast"
+      "base": "broadcast",
+      "priority": 2
     },
     {
       "id": "mws24ig7392s",
@@ -1294,7 +1325,8 @@
       "zh": "片段；剪輯影片",
       "pos": "n.",
       "reviews": [],
-      "base": "clip"
+      "base": "clip",
+      "priority": 2
     },
     {
       "id": "mws24ytrpp6h",
@@ -1305,7 +1337,8 @@
       "zh": "提醒；警告",
       "pos": "v.",
       "reviews": [],
-      "base": "caution"
+      "base": "caution",
+      "priority": 2
     },
     {
       "id": "mws25zkjod26",
@@ -1316,7 +1349,8 @@
       "zh": "經常發生的；定期的；循環的",
       "pos": "adj.",
       "reviews": [],
-      "base": "recurring"
+      "base": "recurring",
+      "priority": 3
     },
     {
       "id": "mws27bxa2x0z",
@@ -1327,7 +1361,8 @@
       "zh": "時程表；時刻表",
       "pos": "n.",
       "reviews": [],
-      "base": "timetable"
+      "base": "timetable",
+      "priority": 3
     },
     {
       "id": "mws27x6aej5t",
@@ -1338,7 +1373,8 @@
       "zh": "提名；入圍名單",
       "pos": "n.",
       "reviews": [],
-      "base": "nomination"
+      "base": "nomination",
+      "priority": 2
     }
   ]
 }
