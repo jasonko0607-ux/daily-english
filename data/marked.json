@@ -1500,9 +1500,10 @@
       "context": "The IEA puts cumulative losses of supply from the Persian Gulf at 2.8 billion barrels of oil and 60 billion cubic metres of natural gas.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "立方的；立方體的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "cubic"
     },
     {
       "id": "mwtgmu27udps",
@@ -1510,9 +1511,10 @@
       "context": "The IEA puts cumulative losses of supply from the Persian Gulf at 2.8 billion barrels of oil and 60 billion cubic metres of natural gas.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "公尺；米",
+      "pos": "n.",
+      "reviews": [],
+      "base": "metre"
     },
     {
       "id": "mwtgmx8x1lwt",
@@ -1520,9 +1522,10 @@
       "context": "The IEA puts cumulative losses of supply from the Persian Gulf at 2.8 billion barrels of oil and 60 billion cubic metres of natural gas.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "累積的；累計的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "cumulative"
     },
     {
       "id": "mwtgn0zitsxx",
@@ -1530,9 +1533,10 @@
       "context": "The scale of the disruption is difficult to overstate.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "誇大；誇張",
+      "pos": "v.",
+      "reviews": [],
+      "base": "overstate"
     },
     {
       "id": "mwtgn6fc3xo6",
@@ -1540,9 +1544,10 @@
       "context": "The strait normally carries around a fifth of the world's oil and liquefied natural gas, so the sharp fall in traffic has reverberated through every region that depends on imported fuel.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "海峽；困境",
+      "pos": "n.",
+      "reviews": [],
+      "base": "strait"
     },
     {
       "id": "mwtgnfwdndav",
@@ -1550,9 +1555,10 @@
       "context": "The strait normally carries around a fifth of the world's oil and liquefied natural gas, so the sharp fall in traffic has reverberated through every region that depends on imported fuel.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "液化的；使液化",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "liquefy"
     },
     {
       "id": "mwtgnonw6pdq",
@@ -1560,9 +1566,10 @@
       "context": "The strait normally carries around a fifth of the world's oil and liquefied natural gas, so the sharp fall in traffic has reverberated through every region that depends on imported fuel.",
       "article": "2026-11-23#3",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "波及；回響",
+      "pos": "v.",
+      "reviews": [],
+      "base": "reverberate"
     }
   ]
 }
