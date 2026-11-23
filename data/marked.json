@@ -1426,9 +1426,10 @@
       "context": "A month later, however, he was in the major leagues.",
       "article": "2026-11-23#1",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "大聯盟；聯盟",
+      "pos": "n.",
+      "reviews": [],
+      "base": "league"
     }
   ]
 }
