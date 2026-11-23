@@ -1382,9 +1382,10 @@
       "context": "Lee Hao-yu, a 23-year-old infielder for the Detroit Tigers, has become the first Taiwanese player named to the All-World Team.",
       "article": "2026-11-23#1",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "內野手",
+      "pos": "n.",
+      "reviews": [],
+      "base": "infielder"
     },
     {
       "id": "mwtfbnov5ate",
@@ -1392,9 +1393,10 @@
       "context": "Clair released it on Saturday, American time, and put Lee at third base after his rookie season.",
       "article": "2026-11-23#1",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "新人；菜鳥",
+      "pos": "n.",
+      "reviews": [],
+      "base": "rookie"
     }
   ]
 }
