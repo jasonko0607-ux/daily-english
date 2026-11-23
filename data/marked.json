@@ -1437,9 +1437,10 @@
       "context": "The paper, published in the journal Nature Sustainability on November 16, looked at 403 so-called hyperscale data centers, the huge facilities run by large cloud and artificial intelligence companies.",
       "article": "2026-11-23#2",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "超大規模的；超大型的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "hyperscale"
     },
     {
       "id": "mwtfow3v4fyr",
@@ -1447,9 +1448,10 @@
       "context": "The paper, published in the journal Nature Sustainability on November 16, looked at 403 so-called hyperscale data centers, the huge facilities run by large cloud and artificial intelligence companies.",
       "article": "2026-11-23#2",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "永續性；可持續性",
+      "pos": "n.",
+      "reviews": [],
+      "base": "sustainability"
     },
     {
       "id": "mwtfp4nhe1aa",
@@ -1457,9 +1459,10 @@
       "context": "Between May 2024 and April 2025, these sites used about 68 to 99 terawatt-hours of electricity, depending on the scenario.",
       "article": "2026-11-23#2",
       "marked_at": "2026-11-23",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "場址；據點",
+      "pos": "n.",
+      "reviews": [],
+      "base": "site"
     }
   ]
 }
