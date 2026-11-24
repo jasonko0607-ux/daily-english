@@ -1795,9 +1795,10 @@
       "context": "Iran says it is open to dialogue and is in contact with mediators, including Qatar.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "調解人；居中斡旋者",
+      "pos": "n.",
+      "reviews": [],
+      "base": "mediator"
     },
     {
       "id": "mwu9xlosvfs1",
@@ -1805,9 +1806,10 @@
       "context": "However, President Donald Trump said in a television interview that he was inclined to order strikes on Tehran next year if no deal is reached.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "有意的；傾向的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "inclined"
     }
   ]
 }
