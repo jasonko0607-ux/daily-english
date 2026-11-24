@@ -729,7 +729,15 @@
         "2026-11-22"
       ],
       "base": "stall",
-      "priority": 2
+      "priority": 2,
+      "marks": [
+        {
+          "marked_at": "2026-11-24",
+          "context": "He accused Iranian officials of stalling.",
+          "article": "2026-11-24#1"
+        }
+      ],
+      "cycle_start": "2026-11-24"
     },
     {
       "id": "mwnr45ah2b4d",
