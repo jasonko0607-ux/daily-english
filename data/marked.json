@@ -1732,9 +1732,10 @@
       "context": "Earlier that day, the Saudi-led coalition said it had intercepted and destroyed a Houthi drone heading for the west of the country, where key refining and export facilities are located.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "無人機；無人飛行器",
+      "pos": "n.",
+      "reviews": [],
+      "base": "drone"
     },
     {
       "id": "mwu9v1ne9ynv",
@@ -1742,9 +1743,10 @@
       "context": "Bahrain said an Iranian attack on a civilian industrial site injured two people on Saturday, and British maritime monitors said two tankers had been hit by unknown projectiles near the Gulf of Oman.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "平民的；民用的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "civilian"
     },
     {
       "id": "mwu9vdz98rv2",
