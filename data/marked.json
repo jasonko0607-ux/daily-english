@@ -9,7 +9,8 @@
       "zh": "讓步；妥協",
       "pos": "n.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "concession",
       "priority": 2
@@ -23,7 +24,8 @@
       "zh": "萎靡不振；低迷",
       "pos": "n.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "malaise",
       "priority": 2
@@ -37,7 +39,8 @@
       "zh": "依賴的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "reliant",
       "priority": 3
@@ -51,7 +54,8 @@
       "zh": "（引擎等）運轉不穩；（經濟）疲弱不振",
       "pos": "v.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "sputter",
       "priority": 2
@@ -77,7 +81,8 @@
       "zh": "先例",
       "pos": "n.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "precedent",
       "priority": 3
@@ -91,7 +96,8 @@
       "zh": "衰退；下滑",
       "pos": "n.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "downturn",
       "priority": 3
@@ -127,7 +133,8 @@
       "zh": "雙面刃；利弊並存的事物",
       "pos": "phr.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "double-edged sword",
       "priority": 2
@@ -141,7 +148,8 @@
       "zh": "樂觀的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "upbeat",
       "priority": 2
@@ -155,7 +163,8 @@
       "zh": "人均的（per capita）",
       "pos": "adj.",
       "reviews": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ],
       "base": "capita",
       "priority": 2
@@ -1112,7 +1121,9 @@
       "marked_at": "2026-11-21",
       "zh": "在……場外；趁……期間",
       "pos": "phr.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "on the sidelines of",
       "priority": 2
     },
@@ -1124,7 +1135,9 @@
       "marked_at": "2026-11-21",
       "zh": "之後；隨後",
       "pos": "adv.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "afterward",
       "priority": 2
     },
@@ -1136,7 +1149,9 @@
       "marked_at": "2026-11-21",
       "zh": "相同的；一模一樣的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "identical",
       "priority": 2
     },
@@ -1148,7 +1163,9 @@
       "marked_at": "2026-11-21",
       "zh": "對話；談判",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "dialogue",
       "priority": 3
     },
@@ -1160,7 +1177,9 @@
       "marked_at": "2026-11-21",
       "zh": "管轄權；司法權",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "jurisdiction",
       "priority": 2
     },
@@ -1172,7 +1191,9 @@
       "marked_at": "2026-11-21",
       "zh": "濫用；虐待",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "abuse",
       "priority": 3
     },
@@ -1184,7 +1205,9 @@
       "marked_at": "2026-11-21",
       "zh": "制裁；批准",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "sanction",
       "priority": 3
     },
@@ -1196,7 +1219,9 @@
       "marked_at": "2026-11-21",
       "zh": "遺漏；省略",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-24"
+      ],
       "base": "omission",
       "priority": 2
     },
@@ -1401,7 +1426,8 @@
       "zh": "內野手",
       "pos": "n.",
       "reviews": [],
-      "base": "infielder"
+      "base": "infielder",
+      "priority": 1
     },
     {
       "id": "mwtfbnov5ate",
@@ -1412,7 +1438,8 @@
       "zh": "新人；菜鳥",
       "pos": "n.",
       "reviews": [],
-      "base": "rookie"
+      "base": "rookie",
+      "priority": 2
     },
     {
       "id": "mwtfcs5rsa4v",
@@ -1423,7 +1450,8 @@
       "zh": "屬地；地區",
       "pos": "n.",
       "reviews": [],
-      "base": "territory"
+      "base": "territory",
+      "priority": 2
     },
     {
       "id": "mwtfecz06d71",
@@ -1434,7 +1462,8 @@
       "zh": "陣容；先發名單",
       "pos": "n.",
       "reviews": [],
-      "base": "lineup"
+      "base": "lineup",
+      "priority": 2
     },
     {
       "id": "mwtffxk92s2y",
@@ -1445,7 +1474,8 @@
       "zh": "大聯盟；聯盟",
       "pos": "n.",
       "reviews": [],
-      "base": "league"
+      "base": "league",
+      "priority": 2
     },
     {
       "id": "mwtfof1pe9xm",
@@ -1456,7 +1486,8 @@
       "zh": "超大規模的；超大型的",
       "pos": "adj.",
       "reviews": [],
-      "base": "hyperscale"
+      "base": "hyperscale",
+      "priority": 1
     },
     {
       "id": "mwtfow3v4fyr",
@@ -1467,7 +1498,8 @@
       "zh": "永續性；可持續性",
       "pos": "n.",
       "reviews": [],
-      "base": "sustainability"
+      "base": "sustainability",
+      "priority": 2
     },
     {
       "id": "mwtfp4nhe1aa",
@@ -1478,7 +1510,8 @@
       "zh": "場址；據點",
       "pos": "n.",
       "reviews": [],
-      "base": "site"
+      "base": "site",
+      "priority": 2
     },
     {
       "id": "mwtfrolg7xqz",
@@ -1489,7 +1522,8 @@
       "zh": "電網；供電系統",
       "pos": "n.",
       "reviews": [],
-      "base": "grid"
+      "base": "grid",
+      "priority": 2
     },
     {
       "id": "mwtghh125di3",
@@ -1500,7 +1534,8 @@
       "zh": "造成（打擊、傷害）；施加（懲罰）",
       "pos": "v.",
       "reviews": [],
-      "base": "inflict"
+      "base": "inflict",
+      "priority": 2
     },
     {
       "id": "mwtgmqg1whaq",
@@ -1511,7 +1546,8 @@
       "zh": "立方的；立方體的",
       "pos": "adj.",
       "reviews": [],
-      "base": "cubic"
+      "base": "cubic",
+      "priority": 1
     },
     {
       "id": "mwtgmu27udps",
@@ -1522,7 +1558,8 @@
       "zh": "公尺；米",
       "pos": "n.",
       "reviews": [],
-      "base": "metre"
+      "base": "metre",
+      "priority": 1
     },
     {
       "id": "mwtgmx8x1lwt",
@@ -1533,7 +1570,8 @@
       "zh": "累積的；累計的",
       "pos": "adj.",
       "reviews": [],
-      "base": "cumulative"
+      "base": "cumulative",
+      "priority": 2
     },
     {
       "id": "mwtgn0zitsxx",
@@ -1544,7 +1582,8 @@
       "zh": "誇大；誇張",
       "pos": "v.",
       "reviews": [],
-      "base": "overstate"
+      "base": "overstate",
+      "priority": 2
     },
     {
       "id": "mwtgn6fc3xo6",
@@ -1555,7 +1594,8 @@
       "zh": "海峽；困境",
       "pos": "n.",
       "reviews": [],
-      "base": "strait"
+      "base": "strait",
+      "priority": 2
     },
     {
       "id": "mwtgnfwdndav",
@@ -1566,7 +1606,8 @@
       "zh": "液化的；使液化",
       "pos": "adj.",
       "reviews": [],
-      "base": "liquefy"
+      "base": "liquefy",
+      "priority": 1
     },
     {
       "id": "mwtgnonw6pdq",
@@ -1577,7 +1618,8 @@
       "zh": "波及；回響",
       "pos": "v.",
       "reviews": [],
-      "base": "reverberate"
+      "base": "reverberate",
+      "priority": 2
     },
     {
       "id": "mwtgofnjmzyh",
@@ -1588,7 +1630,8 @@
       "zh": "減輕衝擊；緩和打擊",
       "pos": "phr.",
       "reviews": [],
-      "base": "cushion the blow"
+      "base": "cushion the blow",
+      "priority": 2
     },
     {
       "id": "mwtgq6fhkv4s",
@@ -1599,7 +1642,8 @@
       "zh": "忍受；經歷",
       "pos": "v.",
       "reviews": [],
-      "base": "endure"
+      "base": "endure",
+      "priority": 2
     },
     {
       "id": "mwtgqcbcea6u",
@@ -1610,7 +1654,8 @@
       "zh": "加速；促成",
       "pos": "v.",
       "reviews": [],
-      "base": "hasten"
+      "base": "hasten",
+      "priority": 2
     },
     {
       "id": "mwtgqwf7p60w",
@@ -1621,7 +1666,8 @@
       "zh": "震撼；使不安",
       "pos": "v.",
       "reviews": [],
-      "base": "rattle"
+      "base": "rattle",
+      "priority": 2
     },
     {
       "id": "mwtgrmcx4ezc",
@@ -1632,7 +1678,8 @@
       "zh": "不穩定的；懸而未決的",
       "pos": "adj.",
       "reviews": [],
-      "base": "unsettled"
+      "base": "unsettled",
+      "priority": 2
     },
     {
       "id": "mwtgrzmque0s",
@@ -1643,7 +1690,8 @@
       "zh": "誇大之詞；最高級",
       "pos": "n.",
       "reviews": [],
-      "base": "superlative"
+      "base": "superlative",
+      "priority": 1
     }
   ]
 }

@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-24",
+    "reviews": 17,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "International",
+        "topic": "houthi-rabigh-refinery-trump-strikes",
+        "title": "Houthis Say They Hit a Saudi Refinery as Trump Warns of New Strikes",
+        "title_zh": "胡塞武裝稱攻擊沙國煉油廠　川普警告明年可能再度出手"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Odd News",
+        "topic": "leofoo-white-rhino-arirang-korea",
+        "title": "A 2,000-Kilogram Rhino Takes a 17-Hour Trip From Taiwan to South Korea",
+        "title_zh": "2,000公斤犀牛搭機赴韓　全程約17小時"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Technology",
+        "topic": "oregon-virginia-sue-spacex-grok-deepfakes",
+        "title": "Two States Sue SpaceX Over Grok Deepfakes",
+        "title_zh": "兩州控告SpaceX　指Grok縱容深偽內容"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "reviews": 10,
     "articles": [

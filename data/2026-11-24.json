@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-24",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "International",
+      "topic": "houthi-rabigh-refinery-trump-strikes",
+      "story_date": "2026-11-22",
+      "title": "Houthis Say They Hit a Saudi Refinery as Trump Warns of New Strikes",
+      "title_zh": "胡塞武裝稱攻擊沙國煉油廠　川普警告明年可能再度出手",
+      "paragraphs": [
+        "Yemen's Houthi movement, which is aligned with Iran, said on Sunday that it had attacked an oil refinery in Saudi Arabia, adding to a weekend of rising hostilities in the Gulf region. The group named the Rabigh refinery, on the Red Sea coast about 165 kilometers north of Jeddah. It said it hit the site directly, but the amount of damage was unclear, and Saudi officials did not immediately comment.",
+        "Earlier that day, the Saudi-led coalition said it had intercepted and destroyed a Houthi drone heading for the west of the country, where key refining and export facilities are located. Other incidents were reported as well. Bahrain said an Iranian attack on a civilian industrial site injured two people on Saturday, and British maritime monitors said two tankers had been hit by unknown projectiles near the Gulf of Oman. They urged ships to stay vigilant.",
+        "The attacks come in the middle of a war between the United States, Israel and Iran that began in late February. Negotiators have not agreed on terms to end it, and talks have sputtered for months. Iran says it is open to dialogue and is in contact with mediators, including Qatar. However, President Donald Trump said in a television interview that he was inclined to order strikes on Tehran next year if no deal is reached. He accused Iranian officials of stalling.",
+        "The conflict has disrupted shipping through the Strait of Hormuz, which once carried about a fifth of the world's crude oil. Countries reliant on Gulf energy have felt the effects in higher fuel and commodity prices. Even so, markets were fairly calm: in early Asian trading, Brent crude futures were slightly lower, at about $92 a barrel."
+      ],
+      "paragraphs_zh": [
+        "與伊朗結盟的葉門青年運動（胡塞武裝）週日表示，他們攻擊了沙烏地阿拉伯的一座煉油廠，使這個週末波斯灣地區的敵對情勢進一步升高。該組織指稱目標是位於紅海沿岸、吉達以北約165公里的拉比格煉油廠。他們說已直接擊中該設施，但受損程度不明，沙國官員也未立即回應。",
+        "當天稍早，沙烏地領軍的聯軍表示，已攔截並擊毀一架飛向該國西部的胡塞無人機，該地區設有重要的煉油與出口設施。另外也傳出其他事件。巴林表示，伊朗對一處民用工業設施發動攻擊，週六造成兩人受傷；英國海事監測機構則表示，有兩艘油輪在荷莫茲海峽外的阿曼灣附近遭不明飛彈擊中，並呼籲船隻保持警戒。",
+        "這些攻擊發生在美國、以色列與伊朗之間的戰爭期間，這場戰爭始於2月下旬。談判代表至今未能就結束戰爭的條件達成共識，會談已斷斷續續陷入停滯數月。伊朗表示願意對話，並正與包括卡達在內的調解人保持聯繫。不過，美國總統川普在電視專訪中說，如果達不成協議，他傾向於明年下令攻擊德黑蘭。他指責伊朗官員在拖延時間。",
+        "這場衝突擾亂了荷莫茲海峽的航運，該海峽過去約承載全球五分之一的原油。依賴波斯灣能源的國家已感受到燃料與大宗商品價格上漲的影響。即便如此，市場相當平靜：在亞洲早盤交易中，布蘭特原油期貨小幅下跌，每桶約92美元。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "refinery",
+          "pos": "n.",
+          "zh": "煉油廠",
+          "match": "refinery",
+          "example": "Yemen's Houthi movement, which is aligned with Iran, said on Sunday that it had attacked an oil refinery in Saudi Arabia, adding to a weekend of rising hostilities in the Gulf region."
+        },
+        {
+          "word": "hostilities",
+          "pos": "n.",
+          "zh": "敵對行動；戰事",
+          "match": "hostilities",
+          "example": "Yemen's Houthi movement, which is aligned with Iran, said on Sunday that it had attacked an oil refinery in Saudi Arabia, adding to a weekend of rising hostilities in the Gulf region."
+        },
+        {
+          "word": "intercept",
+          "pos": "v.",
+          "zh": "攔截",
+          "match": "intercepted",
+          "example": "Earlier that day, the Saudi-led coalition said it had intercepted and destroyed a Houthi drone heading for the west of the country, where key refining and export facilities are located."
+        },
+        {
+          "word": "drone",
+          "pos": "n.",
+          "zh": "無人機",
+          "match": "drone",
+          "example": "Earlier that day, the Saudi-led coalition said it had intercepted and destroyed a Houthi drone heading for the west of the country, where key refining and export facilities are located."
+        },
+        {
+          "word": "projectile",
+          "pos": "n.",
+          "zh": "飛彈；投射物",
+          "match": "projectiles",
+          "example": "Bahrain said an Iranian attack on a civilian industrial site injured two people on Saturday, and British maritime monitors said two tankers had been hit by unknown projectiles near the Gulf of Oman."
+        },
+        {
+          "word": "vigilant",
+          "pos": "adj.",
+          "zh": "警覺的",
+          "match": "vigilant",
+          "example": "They urged ships to stay vigilant."
+        },
+        {
+          "word": "negotiator",
+          "pos": "n.",
+          "zh": "談判代表",
+          "match": "Negotiators",
+          "example": "Negotiators have not agreed on terms to end it, and talks have sputtered for months."
+        },
+        {
+          "word": "mediator",
+          "pos": "n.",
+          "zh": "調解人",
+          "match": "mediators",
+          "example": "Iran says it is open to dialogue and is in contact with mediators, including Qatar."
+        },
+        {
+          "word": "stall",
+          "pos": "v.",
+          "zh": "拖延",
+          "match": "stalling",
+          "example": "He accused Iranian officials of stalling."
+        },
+        {
+          "word": "crude oil",
+          "pos": "phr.",
+          "zh": "原油",
+          "match": "crude oil",
+          "example": "The conflict has disrupted shipping through the Strait of Hormuz, which once carried about a fifth of the world's crude oil."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwqlv1ybfa66",
+          "word": "dialogue",
+          "match": "dialogue",
+          "zh": "對話",
+          "kind": "review"
+        },
+        {
+          "id": "mwkqnhqz2mfa",
+          "word": "reliant",
+          "match": "reliant",
+          "zh": "依賴的",
+          "kind": "review"
+        },
+        {
+          "id": "mwkqpcnikaeg",
+          "word": "sputter",
+          "match": "sputtered",
+          "zh": "（談判）停滯不前",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Odd News",
+      "topic": "leofoo-white-rhino-arirang-korea",
+      "story_date": "2026-11-23",
+      "title": "A 2,000-Kilogram Rhino Takes a 17-Hour Trip From Taiwan to South Korea",
+      "title_zh": "2,000公斤犀牛搭機赴韓　全程約17小時",
+      "paragraphs": [
+        "A 15-year-old white rhinoceros named Arirang is about to make a very long trip. Leofoo Village Theme Park in Hsinchu County announced on Monday that he will leave Taiwan on Tuesday for Everland, South Korea's largest theme park, where he is expected to breed with another white rhino.",
+        "Moving a rhino is not simple. Arirang weighs about 2,000 kilograms, and the park says he is the largest and heaviest animal of a near-threatened species ever exported from Taiwan. Because he is a strong adult male, his transport crate was reinforced, and he trained to get used to it. Several trial runs were completed successfully.",
+        "There are no direct cargo flights between Taiwan and South Korea, so the rhino will travel through Hong Kong. The flight takes about 8.5 hours, and including travel on the ground, he will spend about 17 hours in the crate. Afterward, he will join a breeding program in Korea.",
+        "Arirang was born at Leofoo and has lived there all his life. A project leader describes him as a troublemaker among the park's rhinos, but says he gets along well with his caregiver. The park now looks after 22 white rhinos, the second-largest group in Asia, and in recent years it has sought partners abroad to avoid inbreeding. It sent a female named Emma to Japan in 2021, and it expects Vietnam to be its next partner in 2027.",
+        "Conservationists say such programs matter. The IUCN lists the southern white rhino as near threatened, and the wild population is estimated to have fallen 11.2 percent in 2024, to 15,752."
+      ],
+      "paragraphs_zh": [
+        "一隻名叫阿里郎、15歲的白犀牛即將展開一趟非常漫長的旅程。位於新竹縣的六福村主題遊樂園週一宣布，牠將於週二離開台灣前往南韓最大的主題樂園愛寶樂園，預計在那裡與另一隻白犀牛繁殖。",
+        "搬運一頭犀牛並不簡單。阿里郎體重約2,000公斤，園方表示，牠是台灣有史以來出口的近危物種中體型最大、最重的動物。由於牠是力氣很大的成年雄性，運輸籠經過加固，牠也接受訓練以適應。數次試運都順利完成。",
+        "台灣與南韓之間沒有直飛貨機，因此這頭犀牛將經由香港轉運。飛行時間約8.5小時，加上地面運輸，牠將在籠內待上約17小時。之後，牠將加入韓國的繁殖計畫。",
+        "阿里郎出生於六福村，一輩子都住在那裡。一位計畫負責人形容牠是園內犀牛當中的搗蛋鬼，但說牠和照顧員相處融洽。園方目前照顧22頭白犀牛，是亞洲第二大族群，近年來為避免近親繁殖而尋求海外夥伴。2021年園方曾將一頭名叫艾瑪的母犀牛送往日本，並預期越南將在2027年成為下一個合作夥伴。",
+        "保育人士表示，這類計畫很重要。國際自然保護聯盟（IUCN）將南方白犀牛列為近危物種，野生族群數量估計在2024年下降11.2%，降至15,752頭。"
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/society/202611230010"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "breed",
+          "pos": "v.",
+          "zh": "繁殖",
+          "match": "breed",
+          "example": "Leofoo Village Theme Park in Hsinchu County announced on Monday that he will leave Taiwan on Tuesday for Everland, South Korea's largest theme park, where he is expected to breed with another white rhino."
+        },
+        {
+          "word": "rhinoceros",
+          "pos": "n.",
+          "zh": "犀牛",
+          "match": "rhinoceros",
+          "example": "A 15-year-old white rhinoceros named Arirang is about to make a very long trip."
+        },
+        {
+          "word": "near-threatened",
+          "pos": "adj.",
+          "zh": "近危的",
+          "match": "near-threatened",
+          "example": "Arirang weighs about 2,000 kilograms, and the park says he is the largest and heaviest animal of a near-threatened species ever exported from Taiwan."
+        },
+        {
+          "word": "export",
+          "pos": "v.",
+          "zh": "出口",
+          "match": "exported",
+          "example": "Arirang weighs about 2,000 kilograms, and the park says he is the largest and heaviest animal of a near-threatened species ever exported from Taiwan."
+        },
+        {
+          "word": "reinforce",
+          "pos": "v.",
+          "zh": "加固",
+          "match": "reinforced",
+          "example": "Because he is a strong adult male, his transport crate was reinforced, and he trained to get used to it."
+        },
+        {
+          "word": "crate",
+          "pos": "n.",
+          "zh": "板條箱；運輸籠",
+          "match": "crate",
+          "example": "Because he is a strong adult male, his transport crate was reinforced, and he trained to get used to it."
+        },
+        {
+          "word": "trial run",
+          "pos": "phr.",
+          "zh": "試運行",
+          "match": "trial runs",
+          "example": "Several trial runs were completed successfully."
+        },
+        {
+          "word": "troublemaker",
+          "pos": "n.",
+          "zh": "搗蛋鬼",
+          "match": "troublemaker",
+          "example": "A project leader describes him as a troublemaker among the park's rhinos, but says he gets along well with his caregiver."
+        },
+        {
+          "word": "inbreeding",
+          "pos": "n.",
+          "zh": "近親繁殖",
+          "match": "inbreeding",
+          "example": "The park now looks after 22 white rhinos, the second-largest group in Asia, and in recent years it has sought partners abroad to avoid inbreeding."
+        },
+        {
+          "word": "conservationist",
+          "pos": "n.",
+          "zh": "保育人士",
+          "match": "Conservationists",
+          "example": "Conservationists say such programs matter."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwqltxlsiysd",
+          "word": "afterward",
+          "match": "Afterward",
+          "zh": "之後；隨後",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Technology",
+      "topic": "oregon-virginia-sue-spacex-grok-deepfakes",
+      "story_date": "2026-11-23",
+      "title": "Two States Sue SpaceX Over Grok Deepfakes",
+      "title_zh": "兩州控告SpaceX　指Grok縱容深偽內容",
+      "paragraphs": [
+        "Two American states have taken the unusual step of suing SpaceX over Grok, the artificial intelligence image generator now owned by the company. Oregon Attorney General Dan Rayfield filed a complaint in Multnomah County on Sunday evening, and his Virginia counterpart, Jay Jones, followed in Richmond on Monday morning. They are the first states to bring such cases.",
+        "Both complaints allege that the company failed to put adequate safeguards in place to stop users of Grok and the social network X from creating and sharing harmful deepfakes, including AI-generated child sexual abuse material. The states argue that this omission, coupled with assurances that the products were broadly safe, amounts to deception under their consumer-protection laws. They seek injunctions, civil penalties and other sanctions, and Virginia also demands restitution for consumers. Oregon wants stricter guardrails.",
+        "SpaceX has pushed back. A spokesperson said the company suspends accounts that try to circumvent its safeguards and notifies law enforcement, adding that attempting to create such material is \"a serious crime.\" In a separate case in Texas, its lawyers described Grok as \"a neutral tool, subject to user control,\" and in a suit brought by Baltimore against xAI, the company argued that Section 230, which broadly shields online platforms from liability for what users post, applies.",
+        "The lawsuits arrive amid mounting scrutiny. Authorities in several jurisdictions, including Britain, Spain, Ireland, France and California, are already examining the company's conduct. A central question is whether Section 230 can protect a firm whose own tool generates the content.",
+        "A recent precedent suggests how costly such disputes can become. In August, Meta settled a major federal case brought by states over how its apps affected children's mental health, agreeing, without admitting wrongdoing, to pay about $17 billion over ten years and to change its apps. If Oregon and Virginia prevail, they may secure not only fines but lasting changes to how Grok operates."
+      ],
+      "paragraphs_zh": [
+        "美國有兩個州採取了不尋常的行動，就Grok一事控告SpaceX。Grok是一款人工智慧影像生成器，如今為該公司所有。奧勒岡州檢察長丹·雷菲爾德週日晚間在馬特諾馬郡提起訴訟，維吉尼亞州檢察長傑伊·瓊斯則於週一上午在里奇蒙跟進。這兩州是首批提起此類訴訟的州。",
+        "兩份訴狀都指控該公司未能設置足夠的防護措施，以阻止Grok與社群網路X的使用者製作並分享有害的深偽內容，包括由AI生成的兒童性虐待素材。兩州主張，這項疏漏，加上公司宣稱產品大致安全，依據各州的消費者保護法已構成欺騙。他們要求法院核發禁制令、民事罰款及其他制裁，維吉尼亞州另要求為消費者追討賠償。奧勒岡州則希望課以更嚴格的防護規範。",
+        "SpaceX已出面反駁。一名發言人表示，公司會停權試圖規避防護機制的帳號並通報執法單位，並補充說，企圖製作此類素材是「嚴重的犯罪」。在德州的另一起案件中，該公司律師形容Grok是「中立的工具，受使用者控制」；在巴爾的摩市對xAI提起的訴訟中，該公司則主張適用第230條，這項法律大致上保護網路平台不必為使用者發布的內容負責。",
+        "這些訴訟是在審查壓力日增之際出現的。包括英國、西班牙、愛爾蘭、法國與加州在內的多個司法管轄區，已在調查該公司的行為。核心問題在於，第230條能否保護一家自家工具產生內容的公司。",
+        "近期的一個先例顯示這類爭議的代價可能有多高。8月，Meta就各州針對其應用程式如何影響兒童心理健康提起的一項重大聯邦訴訟達成和解，在不承認有不當行為的情況下，同意在十年內支付約170億美元並修改其應用程式。如果奧勒岡與維吉尼亞勝訴，他們可能不只獲得罰款，還能促成Grok運作方式的長久改變。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "safeguard",
+          "pos": "n.",
+          "zh": "防護措施",
+          "match": "safeguards",
+          "example": "Both complaints allege that the company failed to put adequate safeguards in place to stop users of Grok and the social network X from creating and sharing harmful deepfakes, including AI-generated child sexual abuse material."
+        },
+        {
+          "word": "deepfake",
+          "pos": "n.",
+          "zh": "深偽（偽造影音）",
+          "match": "deepfakes",
+          "example": "Both complaints allege that the company failed to put adequate safeguards in place to stop users of Grok and the social network X from creating and sharing harmful deepfakes, including AI-generated child sexual abuse material."
+        },
+        {
+          "word": "injunction",
+          "pos": "n.",
+          "zh": "禁制令",
+          "match": "injunctions",
+          "example": "They seek injunctions, civil penalties and other sanctions, and Virginia also demands restitution for consumers."
+        },
+        {
+          "word": "restitution",
+          "pos": "n.",
+          "zh": "賠償；歸還",
+          "match": "restitution",
+          "example": "They seek injunctions, civil penalties and other sanctions, and Virginia also demands restitution for consumers."
+        },
+        {
+          "word": "push back",
+          "pos": "phr.",
+          "zh": "反駁；反擊",
+          "match": "pushed back",
+          "example": "SpaceX has pushed back."
+        },
+        {
+          "word": "circumvent",
+          "pos": "v.",
+          "zh": "規避",
+          "match": "circumvent",
+          "example": "A spokesperson said the company suspends accounts that try to circumvent its safeguards and notifies law enforcement, adding that attempting to create such material is \"a serious crime.\""
+        },
+        {
+          "word": "shield",
+          "pos": "v.",
+          "zh": "保護；庇護",
+          "match": "shields",
+          "example": "In a separate case in Texas, its lawyers described Grok as \"a neutral tool, subject to user control,\" and in a suit brought by Baltimore against xAI, the company argued that Section 230, which broadly shields online platforms from liability for what users post, applies."
+        },
+        {
+          "word": "liability",
+          "pos": "n.",
+          "zh": "法律責任",
+          "match": "liability",
+          "example": "In a separate case in Texas, its lawyers described Grok as \"a neutral tool, subject to user control,\" and in a suit brought by Baltimore against xAI, the company argued that Section 230, which broadly shields online platforms from liability for what users post, applies."
+        },
+        {
+          "word": "scrutiny",
+          "pos": "n.",
+          "zh": "嚴格審查",
+          "match": "scrutiny",
+          "example": "The lawsuits arrive amid mounting scrutiny."
+        },
+        {
+          "word": "prevail",
+          "pos": "v.",
+          "zh": "勝訴；獲勝",
+          "match": "prevail",
+          "example": "If Oregon and Virginia prevail, they may secure not only fines but lasting changes to how Grok operates."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwqlvthjjh5w",
+          "word": "jurisdiction",
+          "match": "jurisdictions",
+          "zh": "司法管轄區",
+          "kind": "review"
+        },
+        {
+          "id": "mwkr41p0mdv8",
+          "word": "precedent",
+          "match": "precedent",
+          "zh": "先例",
+          "kind": "review"
+        },
+        {
+          "id": "mwqlw86dxyi4",
+          "word": "sanction",
+          "match": "sanctions",
+          "zh": "制裁",
+          "kind": "review"
+        },
+        {
+          "id": "mwqlxgt2f2en",
+          "word": "omission",
+          "match": "omission",
+          "zh": "疏漏；遺漏",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwkr4oj5ovit",
+      "word": "downturn",
+      "pos": "n.",
+      "zh": "衰退；下滑",
+      "match": "downturn",
+      "example": "The housing downturn forced several developers to delay new projects.",
+      "example_zh": "房市衰退迫使數家建商延後新建案。",
+      "context": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkmqo7f8wcs",
+      "word": "malaise",
+      "pos": "n.",
+      "zh": "萎靡不振；低迷",
+      "match": "malaise",
+      "example": "A deep malaise has settled over the retail sector this year.",
+      "example_zh": "今年零售業陷入嚴重的低迷。",
+      "context": "Underpinning the malaise is a property downturn that has eroded household wealth for a fifth consecutive year, weighing on consumer spending.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkmdgyfwq1c",
+      "word": "concession",
+      "pos": "n.",
+      "zh": "讓步；妥協",
+      "match": "concessions",
+      "example": "The union won several concessions after weeks of talks.",
+      "example_zh": "經過數週談判，工會爭取到幾項讓步。",
+      "context": "Citi Research expects export headwinds to intensify in 2027, with possible new European Union trade measures against China a key risk, and it believes Beijing is likely to offer \"reasonable, practical concessions\" in negotiations.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkrih5du7wp",
+      "word": "double-edged sword",
+      "pos": "phr.",
+      "zh": "雙面刃；利弊並存的事物",
+      "match": "double-edged sword",
+      "example": "Rapid expansion can be a double-edged sword for a young company.",
+      "example_zh": "快速擴張對年輕公司而言可能是雙面刃。",
+      "context": "Yet this dependence on overseas demand is a double-edged sword.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkrjz69yau3",
+      "word": "upbeat",
+      "pos": "adj.",
+      "zh": "樂觀的",
+      "match": "upbeat",
+      "example": "The CEO sounded upbeat about next year's sales.",
+      "example_zh": "執行長對明年的銷售表現聽起來很樂觀。",
+      "context": "Forecasters remain cautiously upbeat about the headline numbers.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwkryu9gxrit",
+      "word": "capita",
+      "pos": "adj.",
+      "zh": "人均的（per capita）",
+      "match": "capita",
+      "example": "Per capita income in the region has risen steadily over the past decade.",
+      "example_zh": "該地區的人均所得在過去十年穩定成長。",
+      "context": "Third-quarter growth reached 4.5%, a rebound from three-year lows, and Goldman Sachs projects that expansion will ease to 4.6% this year from 5% in 2025, and to 4.5% in 2027, which would still keep China on track to double its 2020 per capita income by 2035.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwqltihpd1yf",
+      "word": "on the sidelines of",
+      "pos": "phr.",
+      "zh": "在……場外；趁……期間",
+      "match": "on the sidelines of",
+      "example": "The two ministers met on the sidelines of the trade conference.",
+      "example_zh": "兩位部長在貿易會議場邊會面。",
+      "context": "The talks took place on the sidelines of the APEC summit and lasted about 90 minutes.",
+      "source": "2026-11-21#1"
+    },
+    {
+      "id": "mwqltzmzcfqa",
+      "word": "identical",
+      "pos": "adj.",
+      "zh": "相同的；一模一樣的",
+      "match": "identical",
+      "example": "The two companies released identical statements within an hour.",
+      "example_zh": "兩家公司在一小時內發布了完全相同的聲明。",
+      "context": "Afterward, the three governments issued identical statements called a \"Heads of State Declaration toward Peace.\" The text was short and general.",
+      "source": "2026-11-21#1"
+    },
+    {
+      "id": "mwqlvvhm1o42",
+      "word": "abuse",
+      "pos": "v.",
+      "zh": "濫用；虐待",
+      "match": "abuse",
+      "example": "Regulators warned that firms must not abuse their market power.",
+      "example_zh": "監管機關警告，企業不得濫用其市場力量。",
+      "context": "In addition, it said the International Criminal Court and similar bodies must not abuse their jurisdiction.",
+      "source": "2026-11-21#1"
+    }
+  ]
+}
