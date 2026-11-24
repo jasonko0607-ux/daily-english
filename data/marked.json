@@ -859,7 +859,15 @@
         "2026-11-22"
       ],
       "base": "allege",
-      "priority": 2
+      "priority": 2,
+      "marks": [
+        {
+          "marked_at": "2026-11-24",
+          "context": "Both complaints allege that the company failed to put adequate safeguards in place to stop users of Grok and the social network X from creating and sharing harmful deepfakes, including AI-generated child sexual abuse material.",
+          "article": "2026-11-24#3"
+        }
+      ],
+      "cycle_start": "2026-11-24"
     },
     {
       "id": "mwnrgijz4sok",
