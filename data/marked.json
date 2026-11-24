@@ -1692,6 +1692,16 @@
       "reviews": [],
       "base": "superlative",
       "priority": 1
+    },
+    {
+      "id": "mwu9soj0kft9",
+      "word": "hostilities",
+      "context": "Yemen's Houthi movement, which is aligned with Iran, said on Sunday that it had attacked an oil refinery in Saudi Arabia, adding to a weekend of rising hostilities in the Gulf region.",
+      "article": "2026-11-24#1",
+      "marked_at": "2026-11-24",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
