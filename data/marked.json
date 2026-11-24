@@ -1754,9 +1754,10 @@
       "context": "Bahrain said an Iranian attack on a civilian industrial site injured two people on Saturday, and British maritime monitors said two tankers had been hit by unknown projectiles near the Gulf of Oman.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "海事的；海上的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "maritime"
     },
     {
       "id": "mwu9vnug8jtn",
@@ -1764,9 +1765,10 @@
       "context": "Bahrain said an Iranian attack on a civilian industrial site injured two people on Saturday, and British maritime monitors said two tankers had been hit by unknown projectiles near the Gulf of Oman.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "發射體；飛射物",
+      "pos": "n.",
+      "reviews": [],
+      "base": "projectile"
     },
     {
       "id": "mwu9vupv7c1w",
@@ -1774,9 +1776,10 @@
       "context": "They urged ships to stay vigilant.",
       "article": "2026-11-24#1",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "警覺的；警戒的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "vigilant"
     },
     {
       "id": "mwu9x5mkqv8x",
