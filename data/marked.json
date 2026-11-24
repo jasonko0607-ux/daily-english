@@ -1817,9 +1817,10 @@
       "context": "Arirang weighs about 2,000 kilograms, and the park says he is the largest and heaviest animal of a near-threatened species ever exported from Taiwan.",
       "article": "2026-11-24#2",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "近危的；瀕危邊緣的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "near-threatened"
     },
     {
       "id": "mwuabt9ls2qa",
@@ -1827,9 +1828,10 @@
       "context": "Because he is a strong adult male, his transport crate was reinforced, and he trained to get used to it.",
       "article": "2026-11-24#2",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "運輸箱；板條箱",
+      "pos": "n.",
+      "reviews": [],
+      "base": "crate"
     },
     {
       "id": "mwuabvcqmx0h",
@@ -1837,9 +1839,10 @@
       "context": "Because he is a strong adult male, his transport crate was reinforced, and he trained to get used to it.",
       "article": "2026-11-24#2",
       "marked_at": "2026-11-24",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "加固；增援",
+      "pos": "v.",
+      "reviews": [],
+      "base": "reinforce"
     }
   ]
 }
