@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-25",
+    "reviews": 25,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "Health",
+        "topic": "drc-ebola-taiwan-border-controls",
+        "title": "Taiwan Extends Border Controls as Ebola Outbreak in Congo Shows No Sign of Slowing",
+        "title_zh": "伊波拉疫情未見趨緩，台灣延長對剛果邊境管制"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Culture",
+        "topic": "netflix-the-altruists-ftx-crypto-backlash",
+        "title": "Netflix's FTX Drama Draws Fire From Crypto Leaders",
+        "title_zh": "Netflix的FTX影集遭加密貨幣圈領袖砲轟"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Business",
+        "topic": "fed-williams-inflation-rate-hike-december",
+        "title": "Fed's Williams: Inflation Fight Is Not Over as December Hike Looms",
+        "title_zh": "聯準會威廉斯：抗通膨尚未結束，12月升息在即"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "reviews": 17,
     "articles": [

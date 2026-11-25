@@ -178,7 +178,8 @@
       "zh": "排放量；排放物",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "emission",
       "priority": 3
@@ -192,7 +193,8 @@
       "zh": "暴利稅；意外獲利稅",
       "pos": "phr.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "windfall tax",
       "priority": 2
@@ -206,7 +208,8 @@
       "zh": "抵制；抗拒",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "resist",
       "priority": 2
@@ -220,7 +223,8 @@
       "zh": "主席團；主席職位",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "presidency",
       "priority": 2
@@ -256,7 +260,8 @@
       "zh": "逐步淘汰；分階段廢除",
       "pos": "phr.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "phase out",
       "priority": 3
@@ -270,7 +275,8 @@
       "zh": "彌合；化解",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "bridge",
       "priority": 2
@@ -284,7 +290,8 @@
       "zh": "劣化；性能下降",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "degradation",
       "priority": 2
@@ -310,7 +317,8 @@
       "zh": "怪異的；離奇的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "bizarre",
       "priority": 2
@@ -324,7 +332,8 @@
       "zh": "波動性；動盪程度",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "volatility",
       "priority": 3
@@ -338,7 +347,8 @@
       "zh": "優於（預期）；擊敗",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "beat",
       "priority": 2
@@ -352,7 +362,8 @@
       "zh": "升息；加息",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "hike",
       "priority": 3
@@ -366,7 +377,8 @@
       "zh": "桶（石油計量單位）",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "barrel",
       "priority": 2
@@ -380,7 +392,8 @@
       "zh": "暫時的；過渡性的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "interim",
       "priority": 2
@@ -394,7 +407,8 @@
       "zh": "規避；繞過",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "circumvent",
       "priority": 2
@@ -408,7 +422,8 @@
       "zh": "待審的；未決的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "pending",
       "priority": 3
@@ -422,7 +437,8 @@
       "zh": "法案；立法",
       "pos": "n.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "legislation",
       "priority": 3
@@ -436,7 +452,8 @@
       "zh": "口頭上地；以口頭方式",
       "pos": "adv.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "verbally",
       "priority": 2
@@ -490,7 +507,8 @@
       "zh": "尋求；設法取得",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "seek",
       "priority": 3
@@ -504,7 +522,8 @@
       "zh": "指控；控告",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "accuse",
       "priority": 3
@@ -586,7 +605,8 @@
       "zh": "強調；凸顯",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "underscore",
       "priority": 3
@@ -614,7 +634,8 @@
       "zh": "執行；強制實施",
       "pos": "v.",
       "reviews": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-25"
       ],
       "base": "enforce",
       "priority": 3
@@ -1261,7 +1282,9 @@
       "marked_at": "2026-11-22",
       "zh": "里程碑；重要節點",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-25"
+      ],
       "base": "milestone",
       "priority": 3
     },
@@ -1345,7 +1368,9 @@
       "marked_at": "2026-11-22",
       "zh": "透露；揭露",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-25"
+      ],
       "base": "disclose",
       "priority": 3
     },
@@ -1405,7 +1430,9 @@
       "marked_at": "2026-11-22",
       "zh": "經常發生的；定期的；循環的",
       "pos": "adj.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-25"
+      ],
       "base": "recurring",
       "priority": 3
     },
@@ -1417,7 +1444,9 @@
       "marked_at": "2026-11-22",
       "zh": "時程表；時刻表",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-25"
+      ],
       "base": "timetable",
       "priority": 3
     },
@@ -1718,7 +1747,8 @@
       "zh": "敵對行動；衝突",
       "pos": "n.",
       "reviews": [],
-      "base": "hostilities"
+      "base": "hostilities",
+      "priority": 2
     },
     {
       "id": "mwu9svug80rm",
@@ -1729,7 +1759,8 @@
       "zh": "煉油廠；精煉廠",
       "pos": "n.",
       "reviews": [],
-      "base": "refinery"
+      "base": "refinery",
+      "priority": 2
     },
     {
       "id": "mwu9tsxw78rj",
@@ -1740,7 +1771,8 @@
       "zh": "攔截；截獲",
       "pos": "v.",
       "reviews": [],
-      "base": "intercept"
+      "base": "intercept",
+      "priority": 2
     },
     {
       "id": "mwu9tz13ecmz",
@@ -1751,7 +1783,8 @@
       "zh": "無人機；無人飛行器",
       "pos": "n.",
       "reviews": [],
-      "base": "drone"
+      "base": "drone",
+      "priority": 2
     },
     {
       "id": "mwu9v1ne9ynv",
@@ -1762,7 +1795,8 @@
       "zh": "平民的；民用的",
       "pos": "adj.",
       "reviews": [],
-      "base": "civilian"
+      "base": "civilian",
+      "priority": 2
     },
     {
       "id": "mwu9vdz98rv2",
@@ -1773,7 +1807,8 @@
       "zh": "海事的；海上的",
       "pos": "adj.",
       "reviews": [],
-      "base": "maritime"
+      "base": "maritime",
+      "priority": 2
     },
     {
       "id": "mwu9vnug8jtn",
@@ -1784,7 +1819,8 @@
       "zh": "發射體；飛射物",
       "pos": "n.",
       "reviews": [],
-      "base": "projectile"
+      "base": "projectile",
+      "priority": 1
     },
     {
       "id": "mwu9vupv7c1w",
@@ -1795,7 +1831,8 @@
       "zh": "警覺的；警戒的",
       "pos": "adj.",
       "reviews": [],
-      "base": "vigilant"
+      "base": "vigilant",
+      "priority": 2
     },
     {
       "id": "mwu9x5mkqv8x",
@@ -1806,7 +1843,8 @@
       "zh": "調解人；居中斡旋者",
       "pos": "n.",
       "reviews": [],
-      "base": "mediator"
+      "base": "mediator",
+      "priority": 2
     },
     {
       "id": "mwu9xlosvfs1",
@@ -1817,7 +1855,8 @@
       "zh": "有意的；傾向的",
       "pos": "adj.",
       "reviews": [],
-      "base": "inclined"
+      "base": "inclined",
+      "priority": 2
     },
     {
       "id": "mwuabgi3hxnl",
@@ -1828,7 +1867,8 @@
       "zh": "近危的；瀕危邊緣的",
       "pos": "adj.",
       "reviews": [],
-      "base": "near-threatened"
+      "base": "near-threatened",
+      "priority": 1
     },
     {
       "id": "mwuabt9ls2qa",
@@ -1839,7 +1879,8 @@
       "zh": "運輸箱；板條箱",
       "pos": "n.",
       "reviews": [],
-      "base": "crate"
+      "base": "crate",
+      "priority": 2
     },
     {
       "id": "mwuabvcqmx0h",
@@ -1850,7 +1891,8 @@
       "zh": "加固；增援",
       "pos": "v.",
       "reviews": [],
-      "base": "reinforce"
+      "base": "reinforce",
+      "priority": 2
     },
     {
       "id": "mwuaeivwv9t3",
@@ -1861,7 +1903,8 @@
       "zh": "自然保育人士；環保人士",
       "pos": "n.",
       "reviews": [],
-      "base": "conservationist"
+      "base": "conservationist",
+      "priority": 1
     },
     {
       "id": "mwubi0oxrvfp",
@@ -1872,7 +1915,8 @@
       "zh": "對應者；職位相當的人",
       "pos": "n.",
       "reviews": [],
-      "base": "counterpart"
+      "base": "counterpart",
+      "priority": 2
     }
   ]
 }

@@ -1,0 +1,540 @@
+{
+  "date": "2026-11-25",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "Health",
+      "topic": "drc-ebola-taiwan-border-controls",
+      "story_date": "2026-11-24",
+      "title": "Taiwan Extends Border Controls as Ebola Outbreak in Congo Shows No Sign of Slowing",
+      "title_zh": "伊波拉疫情未見趨緩，台灣延長對剛果邊境管制",
+      "paragraphs": [
+        "Taiwan's Centers for Disease Control said on Tuesday that it will extend temporary border controls on the Democratic Republic of the Congo for another 90 days, until February 26, 2027. The decision shows how seriously officials still take an Ebola outbreak that has not slowed down.",
+        "The outbreak is caused by the Bundibugyo strain of the virus and was declared in May. More than 11,000 cases have been reported, and more than 5,000 people have died, so the fatality rate is close to 50 percent. The country records 400 to 500 new cases every week, and the World Health Organization has called the situation an international public health emergency. Lo Yi-chun, the director-general of Taiwan's CDC, said there are \"no clear signs that the outbreak is slowing.\"",
+        "Under the rules, Taiwan does not issue visas to residents of the Congo, and travelers who recently visited the country face stronger health checks. People with symptoms are sent for medical evaluation. Travelers without symptoms are offered free, voluntary testing at the airport and must monitor their own health for 21 days. The controls have been enforced since May 27. So far, seven travelers from the country have entered Taiwan, and all of them finished the 21-day period without any signs of Ebola.",
+        "Experts warn that effective vaccines and treatments are still limited. Clinical trials are underway, but the results are pending and are not expected until early next year. The Congo has now faced Ebola 17 times since 1976, and these recurring outbreaks put heavy pressure on its health system. The CDC will reassess the situation in February, and Taiwan keeps its Level 3 travel alert, the highest of three levels, which advises people to avoid all unnecessary travel to the country."
+      ],
+      "paragraphs_zh": [
+        "台灣疾病管制署週二表示，將對剛果民主共和國的暫時性邊境管制再延長90天，至2027年2月26日。這項決定顯示，官員對疫情始終未見趨緩的伊波拉疫情仍相當重視。",
+        "這波疫情由伊波拉病毒的本迪布焦病毒株引起，5月宣布爆發。目前已通報逾1萬1千例病例，並有逾5千人死亡，致死率接近50%。該國每週新增400至500例，世界衛生組織已將情勢列為國際公共衛生緊急事件。台灣疾管署署長羅一鈞表示，「沒有明確跡象顯示疫情正在趨緩」。",
+        "依照規定，台灣不核發簽證給剛果居民，近期曾前往該國的旅客也須接受更嚴格的健康檢查。有症狀者會被送往接受醫療評估；無症狀的旅客可在機場接受免費的自願性檢測，並須進行21天的自主健康管理。這些管制自5月27日起實施。到目前為止，已有七名來自該國的旅客入境台灣，且全都在21天期間內未出現任何伊波拉症狀。",
+        "專家警告，有效的疫苗與治療方式仍然有限。臨床試驗正在進行，但結果尚未出爐，預計要到明年初才會公布。自1976年以來，剛果已經歷17次伊波拉疫情，這些反覆發生的疫情對其醫療體系造成沉重壓力。疾管署將於2月重新評估情勢，台灣目前仍維持第三級警告旅遊警示，這是三個等級中最高的一級，建議民眾避免一切非必要的前往該國旅行。"
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/society/202611240021"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "extend",
+          "pos": "v.",
+          "zh": "延長",
+          "match": "extend",
+          "example": "Taiwan's Centers for Disease Control said on Tuesday that it will extend temporary border controls on the Democratic Republic of the Congo for another 90 days, until February 26, 2027."
+        },
+        {
+          "word": "outbreak",
+          "pos": "n.",
+          "zh": "（疫情）爆發",
+          "match": "outbreak",
+          "example": "The decision shows how seriously officials still take an Ebola outbreak that has not slowed down."
+        },
+        {
+          "word": "strain",
+          "pos": "n.",
+          "zh": "（病毒）毒株",
+          "match": "strain",
+          "example": "The outbreak is caused by the Bundibugyo strain of the virus and was declared in May."
+        },
+        {
+          "word": "fatality rate",
+          "pos": "phr.",
+          "zh": "致死率",
+          "match": "fatality rate",
+          "example": "More than 11,000 cases have been reported, and more than 5,000 people have died, so the fatality rate is close to 50 percent."
+        },
+        {
+          "word": "symptom",
+          "pos": "n.",
+          "zh": "症狀",
+          "match": "symptoms",
+          "example": "People with symptoms are sent for medical evaluation."
+        },
+        {
+          "word": "voluntary",
+          "pos": "adj.",
+          "zh": "自願的",
+          "match": "voluntary",
+          "example": "Travelers without symptoms are offered free, voluntary testing at the airport and must monitor their own health for 21 days."
+        },
+        {
+          "word": "monitor",
+          "pos": "v.",
+          "zh": "監測；監控",
+          "match": "monitor",
+          "example": "Travelers without symptoms are offered free, voluntary testing at the airport and must monitor their own health for 21 days."
+        },
+        {
+          "word": "clinical trial",
+          "pos": "phr.",
+          "zh": "臨床試驗",
+          "match": "Clinical trials",
+          "example": "Clinical trials are underway, but the results are pending and are not expected until early next year."
+        },
+        {
+          "word": "alert",
+          "pos": "n.",
+          "zh": "警示",
+          "match": "alert",
+          "example": "The CDC will reassess the situation in February, and Taiwan keeps its Level 3 travel alert, the highest of three levels, which advises people to avoid all unnecessary travel to the country."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwmbzds6yogr",
+          "word": "enforce",
+          "match": "enforced",
+          "zh": "執行；強制實施",
+          "kind": "review"
+        },
+        {
+          "id": "mwmb4lqj2eaa",
+          "word": "pending",
+          "match": "pending",
+          "zh": "待決的；尚未公布的",
+          "kind": "review"
+        },
+        {
+          "id": "mws25zkjod26",
+          "word": "recurring",
+          "match": "recurring",
+          "zh": "反覆發生的",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Culture",
+      "topic": "netflix-the-altruists-ftx-crypto-backlash",
+      "story_date": "2026-11-23",
+      "title": "Netflix's FTX Drama Draws Fire From Crypto Leaders",
+      "title_zh": "Netflix的FTX影集遭加密貨幣圈領袖砲轟",
+      "paragraphs": [
+        "Netflix's new drama The Altruists, released on November 19, has set off an argument that has little to do with its plot. The eight-episode series retells the collapse of the crypto exchange FTX, and several well-known figures in the crypto world are unhappy with the way it portrays them.",
+        "Critics accuse the show of going easy on Sam Bankman-Fried, played by Anthony Boyle, and on Caroline Ellison, played by Julia Garner, while turning Changpeng Zhao, the co-founder of Binance, into a villain. Zhao, played by Terry Chen, called the series \"insane\" on X and asked whether it was meant to shape public opinion. Yi He, another Binance co-founder, described the characters as \"one-dimensional.\" Vitalik Buterin said the show exaggerated Zhao's accent so much that it raised questions about racism.",
+        "The real history is more complicated. Zhao pleaded guilty in 2023 to failing to maintain an effective anti-money-laundering program at Binance, a case separate from the FTX fraud. He was sentenced to four months in prison and was pardoned by President Donald Trump in October 2025. FTX filed for bankruptcy in November 2022, and Bankman-Fried was sentenced to 25 years in prison in March 2024. Ellison pleaded guilty and later cooperated with prosecutors.",
+        "The show's creator, Graham Moore, said, \"I can never prove what was going on in the hearts or minds of Sam's friends,\" and called the story \"a deeply personal story.\" Netflix did not respond to a request for comment from CNBC. The company has faced legal trouble over true-story dramas before. A lawsuit over Inventing Anna was dismissed in February after a settlement, and Fiona Harvey is seeking at least $170 million over Baby Reindeer, with a trial reportedly planned for May 2027. Netflix says it intends to defend that case vigorously."
+      ],
+      "paragraphs_zh": [
+        "Netflix的新劇《利他者》於11月19日上線，引發了一場與劇情關係不大的爭論。這部八集的影集重現加密貨幣交易所FTX的崩垮，而加密貨幣圈的幾位知名人物對劇中如何描繪他們感到不滿。",
+        "批評者指控這部劇對山姆·班克曼－弗里德（由安東尼·博伊爾飾演）和卡洛琳·艾利森（由茱莉亞·加納飾演）手下留情，卻把幣安共同創辦人趙長鵬變成了反派。由陳澤飾演的趙長鵬在X上稱這部劇「瘋狂」，並質疑它是否意在左右輿論。另一位幣安共同創辦人何一表示，劇中角色「過於單薄」。維塔利克·布特林則說，這部劇把趙長鵬的口音誇大到引發種族歧視的疑慮。",
+        "真實的歷史更為複雜。趙長鵬於2023年認罪，罪名是未能在幣安維持有效的反洗錢機制，這與FTX詐欺案是兩起不同的案件。他被判處四個月徒刑，並於2025年10月獲總統唐納·川普特赦。FTX於2022年11月申請破產，班克曼－弗里德則在2024年3月被判處25年徒刑。艾利森認罪後，也與檢方合作。",
+        "這部劇的創作者格雷厄姆·摩爾表示：「我永遠無法證明山姆的朋友們內心究竟在想什麼。」他稱這是「一個非常個人化的故事」。Netflix未回應CNBC的置評請求。該公司過去也曾因真人真事改編的劇集惹上官司。《創造安娜》相關的訴訟於2月在和解後遭駁回，而菲奧娜·哈維就《預約跟蹤》求償至少1.7億美元，據報審判預定在2027年5月舉行。Netflix表示將積極為該案辯護。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/netflix-the-altruists-crypto-ftx-collapse.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "portray",
+          "pos": "v.",
+          "zh": "描繪；刻畫",
+          "match": "portrays",
+          "example": "The eight-episode series retells the collapse of the crypto exchange FTX, and several well-known figures in the crypto world are unhappy with the way it portrays them."
+        },
+        {
+          "word": "villain",
+          "pos": "n.",
+          "zh": "反派；壞人",
+          "match": "villain",
+          "example": "Critics accuse the show of going easy on Sam Bankman-Fried, played by Anthony Boyle, and on Caroline Ellison, played by Julia Garner, while turning Changpeng Zhao, the co-founder of Binance, into a villain."
+        },
+        {
+          "word": "exaggerate",
+          "pos": "v.",
+          "zh": "誇大",
+          "match": "exaggerated",
+          "example": "Vitalik Buterin said the show exaggerated Zhao's accent so much that it raised questions about racism."
+        },
+        {
+          "word": "plead guilty",
+          "pos": "phr.",
+          "zh": "認罪",
+          "match": "pleaded guilty",
+          "example": "Zhao pleaded guilty in 2023 to failing to maintain an effective anti-money-laundering program at Binance, a case separate from the FTX fraud."
+        },
+        {
+          "word": "pardon",
+          "pos": "v.",
+          "zh": "赦免；特赦",
+          "match": "pardoned",
+          "example": "He was sentenced to four months in prison and was pardoned by President Donald Trump in October 2025."
+        },
+        {
+          "word": "bankruptcy",
+          "pos": "n.",
+          "zh": "破產",
+          "match": "bankruptcy",
+          "example": "FTX filed for bankruptcy in November 2022, and Bankman-Fried was sentenced to 25 years in prison in March 2024."
+        },
+        {
+          "word": "settlement",
+          "pos": "n.",
+          "zh": "和解",
+          "match": "settlement",
+          "example": "A lawsuit over Inventing Anna was dismissed in February after a settlement, and Fiona Harvey is seeking at least $170 million over Baby Reindeer, with a trial reportedly planned for May 2027."
+        },
+        {
+          "word": "dismiss",
+          "pos": "v.",
+          "zh": "駁回（訴訟）",
+          "match": "dismissed",
+          "example": "A lawsuit over Inventing Anna was dismissed in February after a settlement, and Fiona Harvey is seeking at least $170 million over Baby Reindeer, with a trial reportedly planned for May 2027."
+        },
+        {
+          "word": "vigorously",
+          "pos": "adv.",
+          "zh": "積極地；強力地",
+          "match": "vigorously",
+          "example": "Netflix says it intends to defend that case vigorously."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwmbqy4fpr9f",
+          "word": "accuse",
+          "match": "accuse",
+          "zh": "指控",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbq4te7hlb",
+          "word": "seek",
+          "match": "seeking",
+          "zh": "索求；尋求",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Business",
+      "topic": "fed-williams-inflation-rate-hike-december",
+      "story_date": "2026-11-23",
+      "title": "Fed's Williams: Inflation Fight Is Not Over as December Hike Looms",
+      "title_zh": "聯準會威廉斯：抗通膨尚未結束，12月升息在即",
+      "paragraphs": [
+        "John Williams, president of the Federal Reserve Bank of New York, said on Monday that policymakers still have work to do in bringing inflation under control, a message that leaves little doubt about the direction of interest rates. Markets are already fully pricing in a quarter-point increase at the central bank's meeting on December 8 and 9.",
+        "Speaking at the University of Mount Saint Vincent, Williams insisted that returning inflation to the Fed's 2% target is \"100% essential.\" He expects price growth to move closer to that goal in 2027 and to reach it the following year, while robust growth continues and unemployment edges lower. He blamed the current pressure on the conflict in Iran, on demand for goods tied to the AI build-out, and on tariffs, although he said the effects of tariffs have \"largely abated.\" He saw \"little evidence\" that AI will become a source of more persistent inflation.",
+        "Williams was candid about the limits of his institution. \"Monetary policy cannot move ships or reopen pipelines and refineries,\" he said, yet the Fed \"can — and must\" prevent such shocks from turning into broader, lasting inflation. He did not address the December meeting directly, pointing instead to the late-October policy statement, which said that the accumulation of more information will guide the path ahead.",
+        "The federal funds rate currently sits in a range of 3.75% to 4%, and officials are divided over how quickly it should rise. Some favor more aggressive action, whereas Williams prefers a measured approach. That disagreement underscores how hard it is to calibrate policy when supply shocks and strong demand pull in different directions. With investors still jittery after a sell-off in technology shares, any hint that a bigger hike is coming could add to market volatility. Williams's speech is likely to be the last major policy statement from a Fed official before the decision."
+      ],
+      "paragraphs_zh": [
+        "紐約聯邦準備銀行總裁約翰·威廉斯週一表示，決策者在壓制通膨方面仍有工作要做，這番訊息讓利率走向幾乎毫無懸念。市場已完全反映聯準會12月8日至9日會議升息一碼（0.25個百分點）的預期。",
+        "威廉斯在山聖文森大學演說時堅稱，讓通膨回到聯準會2%的目標「百分之百至關重要」。他預期物價漲幅將在2027年更接近該目標，並於隔年達標，同時強勁的成長持續，失業率則小幅下降。他將目前的壓力歸因於伊朗衝突、與AI建設熱潮相關的商品需求，以及關稅，不過他表示關稅的影響「已大幅減退」。他認為「幾乎沒有證據」顯示AI會成為更持久通膨的來源。",
+        "威廉斯坦率談到自家機構的侷限。他說：「貨幣政策無法讓船隻動起來，也無法重新開啟輸油管與煉油廠。」不過聯準會「能夠、也必須」防止這類衝擊演變成更廣泛、更持久的通膨。他並未直接談及12月的會議，而是指向10月下旬的政策聲明，該聲明表示將根據更多資訊的累積來引導未來的路徑。",
+        "聯邦基金利率目前落在3.75%至4%的區間，官員對升息速度意見分歧。部分人士主張採取更積極的行動，威廉斯則偏好審慎的做法。這樣的分歧凸顯出，當供給衝擊與強勁需求朝不同方向拉扯時，要拿捏政策有多困難。在投資人仍因科技股拋售而憂心忡忡之際，任何暗示將大幅升息的訊號都可能加劇市場波動。威廉斯的演說很可能是12月決策前，聯準會官員最後一次重要的政策表態。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "build-out",
+          "pos": "n.",
+          "zh": "（設施的）大規模建設",
+          "match": "build-out",
+          "example": "He blamed the current pressure on the conflict in Iran, on demand for goods tied to the AI build-out, and on tariffs, although he said the effects of tariffs have \"largely abated.\""
+        },
+        {
+          "word": "persistent",
+          "pos": "adj.",
+          "zh": "持久的；持續的",
+          "match": "persistent",
+          "example": "He saw \"little evidence\" that AI will become a source of more persistent inflation."
+        },
+        {
+          "word": "abate",
+          "pos": "v.",
+          "zh": "減退；減弱",
+          "match": "abated",
+          "example": "He blamed the current pressure on the conflict in Iran, on demand for goods tied to the AI build-out, and on tariffs, although he said the effects of tariffs have \"largely abated.\""
+        },
+        {
+          "word": "robust",
+          "pos": "adj.",
+          "zh": "強勁的",
+          "match": "robust",
+          "example": "He expects price growth to move closer to that goal in 2027 and to reach it the following year, while robust growth continues and unemployment edges lower."
+        },
+        {
+          "word": "candid",
+          "pos": "adj.",
+          "zh": "坦率的",
+          "match": "candid",
+          "example": "Williams was candid about the limits of his institution."
+        },
+        {
+          "word": "calibrate",
+          "pos": "v.",
+          "zh": "校準；拿捏",
+          "match": "calibrate",
+          "example": "That disagreement underscores how hard it is to calibrate policy when supply shocks and strong demand pull in different directions."
+        },
+        {
+          "word": "measured",
+          "pos": "adj.",
+          "zh": "審慎的；有分寸的",
+          "match": "measured",
+          "example": "Some favor more aggressive action, whereas Williams prefers a measured approach."
+        },
+        {
+          "word": "aggressive",
+          "pos": "adj.",
+          "zh": "積極進取的；激進的",
+          "match": "aggressive",
+          "example": "Some favor more aggressive action, whereas Williams prefers a measured approach."
+        },
+        {
+          "word": "jittery",
+          "pos": "adj.",
+          "zh": "緊張不安的",
+          "match": "jittery",
+          "example": "With investors still jittery after a sell-off in technology shares, any hint that a bigger hike is coming could add to market volatility."
+        },
+        {
+          "word": "price in",
+          "pos": "phr.",
+          "zh": "（價格）反映預期",
+          "match": "pricing in",
+          "example": "Markets are already fully pricing in a quarter-point increase at the central bank's meeting on December 8 and 9."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwm64aj16lhq",
+          "word": "hike",
+          "match": "hike",
+          "zh": "升息",
+          "kind": "review"
+        },
+        {
+          "id": "mwm0xq2vp12o",
+          "word": "volatility",
+          "match": "volatility",
+          "zh": "波動性",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbxrhghvfm",
+          "word": "underscore",
+          "match": "underscores",
+          "zh": "凸顯；強調",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwlxm5b84b4o",
+      "word": "emission",
+      "pos": "n.",
+      "zh": "排放量；排放物",
+      "match": "emissions",
+      "example": "Several airlines have promised to cut carbon emissions by half before 2035.",
+      "example_zh": "數家航空公司承諾在2035年前將碳排放量減半。",
+      "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxpy4iak9u",
+      "word": "phase out",
+      "pos": "phr.",
+      "zh": "逐步淘汰",
+      "match": "phase out",
+      "example": "The city plans to phase out diesel buses over the next decade.",
+      "example_zh": "該市計畫在未來十年內逐步淘汰柴油公車。",
+      "context": "Last year's conference, COP30, ended without a plan to phase out fossil fuels, because more than 100 countries blocked such language.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwmb4pyxokvw",
+      "word": "legislation",
+      "pos": "n.",
+      "zh": "法案；立法",
+      "match": "legislation",
+      "example": "New legislation will require banks to report suspicious transfers within 24 hours.",
+      "example_zh": "新法案將要求銀行在24小時內通報可疑轉帳。",
+      "context": "Pending legislation would go further.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwrxygessr7o",
+      "word": "milestone",
+      "pos": "n.",
+      "zh": "里程碑",
+      "match": "milestone",
+      "example": "Reaching one million customers was a major milestone for the young company.",
+      "example_zh": "達到一百萬名客戶，是這家年輕公司的重要里程碑。",
+      "context": "The milestone is hard to picture, so it helps to think about time.",
+      "source": "2026-11-22#1"
+    },
+    {
+      "id": "mws1utlhik4i",
+      "word": "disclose",
+      "pos": "v.",
+      "zh": "透露；揭露",
+      "match": "disclose",
+      "example": "The company refused to disclose how much it paid for the acquisition.",
+      "example_zh": "該公司拒絕透露收購案的花費金額。",
+      "context": "The franchise has now shifted more than 470 million units worldwide, although its publisher, Take-Two Interactive, has not disclosed a profit figure for the new title.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mws27bxa2x0z",
+      "word": "timetable",
+      "pos": "n.",
+      "zh": "時程表",
+      "match": "timetable",
+      "example": "The ministry has not yet released a timetable for the new rules.",
+      "example_zh": "該部會尚未公布新規定的時程表。",
+      "context": "She expects a PC version and an online multiplayer mode to follow, as happened with the previous title, although Rockstar has announced only PlayStation 5 and Xbox Series X|S editions and no timetable.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mwlxnsm31tbn",
+      "word": "windfall tax",
+      "pos": "phr.",
+      "zh": "暴利稅",
+      "match": "windfall taxes",
+      "example": "Lawmakers proposed windfall taxes on energy firms that posted record profits.",
+      "example_zh": "立委提議對創下紀錄獲利的能源公司課徵暴利稅。",
+      "context": "He called for deep cuts in greenhouse gas emissions and asked governments to place windfall taxes on oil and gas companies, so that the extra profits could help pay for climate action.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxoq1qdae2",
+      "word": "resist",
+      "pos": "v.",
+      "zh": "抵制；抗拒",
+      "match": "resisted",
+      "example": "Many employees resisted the switch to the new software.",
+      "example_zh": "許多員工抗拒改用新軟體。",
+      "context": "However, major fossil fuel producers and consumers are reportedly resisting any deal that sets firm new targets.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxouc4cqoe",
+      "word": "presidency",
+      "pos": "n.",
+      "zh": "主席職位；總統職位",
+      "match": "presidency",
+      "example": "The country holds the rotating presidency of the council this year.",
+      "example_zh": "該國今年擔任理事會的輪值主席。",
+      "context": "The conference presidency says it will build on the COP28 agreement to transition away from fossil fuels in energy systems, but its main focus is electrification.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwlxsffqhd1t",
+      "word": "bridge",
+      "pos": "v.",
+      "zh": "彌合；化解",
+      "match": "bridge",
+      "example": "Mediators struggled to bridge the gap between management and the union.",
+      "example_zh": "調解人努力彌合資方與工會之間的歧見。",
+      "context": "Whether the delegates can bridge their differences remains unclear.",
+      "source": "2026-11-18#1"
+    },
+    {
+      "id": "mwm0vtq3prhw",
+      "word": "degradation",
+      "pos": "n.",
+      "zh": "劣化；性能下降",
+      "match": "degradation",
+      "example": "Users reported a sharp degradation in network speed during the storm.",
+      "example_zh": "使用者回報暴風雨期間網路速度嚴重下降。",
+      "context": "The agency said it had experienced temporary degradation during scheduled routine maintenance, and CNN's sources said there was no evidence of a cyberattack.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm0xep90urx",
+      "word": "bizarre",
+      "pos": "adj.",
+      "zh": "怪異的；離奇的",
+      "match": "bizarre",
+      "example": "Investors were puzzled by the bizarre decision to cancel the product launch.",
+      "example_zh": "投資人對取消產品發表會這個離奇的決定感到困惑。",
+      "context": "One analyst described the mix as a compounding of bizarre stories.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm11vqpfgqm",
+      "word": "beat",
+      "pos": "v.",
+      "zh": "優於（預期）",
+      "match": "beat",
+      "example": "The retailer beat analysts' forecasts for quarterly sales.",
+      "example_zh": "這家零售商的季度銷售優於分析師預測。",
+      "context": "Home Depot dropped nearly 3% even though it beat expectations for earnings and revenue, because its cautious full-year outlook disappointed some investors.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm6herukmt2",
+      "word": "barrel",
+      "pos": "n.",
+      "zh": "桶（石油單位）",
+      "match": "barrel",
+      "example": "Crude oil fell to $80 a barrel on Tuesday.",
+      "example_zh": "週二原油價格跌至每桶80美元。",
+      "context": "Oil prices edged lower, with Brent crude down 0.71% to $92.44 a barrel.",
+      "source": "2026-11-18#2"
+    },
+    {
+      "id": "mwm8aj8oq4l4",
+      "word": "interim",
+      "pos": "adj.",
+      "zh": "暫時的；過渡性的",
+      "match": "interim",
+      "example": "The board named an interim chief executive while it searched for a permanent one.",
+      "example_zh": "董事會在尋找正式人選期間，指派了一位代理執行長。",
+      "context": "On Monday, the Commerce Department's Bureau of Industry and Security announced an interim final rule meant to stop Chinese companies from remotely accessing advanced AI chips.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmb3q6jeb1b",
+      "word": "circumvent",
+      "pos": "v.",
+      "zh": "規避；繞過",
+      "match": "circumvent",
+      "example": "Some firms tried to circumvent the new import rules by changing labels.",
+      "example_zh": "部分公司試圖更改標籤以規避新的進口規定。",
+      "context": "Washington already restricts the shipment of such chips to China, but regulators have had only limited authority over access to processors housed in data centers abroad, a gap that critics say allows the restrictions to be circumvented.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmb7im6qwnt",
+      "word": "verbally",
+      "pos": "adv.",
+      "zh": "口頭上地",
+      "match": "verbally",
+      "example": "The manager verbally agreed to the deadline but never confirmed it in writing.",
+      "example_zh": "經理口頭同意了期限，卻從未以書面確認。",
+      "context": "It has also said it will not sell chips to customers who rent out more than half of their processors to Chinese firms, and the Financial Times reported that it verbally told data-center clients to direct at least 51% of their services to non-Chinese customers under future contracts.",
+      "source": "2026-11-18#3"
+    }
+  ]
+}
