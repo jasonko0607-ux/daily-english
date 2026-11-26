@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-26",
+    "reviews": 25,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "Taiwan",
+        "topic": "taiwan-nine-in-one-local-elections-final-campaign",
+        "title": "Taiwan's Party Leaders Make a Final Push Before Saturday's Local Elections",
+        "title_zh": "台灣地方選舉倒數　各黨領袖全力衝刺"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Lifestyle",
+        "topic": "aaa-thanksgiving-travel-forecast-2026",
+        "title": "Thanksgiving Travel Dips Slightly After Three Years of Records",
+        "title_zh": "感恩節出遊人數小幅下滑　終結三年紀錄榮景"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "Environment",
+        "topic": "cop31-antalya-ends-without-pact",
+        "title": "COP31 Ends Without a Pact as Fossil Fuels Split the Delegates",
+        "title_zh": "COP31落幕未達成協議　化石燃料議題讓各國僵持不下"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "reviews": 25,
     "articles": [

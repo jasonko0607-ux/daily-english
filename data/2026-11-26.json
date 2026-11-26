@@ -1,0 +1,551 @@
+{
+  "date": "2026-11-26",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "Taiwan",
+      "topic": "taiwan-nine-in-one-local-elections-final-campaign",
+      "story_date": "2026-11-25",
+      "title": "Taiwan's Party Leaders Make a Final Push Before Saturday's Local Elections",
+      "title_zh": "台灣地方選舉倒數　各黨領袖全力衝刺",
+      "paragraphs": [
+        "Taiwan will hold nationwide local elections on Saturday, and party leaders spent Wednesday traveling around the island to win last-minute support. Polls will open at 8 a.m. and close at 4 p.m. Nearly 19.6 million people are eligible to vote.",
+        "The vote is known as the \"9-in-1\" elections. It covers 22 cities and counties and nine types of local posts, including mayors, county magistrates and councilors. In total, 11,051 officials at all levels will be chosen.",
+        "Campaigning was busy on Wednesday. President Lai Ching-te, who also leads the ruling Democratic Progressive Party, attended events for candidates in Nantou and Taichung. Vice President Hsiao Bi-khim and former President Tsai Ing-wen held a rally in Miaoli County for the party's candidate, Chen Pin-an. Cheng Li-wun, chairwoman of the opposition Kuomintang, joined a motorcade in Hsinchu County to support Wu Hsu-chih, who is running for mayor of Zhubei.",
+        "Smaller parties were also active. Ko Wen-je, the founding chairman of the Taiwan People's Party, visited Nantou, Taipei and New Taipei to back city councilor candidates. Party chairman Huang Kuo-chang made stops in Miaoli, Taichung and Nantou, including visits to local markets, where candidates can meet voters face to face.",
+        "Two of the biggest contests are in Taipei and New Taipei. In Taipei, the incumbent mayor, Chiang Wan-an of the Kuomintang, faces a challenger from the Democratic Progressive Party, Puma Shen, and both held motorcades across the city. In New Taipei, Kuomintang candidate Lee Shu-chuan campaigned with Mayor Hou Yu-ih, while their rival, legislator Su Chiao-hui, canvassed separately.",
+        "Political tension often rises in the final days of a campaign, and every party hopes that a strong result on Saturday will bolster its position for the years ahead."
+      ],
+      "paragraphs_zh": [
+        "台灣將於週六舉行全國性地方選舉，各黨領袖週三在全島奔走，爭取最後一刻的支持。投票時間為上午8時至下午4時，合格選民近1960萬人。",
+        "這場選舉被稱為「九合一」選舉，涵蓋22個縣市、九種地方公職，包括市長、縣長與民意代表（議員）。總計將選出各層級共11,051名公職人員。",
+        "週三的競選活動十分密集。同時擔任執政的民主進步黨主席的總統賴清德，前往南投與台中為候選人站台。副總統蕭美琴與前總統蔡英文則在苗栗縣為民進黨候選人陳品安舉辦造勢活動。在野的國民黨主席鄭麗文在新竹縣加入車隊掃街，支持參選竹北市長的吳旭智。",
+        "小黨也相當活躍。台灣民眾黨創黨主席柯文哲前往南投、台北與新北，為市議員候選人助選。黨主席黃國昌則在苗栗、台中與南投各地拜票，包括走訪傳統市場，讓候選人能與選民面對面接觸。",
+        "最受矚目的兩場選戰在台北與新北。在台北，尋求連任的國民黨籍市長蔣萬安，面對民進黨的挑戰者沈伯洋，兩人都在市區車隊掃街。在新北，國民黨候選人李四川與市長侯友宜一同競選，而他們的對手、立委蘇巧慧則另外分頭拜票。",
+        "競選最後幾天政治上的緊張氣氛往往升高，每個政黨都希望週六有亮眼的成績，以強化自己未來幾年的地位。"
+      ],
+      "sources": [
+        {
+          "name": "Focus Taiwan (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611250023"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "eligible",
+          "pos": "adj.",
+          "zh": "有資格的；符合資格的",
+          "match": "eligible",
+          "example": "Nearly 19.6 million people are eligible to vote."
+        },
+        {
+          "word": "magistrate",
+          "pos": "n.",
+          "zh": "縣長；地方行政長官",
+          "match": "magistrates",
+          "example": "It covers 22 cities and counties and nine types of local posts, including mayors, county magistrates and councilors."
+        },
+        {
+          "word": "councilor",
+          "pos": "n.",
+          "zh": "議員",
+          "match": "councilors",
+          "example": "It covers 22 cities and counties and nine types of local posts, including mayors, county magistrates and councilors."
+        },
+        {
+          "word": "rally",
+          "pos": "n.",
+          "zh": "造勢大會；集會",
+          "match": "rally",
+          "example": "Vice President Hsiao Bi-khim and former President Tsai Ing-wen held a rally in Miaoli County for the party's candidate, Chen Pin-an."
+        },
+        {
+          "word": "motorcade",
+          "pos": "n.",
+          "zh": "車隊（掃街）",
+          "match": "motorcade",
+          "example": "Cheng Li-wun, chairwoman of the opposition Kuomintang, joined a motorcade in Hsinchu County to support Wu Hsu-chih, who is running for mayor of Zhubei."
+        },
+        {
+          "word": "incumbent",
+          "pos": "adj.",
+          "zh": "現任的",
+          "match": "incumbent",
+          "example": "In Taipei, the incumbent mayor, Chiang Wan-an of the Kuomintang, faces a challenger from the Democratic Progressive Party, Puma Shen, and both held motorcades across the city."
+        },
+        {
+          "word": "challenger",
+          "pos": "n.",
+          "zh": "挑戰者",
+          "match": "challenger",
+          "example": "In Taipei, the incumbent mayor, Chiang Wan-an of the Kuomintang, faces a challenger from the Democratic Progressive Party, Puma Shen, and both held motorcades across the city."
+        },
+        {
+          "word": "canvass",
+          "pos": "v.",
+          "zh": "拜票；遊說拉票",
+          "match": "canvassed",
+          "example": "In New Taipei, Kuomintang candidate Lee Shu-chuan campaigned with Mayor Hou Yu-ih, while their rival, legislator Su Chiao-hui, canvassed separately."
+        },
+        {
+          "word": "final days",
+          "pos": "phr.",
+          "zh": "最後幾天",
+          "match": "final days",
+          "example": "Political tension often rises in the final days of a campaign, and every party hopes that a strong result on Saturday will bolster its position for the years ahead."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnqpa1vkr6j",
+          "word": "tension",
+          "match": "tension",
+          "zh": "緊張氣氛；緊張關係",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbv8x4olw3",
+          "word": "bolster",
+          "match": "bolster",
+          "zh": "強化；提振",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Lifestyle",
+      "topic": "aaa-thanksgiving-travel-forecast-2026",
+      "story_date": "2026-11-16",
+      "title": "Thanksgiving Travel Dips Slightly After Three Years of Records",
+      "title_zh": "感恩節出遊人數小幅下滑　終結三年紀錄榮景",
+      "paragraphs": [
+        "Thanksgiving is one of the busiest travel times of the year in the United States, and this year the crowds are slightly smaller. The American Automobile Association, known as AAA, expects 81.5 million people to travel at least 50 miles from home between Tuesday, November 24, and Monday, November 30.",
+        "That number is a little below last year's, so it ends a three-year streak of record Thanksgiving travel that began in 2023. AAA links the drop partly to higher travel costs. The total volume of trips has slipped, even though the holiday remains very popular. It is celebrated on the fourth Thursday of November, when many families gather for a large meal, which is why so many people head home.",
+        "Cars and planes are still the main ways to travel, but both are expected to carry slightly fewer people than last year. AAA projects that 5.96 million Americans will take domestic flights. Airlines for America, a trade group for major North American airlines, expects nearly 29 million people to travel over the holiday period.",
+        "Not every type of travel is falling. The number of people taking cruises, buses and trains is rising. Amtrak, the national passenger railway, expects a record number of riders and is advising customers to book tickets early.",
+        "For travelers, the lesson is simple: plan ahead. Booking early, leaving at off-peak times and checking schedules can reduce stress, even when the crowds are a little smaller than before. The days just before and after the holiday are usually the most crowded, so a flexible schedule can save both time and money."
+      ],
+      "paragraphs_zh": [
+        "感恩節是美國一年中最繁忙的出遊時段之一，而今年的人潮略為減少。美國汽車協會（AAA）預估，從11月24日（週二）到11月30日（週一）之間，將有8150萬人離家至少50英里旅行。",
+        "這個數字略低於去年，因此終結了自2023年起連續三年創下感恩節出遊紀錄的榮景。AAA認為，下滑有一部分是因為旅行成本變高。儘管這個節日依然非常受歡迎，整體旅程數量卻小幅下滑。感恩節在11月的第四個星期四，許多家庭會聚在一起享用豐盛大餐，這也是為什麼這麼多人要返鄉。",
+        "汽車和飛機仍是主要的交通方式，但預計兩者載運的人數都會比去年略少。AAA預估將有596萬名美國人搭乘國內航班。代表北美主要航空公司的產業團體美國航空協會（Airlines for America）則預期，假期期間將有近2900萬人出遊。",
+        "並非所有出遊方式都在減少。搭乘郵輪、巴士與火車的人數正在增加。美國國鐵（Amtrak）預期乘客人數將創紀錄，並建議旅客及早訂票。",
+        "對旅客來說，建議很簡單：提早規劃。及早訂票、避開尖峰時段出發並確認班表，即使人潮比以前略少，也能減輕壓力。假期前後幾天通常最為擁擠，因此彈性安排行程能同時節省時間與金錢。"
+      ],
+      "sources": [
+        {
+          "name": "Fox Weather (AAA forecast)",
+          "url": "https://www.foxweather.com/lifestyle/more-than-81-million-americans-expected-travel-thanksgiving-despite-fewer-drivers-flyers"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "streak",
+          "pos": "n.",
+          "zh": "連續紀錄；一連串",
+          "match": "streak",
+          "example": "That number is a little below last year's, so it ends a three-year streak of record Thanksgiving travel that began in 2023."
+        },
+        {
+          "word": "link",
+          "pos": "v.",
+          "zh": "把…與…連結；歸因於",
+          "match": "links",
+          "example": "AAA links the drop partly to higher travel costs."
+        },
+        {
+          "word": "gather",
+          "pos": "v.",
+          "zh": "聚集；團聚",
+          "match": "gather",
+          "example": "It is celebrated on the fourth Thursday of November, when many families gather for a large meal, which is why so many people head home."
+        },
+        {
+          "word": "project",
+          "pos": "v.",
+          "zh": "預估；推估",
+          "match": "projects",
+          "example": "AAA projects that 5.96 million Americans will take domestic flights."
+        },
+        {
+          "word": "domestic",
+          "pos": "adj.",
+          "zh": "國內的",
+          "match": "domestic",
+          "example": "AAA projects that 5.96 million Americans will take domestic flights."
+        },
+        {
+          "word": "trade group",
+          "pos": "phr.",
+          "zh": "同業公會；產業團體",
+          "match": "trade group",
+          "example": "Airlines for America, a trade group for major North American airlines, expects nearly 29 million people to travel over the holiday period."
+        },
+        {
+          "word": "passenger",
+          "pos": "n.",
+          "zh": "乘客",
+          "match": "passenger",
+          "example": "Amtrak, the national passenger railway, expects a record number of riders and is advising customers to book tickets early."
+        },
+        {
+          "word": "advise",
+          "pos": "v.",
+          "zh": "建議；勸告",
+          "match": "advising",
+          "example": "Amtrak, the national passenger railway, expects a record number of riders and is advising customers to book tickets early."
+        },
+        {
+          "word": "off-peak",
+          "pos": "adj.",
+          "zh": "離峰的",
+          "match": "off-peak",
+          "example": "Booking early, leaving at off-peak times and checking schedules can reduce stress, even when the crowds are a little smaller than before."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnqxsapdrh3",
+          "word": "slightly",
+          "match": "slightly",
+          "zh": "稍微；略微",
+          "kind": "review"
+        },
+        {
+          "id": "mwnr1s2w0jkd",
+          "word": "slip",
+          "match": "slipped",
+          "zh": "小幅下滑",
+          "kind": "review"
+        },
+        {
+          "id": "mwnr1itpg1b4",
+          "word": "volume",
+          "match": "volume",
+          "zh": "數量；總量",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "Environment",
+      "topic": "cop31-antalya-ends-without-pact",
+      "story_date": "2026-11-22",
+      "title": "COP31 Ends Without a Pact as Fossil Fuels Split the Delegates",
+      "title_zh": "COP31落幕未達成協議　化石燃料議題讓各國僵持不下",
+      "paragraphs": [
+        "The United Nations climate summit in Antalya, Türkiye, closed on Sunday without agreement on an overarching political outcome, after two weeks of negotiations and a further two days of overtime. The meeting, which had been scheduled to end on November 20, became the longest-running UN climate summit on record, yet it produced no flagship text.",
+        "The stumbling block was fossil fuels. The European Union's representative said the bloc would not endorse a cover decision, or an \"Antalya pact\", that failed even to mention them. Australia's minister, Chris Bowen, blamed what he called \"unbridgeable red lines\" separating seemingly irreconcilable camps. Finance was a second sticking point, with developing countries pressing wealthy nations for firmer commitments.",
+        "Not everything unravelled. Delegates did approve decisions on a just transition and on adaptation, and they agreed to continue the climate finance work programme in 2027 and 2028. Turkish President Erdogan said that 46 decisions on complex issues had been adopted unanimously. Panama, however, rejected the outcome, and UN Secretary-General António Guterres said he was deeply disappointed, insisting that there is \"no ambiguity in the science\".",
+        "The impasse exposes a dilemma that has dogged these conferences for years. Consensus rules give every government a veto, so a single holdout can dilute or derail an ambitious package, yet abandoning consensus would risk losing the countries whose cooperation is indispensable. Meanwhile, many governments argue that moving away from coal, oil and gas will hinge on the electrification of transport, heating and industry, and few dispute that this requires investment on a vast scale.",
+        "With roughly 93,000 delegates provisionally registered, COP31 was among the largest of its kind, so the outcome will face intense scrutiny. Critics will ask whether such enormous gatherings can still deliver, while supporters will point to the partial gains as proof that the process, however cumbersome, remains worth defending."
+      ],
+      "paragraphs_zh": [
+        "聯合國氣候峰會於週日在土耳其安塔利亞閉幕，歷經兩週談判，外加兩天的延長會期，仍未就整體性的政治成果達成共識。這場原定11月20日結束的會議，成為史上會期最長的聯合國氣候峰會，卻未能產出任何指標性文件。",
+        "絆腳石是化石燃料。歐盟代表表示，歐盟不會支持一份連化石燃料都未提及的總括決定，也就是所謂的「安塔利亞協議」。澳洲部長鮑文（Chris Bowen）指責雙方存在他所稱的「無法跨越的紅線」。資金則是第二個癥結，開發中國家要求富裕國家作出更明確的承諾。",
+        "並非一切都化為泡影。與會代表確實通過了有關公正轉型與調適的決定，並同意在2027年與2028年繼續推動氣候資金工作計畫。土耳其總統艾爾段表示，共有46項複雜議題的決定獲得一致通過。然而，巴拿馬拒絕接受這項結果，聯合國秘書長古特雷斯則表示深感失望，並強調「科學上毫無模糊之處」。",
+        "這場僵局凸顯了多年來困擾這類會議的兩難。共識決規則讓每個政府都擁有否決權，因此單一的堅持者就可能削弱或破壞一項野心勃勃的方案；然而，若放棄共識決，又可能失去那些不可或缺的合作國家。同時，許多政府主張，要擺脫煤、石油與天然氣，關鍵在於交通、供暖與工業的電氣化，而且幾乎沒有人否認這需要龐大規模的投資。",
+        "由於約有9.3萬名代表暫時完成登記，COP31屬於同類會議中規模最大的之一，因此這份成果將面臨嚴格檢視。批評者會質疑如此龐大的聚會是否還能有所成就，支持者則會以局部成果為證，主張這個機制儘管笨重，仍值得捍衛。"
+      ],
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168855"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "overarching",
+          "pos": "adj.",
+          "zh": "總括的；涵蓋全面的",
+          "match": "overarching",
+          "example": "The United Nations climate summit in Antalya, Türkiye, closed on Sunday without agreement on an overarching political outcome, after two weeks of negotiations and a further two days of overtime."
+        },
+        {
+          "word": "stumbling block",
+          "pos": "phr.",
+          "zh": "絆腳石；障礙",
+          "match": "stumbling block",
+          "example": "The stumbling block was fossil fuels."
+        },
+        {
+          "word": "endorse",
+          "pos": "v.",
+          "zh": "背書；支持",
+          "match": "endorse",
+          "example": "The European Union's representative said the bloc would not endorse a cover decision, or an \"Antalya pact\", that failed even to mention them."
+        },
+        {
+          "word": "sticking point",
+          "pos": "phr.",
+          "zh": "癥結；僵持點",
+          "match": "sticking point",
+          "example": "Finance was a second sticking point, with developing countries pressing wealthy nations for firmer commitments."
+        },
+        {
+          "word": "unravel",
+          "pos": "v.",
+          "zh": "瓦解；崩解",
+          "match": "unravelled",
+          "example": "Not everything unravelled."
+        },
+        {
+          "word": "impasse",
+          "pos": "n.",
+          "zh": "僵局",
+          "match": "impasse",
+          "example": "The impasse exposes a dilemma that has dogged these conferences for years."
+        },
+        {
+          "word": "holdout",
+          "pos": "n.",
+          "zh": "堅持不讓步者",
+          "match": "holdout",
+          "example": "Consensus rules give every government a veto, so a single holdout can dilute or derail an ambitious package, yet abandoning consensus would risk losing the countries whose cooperation is indispensable."
+        },
+        {
+          "word": "derail",
+          "pos": "v.",
+          "zh": "使脫軌；破壞",
+          "match": "derail",
+          "example": "Consensus rules give every government a veto, so a single holdout can dilute or derail an ambitious package, yet abandoning consensus would risk losing the countries whose cooperation is indispensable."
+        },
+        {
+          "word": "indispensable",
+          "pos": "adj.",
+          "zh": "不可或缺的",
+          "match": "indispensable",
+          "example": "Consensus rules give every government a veto, so a single holdout can dilute or derail an ambitious package, yet abandoning consensus would risk losing the countries whose cooperation is indispensable."
+        },
+        {
+          "word": "hinge on",
+          "pos": "phr.",
+          "zh": "取決於",
+          "match": "hinge on",
+          "example": "Meanwhile, many governments argue that moving away from coal, oil and gas will hinge on the electrification of transport, heating and industry, and few dispute that this requires investment on a vast scale."
+        },
+        {
+          "word": "cumbersome",
+          "pos": "adj.",
+          "zh": "笨重的；繁瑣的",
+          "match": "cumbersome",
+          "example": "Critics will ask whether such enormous gatherings can still deliver, while supporters will point to the partial gains as proof that the process, however cumbersome, remains worth defending."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwlxpbegqwzd",
+          "word": "electrification",
+          "match": "electrification",
+          "zh": "電氣化",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbfzf5zekf",
+          "word": "scrutiny",
+          "match": "scrutiny",
+          "zh": "嚴格審查",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbv4t6wwcq",
+          "word": "seemingly",
+          "match": "seemingly",
+          "zh": "看似",
+          "kind": "review"
+        },
+        {
+          "id": "mwmbxtx0g0t6",
+          "word": "dilemma",
+          "match": "dilemma",
+          "zh": "兩難",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwkri3l4xj7e",
+      "word": "surpass",
+      "pos": "v.",
+      "zh": "超越；超過",
+      "match": "surpass",
+      "example": "Analysts expect the company's annual sales to surpass $10 billion for the first time.",
+      "example_zh": "分析師預期該公司的年度銷售額將首度超過100億美元。",
+      "context": "They rose 35.2%, and the trade surplus reached $1 trillion by October, the fastest pace on record, putting it on course to surpass last year's record $1.2 trillion.",
+      "source": "2026-11-17#3"
+    },
+    {
+      "id": "mwnr45ah2b4d",
+      "word": "shrink",
+      "pos": "v.",
+      "zh": "萎縮；縮減",
+      "match": "shrank",
+      "example": "The retailer's profits shrank as shoppers cut back on spending.",
+      "example_zh": "隨著消費者縮減開支，這家零售商的獲利出現萎縮。",
+      "context": "Japan's economy unexpectedly shrank at an annualized rate of 0.1% in the third quarter, and the higher energy bill has partly offset the boost from exports.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnrg7fx4y67",
+      "word": "deliberately",
+      "pos": "adv.",
+      "zh": "故意地；蓄意地",
+      "match": "deliberately",
+      "example": "The regulator said the firm deliberately hid the risks from investors.",
+      "example_zh": "監管機關表示，該公司蓄意向投資人隱瞞風險。",
+      "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrklm9qn9j",
+      "word": "nature",
+      "pos": "n.",
+      "zh": "性質；本質",
+      "match": "nature",
+      "example": "Officials have not explained the nature of the problem with the new software.",
+      "example_zh": "官員尚未說明這套新軟體的問題究竟是何性質。",
+      "context": "The Apple App Store describes Bron as a sports analytics and betting research app that does not accept wagers, so the precise nature of the business remains somewhat murky.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrlscuwjuq",
+      "word": "subsequently",
+      "pos": "adv.",
+      "zh": "隨後；之後",
+      "match": "subsequently",
+      "example": "The firm announced a recall and subsequently apologized to its customers.",
+      "example_zh": "該公司宣布召回產品，隨後向顧客道歉。",
+      "context": "The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwmbfx8ij5gb",
+      "word": "congressional",
+      "pos": "adj.",
+      "zh": "國會的；國會議員的",
+      "match": "congressional",
+      "example": "A congressional committee will review the proposed trade agreement next month.",
+      "example_zh": "國會委員會將在下個月審查這項貿易協議草案。",
+      "context": "The impetus is a mixture of congressional scrutiny and strategic anxiety.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbusdv7gxj",
+      "word": "shakeup",
+      "pos": "n.",
+      "zh": "大改組；人事大調整",
+      "match": "shakeup",
+      "example": "The board announced a management shakeup after two weak quarters.",
+      "example_zh": "董事會在連續兩季表現疲弱後，宣布進行管理階層大改組。",
+      "context": "On Sunday, Treasury Secretary Scott Bessent called for a dramatic shakeup at the company following the departure of Jensen Huang as chief executive, and questioned whether it had pushed seemingly illicit sales to bolster revenue.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwmbxbjivpft",
+      "word": "testify",
+      "pos": "v.",
+      "zh": "作證；出庭作證",
+      "match": "testify",
+      "example": "The former executive agreed to testify at the hearing on Tuesday.",
+      "example_zh": "這位前高階主管同意週二在聽證會上作證。",
+      "context": "Huang has been asked to testify before the Senate Banking Committee on December 3.",
+      "source": "2026-11-18#3"
+    },
+    {
+      "id": "mwrxybk307ho",
+      "word": "probe",
+      "pos": "n.",
+      "zh": "探測器；探針",
+      "match": "probe",
+      "example": "The space probe sent back clear images of the distant moon.",
+      "example_zh": "這具太空探測器傳回了遙遠衛星的清晰影像。",
+      "context": "The probe passed the mark at about 5:16 a.m.",
+      "source": "2026-11-22#1"
+    },
+    {
+      "id": "mwrxytgrhgma",
+      "word": "trajectory",
+      "pos": "n.",
+      "zh": "軌跡；飛行路徑",
+      "match": "trajectory",
+      "example": "Engineers adjusted the rocket's trajectory shortly after launch.",
+      "example_zh": "工程師在發射後不久調整了火箭的飛行軌跡。",
+      "context": "Engineers subsequently checked the result using the spacecraft's carrier signal and trajectory calculations, and a signal from the probe arrived exactly 24 hours after it was sent.",
+      "source": "2026-11-22#1"
+    },
+    {
+      "id": "mwrylvxem2u3",
+      "word": "in practice",
+      "pos": "phr.",
+      "zh": "實際上；事實上",
+      "match": "In practice",
+      "example": "In practice, the new rule applies only to large companies.",
+      "example_zh": "實際上，這項新規定只適用於大型企業。",
+      "context": "In practice, the volunteers slept about 80 minutes less, which was slightly short of the target.",
+      "source": "2026-11-22#2"
+    },
+    {
+      "id": "mwrysxqi8u4m",
+      "word": "sensible",
+      "pos": "adj.",
+      "zh": "明智的；合理的",
+      "match": "sensible",
+      "example": "Saving part of every paycheck is a sensible way to prepare for emergencies.",
+      "example_zh": "每次薪水都存下一部分，是為緊急狀況做準備的明智做法。",
+      "context": "The message for now is simple: if your sleep routine begins to slip, your health may be affected in ways that are easy to miss, so protecting a regular bedtime is a sensible habit.",
+      "source": "2026-11-22#2"
+    },
+    {
+      "id": "mws1ulp5eo2v",
+      "word": "formidable",
+      "pos": "adj.",
+      "zh": "驚人的；令人敬畏的",
+      "match": "formidable",
+      "example": "The start-up faces formidable competition from established rivals.",
+      "example_zh": "這家新創公司面對來自老牌對手的強勁競爭。",
+      "context": "After a wait of thirteen years, Grand Theft Auto VI reached players on November 19, and the numbers were formidable.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mws1w74hedyj",
+      "word": "themed",
+      "pos": "adj.",
+      "zh": "以主題設計的；主題式的",
+      "match": "themed",
+      "example": "The hotel offers a themed menu during the holiday season.",
+      "example_zh": "這間飯店在節慶期間推出主題菜單。",
+      "context": "Rockstar Games partnered with YouTube on a 24-hour launch stream and even offered themed gifts that viewers could send during select broadcasts.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mws1wiias8oi",
+      "word": "broadcast",
+      "pos": "n.",
+      "zh": "直播節目；廣播",
+      "match": "broadcasts",
+      "example": "The network's evening broadcasts reach millions of viewers.",
+      "example_zh": "該電視網的晚間節目觸及數百萬名觀眾。",
+      "context": "Rockstar Games partnered with YouTube on a 24-hour launch stream and even offered themed gifts that viewers could send during select broadcasts.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mws24ig7392s",
+      "word": "clip",
+      "pos": "n.",
+      "zh": "片段；剪輯影片",
+      "match": "clip",
+      "example": "A short clip of the speech quickly spread across social media.",
+      "example_zh": "這場演說的一段短片很快在社群媒體上傳開。",
+      "context": "Clips of this kind circulate quickly across platforms, multiplying the game's exposure.",
+      "source": "2026-11-22#3"
+    }
+  ]
+}
