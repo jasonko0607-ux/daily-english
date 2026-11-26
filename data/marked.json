@@ -1957,9 +1957,10 @@
       "context": "Taiwan will hold nationwide local elections on Saturday, and party leaders spent Wednesday traveling around the island to win last-minute support.",
       "article": "2026-11-26#1",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "選舉；當選",
+      "pos": "n.",
+      "reviews": [],
+      "base": "election"
     },
     {
       "id": "mwxpns950lgc",
@@ -1967,9 +1968,10 @@
       "context": "Taiwan will hold nationwide local elections on Saturday, and party leaders spent Wednesday traveling around the island to win last-minute support.",
       "article": "2026-11-26#1",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "全國性的；全國各地的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "nationwide"
     }
   ]
 }
