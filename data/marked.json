@@ -2034,9 +2034,10 @@
       "context": "AAA projects that 5.96 million Americans will take domestic flights.",
       "article": "2026-11-26#2",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "計畫；專案；工程",
+      "pos": "n.",
+      "reviews": [],
+      "base": "project"
     },
     {
       "id": "mwxqa5xw4ga3",
@@ -2044,9 +2045,10 @@
       "context": "Airlines for America, a trade group for major North American airlines, expects nearly 29 million people to travel over the holiday period.",
       "article": "2026-11-26#2",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "同業公會；行業協會；貿易團體",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "trade group"
     }
   ]
 }
