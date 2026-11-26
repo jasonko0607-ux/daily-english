@@ -2100,9 +2100,10 @@
       "context": "The stumbling block was fossil fuels.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "絆腳石；障礙",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "stumbling block"
     },
     {
       "id": "mwxqimlgkoj1",
@@ -2110,9 +2111,10 @@
       "context": "Australia's minister, Chris Bowen, blamed what he called \"unbridgeable red lines\" separating seemingly irreconcilable camps.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "部長；牧師",
+      "pos": "n.",
+      "reviews": [],
+      "base": "minister"
     },
     {
       "id": "mwxqiu4iellf",
@@ -2120,9 +2122,10 @@
       "context": "Australia's minister, Chris Bowen, blamed what he called \"unbridgeable red lines\" separating seemingly irreconcilable camps.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "無法彌合的；無法調和的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "unbridgeable"
     },
     {
       "id": "mwxqj4n9c6y8",
