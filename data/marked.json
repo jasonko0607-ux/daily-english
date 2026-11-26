@@ -2089,9 +2089,10 @@
       "context": "The United Nations climate summit in Antalya, Türkiye, closed on Sunday without agreement on an overarching political outcome, after two weeks of negotiations and a further two days of overtime.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "加時；延長的時間",
+      "pos": "n.",
+      "reviews": [],
+      "base": "overtime"
     }
   ]
 }
