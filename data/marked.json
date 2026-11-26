@@ -2012,9 +2012,10 @@
       "context": "In New Taipei, Kuomintang candidate Lee Shu-chuan campaigned with Mayor Hou Yu-ih, while their rival, legislator Su Chiao-hui, canvassed separately.",
       "article": "2026-11-26#1",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "拉票；遊說",
+      "pos": "v.",
+      "reviews": [],
+      "base": "canvass"
     }
   ]
 }
