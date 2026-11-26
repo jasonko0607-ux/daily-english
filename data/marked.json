@@ -1990,9 +1990,10 @@
       "context": "Cheng Li-wun, chairwoman of the opposition Kuomintang, joined a motorcade in Hsinchu County to support Wu Hsu-chih, who is running for mayor of Zhubei.",
       "article": "2026-11-26#1",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "車隊；遊行車隊",
+      "pos": "n.",
+      "reviews": [],
+      "base": "motorcade"
     },
     {
       "id": "mwxprsn0rjkt",
