@@ -2023,9 +2023,10 @@
       "context": "That number is a little below last year's, so it ends a three-year streak of record Thanksgiving travel that began in 2023.",
       "article": "2026-11-26#2",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "連續紀錄；連勝",
+      "pos": "n.",
+      "reviews": [],
+      "base": "streak"
     }
   ]
 }
