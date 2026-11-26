@@ -2056,9 +2056,10 @@
       "context": "The United Nations climate summit in Antalya, Türkiye, closed on Sunday without agreement on an overarching political outcome, after two weeks of negotiations and a further two days of overtime.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "最高層級會議；高峰",
+      "pos": "n.",
+      "reviews": [],
+      "base": "summit"
     },
     {
       "id": "mwxqdmq09wf6",
@@ -2066,9 +2067,10 @@
       "context": "The United Nations climate summit in Antalya, Türkiye, closed on Sunday without agreement on an overarching political outcome, after two weeks of negotiations and a further two days of overtime.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "總括的；涵蓋一切的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "overarching"
     },
     {
       "id": "mwxqeauer5fd",
@@ -2076,9 +2078,10 @@
       "context": "The meeting, which had been scheduled to end on November 20, became the longest-running UN climate summit on record, yet it produced no flagship text.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "旗艦的；最具代表性的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "flagship"
     }
   ]
 }
