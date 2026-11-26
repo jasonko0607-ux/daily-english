@@ -2144,9 +2144,10 @@
       "context": "Not everything unravelled.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "瓦解；解開",
+      "pos": "v.",
+      "reviews": [],
+      "base": "unravel"
     },
     {
       "id": "mwxqn9qdte9f",
@@ -2154,9 +2155,10 @@
       "context": "Delegates did approve decisions on a just transition and on adaptation, and they agreed to continue the climate finance work programme in 2027 and 2028.",
       "article": "2026-11-26#3",
       "marked_at": "2026-11-26",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "計畫；方案",
+      "pos": "n.",
+      "reviews": [],
+      "base": "programme"
     }
   ]
 }
