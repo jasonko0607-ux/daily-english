@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-27",
+    "reviews": 25,
+    "articles": [
+      {
+        "n": 1,
+        "level": "600–800",
+        "category": "Technology",
+        "topic": "europe-aerospacelab-iris2-satellite-factory",
+        "title": "Europe Opens Its Largest Satellite Factory to Challenge Starlink",
+        "title_zh": "歐洲最大衛星工廠啟用，欲挑戰星鏈"
+      },
+      {
+        "n": 2,
+        "level": "600–800",
+        "category": "Business",
+        "topic": "norse-atlantic-suspends-flights",
+        "title": "Airline Norse Atlantic Suspends All Flights and Warns of Bankruptcy",
+        "title_zh": "挪威大西洋航空停飛所有航班並警告可能破產"
+      },
+      {
+        "n": 3,
+        "level": "800+",
+        "category": "International",
+        "topic": "us-section-301-overcapacity-tariff-proposal",
+        "title": "Washington Floats New Tariffs on a Dozen Trading Partners",
+        "title_zh": "美國擬對十餘個貿易夥伴祭出新關稅"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "reviews": 25,
     "articles": [

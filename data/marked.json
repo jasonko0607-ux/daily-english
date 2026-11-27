@@ -658,7 +658,8 @@
       "zh": "暫時停戰協議；休戰",
       "pos": "n.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "truce",
       "priority": 2
@@ -672,7 +673,8 @@
       "zh": "法律漏洞；漏洞",
       "pos": "n.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "loophole",
       "priority": 2
@@ -716,7 +718,8 @@
       "zh": "支撐；撐住",
       "pos": "phr.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "prop up",
       "priority": 2
@@ -760,7 +763,8 @@
       "zh": "停滯；熄火",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "stall",
       "priority": 2,
@@ -797,7 +801,8 @@
       "zh": "抵銷；抵消",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "offset",
       "priority": 2
@@ -835,7 +840,8 @@
       "zh": "模擬的；仿造的；假裝的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "simulated",
       "priority": 2
@@ -849,7 +855,8 @@
       "zh": "滾動瀏覽；捲動",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "scroll",
       "priority": 2
@@ -863,7 +870,8 @@
       "zh": "流傳；傳播",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "circulate",
       "priority": 2
@@ -892,7 +900,8 @@
       "zh": "指控；聲稱",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "allege",
       "priority": 2,
@@ -914,7 +923,8 @@
       "zh": "勝過；超過",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "outweigh",
       "priority": 2
@@ -928,7 +938,8 @@
       "zh": "代言；背書",
       "pos": "n.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "endorsement",
       "priority": 2
@@ -954,7 +965,8 @@
       "zh": "複製；仿製",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "replicate",
       "priority": 2
@@ -992,7 +1004,8 @@
       "zh": "遏制；控制",
       "pos": "v.",
       "reviews": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-27"
       ],
       "base": "contain",
       "priority": 2
@@ -1021,7 +1034,8 @@
       "zh": "模仿；仿冒",
       "pos": "n.",
       "reviews": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-27"
       ],
       "base": "imitation",
       "priority": 2
@@ -1064,7 +1078,8 @@
       "zh": "堅守的；承諾的",
       "pos": "adj.",
       "reviews": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-27"
       ],
       "base": "committed",
       "priority": 3
@@ -1092,7 +1107,8 @@
       "zh": "破壞；暗中削弱",
       "pos": "v.",
       "reviews": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-27"
       ],
       "base": "undermine",
       "priority": 3
@@ -1106,7 +1122,8 @@
       "zh": "行為準則；法典",
       "pos": "n.",
       "reviews": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-27"
       ],
       "base": "code",
       "priority": 3
@@ -1148,7 +1165,8 @@
       "zh": "熱潮；興奮",
       "pos": "n.",
       "reviews": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-27"
       ],
       "base": "excitement",
       "priority": 3
@@ -1451,7 +1469,9 @@
       "marked_at": "2026-11-22",
       "zh": "提醒；警告",
       "pos": "v.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "caution",
       "priority": 2
     },
@@ -1491,7 +1511,9 @@
       "marked_at": "2026-11-22",
       "zh": "提名；入圍名單",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "nomination",
       "priority": 2
     },
@@ -1515,7 +1537,9 @@
       "marked_at": "2026-11-23",
       "zh": "新人；菜鳥",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "rookie",
       "priority": 2
     },
@@ -1527,7 +1551,9 @@
       "marked_at": "2026-11-23",
       "zh": "屬地；地區",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "territory",
       "priority": 2
     },
@@ -1539,7 +1565,9 @@
       "marked_at": "2026-11-23",
       "zh": "陣容；先發名單",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "lineup",
       "priority": 2
     },
@@ -1551,7 +1579,9 @@
       "marked_at": "2026-11-23",
       "zh": "大聯盟；聯盟",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "league",
       "priority": 2
     },
@@ -1575,7 +1605,9 @@
       "marked_at": "2026-11-23",
       "zh": "永續性；可持續性",
       "pos": "n.",
-      "reviews": [],
+      "reviews": [
+        "2026-11-27"
+      ],
       "base": "sustainability",
       "priority": 2
     },
@@ -1960,7 +1992,8 @@
       "zh": "選舉；當選",
       "pos": "n.",
       "reviews": [],
-      "base": "election"
+      "base": "election",
+      "priority": 3
     },
     {
       "id": "mwxpns950lgc",
@@ -1971,7 +2004,8 @@
       "zh": "全國性的；全國各地的",
       "pos": "adj.",
       "reviews": [],
-      "base": "nationwide"
+      "base": "nationwide",
+      "priority": 3
     },
     {
       "id": "mwxpq3hu3tu4",
@@ -1982,7 +2016,8 @@
       "zh": "集會；造勢活動",
       "pos": "n.",
       "reviews": [],
-      "base": "rally"
+      "base": "rally",
+      "priority": 2
     },
     {
       "id": "mwxpqpddtui1",
@@ -1993,7 +2028,8 @@
       "zh": "車隊；遊行車隊",
       "pos": "n.",
       "reviews": [],
-      "base": "motorcade"
+      "base": "motorcade",
+      "priority": 1
     },
     {
       "id": "mwxprsn0rjkt",
@@ -2004,7 +2040,8 @@
       "zh": "現任的；現任者",
       "pos": "adj.",
       "reviews": [],
-      "base": "incumbent"
+      "base": "incumbent",
+      "priority": 2
     },
     {
       "id": "mwxq5qry6ba2",
@@ -2015,7 +2052,8 @@
       "zh": "拉票；遊說",
       "pos": "v.",
       "reviews": [],
-      "base": "canvass"
+      "base": "canvass",
+      "priority": 1
     },
     {
       "id": "mwxq7s91jwr8",
@@ -2026,7 +2064,8 @@
       "zh": "連續紀錄；連勝",
       "pos": "n.",
       "reviews": [],
-      "base": "streak"
+      "base": "streak",
+      "priority": 2
     },
     {
       "id": "mwxq9cgovqyt",
@@ -2037,7 +2076,8 @@
       "zh": "計畫；專案；工程",
       "pos": "n.",
       "reviews": [],
-      "base": "project"
+      "base": "project",
+      "priority": 3
     },
     {
       "id": "mwxqa5xw4ga3",
@@ -2048,7 +2088,8 @@
       "zh": "同業公會；行業協會；貿易團體",
       "pos": "phr.",
       "reviews": [],
-      "base": "trade group"
+      "base": "trade group",
+      "priority": 2
     },
     {
       "id": "mwxqdcc7c3na",
@@ -2059,7 +2100,8 @@
       "zh": "最高層級會議；高峰",
       "pos": "n.",
       "reviews": [],
-      "base": "summit"
+      "base": "summit",
+      "priority": 3
     },
     {
       "id": "mwxqdmq09wf6",
@@ -2070,7 +2112,8 @@
       "zh": "總括的；涵蓋一切的",
       "pos": "adj.",
       "reviews": [],
-      "base": "overarching"
+      "base": "overarching",
+      "priority": 2
     },
     {
       "id": "mwxqeauer5fd",
@@ -2081,7 +2124,8 @@
       "zh": "旗艦的；最具代表性的",
       "pos": "adj.",
       "reviews": [],
-      "base": "flagship"
+      "base": "flagship",
+      "priority": 2
     },
     {
       "id": "mwxqfjll7o64",
@@ -2092,7 +2136,8 @@
       "zh": "加時；延長的時間",
       "pos": "n.",
       "reviews": [],
-      "base": "overtime"
+      "base": "overtime",
+      "priority": 2
     },
     {
       "id": "mwxqht23l4xt",
@@ -2103,7 +2148,8 @@
       "zh": "絆腳石；障礙",
       "pos": "phr.",
       "reviews": [],
-      "base": "stumbling block"
+      "base": "stumbling block",
+      "priority": 2
     },
     {
       "id": "mwxqimlgkoj1",
@@ -2114,7 +2160,8 @@
       "zh": "部長；牧師",
       "pos": "n.",
       "reviews": [],
-      "base": "minister"
+      "base": "minister",
+      "priority": 3
     },
     {
       "id": "mwxqiu4iellf",
@@ -2125,7 +2172,8 @@
       "zh": "無法彌合的；無法調和的",
       "pos": "adj.",
       "reviews": [],
-      "base": "unbridgeable"
+      "base": "unbridgeable",
+      "priority": 1
     },
     {
       "id": "mwxqj4n9c6y8",
@@ -2136,7 +2184,8 @@
       "zh": "無法調和的；水火不容的",
       "pos": "adj.",
       "reviews": [],
-      "base": "irreconcilable"
+      "base": "irreconcilable",
+      "priority": 1
     },
     {
       "id": "mwxqmhq7ejgh",
@@ -2147,7 +2196,8 @@
       "zh": "瓦解；解開",
       "pos": "v.",
       "reviews": [],
-      "base": "unravel"
+      "base": "unravel",
+      "priority": 2
     },
     {
       "id": "mwxqn9qdte9f",
@@ -2158,7 +2208,8 @@
       "zh": "計畫；方案",
       "pos": "n.",
       "reviews": [],
-      "base": "programme"
+      "base": "programme",
+      "priority": 3
     }
   ]
 }

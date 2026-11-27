@@ -1,0 +1,550 @@
+{
+  "date": "2026-11-27",
+  "articles": [
+    {
+      "level": "600–800",
+      "category": "Technology",
+      "topic": "europe-aerospacelab-iris2-satellite-factory",
+      "story_date": "2026-11-26",
+      "title": "Europe Opens Its Largest Satellite Factory to Challenge Starlink",
+      "title_zh": "歐洲最大衛星工廠啟用，欲挑戰星鏈",
+      "paragraphs": [
+        "Europe has opened its largest satellite factory, a project meant to help the continent compete with Elon Musk's Starlink. The plant is in Marcinelle, near Charleroi in southern Belgium, and King Philippe attended the opening this week. It is run by Aerospacelab, a privately owned Belgian company led by chief executive Benoit Deper.",
+        "The oval-shaped building covers 20,000 square meters and can produce up to 500 satellites a year. According to the Belgian royal palace, that would make it the third-largest satellite production site in the world. Employees are expected to move in during January, and production is due to begin by the end of 2028.",
+        "The factory is closely tied to IRIS², the European Union's planned satellite network. In September, Aerospacelab won a contract worth 2.4 billion euros, about $2.6 billion, to build 264 of the 348 satellites in the network. The company says they will form the backbone of Europe's secure communications by 2030. The European Commission calls the project a strategic asset that will give the bloc independence from commercial networks such as Starlink. Defense and security were the main reasons the constellation grew from 282 to 348 satellites in August.",
+        "Satellite internet matters for more than remote villages. Governments and armies use it to send secure messages when ground networks are broken or unavailable, and it supports equipment such as warships and fighter jets. Ukraine's military depends heavily on Starlink, and Ukrainian officials recently reported new limits on the service over Russian-occupied territory.",
+        "Europe still has a long way to go to challenge Starlink's dominance. SpaceX operates more than 11,000 satellites in low Earth orbit and plans to launch up to 100,000. Amazon has put up more than 400 and plans more than 3,200, while the French company Eutelsat runs over 600. The first IRIS² launches are not expected until the end of 2029."
+      ],
+      "paragraphs_zh": [
+        "歐洲啟用了境內最大的衛星工廠，目的是協助歐洲與馬斯克的星鏈（Starlink）競爭。工廠位於比利時南部沙勒羅瓦（Charleroi）附近的馬西內勒（Marcinelle），比利時國王菲利普本週出席了啟用典禮。工廠由私人持有的比利時公司 Aerospacelab 營運，執行長為班諾．戴佩爾（Benoit Deper）。",
+        "這棟橢圓形建築占地兩萬平方公尺，每年最多可生產 500 顆衛星。依比利時王室表示，這將使它成為全球第三大衛星生產基地。員工預計一月入駐，量產則預定在 2028 年底前開始。",
+        "這座工廠與歐盟規劃中的衛星網路 IRIS² 密切相關。今年九月，Aerospacelab 取得一份價值 24 億歐元（約 26 億美元）的合約，負責建造該網路 348 顆衛星中的 264 顆。該公司表示，這些衛星將在 2030 年前成為歐洲安全通訊的骨幹。歐盟執行委員會稱這項計畫為戰略資產，能讓歐盟不必依賴星鏈這類商業網路。八月時，衛星星系從 282 顆擴增為 348 顆，主要考量是國防與安全。",
+        "衛星網路的重要性不僅在於服務偏遠村落。政府與軍隊在地面網路受損或無法使用時，會用它傳送安全訊息，它也支援軍艦與戰鬥機等裝備。烏克蘭軍隊高度依賴星鏈，而烏克蘭官員最近表示，該服務在俄羅斯占領區的使用出現了新的限制。",
+        "歐洲要挑戰星鏈的主導地位，仍有很長的路要走。SpaceX 在低地球軌道上營運超過 11,000 顆衛星，並計畫發射多達 10 萬顆。亞馬遜已部署超過 400 顆，計畫達到 3,200 顆以上，法國公司 Eutelsat 則營運超過 600 顆。IRIS² 的首批發射預計要到 2029 年底才會進行。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "privately owned",
+          "pos": "phr.",
+          "zh": "私人持有的",
+          "match": "privately owned",
+          "example": "It is run by Aerospacelab, a privately owned Belgian company led by chief executive Benoit Deper."
+        },
+        {
+          "word": "remote",
+          "pos": "adj.",
+          "zh": "偏遠的",
+          "match": "remote",
+          "example": "Satellite internet matters for more than remote villages."
+        },
+        {
+          "word": "due to",
+          "pos": "phr.",
+          "zh": "預定；應於",
+          "match": "due to begin",
+          "example": "Employees are expected to move in during January, and production is due to begin by the end of 2028."
+        },
+        {
+          "word": "backbone",
+          "pos": "n.",
+          "zh": "骨幹；支柱",
+          "match": "backbone",
+          "example": "The company says they will form the backbone of Europe's secure communications by 2030."
+        },
+        {
+          "word": "strategic",
+          "pos": "adj.",
+          "zh": "戰略的",
+          "match": "strategic",
+          "example": "The European Commission calls the project a strategic asset that will give the bloc independence from commercial networks such as Starlink."
+        },
+        {
+          "word": "bloc",
+          "pos": "n.",
+          "zh": "（國家）集團",
+          "match": "bloc",
+          "example": "The European Commission calls the project a strategic asset that will give the bloc independence from commercial networks such as Starlink."
+        },
+        {
+          "word": "constellation",
+          "pos": "n.",
+          "zh": "衛星星系；星座",
+          "match": "constellation",
+          "example": "Defense and security were the main reasons the constellation grew from 282 to 348 satellites in August."
+        },
+        {
+          "word": "broken",
+          "pos": "adj.",
+          "zh": "受損的；故障的",
+          "match": "broken",
+          "example": "Governments and armies use it to send secure messages when ground networks are broken or unavailable, and it supports equipment such as warships and fighter jets."
+        },
+        {
+          "word": "dominance",
+          "pos": "n.",
+          "zh": "主導地位",
+          "match": "dominance",
+          "example": "Europe still has a long way to go to challenge Starlink's dominance."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwtfcs5rsa4v",
+          "word": "territory",
+          "match": "territory",
+          "zh": "領土；占領區",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "600–800",
+      "category": "Business",
+      "topic": "norse-atlantic-suspends-flights",
+      "story_date": "2026-11-26",
+      "title": "Airline Norse Atlantic Suspends All Flights and Warns of Bankruptcy",
+      "title_zh": "挪威大西洋航空停飛所有航班並警告可能破產",
+      "paragraphs": [
+        "Norse Atlantic Airways, a Norwegian airline that flies across the Atlantic, has suspended all of its flights. The decision came on Thursday, one day after the company warned that its financial situation was critical and its share price collapsed. Shares listed in Oslo closed 85% lower on Wednesday.",
+        "The board said it is looking for short-term financing and is also talking to selected parties about a possible takeover. However, it warned that there is no guarantee a workable solution will be found. If money is not secured urgently, the board intends to file for bankruptcy. Meanwhile, CNBC found that the airline was still selling tickets for flights from Friday onward.",
+        "There were early warning signs. Pakistan International Airlines cancelled two flights that Norse was supposed to operate for it, citing an unexpected operational suspension. A flight from London Gatwick to Orlando was also shown as cancelled on Wednesday. Earlier, India's IndiGo ended a lease of six Boeing 787-9 aircraft at the end of October, pointing to airspace limits, high fuel costs and currency pressure.",
+        "Fuel is at the center of the airline's troubles. Jet fuel prices have soared since the start of the Iran war, and soaring costs have steadily undermined its finances. In October, Norse said it was flying at reduced capacity because of prolonged high prices. Data from the firm Cirium show how fast the business has shrunk: it scheduled 4,822 flights in 2024 but only 2,565 in 2026, and just 122 for November. The airline also cut 75 jobs in May to save $50 million and contain costs, but the pressure did not ease.",
+        "In May, chief executive Eivind Roald, who replaced founder Bjorn Tore Larsen in November 2025, told CNBC he was not overly concerned about fuel access. Six months later, the airline is fighting to survive, and passengers with booked tickets face an uncertain situation."
+      ],
+      "paragraphs_zh": [
+        "挪威大西洋航空（Norse Atlantic Airways）是一家飛越大西洋的挪威航空公司，已暫停所有航班。這項決定在週四宣布，前一天該公司才警告其財務狀況危急，股價隨即崩跌。在奧斯陸掛牌的股票週三收盤重挫 85%。",
+        "董事會表示，公司正在尋求短期融資，也在與特定對象洽談可能的收購。不過，董事會警告，無法保證能找到可行的解決方案。若無法緊急籌得資金，董事會打算申請破產。同時，CNBC 發現該航空公司仍在銷售週五起的航班機票。",
+        "其實早有警訊。巴基斯坦國際航空取消了兩班原本由挪威大西洋航空代為營運的航班，理由是「突發的營運中止」。週三，一班從倫敦蓋威克機場飛往奧蘭多的航班也顯示為取消。更早之前，印度的靛藍航空（IndiGo）已在十月底終止租用六架波音 787-9 客機，並指出空域限制、燃油成本高昂與匯率壓力等原因。",
+        "燃油是這家航空公司困境的核心。自伊朗戰爭爆發以來，航空燃油價格飆升，不斷上漲的成本持續侵蝕其財務。十月時，挪威大西洋航空表示，由於油價長期居高不下，公司正以縮減的運能營運。航空數據公司 Cirium 的資料顯示該公司縮水之快：2024 年排定 4,822 個航班，2026 年只有 2,565 個，十一月更僅剩 122 個。該公司五月也裁員 75 人，以節省 5,000 萬美元並控制成本，但壓力並未減輕。",
+        "五月時，執行長艾文．羅阿德（Eivind Roald）曾告訴 CNBC，他並不太擔心燃油取得問題。他是在 2025 年 11 月接替創辦人畢約恩．托爾．拉爾森（Bjorn Tore Larsen）上任的。六個月後，這家航空公司正為生存而奮戰，持有訂位機票的旅客則面臨不確定的處境。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "collapse",
+          "pos": "v.",
+          "zh": "崩跌；垮台",
+          "match": "collapsed",
+          "example": "The decision came on Thursday, one day after the company warned that its financial situation was critical and its share price collapsed."
+        },
+        {
+          "word": "critical",
+          "pos": "adj.",
+          "zh": "危急的",
+          "match": "critical",
+          "example": "The decision came on Thursday, one day after the company warned that its financial situation was critical and its share price collapsed."
+        },
+        {
+          "word": "takeover",
+          "pos": "n.",
+          "zh": "收購；接管",
+          "match": "takeover",
+          "example": "The board said it is looking for short-term financing and is also talking to selected parties about a possible takeover."
+        },
+        {
+          "word": "file for bankruptcy",
+          "pos": "phr.",
+          "zh": "申請破產",
+          "match": "file for bankruptcy",
+          "example": "If money is not secured urgently, the board intends to file for bankruptcy."
+        },
+        {
+          "word": "cite",
+          "pos": "v.",
+          "zh": "引述；舉出（理由）",
+          "match": "citing",
+          "example": "Pakistan International Airlines cancelled two flights that Norse was supposed to operate for it, citing an unexpected operational suspension."
+        },
+        {
+          "word": "lease",
+          "pos": "n.",
+          "zh": "租約；租賃",
+          "match": "lease",
+          "example": "Earlier, India's IndiGo ended a lease of six Boeing 787-9 aircraft at the end of October, pointing to airspace limits, high fuel costs and currency pressure."
+        },
+        {
+          "word": "soar",
+          "pos": "v.",
+          "zh": "飆升",
+          "match": "soared",
+          "example": "Jet fuel prices have soared since the start of the Iran war, and soaring costs have steadily undermined its finances."
+        },
+        {
+          "word": "capacity",
+          "pos": "n.",
+          "zh": "運能；產能",
+          "match": "capacity",
+          "example": "In October, Norse said it was flying at reduced capacity because of prolonged high prices."
+        },
+        {
+          "word": "shrink",
+          "pos": "v.",
+          "zh": "縮減；萎縮",
+          "match": "shrunk",
+          "example": "Data from the firm Cirium show how fast the business has shrunk: it scheduled 4,822 flights in 2024 but only 2,565 in 2026, and just 122 for November."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwp6j6bi3mq0",
+          "word": "undermine",
+          "match": "undermined",
+          "zh": "逐漸削弱；損害",
+          "kind": "review"
+        },
+        {
+          "id": "mwnrjep6eezl",
+          "word": "contain",
+          "match": "contain",
+          "zh": "控制；遏制",
+          "kind": "review"
+        }
+      ]
+    },
+    {
+      "level": "800+",
+      "category": "International",
+      "topic": "us-section-301-overcapacity-tariff-proposal",
+      "story_date": "2026-11-26",
+      "title": "Washington Floats New Tariffs on a Dozen Trading Partners",
+      "title_zh": "美國擬對十餘個貿易夥伴祭出新關稅",
+      "paragraphs": [
+        "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity. China, Vietnam and India face some of the steepest proposed rates. The measures stem from Section 301 investigations by the U.S. Trade Representative's office, which intends to cap duties at lower levels for countries that have concluded deals or are still negotiating one.",
+        "Analysts were quick to play down the economic significance. Mark Williams of Capital Economics argued that the overall impact is likely to be modest, since the proposal largely returns most targeted economies to where they stood earlier this year, before the Supreme Court struck down Trump's emergency tariffs in February. Trade Representative Jamieson Greer said the policy would probably not take effect for months.",
+        "China's cap would be 20%, on top of an existing 25% levy from Trump's first term, but it could climb to 40% if the trade truce reached in South Korea last October is not extended beyond January. Beijing rejects the overcapacity charge and has urged Washington to return to dialogue, yet analyst Wendy Cutler believes it may tolerate rates at or below 20%. For Vietnam and India, proposed rates of 35% and 25% could fall to 20% and 17% if agreements are signed, so analysts see a strong incentive to settle, since the savings could outweigh the concessions required.",
+        "Elsewhere, the reaction was less sanguine. Singapore said it was \"very disappointed\", and its deputy prime minister said about a third of its direct exports would be affected. South Korea and Taiwan fare better, because exemptions for semiconductors and electronics, which dominate both economies, largely offset their exposure. Taiwan faces a 15% cap, and Williams estimates that its effective rate would rise from about 6% to 9%.",
+        "In Europe, the Commission said the bloc is among those most exposed to overcapacity rather than a source of it, and it expects the existing 15% ceiling on EU goods to be respected. Inga Fechner of ING observed that the tariff wall \"keeps changing, but it isn't coming down.\""
+      ],
+      "paragraphs_zh": [
+        "川普政府提出針對十多個貿易夥伴的新關稅構想，並將其包裝為解決工業產能過剩問題的對策。中國、越南與印度面臨的擬議稅率是最高的幾個。這些措施源自美國貿易代表署的 301 條款調查，該署打算對已達成協議或仍在談判的國家，把關稅上限定在較低水準。",
+        "分析師很快淡化其經濟影響。凱投宏觀（Capital Economics）的馬克．威廉斯認為，整體衝擊可能不大，因為這項提案大致只是讓多數目標經濟體回到今年稍早的狀態，也就是最高法院在二月推翻川普緊急關稅之前的情況。貿易代表賈米森．格里爾表示，這項政策可能數月內不會生效。",
+        "中國的上限為 20%，疊加在川普第一任期留下的 25% 既有關稅之上；但若去年十月在南韓達成的貿易休戰協議在一月之後沒有延長，稅率可能升至 40%。北京否認產能過剩的指控，並敦促華府回到對話桌上，不過分析師溫迪．卡特勒認為，只要稅率在 20% 或以下，北京可能願意接受。對越南與印度而言，擬議的 35% 與 25% 稅率若簽署協議，可降至 20% 與 17%，因此分析師認為雙方有強烈的誘因達成協議，因為省下的關稅可能超過所需做出的讓步。",
+        "其他地方的反應則不那麼樂觀。新加坡表示「非常失望」，其副總理也說，約三分之一的直接出口將受影響。南韓與台灣的處境較好，因為半導體與電子產品主導這兩國經濟，而這些產品獲得豁免，大致抵銷了它們的風險。台灣面臨 15% 的上限，威廉斯估計其實際稅率將從約 6% 升至 9%。",
+        "在歐洲，歐盟執行委員會表示，歐盟是受產能過剩衝擊最大的地區之一，而非產能過剩的來源，並期望歐盟商品現行 15% 的上限獲得遵守。荷蘭國際集團（ING）的英加．費希納指出，關稅壁壘「不斷改變，卻沒有降低」。川普與習近平預計將於十二月在邁阿密舉行的 G20 峰會上再度會面。"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+        }
+      ],
+      "vocab": [
+        {
+          "word": "float",
+          "pos": "v.",
+          "zh": "提出（構想）；放出風聲",
+          "match": "floated",
+          "example": "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity."
+        },
+        {
+          "word": "remedy",
+          "pos": "n.",
+          "zh": "對策；補救",
+          "match": "remedy",
+          "example": "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity."
+        },
+        {
+          "word": "steep",
+          "pos": "adj.",
+          "zh": "（價格、稅率）高昂的",
+          "match": "steepest",
+          "example": "China, Vietnam and India face some of the steepest proposed rates."
+        },
+        {
+          "word": "stem from",
+          "pos": "phr.",
+          "zh": "源自",
+          "match": "stem from",
+          "example": "The measures stem from Section 301 investigations by the U.S."
+        },
+        {
+          "word": "play down",
+          "pos": "phr.",
+          "zh": "淡化；貶低",
+          "match": "play down",
+          "example": "Analysts were quick to play down the economic significance."
+        },
+        {
+          "word": "modest",
+          "pos": "adj.",
+          "zh": "有限的；適度的",
+          "match": "modest",
+          "example": "Mark Williams of Capital Economics argued that the overall impact is likely to be modest, since the proposal largely returns most targeted economies to where they stood earlier this year, before the Supreme Court struck down Trump's emergency tariffs in February."
+        },
+        {
+          "word": "levy",
+          "pos": "n.",
+          "zh": "關稅；徵稅",
+          "match": "levy",
+          "example": "China's cap would be 20%, on top of an existing 25% levy from Trump's first term, but it could climb to 40% if the trade truce reached in South Korea last October is not extended beyond January."
+        },
+        {
+          "word": "tolerate",
+          "pos": "v.",
+          "zh": "容忍；接受",
+          "match": "tolerate",
+          "example": "Beijing rejects the overcapacity charge and has urged Washington to return to dialogue, yet analyst Wendy Cutler believes it may tolerate rates at or below 20%."
+        },
+        {
+          "word": "exposure",
+          "pos": "n.",
+          "zh": "（風險）暴露；曝險",
+          "match": "exposure",
+          "example": "South Korea and Taiwan fare better, because exemptions for semiconductors and electronics, which dominate both economies, largely offset their exposure."
+        },
+        {
+          "word": "ceiling",
+          "pos": "n.",
+          "zh": "上限",
+          "match": "ceiling",
+          "example": "In Europe, the Commission said the bloc is among those most exposed to overcapacity rather than a source of it, and it expects the existing 15% ceiling on EU goods to be respected."
+        }
+      ],
+      "review": [
+        {
+          "id": "mwnqm7q6aerq",
+          "word": "truce",
+          "match": "truce",
+          "zh": "休戰協議",
+          "kind": "review"
+        },
+        {
+          "id": "mwnrgijz4sok",
+          "word": "outweigh",
+          "match": "outweigh",
+          "zh": "超過；勝過",
+          "kind": "review"
+        },
+        {
+          "id": "mwnr4g8bouzg",
+          "word": "offset",
+          "match": "offset",
+          "zh": "抵銷",
+          "kind": "review"
+        }
+      ]
+    }
+  ],
+  "review_cards": [
+    {
+      "id": "mwnr21pn23y7",
+      "word": "stall",
+      "pos": "v.",
+      "zh": "停滯；陷入僵局",
+      "match": "stalled",
+      "example": "Negotiations stalled after the two sides failed to agree on pricing.",
+      "example_zh": "雙方在定價上無法達成共識，談判因此陷入停滯。",
+      "context": "Analysts said Japan was switching to more expensive American oil as shipments from the Middle East stalled during the Iran war.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnrgb53ow9g",
+      "word": "allege",
+      "pos": "v.",
+      "zh": "指控；聲稱",
+      "match": "alleges",
+      "example": "The lawsuit alleges that the company hid safety problems from regulators.",
+      "example_zh": "訴狀指控該公司向監管機關隱瞞安全問題。",
+      "context": "The suit alleges that the founders deliberately courted controversy, calculating that the publicity would outweigh any legal consequences and, in effect, treating a violation as a marketing expense.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwp6ck35see5",
+      "word": "committed",
+      "pos": "adj.",
+      "zh": "堅守的；致力的",
+      "match": "committed",
+      "example": "The airline says it remains committed to its customers despite the losses.",
+      "example_zh": "該航空公司表示，儘管虧損，仍堅守對客戶的承諾。",
+      "context": "He said he does not see the result as a failure at all and that leaders on both sides remain committed.",
+      "source": "2026-11-20#1"
+    },
+    {
+      "id": "mwp6m8nv18hn",
+      "word": "code",
+      "pos": "n.",
+      "zh": "行為準則；法典",
+      "match": "code",
+      "example": "The firm adopted a new code of conduct for all suppliers.",
+      "example_zh": "該公司為所有供應商訂定了新的行為準則。",
+      "context": "Southeast Asian leaders and China failed to finish a long-awaited code of conduct for the South China Sea this week.",
+      "source": "2026-11-20#1"
+    },
+    {
+      "id": "mwp7ovr1li2c",
+      "word": "excitement",
+      "pos": "n.",
+      "zh": "熱潮；興奮",
+      "match": "excitement",
+      "example": "Early excitement over the new product faded within weeks.",
+      "example_zh": "外界對新產品的早期熱潮在數週內就消退了。",
+      "context": "But the early excitement did not last.",
+      "source": "2026-11-20#2"
+    },
+    {
+      "id": "mws24ytrpp6h",
+      "word": "caution",
+      "pos": "v.",
+      "zh": "提醒；警告",
+      "match": "cautioned",
+      "example": "Analysts cautioned that profits could fall if costs keep rising.",
+      "example_zh": "分析師提醒，若成本持續上升，獲利可能下滑。",
+      "context": "CNBC cautions, however, that several earnings estimates, including a claim of $21,000 earned overnight by an AI-assisted clipping operation, could not be independently verified.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mws27x6aej5t",
+      "word": "nomination",
+      "pos": "n.",
+      "zh": "提名；入圍",
+      "match": "nominations",
+      "example": "The film received six nominations at this year's awards.",
+      "example_zh": "這部電影在今年的頒獎典禮上獲得六項提名。",
+      "context": "Whether that long-term revenue will outweigh the pressure of a thirteen-year build-up of expectation is an open question, but the game already has eight Game Awards nominations, including Game of the Year.",
+      "source": "2026-11-22#3"
+    },
+    {
+      "id": "mwnqo9ysleet",
+      "word": "loophole",
+      "pos": "n.",
+      "zh": "法律漏洞",
+      "match": "loopholes",
+      "example": "Lawmakers want to close loopholes that let firms avoid paying tax.",
+      "example_zh": "立法者想堵住讓企業得以避稅的漏洞。",
+      "context": "Washington is moving to close loopholes that let Chinese companies reach American AI technology, and China has threatened to respond.",
+      "source": "2026-11-19#1"
+    },
+    {
+      "id": "mwnr0nd4cxhu",
+      "word": "prop up",
+      "pos": "phr.",
+      "zh": "支撐；撐住",
+      "match": "propped up",
+      "example": "Government subsidies propped up the struggling industry for years.",
+      "example_zh": "政府補貼多年來支撐著這個苦撐的產業。",
+      "context": "Exports have been the main engine of Japan's growth, and sales of chip-making equipment have been especially important in propping them up.",
+      "source": "2026-11-19#2"
+    },
+    {
+      "id": "mwnrdy2jxray",
+      "word": "simulated",
+      "pos": "adj.",
+      "zh": "模擬的",
+      "match": "simulated",
+      "example": "Pilots train in a simulated environment before flying real aircraft.",
+      "example_zh": "飛行員在駕駛真正的飛機之前，會在模擬環境中訓練。",
+      "context": "According to the complaint, the advertisement, released earlier this month, featured an AI-generated figure in a basketball locker room, wearing a jersey bearing the nickname \"Bron\" and the number 23, complete with James's tattoos and a simulated version of his voice.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnreevcpwkx",
+      "word": "scroll",
+      "pos": "v.",
+      "zh": "滾動瀏覽",
+      "match": "scroll",
+      "example": "Many people scroll through news headlines before getting out of bed.",
+      "example_zh": "許多人在起床前會先滑閱新聞標題。",
+      "context": "The figure scrolls through betting options on the app.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrfg2o379u",
+      "word": "circulate",
+      "pos": "v.",
+      "zh": "流傳；傳播",
+      "match": "circulating",
+      "example": "False rumors were circulating online before the company issued a statement.",
+      "example_zh": "在公司發表聲明之前，網路上已流傳著不實的謠言。",
+      "context": "The company subsequently removed the advertisement from its X and Instagram accounts and said it was working to change the app's name, yet by the time of the filing the clip was still circulating through third-party reposts and the name was unchanged.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrgzpeo7rv",
+      "word": "endorsement",
+      "pos": "n.",
+      "zh": "代言；背書",
+      "match": "endorsement",
+      "example": "The sports brand signed a major endorsement deal with the young star.",
+      "example_zh": "這家運動品牌與這位年輕球星簽下一筆大型代言合約。",
+      "context": "It describes his endorsements as \"uniquely valuable\" and says the defendants \"decided to steal it for themselves.\"",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrhqkrfgo5",
+      "word": "replicate",
+      "pos": "v.",
+      "zh": "複製；仿製",
+      "match": "replicate",
+      "example": "Competitors struggled to replicate the company's success.",
+      "example_zh": "競爭對手難以複製該公司的成功。",
+      "context": "The case illustrates how cheaply generative AI can now replicate a celebrity's persona, and how hard such content is to contain once it spreads.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwnrkxs0mrl5",
+      "word": "imitation",
+      "pos": "n.",
+      "zh": "模仿；仿冒",
+      "match": "imitation",
+      "example": "The store was fined for selling cheap imitation handbags.",
+      "example_zh": "這家店因販售廉價仿冒手提包而被罰款。",
+      "context": "How courts treat this kind of imitation may shape the rules for AI-generated advertising.",
+      "source": "2026-11-19#3"
+    },
+    {
+      "id": "mwtfbnov5ate",
+      "word": "rookie",
+      "pos": "n.",
+      "zh": "新人；菜鳥",
+      "match": "rookie",
+      "example": "The rookie pitcher impressed fans in his first season.",
+      "example_zh": "這位新人投手在第一個球季就讓球迷驚豔。",
+      "context": "Clair released it on Saturday, American time, and put Lee at third base after his rookie season.",
+      "source": "2026-11-23#1"
+    },
+    {
+      "id": "mwtfecz06d71",
+      "word": "lineup",
+      "pos": "n.",
+      "zh": "陣容；先發名單",
+      "match": "lineup",
+      "example": "The coach changed the lineup before the final game.",
+      "example_zh": "教練在最後一場比賽前更動了先發名單。",
+      "context": "His major league debut came in April, and he soon became a regular in Detroit's lineup.",
+      "source": "2026-11-23#1"
+    },
+    {
+      "id": "mwtffxk92s2y",
+      "word": "league",
+      "pos": "n.",
+      "zh": "聯盟",
+      "match": "league",
+      "example": "The league announced a new television deal worth billions.",
+      "example_zh": "聯盟宣布了一份價值數十億的新電視轉播合約。",
+      "context": "A month later, however, he was in the major leagues.",
+      "source": "2026-11-23#1"
+    },
+    {
+      "id": "mwtfow3v4fyr",
+      "word": "sustainability",
+      "pos": "n.",
+      "zh": "永續性",
+      "match": "sustainability",
+      "example": "The company published a report on its sustainability goals.",
+      "example_zh": "該公司發布了一份關於永續目標的報告。",
+      "context": "The paper, published in the journal Nature Sustainability on November 16, looked at 403 so-called hyperscale data centers, the huge facilities run by large cloud and artificial intelligence companies.",
+      "source": "2026-11-23#2"
+    }
+  ]
+}
