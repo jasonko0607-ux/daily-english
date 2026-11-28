@@ -2349,9 +2349,10 @@
       "context": "Meanwhile, CNBC found that the airline was still selling tickets for flights from Friday onward.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "自…起往後；往後",
+      "pos": "adv.",
+      "reviews": [],
+      "base": "onward"
     },
     {
       "id": "mx0ac1wdmzee",
@@ -2359,9 +2360,10 @@
       "context": "Pakistan International Airlines cancelled two flights that Norse was supposed to operate for it, citing an unexpected operational suspension.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "援引為理由；引述",
+      "pos": "v.",
+      "reviews": [],
+      "base": "cite"
     },
     {
       "id": "mx0acntb1bto",
