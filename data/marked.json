@@ -2210,6 +2210,16 @@
       "reviews": [],
       "base": "programme",
       "priority": 3
+    },
+    {
+      "id": "mx08235mv31v",
+      "word": "palace",
+      "context": "According to the Belgian royal palace, that would make it the third-largest satellite production site in the world.",
+      "article": "2026-11-27#1",
+      "marked_at": "2026-11-28",
+      "zh": "",
+      "pos": "",
+      "reviews": []
     }
   ]
 }
