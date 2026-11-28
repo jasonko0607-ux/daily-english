@@ -2327,9 +2327,10 @@
       "context": "Norse Atlantic Airways, a Norwegian airline that flies across the Atlantic, has suspended all of its flights.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "暫停；停飛",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "suspended"
     },
     {
       "id": "mx09hk9d05se",
@@ -2337,9 +2338,10 @@
       "context": "The board said it is looking for short-term financing and is also talking to selected parties about a possible takeover.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "收購；接管",
+      "pos": "n.",
+      "reviews": [],
+      "base": "takeover"
     }
   ]
 }
