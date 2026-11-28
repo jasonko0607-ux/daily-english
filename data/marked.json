@@ -2470,9 +2470,10 @@
       "context": "The measures stem from Section 301 investigations by the U.S.",
       "article": "2026-11-27#3",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "源於；起因於",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "stem from"
     }
   ]
 }
