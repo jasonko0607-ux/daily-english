@@ -2217,9 +2217,10 @@
       "context": "According to the Belgian royal palace, that would make it the third-largest satellite production site in the world.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "宮殿；王宮",
+      "pos": "n.",
+      "reviews": [],
+      "base": "palace"
     },
     {
       "id": "mx082la1t9qz",
@@ -2227,9 +2228,10 @@
       "context": "Employees are expected to move in during January, and production is due to begin by the end of 2028.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "由於；預計",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "due to"
     },
     {
       "id": "mx082spugfxq",
@@ -2237,9 +2239,10 @@
       "context": "The oval-shaped building covers 20,000 square meters and can produce up to 500 satellites a year.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "橢圓形的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "oval-shaped"
     }
   ]
 }
