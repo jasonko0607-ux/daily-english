@@ -2283,9 +2283,10 @@
       "context": "Governments and armies use it to send secure messages when ground networks are broken or unavailable, and it supports equipment such as warships and fighter jets.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "軍艦；戰艦",
+      "pos": "n.",
+      "reviews": [],
+      "base": "warship"
     },
     {
       "id": "mx088ocxtpyu",
@@ -2293,9 +2294,10 @@
       "context": "Governments and armies use it to send secure messages when ground networks are broken or unavailable, and it supports equipment such as warships and fighter jets.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "戰鬥機",
+      "pos": "phr.",
+      "reviews": [],
+      "base": "fighter jet"
     },
     {
       "id": "mx088vs3kc6o",
