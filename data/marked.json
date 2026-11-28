@@ -2371,9 +2371,10 @@
       "context": "Pakistan International Airlines cancelled two flights that Norse was supposed to operate for it, citing an unexpected operational suspension.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "停飛；暫停營運",
+      "pos": "n.",
+      "reviews": [],
+      "base": "suspension"
     }
   ]
 }
