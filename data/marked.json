@@ -2459,9 +2459,10 @@
       "context": "China, Vietnam and India face some of the steepest proposed rates.",
       "article": "2026-11-27#3",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "陡峭的；高昂的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "steep"
     }
   ]
 }
