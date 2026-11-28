@@ -2261,9 +2261,10 @@
       "context": "The European Commission calls the project a strategic asset that will give the bloc independence from commercial networks such as Starlink.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "集團；政治經濟聯盟",
+      "pos": "n.",
+      "reviews": [],
+      "base": "bloc"
     },
     {
       "id": "mx0872ao9u88",
@@ -2271,9 +2272,10 @@
       "context": "The European Commission calls the project a strategic asset that will give the bloc independence from commercial networks such as Starlink.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "商業的；商務的；營利性的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "commercial"
     }
   ]
 }
