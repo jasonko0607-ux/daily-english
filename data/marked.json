@@ -2382,9 +2382,10 @@
       "context": "Jet fuel prices have soared since the start of the Iran war, and soaring costs have steadily undermined its finances.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "飆升；猛漲",
+      "pos": "v.",
+      "reviews": [],
+      "base": "soar"
     },
     {
       "id": "mx0afh6glbme",
@@ -2392,9 +2393,10 @@
       "context": "In October, Norse said it was flying at reduced capacity because of prolonged high prices.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "長期的；拖延的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "prolonged"
     },
     {
       "id": "mx0afk91z9de",
@@ -2402,9 +2404,10 @@
       "context": "In October, Norse said it was flying at reduced capacity because of prolonged high prices.",
       "article": "2026-11-27#2",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "運能；運量；容量",
+      "pos": "n.",
+      "reviews": [],
+      "base": "capacity"
     }
   ]
 }
