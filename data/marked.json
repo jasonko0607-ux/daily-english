@@ -2316,9 +2316,10 @@
       "context": "SpaceX operates more than 11,000 satellites in low Earth orbit and plans to launch up to 100,000.",
       "article": "2026-11-27#1",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "軌道；繞行",
+      "pos": "n.",
+      "reviews": [],
+      "base": "orbit"
     }
   ]
 }
