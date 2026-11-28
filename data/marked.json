@@ -2426,9 +2426,10 @@
       "context": "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity.",
       "article": "2026-11-27#3",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "試探性提出；漂浮",
+      "pos": "v.",
+      "reviews": [],
+      "base": "float"
     },
     {
       "id": "mx0e5w17ljcy",
@@ -2436,9 +2437,10 @@
       "context": "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity.",
       "article": "2026-11-27#3",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "補救方法；治療（藥物）",
+      "pos": "n.",
+      "reviews": [],
+      "base": "remedy"
     },
     {
       "id": "mx0e615ns5wp",
@@ -2446,9 +2448,10 @@
       "context": "The Trump administration has floated fresh tariffs on more than a dozen trading partners, casting them as a remedy for excess industrial capacity.",
       "article": "2026-11-27#3",
       "marked_at": "2026-11-28",
-      "zh": "",
-      "pos": "",
-      "reviews": []
+      "zh": "過剩的；過量的",
+      "pos": "adj.",
+      "reviews": [],
+      "base": "excess"
     }
   ]
 }
